@@ -10,7 +10,7 @@ export function Logo() {
       <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
         <rect width="32" height="32" rx="9" fill="var(--fs-violet)" />
         <path d="M7 20c4 0 5-9 9-9s4 6 9 3" stroke="var(--fs-on-accent)" strokeWidth="2.6" strokeLinecap="round" />
-        <circle cx="25" cy="14" r="2.6" fill="var(--fs-up)" />
+        <circle cx="25" cy="14" r="2.6" fill="var(--fs-brand-pink)" />
       </svg>
       <div className="leading-tight">
         <div className="fs-display text-lg font-bold">Foresight</div>

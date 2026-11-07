@@ -113,7 +113,7 @@ Cloudflare Pages). Set the same `VITE_...` variables in the host's build setting
 - Tap **Approve** on a fix: the forecast redraws with a dashed "before" line, a before/after risk card appears,
   and the follow-ups land in **Handled for you** on the left (e.g. a drafted letter to the landlord). Undo removes it.
 - Ask "What if my boiler breaks next week?": the answer has charts and the forecast panel shows "Exploring".
-- The bottom-left corner says which brain is answering (n8n, Claude, or the built-in coach).
+- The bottom of the watchlist says which brain is answering (n8n, Claude, or the built-in coach). Try the ANSWERS tab: change the amount in "Can I spend £___?".
 - Switch accounts in the left rail, toggle dark mode, and drag the time-travel slider in the forecast panel.
 - Business → "Which invoices should I chase?" → Draft reminder.
 - Click the mic and speak a question (Chrome works best).
