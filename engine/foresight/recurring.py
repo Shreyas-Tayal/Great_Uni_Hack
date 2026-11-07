@@ -23,8 +23,8 @@ _JUNK = re.compile(r"[^A-Z&' ]")
 CADENCES = [  # name, period days, tolerance days, min occurrences
     ("weekly", 7, 1.5, 4),
     ("fortnightly", 14, 2.5, 4),
-    ("monthly", 30.44, 4.5, 3),     # checked before four_weekly: month-end shifts look like ~28-33d
-    ("four_weekly", 28, 1.5, 3),
+    ("four_weekly", 28, 1.0, 3),    # exact 28-day cycles (child benefit, 4-weekly wages)
+    ("monthly", 30.44, 4.5, 3),     # month-end weekend shifts look like ~28-33d
     ("quarterly", 91.3, 9, 3),
     ("semiannual", 182.6, 12, 2),
 ]
@@ -48,7 +48,8 @@ def pretty(key: str) -> str:
     for p in _PREFIXES:
         if key.startswith(p) and len(key) > len(p) + 2:
             key = key[len(p):]
-    return " ".join(w if w in _ACRONYMS else w.capitalize() for w in key.split())
+    words = [w for w in key.split() if w not in ("COM", "CO")] or key.split()
+    return " ".join(w if w in _ACRONYMS else w.capitalize() for w in words)
 
 
 @dataclass
@@ -99,6 +100,13 @@ class CadenceStream:
             for past, a in zip(self.dates, self.amounts):
                 if _plus_year(past) == d:
                     return a
+        # Seasonal bills (e.g. winter energy): if the amount swings, use the same month last year
+        if self.cadence == "monthly" and len(self.amounts) >= 6:
+            mean = abs(st.mean(self.amounts)) or 1
+            if st.pstdev(self.amounts) / mean > 0.15:
+                for past, a in zip(self.dates, self.amounts):
+                    if past.month == d.month and (d - past).days > 300:
+                        return a
         return self.amount_for(k)
 
     def amount_for(self, k: int) -> float:
@@ -219,8 +227,18 @@ def detect(transactions: list[dict], as_of: date, exclude_keys: set[str] | None 
 
 def evaluate(transactions: list[dict], det: Detection) -> dict:
     """Precision/recall of recurring flagging vs generator ground truth (debug + pitch stat)."""
-    truth = {t["id"] for t in transactions if t.get("_recurring_id")}
-    pred = det.recurring_txn_ids
+    # Score fixed bills & income (cadence streams). Weekday "habit" streams (groceries, card takings)
+    # are modelled separately and aren't claimed as bills, so they're excluded from both sides.
+    weekday_keys = {s.label.upper() for s in det.weekday}
+    cad_ids = set()
+    by_label = {}
+    for t in transactions:
+        by_label.setdefault(pretty(normalise(t["description"])).upper(), []).append(t["id"])
+    for c in det.cadence:
+        cad_ids.update(by_label.get(c.label.upper(), []))
+    weekday_ids = {i for k in weekday_keys for i in by_label.get(k, [])}
+    truth = {t["id"] for t in transactions if t.get("_recurring_id")} - weekday_ids
+    pred = cad_ids
     tp = len(truth & pred)
-    return {"precision": round(tp / max(1, len(pred)), 3), "recall": round(tp / max(1, len(truth)), 3),
-            "streams": len(det.cadence) + len(det.weekday)}
+    return {"scope": "fixed bills and income", "precision": round(tp / max(1, len(pred)), 3),
+            "recall": round(tp / max(1, len(truth)), 3), "streams": len(det.cadence) + len(det.weekday)}

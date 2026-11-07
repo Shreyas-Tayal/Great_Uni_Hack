@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import type { Invoice, Summary } from "@/lib/types";
 import { gbp, shortDate } from "@/lib/format";
+
+const tip = { contentStyle: { background: "var(--fs-paper)", border: "1px solid var(--fs-line)", borderRadius: 10, color: "var(--fs-ink)" },
+  itemStyle: { color: "var(--fs-ink)" }, labelStyle: { color: "var(--fs-ink-2)" } };
 import { draftInvoiceChaser, sendEmail } from "@/lib/api";
 
 export function CategoryChart({ data }: { data: Summary["categories_90d"] }) {
@@ -12,8 +15,8 @@ export function CategoryChart({ data }: { data: Summary["categories_90d"] }) {
         <BarChart data={rows} layout="vertical" margin={{ left: 8, right: 16 }}>
           <XAxis type="number" hide />
           <YAxis type="category" dataKey="category" width={130} tick={{ fontSize: 12, fill: "var(--fs-ink)" }} axisLine={false} tickLine={false} />
-          <Tooltip formatter={(v: number) => gbp(v)} cursor={{ fill: "var(--fs-violet-soft)" }} />
-          <Bar dataKey="amount" fill="var(--fs-violet)" radius={[0, 6, 6, 0]} />
+          <Tooltip formatter={(v: number) => gbp(v)} cursor={{ fill: "var(--fs-violet-soft)" }} {...tip} />
+          <Bar dataKey="amount" name="Spent" fill="var(--fs-down)" fillOpacity={0.85} radius={[0, 6, 6, 0]} />
         </BarChart>
       </ResponsiveContainer>
     </div>
@@ -28,9 +31,9 @@ export function CashflowChart({ data }: { data: Summary["monthly"] }) {
         <BarChart data={rows}>
           <XAxis dataKey="label" tick={{ fontSize: 12, fill: "var(--fs-ink-2)" }} axisLine={false} tickLine={false} />
           <YAxis tickFormatter={(v) => gbp(v)} width={72} tick={{ fontSize: 12, fill: "var(--fs-ink-2)" }} axisLine={false} tickLine={false} />
-          <Tooltip formatter={(v: number) => gbp(v)} />
-          <Bar dataKey="in" name="Money in" fill="var(--fs-safe)" radius={[4, 4, 0, 0]} />
-          <Bar dataKey="out" name="Money out" fill="var(--fs-ink-2)" radius={[4, 4, 0, 0]} />
+          <Tooltip formatter={(v: number) => gbp(v)} cursor={{ fill: "var(--fs-violet-soft)" }} {...tip} />
+          <Bar dataKey="in" name="Money in" fill="var(--fs-up)" radius={[4, 4, 0, 0]} />
+          <Bar dataKey="out" name="Money out" fill="var(--fs-down)" radius={[4, 4, 0, 0]} />
         </BarChart>
       </ResponsiveContainer>
     </div>
@@ -51,9 +54,17 @@ export function InvoiceTable({ items, profileId }: { items: Invoice[]; profileId
   async function send() {
     if (!draft) return;
     if (!draft.to.includes("@")) return setStatus("Add the client's email address first.");
-    await sendEmail(draft.to, draft.subject, draft.body);
-    setStatus(`Reminder sent for ${draft.id}.`);
-    setDraft(null);
+    if (!window.confirm(`Send this reminder to ${draft.to}? This sends a real email.`)) return;
+    setStatus("Sending…");
+    try {
+      const r = await sendEmail(draft.to, draft.subject, draft.body);
+      setStatus(r.demo ? `Demo mode: nothing was sent. Connect n8n to send for real.`
+        : r.redirected ? `Sent to the team demo inbox (${r.sent_to}) instead of ${draft.to}, because that address isn't on the allowlist.`
+        : `Reminder sent to ${r.sent_to ?? draft.to}.`);
+      setDraft(null);
+    } catch {
+      setStatus("The email didn't send. Check the send-email workflow in n8n is active, then try again.");
+    }
   }
 
   return (
@@ -82,7 +93,7 @@ export function InvoiceTable({ items, profileId }: { items: Invoice[]; profileId
           <input className="fs-focus mb-2 w-full rounded-md border border-[var(--fs-line)] px-3 py-2 text-sm font-medium" value={draft.subject} onChange={(e) => setDraft({ ...draft, subject: e.target.value })} />
           <textarea className="fs-focus h-36 w-full rounded-md border border-[var(--fs-line)] px-3 py-2 text-sm" value={draft.body} onChange={(e) => setDraft({ ...draft, body: e.target.value })} />
           <div className="mt-2 flex gap-2">
-            <button className="fs-focus rounded-md bg-[var(--fs-violet)] px-3 py-2 text-sm text-white" onClick={send}>Send reminder</button>
+            <button className="fs-focus rounded-md bg-[var(--fs-violet)] px-3 py-2 text-sm text-[var(--fs-on-accent)]" onClick={send}>Send reminder</button>
             <button className="fs-focus rounded-md px-3 py-2 text-sm" onClick={() => setDraft(null)}>Discard</button>
           </div>
         </div>

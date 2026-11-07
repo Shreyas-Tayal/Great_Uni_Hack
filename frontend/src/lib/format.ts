@@ -8,4 +8,4 @@ export const shortDate = (iso: string) =>
 export const inTen = (p: number) => `${Math.round(p * 10)} in 10`;
 
 export const kpiValue = (v: number | null, unit: string) =>
-  unit === "GBP" ? gbp(v) : unit === "weeks" ? (v == null ? "Positive" : `${v} weeks`) : String(v ?? "–");
+  unit === "GBP" ? gbp(v) : unit === "weeks" ? (v == null ? "Cash grows" : `${v} weeks`) : String(v ?? "–");

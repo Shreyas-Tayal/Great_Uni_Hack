@@ -1,0 +1,7095 @@
+{
+  "profile_id": "fixit_plumbing",
+  "name": "Fixit Plumbing",
+  "mode": "business",
+  "opening_balance": 3300.0,
+  "tagline": "Sole-trader plumber: busy winters, quiet summers, a big January tax bill",
+  "persona": {
+    "sector": "trades",
+    "staff": 1,
+    "income_type": "card payments + letting-agency invoices",
+    "vat": "not registered",
+    "tax": "self-assessment Jan + Jul"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 3172.65,
+  "transactions": [
+    {
+      "id": "fixit_plumbing-00000",
+      "date": "2025-11-08",
+      "description": "COSTA COFFEE 1342",
+      "amount": -5.17,
+      "balance": 3294.83,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00001",
+      "date": "2025-11-08",
+      "description": "SHELL 5522",
+      "amount": -30.75,
+      "balance": 3264.08,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00002",
+      "date": "2025-11-08",
+      "description": "CITY PLUMBING 2735",
+      "amount": -173.93,
+      "balance": 3090.15,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00003",
+      "date": "2025-11-10",
+      "description": "SUMUP PAYOUT AD238749",
+      "amount": 175.24,
+      "balance": 3265.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00004",
+      "date": "2025-11-11",
+      "description": "SUMUP PAYOUT CB889442",
+      "amount": 486.84,
+      "balance": 3752.23,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00005",
+      "date": "2025-11-11",
+      "description": "COSTA COFFEE 5818",
+      "amount": -5.7,
+      "balance": 3746.53,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00006",
+      "date": "2025-11-11",
+      "description": "BP 1432",
+      "amount": -61.97,
+      "balance": 3684.56,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00007",
+      "date": "2025-11-11",
+      "description": "CITY PLUMBING 6090",
+      "amount": -121.68,
+      "balance": 3562.88,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00008",
+      "date": "2025-11-12",
+      "description": "SUMUP PAYOUT LF260635",
+      "amount": 412.92,
+      "balance": 3975.8,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00009",
+      "date": "2025-11-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 3927.8,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00010",
+      "date": "2025-11-13",
+      "description": "SUMUP PAYOUT WZ923178",
+      "amount": 479.81,
+      "balance": 4407.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00011",
+      "date": "2025-11-14",
+      "description": "SUMUP PAYOUT ZE922395",
+      "amount": 285.67,
+      "balance": 4693.28,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00012",
+      "date": "2025-11-14",
+      "description": "COSTA COFFEE 4326",
+      "amount": -7.0,
+      "balance": 4686.28,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00013",
+      "date": "2025-11-14",
+      "description": "PLUMB CENTER 2864",
+      "amount": -68.05,
+      "balance": 4618.23,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00014",
+      "date": "2025-11-14",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4058.23,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00015",
+      "date": "2025-11-15",
+      "description": "CITY PLUMBING 1950",
+      "amount": -65.73,
+      "balance": 3992.5,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00016",
+      "date": "2025-11-16",
+      "description": "ESSO 4832",
+      "amount": -36.03,
+      "balance": 3956.47,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00017",
+      "date": "2025-11-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 3924.47,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00018",
+      "date": "2025-11-18",
+      "description": "ESSO 1914",
+      "amount": -42.3,
+      "balance": 3882.17,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00019",
+      "date": "2025-11-19",
+      "description": "SHELL 6899",
+      "amount": -31.68,
+      "balance": 3850.49,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00020",
+      "date": "2025-11-19",
+      "description": "CITY PLUMBING 7939",
+      "amount": -56.77,
+      "balance": 3793.72,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00021",
+      "date": "2025-11-20",
+      "description": "COSTA COFFEE 2944",
+      "amount": -6.75,
+      "balance": 3786.97,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00022",
+      "date": "2025-11-20",
+      "description": "SHELL 4534",
+      "amount": -27.63,
+      "balance": 3759.34,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00023",
+      "date": "2025-11-21",
+      "description": "SUMUP PAYOUT UR225849",
+      "amount": 343.66,
+      "balance": 4103.0,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00024",
+      "date": "2025-11-21",
+      "description": "COSTA COFFEE 9771",
+      "amount": -4.96,
+      "balance": 4098.04,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00025",
+      "date": "2025-11-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 4059.04,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00026",
+      "date": "2025-11-21",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3499.04,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00027",
+      "date": "2025-11-22",
+      "description": "SHELL 8740",
+      "amount": -38.67,
+      "balance": 3460.37,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00028",
+      "date": "2025-11-23",
+      "description": "GREGGS 7053",
+      "amount": -9.68,
+      "balance": 3450.69,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00029",
+      "date": "2025-11-23",
+      "description": "SCREWFIX 8796",
+      "amount": -113.11,
+      "balance": 3337.58,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00030",
+      "date": "2025-11-24",
+      "description": "SUMUP PAYOUT ZW827228",
+      "amount": 393.89,
+      "balance": 3731.47,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00031",
+      "date": "2025-11-24",
+      "description": "SHELL 9989",
+      "amount": -50.14,
+      "balance": 3681.33,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00032",
+      "date": "2025-11-25",
+      "description": "SUMUP PAYOUT PQ230083",
+      "amount": 231.75,
+      "balance": 3913.08,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00033",
+      "date": "2025-11-25",
+      "description": "COSTA COFFEE 3567",
+      "amount": -3.07,
+      "balance": 3910.01,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00034",
+      "date": "2025-11-25",
+      "description": "CITY PLUMBING 5046",
+      "amount": -36.95,
+      "balance": 3873.06,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00035",
+      "date": "2025-11-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 3778.06,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00036",
+      "date": "2025-11-26",
+      "description": "SUMUP PAYOUT FY326810",
+      "amount": 638.26,
+      "balance": 4416.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00037",
+      "date": "2025-11-26",
+      "description": "SHELL 8823",
+      "amount": -35.04,
+      "balance": 4381.28,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00038",
+      "date": "2025-11-27",
+      "description": "SUMUP PAYOUT TE897498",
+      "amount": 601.04,
+      "balance": 4982.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00039",
+      "date": "2025-11-27",
+      "description": "COSTA COFFEE 9824",
+      "amount": -7.27,
+      "balance": 4975.05,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00040",
+      "date": "2025-11-27",
+      "description": "SHELL 2717",
+      "amount": -33.86,
+      "balance": 4941.19,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00041",
+      "date": "2025-11-28",
+      "description": "SUMUP PAYOUT VN117427",
+      "amount": 429.56,
+      "balance": 5370.75,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00042",
+      "date": "2025-11-28",
+      "description": "GREGGS 3907",
+      "amount": -5.91,
+      "balance": 5364.84,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00043",
+      "date": "2025-11-28",
+      "description": "SCREWFIX 3758",
+      "amount": -165.06,
+      "balance": 5199.78,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00044",
+      "date": "2025-11-28",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4639.78,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00045",
+      "date": "2025-11-29",
+      "description": "CITY PLUMBING 9170",
+      "amount": -190.65,
+      "balance": 4449.13,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00046",
+      "date": "2025-11-30",
+      "description": "COSTA COFFEE 7578",
+      "amount": -2.92,
+      "balance": 4446.21,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00047",
+      "date": "2025-12-01",
+      "description": "SUMUP PAYOUT YT397909",
+      "amount": 289.11,
+      "balance": 4735.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00048",
+      "date": "2025-12-01",
+      "description": "GREGGS 2963",
+      "amount": -6.65,
+      "balance": 4728.67,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00049",
+      "date": "2025-12-01",
+      "description": "SHELL 1150",
+      "amount": -36.14,
+      "balance": 4692.53,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00050",
+      "date": "2025-12-01",
+      "description": "CITY PLUMBING 8806",
+      "amount": -188.36,
+      "balance": 4504.17,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00051",
+      "date": "2025-12-02",
+      "description": "SUMUP PAYOUT BJ434219",
+      "amount": 358.61,
+      "balance": 4862.78,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00052",
+      "date": "2025-12-02",
+      "description": "GREGGS 9846",
+      "amount": -8.3,
+      "balance": 4854.48,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00053",
+      "date": "2025-12-02",
+      "description": "SHELL 1619",
+      "amount": -25.45,
+      "balance": 4829.03,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00054",
+      "date": "2025-12-03",
+      "description": "SUMUP PAYOUT PG389081",
+      "amount": 403.38,
+      "balance": 5232.41,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00055",
+      "date": "2025-12-04",
+      "description": "SUMUP PAYOUT CY926145",
+      "amount": 116.99,
+      "balance": 5349.4,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00056",
+      "date": "2025-12-04",
+      "description": "GREGGS 4822",
+      "amount": -9.26,
+      "balance": 5340.14,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00057",
+      "date": "2025-12-04",
+      "description": "PLUMB CENTER 1289",
+      "amount": -144.44,
+      "balance": 5195.7,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00058",
+      "date": "2025-12-05",
+      "description": "SUMUP PAYOUT AT589806",
+      "amount": 437.28,
+      "balance": 5632.98,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00059",
+      "date": "2025-12-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 5243.98,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00060",
+      "date": "2025-12-05",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4683.98,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00061",
+      "date": "2025-12-06",
+      "description": "COSTA COFFEE 3307",
+      "amount": -2.9,
+      "balance": 4681.08,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00062",
+      "date": "2025-12-08",
+      "description": "SCREWFIX 7076",
+      "amount": -70.14,
+      "balance": 4610.94,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00063",
+      "date": "2025-12-09",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1806.26,
+      "balance": 6417.2,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00064",
+      "date": "2025-12-09",
+      "description": "SUMUP PAYOUT WW813648",
+      "amount": 203.2,
+      "balance": 6620.4,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00065",
+      "date": "2025-12-09",
+      "description": "ESSO 6951",
+      "amount": -43.6,
+      "balance": 6576.8,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00066",
+      "date": "2025-12-10",
+      "description": "BP 3828",
+      "amount": -38.17,
+      "balance": 6538.63,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00067",
+      "date": "2025-12-10",
+      "description": "CITY PLUMBING 9088",
+      "amount": -311.51,
+      "balance": 6227.12,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00068",
+      "date": "2025-12-11",
+      "description": "SUMUP PAYOUT AD199954",
+      "amount": 393.84,
+      "balance": 6620.96,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00069",
+      "date": "2025-12-11",
+      "description": "COSTA COFFEE 4665",
+      "amount": -4.92,
+      "balance": 6616.04,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00070",
+      "date": "2025-12-11",
+      "description": "SCREWFIX 9907",
+      "amount": -81.88,
+      "balance": 6534.16,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00071",
+      "date": "2025-12-12",
+      "description": "SUMUP PAYOUT QO487200",
+      "amount": 291.58,
+      "balance": 6825.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00072",
+      "date": "2025-12-12",
+      "description": "COSTA COFFEE 4289",
+      "amount": -7.19,
+      "balance": 6818.55,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00073",
+      "date": "2025-12-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 6770.55,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00074",
+      "date": "2025-12-12",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 6210.55,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00075",
+      "date": "2025-12-14",
+      "description": "COSTA COFFEE 6412",
+      "amount": -4.19,
+      "balance": 6206.36,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00076",
+      "date": "2025-12-16",
+      "description": "SUMUP PAYOUT PP531826",
+      "amount": 54.98,
+      "balance": 6261.34,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00077",
+      "date": "2025-12-16",
+      "description": "GREGGS 4669",
+      "amount": -4.31,
+      "balance": 6257.03,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00078",
+      "date": "2025-12-16",
+      "description": "CITY PLUMBING 8233",
+      "amount": -109.66,
+      "balance": 6147.37,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00079",
+      "date": "2025-12-17",
+      "description": "CITY PLUMBING 7112",
+      "amount": -137.13,
+      "balance": 6010.24,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00080",
+      "date": "2025-12-18",
+      "description": "SUMUP PAYOUT UJ987849",
+      "amount": 341.74,
+      "balance": 6351.98,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00081",
+      "date": "2025-12-18",
+      "description": "GREGGS 3449",
+      "amount": -6.38,
+      "balance": 6345.6,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00082",
+      "date": "2025-12-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 6313.6,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00083",
+      "date": "2025-12-19",
+      "description": "SUMUP PAYOUT UY315087",
+      "amount": 407.29,
+      "balance": 6720.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00084",
+      "date": "2025-12-19",
+      "description": "PLUMB CENTER 3372",
+      "amount": -38.26,
+      "balance": 6682.63,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00085",
+      "date": "2025-12-19",
+      "description": "BP 2625",
+      "amount": -60.81,
+      "balance": 6621.82,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00086",
+      "date": "2025-12-19",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 6061.82,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00087",
+      "date": "2025-12-21",
+      "description": "COSTA COFFEE 5850",
+      "amount": -15.73,
+      "balance": 6046.09,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00088",
+      "date": "2025-12-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 6007.09,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00089",
+      "date": "2025-12-21",
+      "description": "PLUMB CENTER 3766",
+      "amount": -94.78,
+      "balance": 5912.31,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00090",
+      "date": "2025-12-22",
+      "description": "SUMUP PAYOUT PK673283",
+      "amount": 104.43,
+      "balance": 6016.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00091",
+      "date": "2025-12-22",
+      "description": "SHELL 4268",
+      "amount": -58.33,
+      "balance": 5958.41,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00092",
+      "date": "2025-12-22",
+      "description": "SCREWFIX 8111",
+      "amount": -252.98,
+      "balance": 5705.43,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00093",
+      "date": "2025-12-24",
+      "description": "SUMUP PAYOUT AX115268",
+      "amount": 211.05,
+      "balance": 5916.48,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00094",
+      "date": "2025-12-24",
+      "description": "COSTA COFFEE 7844",
+      "amount": -6.18,
+      "balance": 5910.3,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00095",
+      "date": "2025-12-24",
+      "description": "SHELL 8652",
+      "amount": -36.66,
+      "balance": 5873.64,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00096",
+      "date": "2025-12-24",
+      "description": "CITY PLUMBING 9579",
+      "amount": -59.86,
+      "balance": 5813.78,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00097",
+      "date": "2025-12-25",
+      "description": "SUMUP PAYOUT IO893542",
+      "amount": 325.42,
+      "balance": 6139.2,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00098",
+      "date": "2025-12-25",
+      "description": "BP 4012",
+      "amount": -35.24,
+      "balance": 6103.96,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00099",
+      "date": "2025-12-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 6008.96,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00100",
+      "date": "2025-12-26",
+      "description": "SUMUP PAYOUT OA506319",
+      "amount": 206.93,
+      "balance": 6215.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00101",
+      "date": "2025-12-26",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 5655.89,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00102",
+      "date": "2025-12-27",
+      "description": "ESSO 5162",
+      "amount": -30.08,
+      "balance": 5625.81,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00103",
+      "date": "2025-12-27",
+      "description": "PLUMB CENTER 3562",
+      "amount": -236.93,
+      "balance": 5388.88,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00104",
+      "date": "2025-12-28",
+      "description": "BP 5620",
+      "amount": -46.2,
+      "balance": 5342.68,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00105",
+      "date": "2025-12-28",
+      "description": "PLUMB CENTER 9210",
+      "amount": -472.52,
+      "balance": 4870.16,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00106",
+      "date": "2025-12-29",
+      "description": "CITY PLUMBING 7858",
+      "amount": -217.31,
+      "balance": 4652.85,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00107",
+      "date": "2025-12-30",
+      "description": "COSTA COFFEE 6343",
+      "amount": -4.24,
+      "balance": 4648.61,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00108",
+      "date": "2025-12-31",
+      "description": "SUMUP PAYOUT MJ204447",
+      "amount": 247.07,
+      "balance": 4895.68,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00109",
+      "date": "2026-01-02",
+      "description": "ESSO 5698",
+      "amount": -37.92,
+      "balance": 4857.76,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00110",
+      "date": "2026-01-02",
+      "description": "PLUMB CENTER 1865",
+      "amount": -83.34,
+      "balance": 4774.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00111",
+      "date": "2026-01-02",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4214.42,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00112",
+      "date": "2026-01-03",
+      "description": "GREGGS 9739",
+      "amount": -5.19,
+      "balance": 4209.23,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00113",
+      "date": "2026-01-03",
+      "description": "ESSO 2308",
+      "amount": -38.83,
+      "balance": 4170.4,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00114",
+      "date": "2026-01-04",
+      "description": "GREGGS 6040",
+      "amount": -4.17,
+      "balance": 4166.23,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00115",
+      "date": "2026-01-05",
+      "description": "SUMUP PAYOUT MZ228505",
+      "amount": 371.58,
+      "balance": 4537.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00116",
+      "date": "2026-01-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 4148.81,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00117",
+      "date": "2026-01-06",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1723.35,
+      "balance": 5872.16,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00118",
+      "date": "2026-01-06",
+      "description": "ESSO 3368",
+      "amount": -56.57,
+      "balance": 5815.59,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00119",
+      "date": "2026-01-06",
+      "description": "PLUMB CENTER 8309",
+      "amount": -255.9,
+      "balance": 5559.69,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00120",
+      "date": "2026-01-07",
+      "description": "SUMUP PAYOUT XG693810",
+      "amount": 272.2,
+      "balance": 5831.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00121",
+      "date": "2026-01-07",
+      "description": "ESSO 8465",
+      "amount": -56.44,
+      "balance": 5775.45,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00122",
+      "date": "2026-01-07",
+      "description": "PLUMB CENTER 3355",
+      "amount": -378.81,
+      "balance": 5396.64,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00123",
+      "date": "2026-01-08",
+      "description": "SUMUP PAYOUT VZ407744",
+      "amount": 389.35,
+      "balance": 5785.99,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00124",
+      "date": "2026-01-08",
+      "description": "COSTA COFFEE 7436",
+      "amount": -3.07,
+      "balance": 5782.92,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00125",
+      "date": "2026-01-08",
+      "description": "CITY PLUMBING 3813",
+      "amount": -40.48,
+      "balance": 5742.44,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00126",
+      "date": "2026-01-09",
+      "description": "SUMUP PAYOUT XE832293",
+      "amount": 467.85,
+      "balance": 6210.29,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00127",
+      "date": "2026-01-09",
+      "description": "GREGGS 7797",
+      "amount": -5.31,
+      "balance": 6204.98,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00128",
+      "date": "2026-01-09",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 5644.98,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00129",
+      "date": "2026-01-10",
+      "description": "COSTA COFFEE 4198",
+      "amount": -9.93,
+      "balance": 5635.05,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00130",
+      "date": "2026-01-10",
+      "description": "SCREWFIX 2433",
+      "amount": -170.88,
+      "balance": 5464.17,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00131",
+      "date": "2026-01-12",
+      "description": "SUMUP PAYOUT QW566060",
+      "amount": 391.24,
+      "balance": 5855.41,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00132",
+      "date": "2026-01-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 5807.41,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00133",
+      "date": "2026-01-13",
+      "description": "ESSO 8837",
+      "amount": -43.29,
+      "balance": 5764.12,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00134",
+      "date": "2026-01-14",
+      "description": "SUMUP PAYOUT KS361296",
+      "amount": 425.89,
+      "balance": 6190.01,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00135",
+      "date": "2026-01-14",
+      "description": "GREGGS 9898",
+      "amount": -7.75,
+      "balance": 6182.26,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00136",
+      "date": "2026-01-14",
+      "description": "CITY PLUMBING 2481",
+      "amount": -79.02,
+      "balance": 6103.24,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00137",
+      "date": "2026-01-15",
+      "description": "SUMUP PAYOUT JZ168198",
+      "amount": 489.3,
+      "balance": 6592.54,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00138",
+      "date": "2026-01-15",
+      "description": "SHELL 2736",
+      "amount": -50.43,
+      "balance": 6542.11,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00139",
+      "date": "2026-01-15",
+      "description": "SCREWFIX 7508",
+      "amount": -52.25,
+      "balance": 6489.86,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00140",
+      "date": "2026-01-16",
+      "description": "SUMUP PAYOUT ZE609645",
+      "amount": 542.3,
+      "balance": 7032.16,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00141",
+      "date": "2026-01-16",
+      "description": "ESSO 1488",
+      "amount": -34.15,
+      "balance": 6998.01,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00142",
+      "date": "2026-01-16",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 6438.01,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00143",
+      "date": "2026-01-17",
+      "description": "COSTA COFFEE 6242",
+      "amount": -5.25,
+      "balance": 6432.76,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00144",
+      "date": "2026-01-17",
+      "description": "ESSO 1213",
+      "amount": -29.21,
+      "balance": 6403.55,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00145",
+      "date": "2026-01-17",
+      "description": "SCREWFIX 5592",
+      "amount": -135.91,
+      "balance": 6267.64,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00146",
+      "date": "2026-01-18",
+      "description": "SHELL 9862",
+      "amount": -88.42,
+      "balance": 6179.22,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00147",
+      "date": "2026-01-18",
+      "description": "SCREWFIX 7911",
+      "amount": -287.83,
+      "balance": 5891.39,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00148",
+      "date": "2026-01-19",
+      "description": "SUMUP PAYOUT OL857105",
+      "amount": 125.43,
+      "balance": 6016.82,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00149",
+      "date": "2026-01-19",
+      "description": "GREGGS 3193",
+      "amount": -3.12,
+      "balance": 6013.7,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00150",
+      "date": "2026-01-19",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 5981.7,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00151",
+      "date": "2026-01-19",
+      "description": "CITY PLUMBING 3612",
+      "amount": -191.56,
+      "balance": 5790.14,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00152",
+      "date": "2026-01-20",
+      "description": "SUMUP PAYOUT GH730198",
+      "amount": 308.86,
+      "balance": 6099.0,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00153",
+      "date": "2026-01-20",
+      "description": "BP 7513",
+      "amount": -45.15,
+      "balance": 6053.85,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00154",
+      "date": "2026-01-20",
+      "description": "CITY PLUMBING 9829",
+      "amount": -79.9,
+      "balance": 5973.95,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00155",
+      "date": "2026-01-21",
+      "description": "GREGGS 9497",
+      "amount": -12.5,
+      "balance": 5961.45,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00156",
+      "date": "2026-01-21",
+      "description": "BP 4245",
+      "amount": -31.0,
+      "balance": 5930.45,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00157",
+      "date": "2026-01-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 5891.45,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00158",
+      "date": "2026-01-22",
+      "description": "SUMUP PAYOUT ZH805713",
+      "amount": 202.9,
+      "balance": 6094.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00159",
+      "date": "2026-01-23",
+      "description": "SUMUP PAYOUT XD718634",
+      "amount": 499.18,
+      "balance": 6593.53,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00160",
+      "date": "2026-01-23",
+      "description": "PLUMB CENTER 1156",
+      "amount": -35.51,
+      "balance": 6558.02,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00161",
+      "date": "2026-01-23",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 5998.02,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00162",
+      "date": "2026-01-25",
+      "description": "GREGGS 7075",
+      "amount": -6.42,
+      "balance": 5991.6,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00163",
+      "date": "2026-01-26",
+      "description": "SUMUP PAYOUT VM639316",
+      "amount": 97.83,
+      "balance": 6089.43,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00164",
+      "date": "2026-01-26",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 5994.43,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00165",
+      "date": "2026-01-27",
+      "description": "SUMUP PAYOUT PB184272",
+      "amount": 421.17,
+      "balance": 6415.6,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00166",
+      "date": "2026-01-28",
+      "description": "SUMUP PAYOUT AR135738",
+      "amount": 209.34,
+      "balance": 6624.94,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00167",
+      "date": "2026-01-28",
+      "description": "SCREWFIX 8111",
+      "amount": -66.52,
+      "balance": 6558.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00168",
+      "date": "2026-01-29",
+      "description": "SUMUP PAYOUT QN179104",
+      "amount": 50.0,
+      "balance": 6608.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00169",
+      "date": "2026-01-29",
+      "description": "SHELL 2099",
+      "amount": -28.13,
+      "balance": 6580.29,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00170",
+      "date": "2026-01-29",
+      "description": "CITY PLUMBING 7540",
+      "amount": -119.41,
+      "balance": 6460.88,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00171",
+      "date": "2026-01-30",
+      "description": "SUMUP PAYOUT MS465350",
+      "amount": 209.8,
+      "balance": 6670.68,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00172",
+      "date": "2026-01-30",
+      "description": "GREGGS 2224",
+      "amount": -7.07,
+      "balance": 6663.61,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00173",
+      "date": "2026-01-30",
+      "description": "BP 6338",
+      "amount": -58.2,
+      "balance": 6605.41,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00174",
+      "date": "2026-01-30",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 6045.41,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00175",
+      "date": "2026-01-30",
+      "description": "HMRC SELF ASSESSMENT",
+      "amount": -5600.0,
+      "balance": 445.41,
+      "_category": "tax:self_assessment",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00176",
+      "date": "2026-01-31",
+      "description": "SCREWFIX 5200",
+      "amount": -199.56,
+      "balance": 245.85,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00177",
+      "date": "2026-02-02",
+      "description": "SHELL 5645",
+      "amount": -67.23,
+      "balance": 178.62,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00178",
+      "date": "2026-02-03",
+      "description": "SUMUP PAYOUT DM619977",
+      "amount": 538.77,
+      "balance": 717.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00179",
+      "date": "2026-02-03",
+      "description": "BP 3165",
+      "amount": -39.39,
+      "balance": 678.0,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00180",
+      "date": "2026-02-03",
+      "description": "SCREWFIX 5186",
+      "amount": -87.73,
+      "balance": 590.27,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00181",
+      "date": "2026-02-04",
+      "description": "SUMUP PAYOUT CL893852",
+      "amount": 365.01,
+      "balance": 955.28,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00182",
+      "date": "2026-02-04",
+      "description": "GREGGS 1429",
+      "amount": -6.82,
+      "balance": 948.46,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00183",
+      "date": "2026-02-05",
+      "description": "SUMUP PAYOUT YM177522",
+      "amount": 48.0,
+      "balance": 996.46,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00184",
+      "date": "2026-02-05",
+      "description": "PLUMB CENTER 3470",
+      "amount": -181.71,
+      "balance": 814.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00185",
+      "date": "2026-02-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 425.75,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00186",
+      "date": "2026-02-06",
+      "description": "SUMUP PAYOUT XE941131",
+      "amount": 628.78,
+      "balance": 1054.53,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00187",
+      "date": "2026-02-06",
+      "description": "ESSO 6565",
+      "amount": -30.24,
+      "balance": 1024.29,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00188",
+      "date": "2026-02-06",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 464.29,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00189",
+      "date": "2026-02-07",
+      "description": "GREGGS 7447",
+      "amount": -3.31,
+      "balance": 460.98,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00190",
+      "date": "2026-02-08",
+      "description": "PLUMB CENTER 2757",
+      "amount": -91.55,
+      "balance": 369.43,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00191",
+      "date": "2026-02-09",
+      "description": "SUMUP PAYOUT GC155570",
+      "amount": 291.22,
+      "balance": 660.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00192",
+      "date": "2026-02-09",
+      "description": "COSTA COFFEE 7856",
+      "amount": -11.34,
+      "balance": 649.31,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00193",
+      "date": "2026-02-09",
+      "description": "ESSO 6009",
+      "amount": -38.4,
+      "balance": 610.91,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00194",
+      "date": "2026-02-09",
+      "description": "PLUMB CENTER 3170",
+      "amount": -61.02,
+      "balance": 549.89,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00195",
+      "date": "2026-02-10",
+      "description": "COSTA COFFEE 5147",
+      "amount": -10.63,
+      "balance": 539.26,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00196",
+      "date": "2026-02-10",
+      "description": "CITY PLUMBING 3904",
+      "amount": -39.62,
+      "balance": 499.64,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00197",
+      "date": "2026-02-12",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1410.09,
+      "balance": 1909.73,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00198",
+      "date": "2026-02-12",
+      "description": "SUMUP PAYOUT FN768307",
+      "amount": 319.36,
+      "balance": 2229.09,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00199",
+      "date": "2026-02-12",
+      "description": "COSTA COFFEE 3520",
+      "amount": -6.94,
+      "balance": 2222.15,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00200",
+      "date": "2026-02-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 2174.15,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00201",
+      "date": "2026-02-13",
+      "description": "SUMUP PAYOUT EP903298",
+      "amount": 560.33,
+      "balance": 2734.48,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00202",
+      "date": "2026-02-13",
+      "description": "SCREWFIX 1518",
+      "amount": -71.23,
+      "balance": 2663.25,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00203",
+      "date": "2026-02-13",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2103.25,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00204",
+      "date": "2026-02-14",
+      "description": "CITY PLUMBING 8807",
+      "amount": -73.34,
+      "balance": 2029.91,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00205",
+      "date": "2026-02-17",
+      "description": "SUMUP PAYOUT QO890389",
+      "amount": 385.98,
+      "balance": 2415.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00206",
+      "date": "2026-02-17",
+      "description": "COSTA COFFEE 3335",
+      "amount": -2.46,
+      "balance": 2413.43,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00207",
+      "date": "2026-02-17",
+      "description": "CITY PLUMBING 1883",
+      "amount": -65.01,
+      "balance": 2348.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00208",
+      "date": "2026-02-18",
+      "description": "SUMUP PAYOUT LB262983",
+      "amount": 243.53,
+      "balance": 2591.95,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00209",
+      "date": "2026-02-18",
+      "description": "GREGGS 2928",
+      "amount": -9.8,
+      "balance": 2582.15,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00210",
+      "date": "2026-02-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 2550.15,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00211",
+      "date": "2026-02-18",
+      "description": "ESSO 9937",
+      "amount": -46.72,
+      "balance": 2503.43,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00212",
+      "date": "2026-02-18",
+      "description": "CITY PLUMBING 1036",
+      "amount": -66.71,
+      "balance": 2436.72,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00213",
+      "date": "2026-02-19",
+      "description": "SUMUP PAYOUT FT166046",
+      "amount": 295.2,
+      "balance": 2731.92,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00214",
+      "date": "2026-02-19",
+      "description": "COSTA COFFEE 6857",
+      "amount": -10.12,
+      "balance": 2721.8,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00215",
+      "date": "2026-02-20",
+      "description": "SUMUP PAYOUT BF614072",
+      "amount": 433.99,
+      "balance": 3155.79,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00216",
+      "date": "2026-02-20",
+      "description": "BP 6538",
+      "amount": -35.33,
+      "balance": 3120.46,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00217",
+      "date": "2026-02-20",
+      "description": "PLUMB CENTER 9080",
+      "amount": -224.26,
+      "balance": 2896.2,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00218",
+      "date": "2026-02-20",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2336.2,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00219",
+      "date": "2026-02-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 2297.2,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00220",
+      "date": "2026-02-22",
+      "description": "PLUMB CENTER 5853",
+      "amount": -59.56,
+      "balance": 2237.64,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00221",
+      "date": "2026-02-23",
+      "description": "GREGGS 7021",
+      "amount": -8.37,
+      "balance": 2229.27,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00222",
+      "date": "2026-02-23",
+      "description": "BP 1063",
+      "amount": -46.34,
+      "balance": 2182.93,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00223",
+      "date": "2026-02-24",
+      "description": "SUMUP PAYOUT ZD189625",
+      "amount": 237.29,
+      "balance": 2420.22,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00224",
+      "date": "2026-02-24",
+      "description": "COSTA COFFEE 3645",
+      "amount": -10.65,
+      "balance": 2409.57,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00225",
+      "date": "2026-02-24",
+      "description": "CITY PLUMBING 9718",
+      "amount": -50.82,
+      "balance": 2358.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00226",
+      "date": "2026-02-24",
+      "description": "SHELL 7289",
+      "amount": -68.2,
+      "balance": 2290.55,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00227",
+      "date": "2026-02-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 2195.55,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00228",
+      "date": "2026-02-26",
+      "description": "SUMUP PAYOUT BS565230",
+      "amount": 291.55,
+      "balance": 2487.1,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00229",
+      "date": "2026-02-27",
+      "description": "SUMUP PAYOUT UT289261",
+      "amount": 467.99,
+      "balance": 2955.09,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00230",
+      "date": "2026-02-27",
+      "description": "PLUMB CENTER 5361",
+      "amount": -175.27,
+      "balance": 2779.82,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00231",
+      "date": "2026-02-27",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2219.82,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00232",
+      "date": "2026-02-28",
+      "description": "SHELL 2616",
+      "amount": -59.82,
+      "balance": 2160.0,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00233",
+      "date": "2026-02-28",
+      "description": "CITY PLUMBING 8279",
+      "amount": -147.37,
+      "balance": 2012.63,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00234",
+      "date": "2026-03-01",
+      "description": "COSTA COFFEE 1534",
+      "amount": -5.34,
+      "balance": 2007.29,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00235",
+      "date": "2026-03-03",
+      "description": "CITY PLUMBING 8432",
+      "amount": -50.3,
+      "balance": 1956.99,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00236",
+      "date": "2026-03-04",
+      "description": "SUMUP PAYOUT ZC908104",
+      "amount": 151.42,
+      "balance": 2108.41,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00237",
+      "date": "2026-03-04",
+      "description": "SHELL 2024",
+      "amount": -73.15,
+      "balance": 2035.26,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00238",
+      "date": "2026-03-05",
+      "description": "SUMUP PAYOUT VU207727",
+      "amount": 135.88,
+      "balance": 2171.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00239",
+      "date": "2026-03-05",
+      "description": "COSTA COFFEE 5548",
+      "amount": -7.74,
+      "balance": 2163.4,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00240",
+      "date": "2026-03-05",
+      "description": "ESSO 4433",
+      "amount": -49.64,
+      "balance": 2113.76,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00241",
+      "date": "2026-03-05",
+      "description": "SCREWFIX 9087",
+      "amount": -95.3,
+      "balance": 2018.46,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00242",
+      "date": "2026-03-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 1629.46,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00243",
+      "date": "2026-03-06",
+      "description": "SUMUP PAYOUT TC595643",
+      "amount": 287.93,
+      "balance": 1917.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00244",
+      "date": "2026-03-06",
+      "description": "SHELL 4867",
+      "amount": -35.69,
+      "balance": 1881.7,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00245",
+      "date": "2026-03-06",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 1321.7,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00246",
+      "date": "2026-03-07",
+      "description": "BP 8229",
+      "amount": -77.95,
+      "balance": 1243.75,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00247",
+      "date": "2026-03-08",
+      "description": "GREGGS 4600",
+      "amount": -5.34,
+      "balance": 1238.41,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00248",
+      "date": "2026-03-08",
+      "description": "BP 2905",
+      "amount": -59.06,
+      "balance": 1179.35,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00249",
+      "date": "2026-03-09",
+      "description": "SUMUP PAYOUT AH520371",
+      "amount": 180.54,
+      "balance": 1359.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00250",
+      "date": "2026-03-09",
+      "description": "PLUMB CENTER 6544",
+      "amount": -109.33,
+      "balance": 1250.56,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00251",
+      "date": "2026-03-10",
+      "description": "COSTA COFFEE 9161",
+      "amount": -6.24,
+      "balance": 1244.32,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00252",
+      "date": "2026-03-10",
+      "description": "SCREWFIX 2697",
+      "amount": -106.74,
+      "balance": 1137.58,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00253",
+      "date": "2026-03-11",
+      "description": "SUMUP PAYOUT PK291857",
+      "amount": 278.47,
+      "balance": 1416.05,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00254",
+      "date": "2026-03-11",
+      "description": "PLUMB CENTER 6420",
+      "amount": -16.78,
+      "balance": 1399.27,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00255",
+      "date": "2026-03-12",
+      "description": "SUMUP PAYOUT OZ363143",
+      "amount": 269.57,
+      "balance": 1668.84,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00256",
+      "date": "2026-03-12",
+      "description": "ESSO 3461",
+      "amount": -36.32,
+      "balance": 1632.52,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00257",
+      "date": "2026-03-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 1584.52,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00258",
+      "date": "2026-03-12",
+      "description": "SCREWFIX 4450",
+      "amount": -49.7,
+      "balance": 1534.82,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00259",
+      "date": "2026-03-13",
+      "description": "SUMUP PAYOUT CU580304",
+      "amount": 218.57,
+      "balance": 1753.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00260",
+      "date": "2026-03-13",
+      "description": "COSTA COFFEE 8524",
+      "amount": -4.09,
+      "balance": 1749.3,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00261",
+      "date": "2026-03-13",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 1189.3,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00262",
+      "date": "2026-03-14",
+      "description": "GREGGS 8686",
+      "amount": -2.55,
+      "balance": 1186.75,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00263",
+      "date": "2026-03-15",
+      "description": "COSTA COFFEE 2538",
+      "amount": -5.35,
+      "balance": 1181.4,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00264",
+      "date": "2026-03-16",
+      "description": "SUMUP PAYOUT OT656284",
+      "amount": 312.12,
+      "balance": 1493.52,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00265",
+      "date": "2026-03-16",
+      "description": "PLUMB CENTER 2963",
+      "amount": -41.77,
+      "balance": 1451.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00266",
+      "date": "2026-03-17",
+      "description": "SUMUP PAYOUT JZ906364",
+      "amount": 222.67,
+      "balance": 1674.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00267",
+      "date": "2026-03-18",
+      "description": "SUMUP PAYOUT WK810960",
+      "amount": 432.59,
+      "balance": 2107.01,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00268",
+      "date": "2026-03-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 2075.01,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00269",
+      "date": "2026-03-18",
+      "description": "ESSO 8654",
+      "amount": -59.25,
+      "balance": 2015.76,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00270",
+      "date": "2026-03-19",
+      "description": "BP 3621",
+      "amount": -23.37,
+      "balance": 1992.39,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00271",
+      "date": "2026-03-19",
+      "description": "CITY PLUMBING 8761",
+      "amount": -101.1,
+      "balance": 1891.29,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00272",
+      "date": "2026-03-20",
+      "description": "SUMUP PAYOUT WO695037",
+      "amount": 237.69,
+      "balance": 2128.98,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00273",
+      "date": "2026-03-20",
+      "description": "ESSO 3103",
+      "amount": -37.91,
+      "balance": 2091.07,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00274",
+      "date": "2026-03-20",
+      "description": "SCREWFIX 7982",
+      "amount": -68.68,
+      "balance": 2022.39,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00275",
+      "date": "2026-03-20",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 1462.39,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00276",
+      "date": "2026-03-21",
+      "description": "COSTA COFFEE 7223",
+      "amount": -5.55,
+      "balance": 1456.84,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00277",
+      "date": "2026-03-21",
+      "description": "SHELL 9484",
+      "amount": -27.13,
+      "balance": 1429.71,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00278",
+      "date": "2026-03-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 1390.71,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00279",
+      "date": "2026-03-22",
+      "description": "GREGGS 4968",
+      "amount": -6.92,
+      "balance": 1383.79,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00280",
+      "date": "2026-03-23",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1872.08,
+      "balance": 3255.87,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00281",
+      "date": "2026-03-24",
+      "description": "SUMUP PAYOUT EI143290",
+      "amount": 361.1,
+      "balance": 3616.97,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00282",
+      "date": "2026-03-24",
+      "description": "BP 8097",
+      "amount": -43.63,
+      "balance": 3573.34,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00283",
+      "date": "2026-03-24",
+      "description": "CITY PLUMBING 6529",
+      "amount": -73.21,
+      "balance": 3500.13,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00284",
+      "date": "2026-03-25",
+      "description": "SHELL 2146",
+      "amount": -49.55,
+      "balance": 3450.58,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00285",
+      "date": "2026-03-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 3355.58,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00286",
+      "date": "2026-03-25",
+      "description": "SCREWFIX 9211",
+      "amount": -97.86,
+      "balance": 3257.72,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00287",
+      "date": "2026-03-26",
+      "description": "SUMUP PAYOUT OF524907",
+      "amount": 373.94,
+      "balance": 3631.66,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00288",
+      "date": "2026-03-26",
+      "description": "GREGGS 5558",
+      "amount": -12.14,
+      "balance": 3619.52,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00289",
+      "date": "2026-03-26",
+      "description": "SHELL 5272",
+      "amount": -60.54,
+      "balance": 3558.98,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00290",
+      "date": "2026-03-27",
+      "description": "GREGGS 8663",
+      "amount": -5.8,
+      "balance": 3553.18,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00291",
+      "date": "2026-03-27",
+      "description": "PLUMB CENTER 2414",
+      "amount": -343.84,
+      "balance": 3209.34,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00292",
+      "date": "2026-03-27",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2649.34,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00293",
+      "date": "2026-03-29",
+      "description": "PLUMB CENTER 9089",
+      "amount": -40.95,
+      "balance": 2608.39,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00294",
+      "date": "2026-03-30",
+      "description": "SUMUP PAYOUT ZG960718",
+      "amount": 273.48,
+      "balance": 2881.87,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00295",
+      "date": "2026-03-30",
+      "description": "GREGGS 3024",
+      "amount": -8.01,
+      "balance": 2873.86,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00296",
+      "date": "2026-03-30",
+      "description": "SHELL 3062",
+      "amount": -26.03,
+      "balance": 2847.83,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00297",
+      "date": "2026-03-31",
+      "description": "SUMUP PAYOUT RH978558",
+      "amount": 189.11,
+      "balance": 3036.94,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00298",
+      "date": "2026-03-31",
+      "description": "SHELL 8605",
+      "amount": -51.67,
+      "balance": 2985.27,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00299",
+      "date": "2026-04-01",
+      "description": "SUMUP PAYOUT HE608583",
+      "amount": 316.15,
+      "balance": 3301.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00300",
+      "date": "2026-04-01",
+      "description": "GREGGS 9555",
+      "amount": -12.14,
+      "balance": 3289.28,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00301",
+      "date": "2026-04-01",
+      "description": "PLUMB CENTER 3418",
+      "amount": -46.28,
+      "balance": 3243.0,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00302",
+      "date": "2026-04-02",
+      "description": "SUMUP PAYOUT DR379892",
+      "amount": 136.58,
+      "balance": 3379.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00303",
+      "date": "2026-04-02",
+      "description": "GREGGS 3282",
+      "amount": -4.82,
+      "balance": 3374.76,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00304",
+      "date": "2026-04-02",
+      "description": "ESSO 8233",
+      "amount": -33.4,
+      "balance": 3341.36,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00305",
+      "date": "2026-04-02",
+      "description": "CITY PLUMBING 7815",
+      "amount": -128.17,
+      "balance": 3213.19,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00306",
+      "date": "2026-04-03",
+      "description": "SUMUP PAYOUT YD969695",
+      "amount": 335.42,
+      "balance": 3548.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00307",
+      "date": "2026-04-03",
+      "description": "BP 9896",
+      "amount": -34.12,
+      "balance": 3514.49,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00308",
+      "date": "2026-04-03",
+      "description": "CITY PLUMBING 6240",
+      "amount": -132.91,
+      "balance": 3381.58,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00309",
+      "date": "2026-04-03",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2821.58,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00310",
+      "date": "2026-04-04",
+      "description": "COSTA COFFEE 3667",
+      "amount": -5.24,
+      "balance": 2816.34,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00311",
+      "date": "2026-04-05",
+      "description": "GREGGS 2351",
+      "amount": -5.27,
+      "balance": 2811.07,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00312",
+      "date": "2026-04-06",
+      "description": "SUMUP PAYOUT FK183820",
+      "amount": 211.73,
+      "balance": 3022.8,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00313",
+      "date": "2026-04-06",
+      "description": "PLUMB CENTER 3323",
+      "amount": -65.96,
+      "balance": 2956.84,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00314",
+      "date": "2026-04-06",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 2567.84,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00315",
+      "date": "2026-04-07",
+      "description": "SUMUP PAYOUT HR909835",
+      "amount": 106.13,
+      "balance": 2673.97,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00316",
+      "date": "2026-04-07",
+      "description": "GREGGS 7780",
+      "amount": -4.53,
+      "balance": 2669.44,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00317",
+      "date": "2026-04-07",
+      "description": "ESSO 9041",
+      "amount": -34.94,
+      "balance": 2634.5,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00318",
+      "date": "2026-04-08",
+      "description": "SUMUP PAYOUT HU579767",
+      "amount": 414.24,
+      "balance": 3048.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00319",
+      "date": "2026-04-08",
+      "description": "SCREWFIX 1591",
+      "amount": -41.09,
+      "balance": 3007.65,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00320",
+      "date": "2026-04-09",
+      "description": "SUMUP PAYOUT EX869066",
+      "amount": 180.94,
+      "balance": 3188.59,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00321",
+      "date": "2026-04-09",
+      "description": "ESSO 9765",
+      "amount": -60.03,
+      "balance": 3128.56,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00322",
+      "date": "2026-04-09",
+      "description": "SCREWFIX 5335",
+      "amount": -71.69,
+      "balance": 3056.87,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00323",
+      "date": "2026-04-10",
+      "description": "CITY PLUMBING 5925",
+      "amount": -28.96,
+      "balance": 3027.91,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00324",
+      "date": "2026-04-10",
+      "description": "BP 8201",
+      "amount": -43.07,
+      "balance": 2984.84,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00325",
+      "date": "2026-04-10",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2424.84,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00326",
+      "date": "2026-04-11",
+      "description": "GREGGS 4687",
+      "amount": -12.43,
+      "balance": 2412.41,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00327",
+      "date": "2026-04-11",
+      "description": "ESSO 2354",
+      "amount": -38.51,
+      "balance": 2373.9,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00328",
+      "date": "2026-04-11",
+      "description": "SCREWFIX 8762",
+      "amount": -123.25,
+      "balance": 2250.65,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00329",
+      "date": "2026-04-12",
+      "description": "COSTA COFFEE 6989",
+      "amount": -4.19,
+      "balance": 2246.46,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00330",
+      "date": "2026-04-13",
+      "description": "SUMUP PAYOUT VD859810",
+      "amount": 276.63,
+      "balance": 2523.09,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00331",
+      "date": "2026-04-13",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 2475.09,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00332",
+      "date": "2026-04-14",
+      "description": "SUMUP PAYOUT LU379238",
+      "amount": 429.8,
+      "balance": 2904.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00333",
+      "date": "2026-04-14",
+      "description": "COSTA COFFEE 1239",
+      "amount": -6.59,
+      "balance": 2898.3,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00334",
+      "date": "2026-04-14",
+      "description": "PLUMB CENTER 1324",
+      "amount": -35.27,
+      "balance": 2863.03,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00335",
+      "date": "2026-04-15",
+      "description": "SUMUP PAYOUT GK430695",
+      "amount": 302.75,
+      "balance": 3165.78,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00336",
+      "date": "2026-04-15",
+      "description": "SHELL 1129",
+      "amount": -42.45,
+      "balance": 3123.33,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00337",
+      "date": "2026-04-16",
+      "description": "GREGGS 2165",
+      "amount": -12.11,
+      "balance": 3111.22,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00338",
+      "date": "2026-04-16",
+      "description": "SCREWFIX 2699",
+      "amount": -118.27,
+      "balance": 2992.95,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00339",
+      "date": "2026-04-17",
+      "description": "SUMUP PAYOUT ZK899522",
+      "amount": 64.67,
+      "balance": 3057.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00340",
+      "date": "2026-04-17",
+      "description": "SCREWFIX 9689",
+      "amount": -92.43,
+      "balance": 2965.19,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00341",
+      "date": "2026-04-17",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2405.19,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00342",
+      "date": "2026-04-18",
+      "description": "BP 5413",
+      "amount": -55.55,
+      "balance": 2349.64,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00343",
+      "date": "2026-04-19",
+      "description": "GREGGS 5272",
+      "amount": -4.19,
+      "balance": 2345.45,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00344",
+      "date": "2026-04-19",
+      "description": "ESSO 4984",
+      "amount": -56.65,
+      "balance": 2288.8,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00345",
+      "date": "2026-04-20",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 2256.8,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00346",
+      "date": "2026-04-20",
+      "description": "BP 2226",
+      "amount": -66.26,
+      "balance": 2190.54,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00347",
+      "date": "2026-04-21",
+      "description": "SUMUP PAYOUT KP482631",
+      "amount": 419.09,
+      "balance": 2609.63,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00348",
+      "date": "2026-04-21",
+      "description": "GREGGS 5321",
+      "amount": -9.27,
+      "balance": 2600.36,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00349",
+      "date": "2026-04-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 2561.36,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00350",
+      "date": "2026-04-21",
+      "description": "SHELL 7059",
+      "amount": -40.52,
+      "balance": 2520.84,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00351",
+      "date": "2026-04-21",
+      "description": "SCREWFIX 7847",
+      "amount": -43.24,
+      "balance": 2477.6,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00352",
+      "date": "2026-04-23",
+      "description": "SUMUP PAYOUT FW515326",
+      "amount": 210.23,
+      "balance": 2687.83,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00353",
+      "date": "2026-04-23",
+      "description": "CITY PLUMBING 3112",
+      "amount": -102.29,
+      "balance": 2585.54,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00354",
+      "date": "2026-04-24",
+      "description": "SUMUP PAYOUT HI479916",
+      "amount": 294.49,
+      "balance": 2880.03,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00355",
+      "date": "2026-04-24",
+      "description": "GREGGS 8046",
+      "amount": -5.57,
+      "balance": 2874.46,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00356",
+      "date": "2026-04-24",
+      "description": "SHELL 2441",
+      "amount": -61.56,
+      "balance": 2812.9,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00357",
+      "date": "2026-04-24",
+      "description": "PLUMB CENTER 4017",
+      "amount": -79.24,
+      "balance": 2733.66,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00358",
+      "date": "2026-04-24",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2173.66,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00359",
+      "date": "2026-04-26",
+      "description": "CITY PLUMBING 6971",
+      "amount": -68.57,
+      "balance": 2105.09,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00360",
+      "date": "2026-04-27",
+      "description": "SUMUP PAYOUT NE327641",
+      "amount": 300.79,
+      "balance": 2405.88,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00361",
+      "date": "2026-04-27",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 2310.88,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00362",
+      "date": "2026-04-28",
+      "description": "SUMUP PAYOUT GR774938",
+      "amount": 323.43,
+      "balance": 2634.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00363",
+      "date": "2026-04-28",
+      "description": "COSTA COFFEE 2014",
+      "amount": -7.12,
+      "balance": 2627.19,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00364",
+      "date": "2026-04-29",
+      "description": "SUMUP PAYOUT HU143403",
+      "amount": 377.88,
+      "balance": 3005.07,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00365",
+      "date": "2026-04-30",
+      "description": "GREGGS 2669",
+      "amount": -13.79,
+      "balance": 2991.28,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00366",
+      "date": "2026-05-01",
+      "description": "SUMUP PAYOUT XA605494",
+      "amount": 269.73,
+      "balance": 3261.01,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00367",
+      "date": "2026-05-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2701.01,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00368",
+      "date": "2026-05-02",
+      "description": "SHELL 6918",
+      "amount": -36.41,
+      "balance": 2664.6,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00369",
+      "date": "2026-05-03",
+      "description": "COSTA COFFEE 7501",
+      "amount": -11.51,
+      "balance": 2653.09,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00370",
+      "date": "2026-05-03",
+      "description": "ESSO 7107",
+      "amount": -50.9,
+      "balance": 2602.19,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00371",
+      "date": "2026-05-04",
+      "description": "SCREWFIX 3570",
+      "amount": -121.92,
+      "balance": 2480.27,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00372",
+      "date": "2026-05-05",
+      "description": "SUMUP PAYOUT VC150760",
+      "amount": 215.04,
+      "balance": 2695.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00373",
+      "date": "2026-05-05",
+      "description": "COSTA COFFEE 4330",
+      "amount": -7.19,
+      "balance": 2688.12,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00374",
+      "date": "2026-05-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 2299.12,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00375",
+      "date": "2026-05-06",
+      "description": "SUMUP PAYOUT FX925949",
+      "amount": 155.66,
+      "balance": 2454.78,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00376",
+      "date": "2026-05-07",
+      "description": "COSTA COFFEE 3867",
+      "amount": -9.75,
+      "balance": 2445.03,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00377",
+      "date": "2026-05-07",
+      "description": "PLUMB CENTER 6229",
+      "amount": -102.85,
+      "balance": 2342.18,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00378",
+      "date": "2026-05-08",
+      "description": "SUMUP PAYOUT PD391890",
+      "amount": 242.29,
+      "balance": 2584.47,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00379",
+      "date": "2026-05-08",
+      "description": "PLUMB CENTER 7837",
+      "amount": -53.72,
+      "balance": 2530.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00380",
+      "date": "2026-05-08",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 1970.75,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00381",
+      "date": "2026-05-09",
+      "description": "COSTA COFFEE 1565",
+      "amount": -1.69,
+      "balance": 1969.06,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00382",
+      "date": "2026-05-09",
+      "description": "CITY PLUMBING 6884",
+      "amount": -45.41,
+      "balance": 1923.65,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00383",
+      "date": "2026-05-11",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1556.15,
+      "balance": 3479.8,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00384",
+      "date": "2026-05-11",
+      "description": "SUMUP PAYOUT BR938970",
+      "amount": 362.52,
+      "balance": 3842.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00385",
+      "date": "2026-05-11",
+      "description": "ESSO 7377",
+      "amount": -58.07,
+      "balance": 3784.25,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00386",
+      "date": "2026-05-11",
+      "description": "SCREWFIX 5311",
+      "amount": -79.86,
+      "balance": 3704.39,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00387",
+      "date": "2026-05-12",
+      "description": "SUMUP PAYOUT KC260377",
+      "amount": 161.79,
+      "balance": 3866.18,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00388",
+      "date": "2026-05-12",
+      "description": "ESSO 5467",
+      "amount": -38.35,
+      "balance": 3827.83,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00389",
+      "date": "2026-05-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 3779.83,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00390",
+      "date": "2026-05-12",
+      "description": "SCREWFIX 1844",
+      "amount": -88.36,
+      "balance": 3691.47,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00391",
+      "date": "2026-05-13",
+      "description": "COSTA COFFEE 8056",
+      "amount": -7.85,
+      "balance": 3683.62,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00392",
+      "date": "2026-05-13",
+      "description": "SHELL 6492",
+      "amount": -34.51,
+      "balance": 3649.11,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00393",
+      "date": "2026-05-13",
+      "description": "CITY PLUMBING 5135",
+      "amount": -59.43,
+      "balance": 3589.68,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00394",
+      "date": "2026-05-14",
+      "description": "SUMUP PAYOUT AT257557",
+      "amount": 184.9,
+      "balance": 3774.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00395",
+      "date": "2026-05-14",
+      "description": "ESSO 2363",
+      "amount": -70.99,
+      "balance": 3703.59,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00396",
+      "date": "2026-05-15",
+      "description": "SUMUP PAYOUT MM614079",
+      "amount": 136.0,
+      "balance": 3839.59,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00397",
+      "date": "2026-05-15",
+      "description": "COSTA COFFEE 9490",
+      "amount": -4.56,
+      "balance": 3835.03,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00398",
+      "date": "2026-05-15",
+      "description": "PLUMB CENTER 5221",
+      "amount": -48.92,
+      "balance": 3786.11,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00399",
+      "date": "2026-05-15",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3226.11,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00400",
+      "date": "2026-05-16",
+      "description": "SCREWFIX 9805",
+      "amount": -98.06,
+      "balance": 3128.05,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00401",
+      "date": "2026-05-17",
+      "description": "SCREWFIX 4945",
+      "amount": -55.59,
+      "balance": 3072.46,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00402",
+      "date": "2026-05-18",
+      "description": "SUMUP PAYOUT GJ884160",
+      "amount": 188.37,
+      "balance": 3260.83,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00403",
+      "date": "2026-05-18",
+      "description": "COSTA COFFEE 5825",
+      "amount": -7.65,
+      "balance": 3253.18,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00404",
+      "date": "2026-05-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 3221.18,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00405",
+      "date": "2026-05-18",
+      "description": "SCREWFIX 1033",
+      "amount": -32.83,
+      "balance": 3188.35,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00406",
+      "date": "2026-05-18",
+      "description": "ESSO 5145",
+      "amount": -55.15,
+      "balance": 3133.2,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00407",
+      "date": "2026-05-19",
+      "description": "SUMUP PAYOUT MZ283254",
+      "amount": 152.87,
+      "balance": 3286.07,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00408",
+      "date": "2026-05-19",
+      "description": "PLUMB CENTER 7915",
+      "amount": -31.95,
+      "balance": 3254.12,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00409",
+      "date": "2026-05-20",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1985.55,
+      "balance": 5239.67,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00410",
+      "date": "2026-05-20",
+      "description": "SCREWFIX 4725",
+      "amount": -55.74,
+      "balance": 5183.93,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00411",
+      "date": "2026-05-21",
+      "description": "SUMUP PAYOUT QA558839",
+      "amount": 294.37,
+      "balance": 5478.3,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00412",
+      "date": "2026-05-21",
+      "description": "GREGGS 3871",
+      "amount": -7.61,
+      "balance": 5470.69,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00413",
+      "date": "2026-05-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 5431.69,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00414",
+      "date": "2026-05-21",
+      "description": "PLUMB CENTER 5228",
+      "amount": -87.57,
+      "balance": 5344.12,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00415",
+      "date": "2026-05-22",
+      "description": "SUMUP PAYOUT ZP763872",
+      "amount": 45.79,
+      "balance": 5389.91,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00416",
+      "date": "2026-05-22",
+      "description": "GREGGS 3048",
+      "amount": -2.8,
+      "balance": 5387.11,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00417",
+      "date": "2026-05-22",
+      "description": "SCREWFIX 8438",
+      "amount": -97.63,
+      "balance": 5289.48,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00418",
+      "date": "2026-05-22",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4729.48,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00419",
+      "date": "2026-05-24",
+      "description": "COSTA COFFEE 4453",
+      "amount": -6.79,
+      "balance": 4722.69,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00420",
+      "date": "2026-05-24",
+      "description": "PLUMB CENTER 6772",
+      "amount": -104.11,
+      "balance": 4618.58,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00421",
+      "date": "2026-05-25",
+      "description": "SUMUP PAYOUT FU358187",
+      "amount": 236.9,
+      "balance": 4855.48,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00422",
+      "date": "2026-05-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 4760.48,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00423",
+      "date": "2026-05-25",
+      "description": "SCREWFIX 6728",
+      "amount": -134.06,
+      "balance": 4626.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00424",
+      "date": "2026-05-26",
+      "description": "CITY PLUMBING 5439",
+      "amount": -63.65,
+      "balance": 4562.77,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00425",
+      "date": "2026-05-27",
+      "description": "SUMUP PAYOUT VZ247460",
+      "amount": 389.15,
+      "balance": 4951.92,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00426",
+      "date": "2026-05-28",
+      "description": "SUMUP PAYOUT RM202412",
+      "amount": 238.3,
+      "balance": 5190.22,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00427",
+      "date": "2026-05-28",
+      "description": "GREGGS 4076",
+      "amount": -3.25,
+      "balance": 5186.97,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00428",
+      "date": "2026-05-29",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4626.97,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00429",
+      "date": "2026-05-30",
+      "description": "ESSO 8618",
+      "amount": -51.23,
+      "balance": 4575.74,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00430",
+      "date": "2026-05-30",
+      "description": "SCREWFIX 5938",
+      "amount": -109.35,
+      "balance": 4466.39,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00431",
+      "date": "2026-05-31",
+      "description": "GREGGS 6938",
+      "amount": -5.13,
+      "balance": 4461.26,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00432",
+      "date": "2026-05-31",
+      "description": "ESSO 5882",
+      "amount": -31.11,
+      "balance": 4430.15,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00433",
+      "date": "2026-06-01",
+      "description": "SUMUP PAYOUT SP163515",
+      "amount": 68.81,
+      "balance": 4498.96,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00434",
+      "date": "2026-06-02",
+      "description": "GREGGS 6492",
+      "amount": -5.25,
+      "balance": 4493.71,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00435",
+      "date": "2026-06-03",
+      "description": "SUMUP PAYOUT CF354461",
+      "amount": 285.99,
+      "balance": 4779.7,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00436",
+      "date": "2026-06-03",
+      "description": "COSTA COFFEE 4524",
+      "amount": -6.8,
+      "balance": 4772.9,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00437",
+      "date": "2026-06-04",
+      "description": "SUMUP PAYOUT NK764428",
+      "amount": 165.12,
+      "balance": 4938.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00438",
+      "date": "2026-06-04",
+      "description": "PLUMB CENTER 3024",
+      "amount": -52.02,
+      "balance": 4886.0,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00439",
+      "date": "2026-06-05",
+      "description": "SUMUP PAYOUT YK535629",
+      "amount": 205.62,
+      "balance": 5091.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00440",
+      "date": "2026-06-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 4702.62,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00441",
+      "date": "2026-06-05",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4142.62,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00442",
+      "date": "2026-06-07",
+      "description": "GREGGS 9533",
+      "amount": -5.1,
+      "balance": 4137.52,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00443",
+      "date": "2026-06-07",
+      "description": "CITY PLUMBING 4145",
+      "amount": -49.94,
+      "balance": 4087.58,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00444",
+      "date": "2026-06-08",
+      "description": "CITY PLUMBING 6675",
+      "amount": -28.16,
+      "balance": 4059.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00445",
+      "date": "2026-06-09",
+      "description": "GREGGS 4856",
+      "amount": -6.89,
+      "balance": 4052.53,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00446",
+      "date": "2026-06-09",
+      "description": "CITY PLUMBING 2498",
+      "amount": -27.23,
+      "balance": 4025.3,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00447",
+      "date": "2026-06-09",
+      "description": "VAN SERVICE CENTRE MCR",
+      "amount": -640.0,
+      "balance": 3385.3,
+      "_category": "shock:vehicle",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00448",
+      "date": "2026-06-10",
+      "description": "SUMUP PAYOUT MD578492",
+      "amount": 96.66,
+      "balance": 3481.96,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00449",
+      "date": "2026-06-10",
+      "description": "CITY PLUMBING 5854",
+      "amount": -23.11,
+      "balance": 3458.85,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00450",
+      "date": "2026-06-11",
+      "description": "SUMUP PAYOUT OL862031",
+      "amount": 154.13,
+      "balance": 3612.98,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00451",
+      "date": "2026-06-11",
+      "description": "SCREWFIX 1270",
+      "amount": -57.58,
+      "balance": 3555.4,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00452",
+      "date": "2026-06-12",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1503.62,
+      "balance": 5059.02,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00453",
+      "date": "2026-06-12",
+      "description": "PLUMB CENTER 1453",
+      "amount": -17.78,
+      "balance": 5041.24,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00454",
+      "date": "2026-06-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 4993.24,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00455",
+      "date": "2026-06-12",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4433.24,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00456",
+      "date": "2026-06-13",
+      "description": "GREGGS 7385",
+      "amount": -3.87,
+      "balance": 4429.37,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00457",
+      "date": "2026-06-13",
+      "description": "SHELL 4326",
+      "amount": -52.81,
+      "balance": 4376.56,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00458",
+      "date": "2026-06-15",
+      "description": "SUMUP PAYOUT VK430283",
+      "amount": 307.95,
+      "balance": 4684.51,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00459",
+      "date": "2026-06-15",
+      "description": "COSTA COFFEE 4911",
+      "amount": -10.7,
+      "balance": 4673.81,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00460",
+      "date": "2026-06-16",
+      "description": "SUMUP PAYOUT BY384808",
+      "amount": 158.87,
+      "balance": 4832.68,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00461",
+      "date": "2026-06-16",
+      "description": "COSTA COFFEE 8104",
+      "amount": -8.85,
+      "balance": 4823.83,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00462",
+      "date": "2026-06-16",
+      "description": "SHELL 4843",
+      "amount": -25.44,
+      "balance": 4798.39,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00463",
+      "date": "2026-06-17",
+      "description": "SHELL 4203",
+      "amount": -28.34,
+      "balance": 4770.05,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00464",
+      "date": "2026-06-18",
+      "description": "SUMUP PAYOUT WA801802",
+      "amount": 120.4,
+      "balance": 4890.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00465",
+      "date": "2026-06-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 4858.45,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00466",
+      "date": "2026-06-18",
+      "description": "ESSO 8875",
+      "amount": -44.02,
+      "balance": 4814.43,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00467",
+      "date": "2026-06-18",
+      "description": "PLUMB CENTER 4543",
+      "amount": -64.96,
+      "balance": 4749.47,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00468",
+      "date": "2026-06-19",
+      "description": "SUMUP PAYOUT ND587191",
+      "amount": 37.2,
+      "balance": 4786.67,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00469",
+      "date": "2026-06-19",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4226.67,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00470",
+      "date": "2026-06-20",
+      "description": "COSTA COFFEE 4102",
+      "amount": -6.83,
+      "balance": 4219.84,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00471",
+      "date": "2026-06-20",
+      "description": "BP 7569",
+      "amount": -41.11,
+      "balance": 4178.73,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00472",
+      "date": "2026-06-21",
+      "description": "GREGGS 9382",
+      "amount": -9.68,
+      "balance": 4169.05,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00473",
+      "date": "2026-06-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 4130.05,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00474",
+      "date": "2026-06-21",
+      "description": "SCREWFIX 1231",
+      "amount": -53.95,
+      "balance": 4076.1,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00475",
+      "date": "2026-06-22",
+      "description": "SUMUP PAYOUT RZ383878",
+      "amount": 106.9,
+      "balance": 4183.0,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00476",
+      "date": "2026-06-22",
+      "description": "ESSO 8328",
+      "amount": -52.52,
+      "balance": 4130.48,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00477",
+      "date": "2026-06-22",
+      "description": "CITY PLUMBING 4917",
+      "amount": -69.28,
+      "balance": 4061.2,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00478",
+      "date": "2026-06-23",
+      "description": "SUMUP PAYOUT ZR945912",
+      "amount": 215.24,
+      "balance": 4276.44,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00479",
+      "date": "2026-06-23",
+      "description": "COSTA COFFEE 7912",
+      "amount": -5.22,
+      "balance": 4271.22,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00480",
+      "date": "2026-06-24",
+      "description": "SUMUP PAYOUT RT354368",
+      "amount": 55.01,
+      "balance": 4326.23,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00481",
+      "date": "2026-06-25",
+      "description": "GREGGS 8409",
+      "amount": -4.97,
+      "balance": 4321.26,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00482",
+      "date": "2026-06-25",
+      "description": "SCREWFIX 2567",
+      "amount": -33.25,
+      "balance": 4288.01,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00483",
+      "date": "2026-06-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 4193.01,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00484",
+      "date": "2026-06-26",
+      "description": "SUMUP PAYOUT DS146048",
+      "amount": 243.41,
+      "balance": 4436.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00485",
+      "date": "2026-06-26",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3876.42,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00486",
+      "date": "2026-06-29",
+      "description": "GREGGS 9874",
+      "amount": -6.03,
+      "balance": 3870.39,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00487",
+      "date": "2026-06-29",
+      "description": "ESSO 6457",
+      "amount": -61.23,
+      "balance": 3809.16,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00488",
+      "date": "2026-06-30",
+      "description": "SUMUP PAYOUT CM196787",
+      "amount": 80.84,
+      "balance": 3890.0,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00489",
+      "date": "2026-06-30",
+      "description": "COSTA COFFEE 3590",
+      "amount": -8.07,
+      "balance": 3881.93,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00490",
+      "date": "2026-06-30",
+      "description": "BP 9062",
+      "amount": -114.79,
+      "balance": 3767.14,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00491",
+      "date": "2026-07-01",
+      "description": "BP 4639",
+      "amount": -41.91,
+      "balance": 3725.23,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00492",
+      "date": "2026-07-02",
+      "description": "SUMUP PAYOUT FL727708",
+      "amount": 53.34,
+      "balance": 3778.57,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00493",
+      "date": "2026-07-02",
+      "description": "BP 9056",
+      "amount": -73.15,
+      "balance": 3705.42,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00494",
+      "date": "2026-07-02",
+      "description": "PLUMB CENTER 3713",
+      "amount": -125.58,
+      "balance": 3579.84,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00495",
+      "date": "2026-07-03",
+      "description": "SUMUP PAYOUT UJ815580",
+      "amount": 176.61,
+      "balance": 3756.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00496",
+      "date": "2026-07-03",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3196.45,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00497",
+      "date": "2026-07-05",
+      "description": "COSTA COFFEE 3490",
+      "amount": -4.62,
+      "balance": 3191.83,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00498",
+      "date": "2026-07-05",
+      "description": "SCREWFIX 9866",
+      "amount": -68.0,
+      "balance": 3123.83,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00499",
+      "date": "2026-07-06",
+      "description": "SUMUP PAYOUT RI445169",
+      "amount": 217.25,
+      "balance": 3341.08,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00500",
+      "date": "2026-07-06",
+      "description": "PLUMB CENTER 6271",
+      "amount": -27.99,
+      "balance": 3313.09,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00501",
+      "date": "2026-07-06",
+      "description": "SHELL 2329",
+      "amount": -39.26,
+      "balance": 3273.83,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00502",
+      "date": "2026-07-06",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 2884.83,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00503",
+      "date": "2026-07-07",
+      "description": "CITY PLUMBING 2855",
+      "amount": -37.98,
+      "balance": 2846.85,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00504",
+      "date": "2026-07-08",
+      "description": "SUMUP PAYOUT RP942685",
+      "amount": 178.35,
+      "balance": 3025.2,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00505",
+      "date": "2026-07-08",
+      "description": "SHELL 7380",
+      "amount": -50.48,
+      "balance": 2974.72,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00506",
+      "date": "2026-07-09",
+      "description": "COSTA COFFEE 2792",
+      "amount": -9.08,
+      "balance": 2965.64,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00507",
+      "date": "2026-07-09",
+      "description": "ESSO 1064",
+      "amount": -36.22,
+      "balance": 2929.42,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00508",
+      "date": "2026-07-10",
+      "description": "SUMUP PAYOUT PM477721",
+      "amount": 300.53,
+      "balance": 3229.95,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00509",
+      "date": "2026-07-10",
+      "description": "SCREWFIX 6460",
+      "amount": -23.39,
+      "balance": 3206.56,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00510",
+      "date": "2026-07-10",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2646.56,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00511",
+      "date": "2026-07-12",
+      "description": "PLUMB CENTER 8912",
+      "amount": -47.27,
+      "balance": 2599.29,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00512",
+      "date": "2026-07-13",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1695.12,
+      "balance": 4294.41,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00513",
+      "date": "2026-07-13",
+      "description": "SUMUP PAYOUT GG358755",
+      "amount": 190.08,
+      "balance": 4484.49,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00514",
+      "date": "2026-07-13",
+      "description": "COSTA COFFEE 6115",
+      "amount": -7.59,
+      "balance": 4476.9,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00515",
+      "date": "2026-07-13",
+      "description": "SCREWFIX 5970",
+      "amount": -40.03,
+      "balance": 4436.87,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00516",
+      "date": "2026-07-13",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 4388.87,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00517",
+      "date": "2026-07-15",
+      "description": "SUMUP PAYOUT QA898761",
+      "amount": 73.38,
+      "balance": 4462.25,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00518",
+      "date": "2026-07-15",
+      "description": "GREGGS 7123",
+      "amount": -8.8,
+      "balance": 4453.45,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00519",
+      "date": "2026-07-15",
+      "description": "BP 8089",
+      "amount": -47.45,
+      "balance": 4406.0,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00520",
+      "date": "2026-07-16",
+      "description": "SUMUP PAYOUT ZO151946",
+      "amount": 180.6,
+      "balance": 4586.6,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00521",
+      "date": "2026-07-16",
+      "description": "PLUMB CENTER 2450",
+      "amount": -33.95,
+      "balance": 4552.65,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00522",
+      "date": "2026-07-16",
+      "description": "SHELL 6911",
+      "amount": -44.6,
+      "balance": 4508.05,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00523",
+      "date": "2026-07-17",
+      "description": "SUMUP PAYOUT GP234072",
+      "amount": 204.4,
+      "balance": 4712.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00524",
+      "date": "2026-07-17",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 4152.45,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00525",
+      "date": "2026-07-18",
+      "description": "BP 5176",
+      "amount": -69.8,
+      "balance": 4082.65,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00526",
+      "date": "2026-07-19",
+      "description": "GREGGS 6763",
+      "amount": -5.21,
+      "balance": 4077.44,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00527",
+      "date": "2026-07-19",
+      "description": "PLUMB CENTER 9471",
+      "amount": -144.85,
+      "balance": 3932.59,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00528",
+      "date": "2026-07-20",
+      "description": "SUMUP PAYOUT GU385663",
+      "amount": 352.06,
+      "balance": 4284.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00529",
+      "date": "2026-07-20",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 4252.65,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00530",
+      "date": "2026-07-20",
+      "description": "PLUMB CENTER 7934",
+      "amount": -57.75,
+      "balance": 4194.9,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00531",
+      "date": "2026-07-21",
+      "description": "SUMUP PAYOUT TD373659",
+      "amount": 45.24,
+      "balance": 4240.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00532",
+      "date": "2026-07-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 4201.14,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00533",
+      "date": "2026-07-21",
+      "description": "ESSO 8463",
+      "amount": -45.94,
+      "balance": 4155.2,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00534",
+      "date": "2026-07-22",
+      "description": "SUMUP PAYOUT ZP416282",
+      "amount": 165.42,
+      "balance": 4320.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00535",
+      "date": "2026-07-22",
+      "description": "SHELL 5975",
+      "amount": -41.63,
+      "balance": 4278.99,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00536",
+      "date": "2026-07-23",
+      "description": "SUMUP PAYOUT BW531477",
+      "amount": 87.68,
+      "balance": 4366.67,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00537",
+      "date": "2026-07-24",
+      "description": "SUMUP PAYOUT QQ349986",
+      "amount": 231.67,
+      "balance": 4598.34,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00538",
+      "date": "2026-07-24",
+      "description": "SCREWFIX 8324",
+      "amount": -129.61,
+      "balance": 4468.73,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00539",
+      "date": "2026-07-24",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3908.73,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00540",
+      "date": "2026-07-26",
+      "description": "ESSO 3850",
+      "amount": -49.99,
+      "balance": 3858.74,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00541",
+      "date": "2026-07-27",
+      "description": "SUMUP PAYOUT FY772888",
+      "amount": 185.42,
+      "balance": 4044.16,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00542",
+      "date": "2026-07-27",
+      "description": "COSTA COFFEE 1260",
+      "amount": -6.64,
+      "balance": 4037.52,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00543",
+      "date": "2026-07-27",
+      "description": "CITY PLUMBING 5322",
+      "amount": -80.88,
+      "balance": 3956.64,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00544",
+      "date": "2026-07-27",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 3861.64,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00545",
+      "date": "2026-07-28",
+      "description": "SUMUP PAYOUT KZ905528",
+      "amount": 274.35,
+      "balance": 4135.99,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00546",
+      "date": "2026-07-28",
+      "description": "GREGGS 6236",
+      "amount": -4.55,
+      "balance": 4131.44,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00547",
+      "date": "2026-07-28",
+      "description": "ESSO 3533",
+      "amount": -35.83,
+      "balance": 4095.61,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00548",
+      "date": "2026-07-28",
+      "description": "PLUMB CENTER 4884",
+      "amount": -98.82,
+      "balance": 3996.79,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00549",
+      "date": "2026-07-29",
+      "description": "SUMUP PAYOUT YC840962",
+      "amount": 68.36,
+      "balance": 4065.15,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00550",
+      "date": "2026-07-30",
+      "description": "SUMUP PAYOUT EZ715393",
+      "amount": 145.75,
+      "balance": 4210.9,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00551",
+      "date": "2026-07-31",
+      "description": "SUMUP PAYOUT FW798164",
+      "amount": 131.34,
+      "balance": 4342.24,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00552",
+      "date": "2026-07-31",
+      "description": "BP 2074",
+      "amount": -24.68,
+      "balance": 4317.56,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00553",
+      "date": "2026-07-31",
+      "description": "SCREWFIX 1101",
+      "amount": -37.39,
+      "balance": 4280.17,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00554",
+      "date": "2026-07-31",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3720.17,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00555",
+      "date": "2026-07-31",
+      "description": "HMRC SELF ASSESSMENT",
+      "amount": -2450.0,
+      "balance": 1270.17,
+      "_category": "tax:self_assessment",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00556",
+      "date": "2026-08-02",
+      "description": "BP 5642",
+      "amount": -36.73,
+      "balance": 1233.44,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00557",
+      "date": "2026-08-03",
+      "description": "SUMUP PAYOUT CI301899",
+      "amount": 167.82,
+      "balance": 1401.26,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00558",
+      "date": "2026-08-03",
+      "description": "GREGGS 2108",
+      "amount": -7.08,
+      "balance": 1394.18,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00559",
+      "date": "2026-08-03",
+      "description": "ESSO 7670",
+      "amount": -50.99,
+      "balance": 1343.19,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00560",
+      "date": "2026-08-03",
+      "description": "PLUMB CENTER 9671",
+      "amount": -82.74,
+      "balance": 1260.45,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00561",
+      "date": "2026-08-04",
+      "description": "SUMUP PAYOUT VU752923",
+      "amount": 259.36,
+      "balance": 1519.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00562",
+      "date": "2026-08-04",
+      "description": "COSTA COFFEE 2495",
+      "amount": -5.01,
+      "balance": 1514.8,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00563",
+      "date": "2026-08-04",
+      "description": "CITY PLUMBING 3464",
+      "amount": -83.29,
+      "balance": 1431.51,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00564",
+      "date": "2026-08-05",
+      "description": "SUMUP PAYOUT ED519816",
+      "amount": 206.56,
+      "balance": 1638.07,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00565",
+      "date": "2026-08-05",
+      "description": "COSTA COFFEE 3302",
+      "amount": -11.41,
+      "balance": 1626.66,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00566",
+      "date": "2026-08-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 1237.66,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00567",
+      "date": "2026-08-06",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1675.03,
+      "balance": 2912.69,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00568",
+      "date": "2026-08-06",
+      "description": "SUMUP PAYOUT KL977950",
+      "amount": 83.69,
+      "balance": 2996.38,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00569",
+      "date": "2026-08-06",
+      "description": "PLUMB CENTER 2702",
+      "amount": -39.96,
+      "balance": 2956.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00570",
+      "date": "2026-08-06",
+      "description": "ESSO 3604",
+      "amount": -48.39,
+      "balance": 2908.03,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00571",
+      "date": "2026-08-07",
+      "description": "SUMUP PAYOUT HU774050",
+      "amount": 264.37,
+      "balance": 3172.4,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00572",
+      "date": "2026-08-07",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2612.4,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00573",
+      "date": "2026-08-08",
+      "description": "SCREWFIX 5392",
+      "amount": -32.18,
+      "balance": 2580.22,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00574",
+      "date": "2026-08-08",
+      "description": "BP 1434",
+      "amount": -41.45,
+      "balance": 2538.77,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00575",
+      "date": "2026-08-09",
+      "description": "SHELL 7350",
+      "amount": -47.75,
+      "balance": 2491.02,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00576",
+      "date": "2026-08-10",
+      "description": "SUMUP PAYOUT FO771030",
+      "amount": 370.38,
+      "balance": 2861.4,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00577",
+      "date": "2026-08-10",
+      "description": "SCREWFIX 8818",
+      "amount": -80.98,
+      "balance": 2780.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00578",
+      "date": "2026-08-11",
+      "description": "COSTA COFFEE 7007",
+      "amount": -4.67,
+      "balance": 2775.75,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00579",
+      "date": "2026-08-11",
+      "description": "PLUMB CENTER 8503",
+      "amount": -33.19,
+      "balance": 2742.56,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00580",
+      "date": "2026-08-11",
+      "description": "BP 9095",
+      "amount": -51.8,
+      "balance": 2690.76,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00581",
+      "date": "2026-08-12",
+      "description": "SUMUP PAYOUT DK688857",
+      "amount": 139.19,
+      "balance": 2829.95,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00582",
+      "date": "2026-08-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 2781.95,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00583",
+      "date": "2026-08-13",
+      "description": "SUMUP PAYOUT SF659267",
+      "amount": 379.32,
+      "balance": 3161.27,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00584",
+      "date": "2026-08-13",
+      "description": "GREGGS 1608",
+      "amount": -4.43,
+      "balance": 3156.84,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00585",
+      "date": "2026-08-14",
+      "description": "SUMUP PAYOUT XP115944",
+      "amount": 154.44,
+      "balance": 3311.28,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00586",
+      "date": "2026-08-14",
+      "description": "CITY PLUMBING 1883",
+      "amount": -63.9,
+      "balance": 3247.38,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00587",
+      "date": "2026-08-14",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2687.38,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00588",
+      "date": "2026-08-15",
+      "description": "CITY PLUMBING 8082",
+      "amount": -44.56,
+      "balance": 2642.82,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00589",
+      "date": "2026-08-16",
+      "description": "COSTA COFFEE 4326",
+      "amount": -12.71,
+      "balance": 2630.11,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00590",
+      "date": "2026-08-16",
+      "description": "PLUMB CENTER 7571",
+      "amount": -32.94,
+      "balance": 2597.17,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00591",
+      "date": "2026-08-16",
+      "description": "SHELL 3450",
+      "amount": -43.55,
+      "balance": 2553.62,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00592",
+      "date": "2026-08-17",
+      "description": "SUMUP PAYOUT HG989983",
+      "amount": 189.87,
+      "balance": 2743.49,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00593",
+      "date": "2026-08-17",
+      "description": "COSTA COFFEE 8343",
+      "amount": -8.11,
+      "balance": 2735.38,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00594",
+      "date": "2026-08-17",
+      "description": "CITY PLUMBING 8172",
+      "amount": -39.63,
+      "balance": 2695.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00595",
+      "date": "2026-08-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 2663.75,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00596",
+      "date": "2026-08-19",
+      "description": "SUMUP PAYOUT UL575873",
+      "amount": 177.29,
+      "balance": 2841.04,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00597",
+      "date": "2026-08-19",
+      "description": "BP 5491",
+      "amount": -53.41,
+      "balance": 2787.63,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00598",
+      "date": "2026-08-20",
+      "description": "SUMUP PAYOUT WP873084",
+      "amount": 96.67,
+      "balance": 2884.3,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00599",
+      "date": "2026-08-21",
+      "description": "SUMUP PAYOUT WL995526",
+      "amount": 184.27,
+      "balance": 3068.57,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00600",
+      "date": "2026-08-21",
+      "description": "COSTA COFFEE 8454",
+      "amount": -5.62,
+      "balance": 3062.95,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00601",
+      "date": "2026-08-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 3023.95,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00602",
+      "date": "2026-08-21",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2463.95,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00603",
+      "date": "2026-08-22",
+      "description": "ESSO 6976",
+      "amount": -31.75,
+      "balance": 2432.2,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00604",
+      "date": "2026-08-22",
+      "description": "CITY PLUMBING 9997",
+      "amount": -33.4,
+      "balance": 2398.8,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00605",
+      "date": "2026-08-23",
+      "description": "COSTA COFFEE 8230",
+      "amount": -6.6,
+      "balance": 2392.2,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00606",
+      "date": "2026-08-23",
+      "description": "SHELL 8360",
+      "amount": -31.81,
+      "balance": 2360.39,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00607",
+      "date": "2026-08-23",
+      "description": "SCREWFIX 9925",
+      "amount": -88.16,
+      "balance": 2272.23,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00608",
+      "date": "2026-08-24",
+      "description": "SUMUP PAYOUT WM559960",
+      "amount": 200.87,
+      "balance": 2473.1,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00609",
+      "date": "2026-08-24",
+      "description": "PLUMB CENTER 5862",
+      "amount": -28.07,
+      "balance": 2445.03,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00610",
+      "date": "2026-08-25",
+      "description": "SUMUP PAYOUT EV157808",
+      "amount": 58.12,
+      "balance": 2503.15,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00611",
+      "date": "2026-08-25",
+      "description": "PLUMB CENTER 7009",
+      "amount": -59.68,
+      "balance": 2443.47,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00612",
+      "date": "2026-08-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 2348.47,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00613",
+      "date": "2026-08-26",
+      "description": "GREGGS 4658",
+      "amount": -6.72,
+      "balance": 2341.75,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00614",
+      "date": "2026-08-26",
+      "description": "PLUMB CENTER 7349",
+      "amount": -37.46,
+      "balance": 2304.29,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00615",
+      "date": "2026-08-27",
+      "description": "SUMUP PAYOUT LJ581964",
+      "amount": 183.37,
+      "balance": 2487.66,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00616",
+      "date": "2026-08-27",
+      "description": "COSTA COFFEE 5160",
+      "amount": -7.14,
+      "balance": 2480.52,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00617",
+      "date": "2026-08-28",
+      "description": "SUMUP PAYOUT IE400119",
+      "amount": 357.09,
+      "balance": 2837.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00618",
+      "date": "2026-08-28",
+      "description": "SCREWFIX 4306",
+      "amount": -29.73,
+      "balance": 2807.88,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00619",
+      "date": "2026-08-28",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2247.88,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00620",
+      "date": "2026-08-30",
+      "description": "SHELL 4647",
+      "amount": -45.0,
+      "balance": 2202.88,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00621",
+      "date": "2026-08-31",
+      "description": "PLUMB CENTER 1049",
+      "amount": -59.44,
+      "balance": 2143.44,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00622",
+      "date": "2026-09-01",
+      "description": "SUMUP PAYOUT YJ231622",
+      "amount": 168.55,
+      "balance": 2311.99,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00623",
+      "date": "2026-09-01",
+      "description": "GREGGS 3741",
+      "amount": -4.88,
+      "balance": 2307.11,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00624",
+      "date": "2026-09-01",
+      "description": "ESSO 8443",
+      "amount": -61.09,
+      "balance": 2246.02,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00625",
+      "date": "2026-09-02",
+      "description": "SUMUP PAYOUT ZL274510",
+      "amount": 148.65,
+      "balance": 2394.67,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00626",
+      "date": "2026-09-02",
+      "description": "SHELL 2527",
+      "amount": -43.47,
+      "balance": 2351.2,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00627",
+      "date": "2026-09-02",
+      "description": "PLUMB CENTER 2870",
+      "amount": -87.71,
+      "balance": 2263.49,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00628",
+      "date": "2026-09-03",
+      "description": "SUMUP PAYOUT AW349654",
+      "amount": 109.07,
+      "balance": 2372.56,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00629",
+      "date": "2026-09-04",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 1812.56,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00630",
+      "date": "2026-09-05",
+      "description": "COSTA COFFEE 3258",
+      "amount": -7.18,
+      "balance": 1805.38,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00631",
+      "date": "2026-09-05",
+      "description": "SCREWFIX 8712",
+      "amount": -29.92,
+      "balance": 1775.46,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00632",
+      "date": "2026-09-06",
+      "description": "COSTA COFFEE 1175",
+      "amount": -6.31,
+      "balance": 1769.15,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00633",
+      "date": "2026-09-06",
+      "description": "BP 7182",
+      "amount": -64.42,
+      "balance": 1704.73,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00634",
+      "date": "2026-09-07",
+      "description": "SUMUP PAYOUT KB160021",
+      "amount": 120.09,
+      "balance": 1824.82,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00635",
+      "date": "2026-09-07",
+      "description": "GREGGS 7704",
+      "amount": -3.61,
+      "balance": 1821.21,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00636",
+      "date": "2026-09-07",
+      "description": "CITY PLUMBING 2350",
+      "amount": -129.57,
+      "balance": 1691.64,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00637",
+      "date": "2026-09-07",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 1302.64,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00638",
+      "date": "2026-09-08",
+      "description": "SUMUP PAYOUT MA368015",
+      "amount": 330.83,
+      "balance": 1633.47,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00639",
+      "date": "2026-09-08",
+      "description": "COSTA COFFEE 7437",
+      "amount": -5.58,
+      "balance": 1627.89,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00640",
+      "date": "2026-09-08",
+      "description": "SHELL 9144",
+      "amount": -90.56,
+      "balance": 1537.33,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00641",
+      "date": "2026-09-09",
+      "description": "SUMUP PAYOUT RA250805",
+      "amount": 211.79,
+      "balance": 1749.12,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00642",
+      "date": "2026-09-10",
+      "description": "SUMUP PAYOUT MH871745",
+      "amount": 290.33,
+      "balance": 2039.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00643",
+      "date": "2026-09-10",
+      "description": "GREGGS 3853",
+      "amount": -7.46,
+      "balance": 2031.99,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00644",
+      "date": "2026-09-11",
+      "description": "COSTA COFFEE 5641",
+      "amount": -7.58,
+      "balance": 2024.41,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00645",
+      "date": "2026-09-11",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 1464.41,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00646",
+      "date": "2026-09-13",
+      "description": "CITY PLUMBING 1632",
+      "amount": -37.05,
+      "balance": 1427.36,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00647",
+      "date": "2026-09-14",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 2012.39,
+      "balance": 3439.75,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00648",
+      "date": "2026-09-14",
+      "description": "SUMUP PAYOUT GE643558",
+      "amount": 335.87,
+      "balance": 3775.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00649",
+      "date": "2026-09-14",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 3727.62,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00650",
+      "date": "2026-09-14",
+      "description": "ESSO 2487",
+      "amount": -53.61,
+      "balance": 3674.01,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00651",
+      "date": "2026-09-14",
+      "description": "SCREWFIX 8672",
+      "amount": -112.89,
+      "balance": 3561.12,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00652",
+      "date": "2026-09-16",
+      "description": "SUMUP PAYOUT KA392555",
+      "amount": 95.34,
+      "balance": 3656.46,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00653",
+      "date": "2026-09-16",
+      "description": "PLUMB CENTER 4559",
+      "amount": -50.39,
+      "balance": 3606.07,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00654",
+      "date": "2026-09-17",
+      "description": "SCREWFIX 2742",
+      "amount": -141.32,
+      "balance": 3464.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00655",
+      "date": "2026-09-18",
+      "description": "SUMUP PAYOUT KA365018",
+      "amount": 282.47,
+      "balance": 3747.22,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00656",
+      "date": "2026-09-18",
+      "description": "COSTA COFFEE 3482",
+      "amount": -6.65,
+      "balance": 3740.57,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00657",
+      "date": "2026-09-18",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 3708.57,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00658",
+      "date": "2026-09-18",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3148.57,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00659",
+      "date": "2026-09-19",
+      "description": "ESSO 9191",
+      "amount": -37.76,
+      "balance": 3110.81,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00660",
+      "date": "2026-09-19",
+      "description": "PLUMB CENTER 4786",
+      "amount": -102.06,
+      "balance": 3008.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00661",
+      "date": "2026-09-20",
+      "description": "GREGGS 9424",
+      "amount": -5.18,
+      "balance": 3003.57,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00662",
+      "date": "2026-09-20",
+      "description": "PLUMB CENTER 8594",
+      "amount": -83.58,
+      "balance": 2919.99,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00663",
+      "date": "2026-09-21",
+      "description": "BP 2380",
+      "amount": -28.1,
+      "balance": 2891.89,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00664",
+      "date": "2026-09-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 2852.89,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00665",
+      "date": "2026-09-22",
+      "description": "COSTA COFFEE 3248",
+      "amount": -5.29,
+      "balance": 2847.6,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00666",
+      "date": "2026-09-23",
+      "description": "SUMUP PAYOUT YK769502",
+      "amount": 233.73,
+      "balance": 3081.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00667",
+      "date": "2026-09-23",
+      "description": "GREGGS 3354",
+      "amount": -3.49,
+      "balance": 3077.84,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00668",
+      "date": "2026-09-24",
+      "description": "SUMUP PAYOUT SG470125",
+      "amount": 158.04,
+      "balance": 3235.88,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00669",
+      "date": "2026-09-24",
+      "description": "COSTA COFFEE 3464",
+      "amount": -13.91,
+      "balance": 3221.97,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00670",
+      "date": "2026-09-24",
+      "description": "SCREWFIX 4110",
+      "amount": -68.45,
+      "balance": 3153.52,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00671",
+      "date": "2026-09-25",
+      "description": "COSTA COFFEE 9609",
+      "amount": -4.31,
+      "balance": 3149.21,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00672",
+      "date": "2026-09-25",
+      "description": "CITY PLUMBING 8551",
+      "amount": -81.34,
+      "balance": 3067.87,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00673",
+      "date": "2026-09-25",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 2972.87,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00674",
+      "date": "2026-09-25",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2412.87,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00675",
+      "date": "2026-09-26",
+      "description": "COSTA COFFEE 3233",
+      "amount": -7.48,
+      "balance": 2405.39,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00676",
+      "date": "2026-09-26",
+      "description": "BP 7827",
+      "amount": -38.25,
+      "balance": 2367.14,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00677",
+      "date": "2026-09-27",
+      "description": "PLUMB CENTER 9264",
+      "amount": -15.54,
+      "balance": 2351.6,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00678",
+      "date": "2026-09-27",
+      "description": "BP 9515",
+      "amount": -77.52,
+      "balance": 2274.08,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00679",
+      "date": "2026-09-28",
+      "description": "ESSO 6062",
+      "amount": -45.22,
+      "balance": 2228.86,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00680",
+      "date": "2026-09-28",
+      "description": "PLUMB CENTER 8923",
+      "amount": -169.75,
+      "balance": 2059.11,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00681",
+      "date": "2026-09-29",
+      "description": "SUMUP PAYOUT VH386191",
+      "amount": 405.63,
+      "balance": 2464.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00682",
+      "date": "2026-09-29",
+      "description": "ESSO 9858",
+      "amount": -37.08,
+      "balance": 2427.66,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00683",
+      "date": "2026-09-29",
+      "description": "SCREWFIX 7530",
+      "amount": -128.96,
+      "balance": 2298.7,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00684",
+      "date": "2026-09-30",
+      "description": "SUMUP PAYOUT NQ635893",
+      "amount": 327.9,
+      "balance": 2626.6,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00685",
+      "date": "2026-09-30",
+      "description": "CITY PLUMBING 6567",
+      "amount": -69.74,
+      "balance": 2556.86,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00686",
+      "date": "2026-10-01",
+      "description": "SUMUP PAYOUT KB129958",
+      "amount": 347.82,
+      "balance": 2904.68,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00687",
+      "date": "2026-10-02",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2344.68,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00688",
+      "date": "2026-10-03",
+      "description": "SHELL 8140",
+      "amount": -35.36,
+      "balance": 2309.32,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00689",
+      "date": "2026-10-05",
+      "description": "SUMUP PAYOUT YE515532",
+      "amount": 319.73,
+      "balance": 2629.05,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00690",
+      "date": "2026-10-05",
+      "description": "SCREWFIX 3699",
+      "amount": -89.42,
+      "balance": 2539.63,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00691",
+      "date": "2026-10-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 2150.63,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00692",
+      "date": "2026-10-06",
+      "description": "SUMUP PAYOUT RW428920",
+      "amount": 267.56,
+      "balance": 2418.19,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00693",
+      "date": "2026-10-06",
+      "description": "SHELL 8141",
+      "amount": -51.12,
+      "balance": 2367.07,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00694",
+      "date": "2026-10-07",
+      "description": "NORTHSIDE LETTINGS LTD",
+      "amount": 1434.23,
+      "balance": 3801.3,
+      "_category": "income:invoice",
+      "_recurring_id": "lettings_invoices"
+    },
+    {
+      "id": "fixit_plumbing-00695",
+      "date": "2026-10-07",
+      "description": "SUMUP PAYOUT WU889155",
+      "amount": 327.08,
+      "balance": 4128.38,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00696",
+      "date": "2026-10-07",
+      "description": "ESSO 2505",
+      "amount": -71.93,
+      "balance": 4056.45,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00697",
+      "date": "2026-10-08",
+      "description": "SUMUP PAYOUT PZ523674",
+      "amount": 176.99,
+      "balance": 4233.44,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00698",
+      "date": "2026-10-08",
+      "description": "GREGGS 3754",
+      "amount": -4.24,
+      "balance": 4229.2,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00699",
+      "date": "2026-10-08",
+      "description": "ESSO 8011",
+      "amount": -43.64,
+      "balance": 4185.56,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00700",
+      "date": "2026-10-08",
+      "description": "SCREWFIX 3898",
+      "amount": -129.96,
+      "balance": 4055.6,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00701",
+      "date": "2026-10-09",
+      "description": "SUMUP PAYOUT EQ330914",
+      "amount": 208.35,
+      "balance": 4263.95,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00702",
+      "date": "2026-10-09",
+      "description": "COSTA COFFEE 5528",
+      "amount": -4.45,
+      "balance": 4259.5,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00703",
+      "date": "2026-10-09",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3699.5,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00704",
+      "date": "2026-10-10",
+      "description": "BP 6626",
+      "amount": -52.42,
+      "balance": 3647.08,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00705",
+      "date": "2026-10-10",
+      "description": "SCREWFIX 3159",
+      "amount": -58.49,
+      "balance": 3588.59,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00706",
+      "date": "2026-10-11",
+      "description": "GREGGS 4485",
+      "amount": -6.38,
+      "balance": 3582.21,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00707",
+      "date": "2026-10-11",
+      "description": "BP 3906",
+      "amount": -45.66,
+      "balance": 3536.55,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00708",
+      "date": "2026-10-11",
+      "description": "PLUMB CENTER 6377",
+      "amount": -65.8,
+      "balance": 3470.75,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00709",
+      "date": "2026-10-12",
+      "description": "BP 3638",
+      "amount": -29.5,
+      "balance": 3441.25,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00710",
+      "date": "2026-10-12",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -48.0,
+      "balance": 3393.25,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "fixit_plumbing-00711",
+      "date": "2026-10-13",
+      "description": "SUMUP PAYOUT GY619738",
+      "amount": 46.0,
+      "balance": 3439.25,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00712",
+      "date": "2026-10-13",
+      "description": "COSTA COFFEE 1082",
+      "amount": -7.86,
+      "balance": 3431.39,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00713",
+      "date": "2026-10-13",
+      "description": "SCREWFIX 9717",
+      "amount": -126.14,
+      "balance": 3305.25,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00714",
+      "date": "2026-10-14",
+      "description": "GREGGS 9080",
+      "amount": -4.98,
+      "balance": 3300.27,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00715",
+      "date": "2026-10-14",
+      "description": "BP 3679",
+      "amount": -55.03,
+      "balance": 3245.24,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00716",
+      "date": "2026-10-14",
+      "description": "CITY PLUMBING 2244",
+      "amount": -291.3,
+      "balance": 2953.94,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00717",
+      "date": "2026-10-15",
+      "description": "SUMUP PAYOUT DY330585",
+      "amount": 539.76,
+      "balance": 3493.7,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00718",
+      "date": "2026-10-16",
+      "description": "COSTA COFFEE 7575",
+      "amount": -5.73,
+      "balance": 3487.97,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00719",
+      "date": "2026-10-16",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 2927.97,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00720",
+      "date": "2026-10-17",
+      "description": "COSTA COFFEE 5006",
+      "amount": -8.34,
+      "balance": 2919.63,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00721",
+      "date": "2026-10-17",
+      "description": "BP 1938",
+      "amount": -29.1,
+      "balance": 2890.53,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00722",
+      "date": "2026-10-18",
+      "description": "GREGGS 7163",
+      "amount": -8.5,
+      "balance": 2882.03,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00723",
+      "date": "2026-10-19",
+      "description": "SUMUP PAYOUT FG850561",
+      "amount": 355.04,
+      "balance": 3237.07,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00724",
+      "date": "2026-10-19",
+      "description": "DD EE LIMITED",
+      "amount": -32.0,
+      "balance": 3205.07,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "fixit_plumbing-00725",
+      "date": "2026-10-19",
+      "description": "BP 9297",
+      "amount": -60.65,
+      "balance": 3144.42,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00726",
+      "date": "2026-10-20",
+      "description": "SUMUP PAYOUT GS724394",
+      "amount": 464.02,
+      "balance": 3608.44,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00727",
+      "date": "2026-10-20",
+      "description": "GREGGS 4830",
+      "amount": -11.8,
+      "balance": 3596.64,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00728",
+      "date": "2026-10-20",
+      "description": "SCREWFIX 3371",
+      "amount": -44.06,
+      "balance": 3552.58,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00729",
+      "date": "2026-10-21",
+      "description": "SUMUP PAYOUT MB291583",
+      "amount": 265.11,
+      "balance": 3817.69,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00730",
+      "date": "2026-10-21",
+      "description": "TRADIFY",
+      "amount": -39.0,
+      "balance": 3778.69,
+      "_category": "overheads:software",
+      "_recurring_id": "tradify"
+    },
+    {
+      "id": "fixit_plumbing-00731",
+      "date": "2026-10-21",
+      "description": "SHELL 6564",
+      "amount": -70.33,
+      "balance": 3708.36,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00732",
+      "date": "2026-10-22",
+      "description": "SUMUP PAYOUT AM381003",
+      "amount": 351.58,
+      "balance": 4059.94,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00733",
+      "date": "2026-10-22",
+      "description": "ESSO 2469",
+      "amount": -83.31,
+      "balance": 3976.63,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00734",
+      "date": "2026-10-22",
+      "description": "CITY PLUMBING 5015",
+      "amount": -107.02,
+      "balance": 3869.61,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00735",
+      "date": "2026-10-23",
+      "description": "SUMUP PAYOUT ZB567039",
+      "amount": 344.2,
+      "balance": 4213.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00736",
+      "date": "2026-10-23",
+      "description": "COSTA COFFEE 5328",
+      "amount": -6.65,
+      "balance": 4207.16,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00737",
+      "date": "2026-10-23",
+      "description": "PLUMB CENTER 4579",
+      "amount": -73.51,
+      "balance": 4133.65,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00738",
+      "date": "2026-10-23",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3573.65,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00739",
+      "date": "2026-10-25",
+      "description": "GREGGS 5427",
+      "amount": -7.07,
+      "balance": 3566.58,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00740",
+      "date": "2026-10-25",
+      "description": "CITY PLUMBING 3359",
+      "amount": -59.54,
+      "balance": 3507.04,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00741",
+      "date": "2026-10-26",
+      "description": "SUMUP PAYOUT XW404733",
+      "amount": 487.33,
+      "balance": 3994.37,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00742",
+      "date": "2026-10-26",
+      "description": "GREGGS 1441",
+      "amount": -12.88,
+      "balance": 3981.49,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00743",
+      "date": "2026-10-26",
+      "description": "SHELL 4902",
+      "amount": -28.99,
+      "balance": 3952.5,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00744",
+      "date": "2026-10-26",
+      "description": "DD TAXASSIST ACCOUNTANTS",
+      "amount": -95.0,
+      "balance": 3857.5,
+      "_category": "overheads:accountant",
+      "_recurring_id": "accountant"
+    },
+    {
+      "id": "fixit_plumbing-00745",
+      "date": "2026-10-27",
+      "description": "SUMUP PAYOUT TQ629484",
+      "amount": 556.95,
+      "balance": 4414.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00746",
+      "date": "2026-10-28",
+      "description": "GREGGS 3483",
+      "amount": -6.05,
+      "balance": 4408.4,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00747",
+      "date": "2026-10-28",
+      "description": "SCREWFIX 6129",
+      "amount": -89.64,
+      "balance": 4318.76,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00748",
+      "date": "2026-10-29",
+      "description": "SUMUP PAYOUT KO815870",
+      "amount": 152.55,
+      "balance": 4471.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00749",
+      "date": "2026-10-30",
+      "description": "BP 5807",
+      "amount": -50.77,
+      "balance": 4420.54,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00750",
+      "date": "2026-10-30",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3860.54,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00751",
+      "date": "2026-10-31",
+      "description": "SCREWFIX 8943",
+      "amount": -211.42,
+      "balance": 3649.12,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00752",
+      "date": "2026-11-01",
+      "description": "SCREWFIX 3540",
+      "amount": -50.7,
+      "balance": 3598.42,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00753",
+      "date": "2026-11-01",
+      "description": "ESSO 3883",
+      "amount": -58.12,
+      "balance": 3540.3,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00754",
+      "date": "2026-11-02",
+      "description": "SUMUP PAYOUT SS822991",
+      "amount": 183.76,
+      "balance": 3724.06,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00755",
+      "date": "2026-11-02",
+      "description": "SHELL 4238",
+      "amount": -36.27,
+      "balance": 3687.79,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00756",
+      "date": "2026-11-03",
+      "description": "SUMUP PAYOUT YE290097",
+      "amount": 321.27,
+      "balance": 4009.06,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00757",
+      "date": "2026-11-03",
+      "description": "BP 3171",
+      "amount": -53.08,
+      "balance": 3955.98,
+      "_category": "vehicle:fuel",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00758",
+      "date": "2026-11-03",
+      "description": "SCREWFIX 1962",
+      "amount": -86.94,
+      "balance": 3869.04,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00759",
+      "date": "2026-11-04",
+      "description": "SUMUP PAYOUT YV718843",
+      "amount": 267.95,
+      "balance": 4136.99,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00760",
+      "date": "2026-11-04",
+      "description": "GREGGS 9003",
+      "amount": -5.9,
+      "balance": 4131.09,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00761",
+      "date": "2026-11-05",
+      "description": "SUMUP PAYOUT PG660792",
+      "amount": 77.51,
+      "balance": 4208.6,
+      "_category": "income:card_takings",
+      "_recurring_id": "jobs"
+    },
+    {
+      "id": "fixit_plumbing-00762",
+      "date": "2026-11-05",
+      "description": "COSTA COFFEE 2485",
+      "amount": -3.13,
+      "balance": 4205.47,
+      "_category": "subsistence",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00763",
+      "date": "2026-11-05",
+      "description": "DD VW FINANCIAL SERVICES",
+      "amount": -389.0,
+      "balance": 3816.47,
+      "_category": "vehicle:finance",
+      "_recurring_id": "van_finance"
+    },
+    {
+      "id": "fixit_plumbing-00764",
+      "date": "2026-11-06",
+      "description": "SCREWFIX 4147",
+      "amount": -78.92,
+      "balance": 3737.55,
+      "_category": "cogs:materials",
+      "_recurring_id": null
+    },
+    {
+      "id": "fixit_plumbing-00765",
+      "date": "2026-11-06",
+      "description": "TRANSFER TO OWNER",
+      "amount": -560.0,
+      "balance": 3177.55,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "fixit_plumbing-00766",
+      "date": "2026-11-07",
+      "description": "GREGGS 4552",
+      "amount": -4.9,
+      "balance": 3172.65,
+      "_category": "subsistence",
+      "_recurring_id": null
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-1001",
+      "client": "Northside Lettings",
+      "issued": "2025-07-01",
+      "due": "2025-07-31",
+      "amount": 1592.74,
+      "paid_date": "2025-08-06",
+      "status": "paid",
+      "days_late": 6
+    },
+    {
+      "id": "INV-1002",
+      "client": "Northside Lettings",
+      "issued": "2025-08-01",
+      "due": "2025-08-31",
+      "amount": 1577.21,
+      "paid_date": "2025-09-19",
+      "status": "paid",
+      "days_late": 19
+    },
+    {
+      "id": "INV-1003",
+      "client": "Northside Lettings",
+      "issued": "2025-09-01",
+      "due": "2025-10-01",
+      "amount": 2199.33,
+      "paid_date": "2025-10-20",
+      "status": "paid",
+      "days_late": 19
+    },
+    {
+      "id": "INV-1004",
+      "client": "Northside Lettings",
+      "issued": "2025-10-01",
+      "due": "2025-10-31",
+      "amount": 2051.48,
+      "paid_date": "2025-11-06",
+      "status": "paid",
+      "days_late": 6
+    },
+    {
+      "id": "INV-1005",
+      "client": "Northside Lettings",
+      "issued": "2025-11-03",
+      "due": "2025-12-03",
+      "amount": 1806.26,
+      "paid_date": "2025-12-09",
+      "status": "paid",
+      "days_late": 6
+    },
+    {
+      "id": "INV-1006",
+      "client": "Northside Lettings",
+      "issued": "2025-12-01",
+      "due": "2025-12-31",
+      "amount": 1723.35,
+      "paid_date": "2026-01-06",
+      "status": "paid",
+      "days_late": 6
+    },
+    {
+      "id": "INV-1007",
+      "client": "Northside Lettings",
+      "issued": "2026-01-01",
+      "due": "2026-01-31",
+      "amount": 1410.09,
+      "paid_date": "2026-02-12",
+      "status": "paid",
+      "days_late": 12
+    },
+    {
+      "id": "INV-1008",
+      "client": "Northside Lettings",
+      "issued": "2026-02-02",
+      "due": "2026-03-04",
+      "amount": 1872.08,
+      "paid_date": "2026-03-23",
+      "status": "paid",
+      "days_late": 19
+    },
+    {
+      "id": "INV-1009",
+      "client": "Northside Lettings",
+      "issued": "2026-03-02",
+      "due": "2026-04-01",
+      "amount": 1556.15,
+      "paid_date": "2026-05-11",
+      "status": "paid",
+      "days_late": 40
+    },
+    {
+      "id": "INV-1010",
+      "client": "Northside Lettings",
+      "issued": "2026-04-01",
+      "due": "2026-05-01",
+      "amount": 1985.55,
+      "paid_date": "2026-05-20",
+      "status": "paid",
+      "days_late": 19
+    },
+    {
+      "id": "INV-1011",
+      "client": "Northside Lettings",
+      "issued": "2026-05-01",
+      "due": "2026-05-31",
+      "amount": 1503.62,
+      "paid_date": "2026-06-12",
+      "status": "paid",
+      "days_late": 12
+    },
+    {
+      "id": "INV-1012",
+      "client": "Northside Lettings",
+      "issued": "2026-06-01",
+      "due": "2026-07-01",
+      "amount": 1695.12,
+      "paid_date": "2026-07-13",
+      "status": "paid",
+      "days_late": 12
+    },
+    {
+      "id": "INV-1013",
+      "client": "Northside Lettings",
+      "issued": "2026-07-01",
+      "due": "2026-07-31",
+      "amount": 1675.03,
+      "paid_date": "2026-08-06",
+      "status": "paid",
+      "days_late": 6
+    },
+    {
+      "id": "INV-1014",
+      "client": "Northside Lettings",
+      "issued": "2026-08-03",
+      "due": "2026-09-02",
+      "amount": 2012.39,
+      "paid_date": "2026-09-14",
+      "status": "paid",
+      "days_late": 12
+    },
+    {
+      "id": "INV-1015",
+      "client": "Northside Lettings",
+      "issued": "2026-09-01",
+      "due": "2026-10-01",
+      "amount": 1434.23,
+      "paid_date": "2026-10-07",
+      "status": "paid",
+      "days_late": 6
+    },
+    {
+      "id": "INV-1016",
+      "client": "Northside Lettings",
+      "issued": "2026-10-01",
+      "due": "2026-10-31",
+      "amount": 1651.15,
+      "paid_date": null,
+      "status": "overdue",
+      "days_late": 7
+    },
+    {
+      "id": "INV-1017",
+      "client": "Northside Lettings",
+      "issued": "2026-11-02",
+      "due": "2026-12-02",
+      "amount": 1893.46,
+      "paid_date": null,
+      "status": "outstanding",
+      "days_late": 0
+    }
+  ]
+}

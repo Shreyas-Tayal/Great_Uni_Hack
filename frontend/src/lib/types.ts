@@ -15,7 +15,8 @@ export type Adjustment =
   | { type: "one_off"; amount: number; in_days: number; label?: string }
   | { type: "invoice_on_time" }
   | { type: "invoice_finance"; advance?: number }
-  | { type: "client_late"; extra_days: number };
+  | { type: "client_late"; extra_days: number }
+  | { type: "combo"; items: Adjustment[] };
 
 export interface Band { date: string; p10: number; p50: number; p90: number; p_negative: number }
 export interface HistoryPoint { date: string; balance: number }
@@ -64,11 +65,22 @@ export type Block =
   | { type: "category_chart"; data: Summary["categories_90d"] }
   | { type: "cashflow_chart"; data: Summary["monthly"] }
   | { type: "upcoming"; items: Upcoming[] }
-  | { type: "invoices"; items: Invoice[] };
+  | { type: "invoices"; items: Invoice[] }
+  | { type: "draft"; draft: Draft };
 
-export interface ChatMessage { role: "user" | "assistant"; content: string; blocks?: Block[] }
+/** A message the accountant has written for the user to check and send (landlord, supplier, client). */
+export interface Draft { to: string; subject: string; body: string }
+
+/** One follow-up the accountant tracks after an approval. */
+export interface Task { id: string; title: string; detail: string; status: "done" | "needs_you" }
+
+/** A fix the user approved: it changes the forecast, and comes with follow-ups. Undo removes it. */
+export interface Approval { id: string; label: string; adjustment: Adjustment; tasks: Task[] }
+
+export interface ChatMessage { role: "user" | "assistant"; content: string; blocks?: Block[]; audio?: { b64: string; mime: string }; notes?: string[] }
 
 export interface ChatResponse {
   reply: string; speak: string; intent: string; adjustments: Adjustment[];
   blocks: Block[]; audio_base64: string | null; audio_mime: string;
+  data_notes?: string[];   // what was unavailable, shown calmly under the answer
 }

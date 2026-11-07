@@ -36,7 +36,7 @@ MODES = {
             "Premises": ["PROPERTY", "WEWORK", "GAS", "UTILITIES", "NNDR", "BIFFA"],
             "Suppliers": ["ROASTERS", "DAIRY", "BOOKER"],
             "Software & cloud": ["AWS", "AMAZON WEB", "ANTHROPIC", "GOOGLE", "SLACK", "GITHUB", "FIGMA",
-                                 "LINEAR", "NOTION", "XERO", "SQUARESPACE", "BT BUSINESS"],
+                                 "LINEAR", "NOTION", "XERO", "SQUARESPACE"],
             "Owner drawings": ["OWNER"],
             "Professional fees": ["LLP", "INSURANCE", "HISCOX"],
         },
