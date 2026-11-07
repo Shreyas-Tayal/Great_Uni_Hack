@@ -29,9 +29,9 @@ foresight/
 └── frontend/                  ← the chat-first web app (Vite + React + TypeScript + Tailwind)
     ├── package.json, vite.config.ts, index.html, .env.example
     └── src/
-        ├── pages/Index.tsx     ← layout: accounts + "handled for you" | conversation | forecast panel
-        ├── components/         ← Conversation, Sidebar, GlancePanel, BlockRenderer, charts and cards
-        ├── lib/                ← api (engine, n8n, chat routing), plan (briefing + approvals), localCoach
+        ├── pages/Index.tsx     ← terminal layout: watchlist | ticker | tabs (Ask, Answers, Forecast, Plan, Bills, Spending, Profile)
+        ├── components/         ← Terminal (panels, quick answers, profile), Conversation, BlockRenderer, charts and cards
+        ├── lib/                ← api (engine, n8n, chat routing), plan (briefing + approvals), quick (pre-answered questions), localCoach
         └── mocks/              ← saved engine output, so the app runs with no engine
 ```
 
@@ -82,7 +82,7 @@ npm install                              # once, takes a minute
 cp .env.example .env.local               # points the app at the engine on port 8000 (once)
 npm run dev
 ```
-Open http://localhost:5173. The bottom-left corner says which brain is answering:
+Open http://localhost:5173. The bottom of the watchlist says which brain is answering:
 "Built-in coach (demo, no AI)" without a key, "AI accountant (Claude)" with one.
 
 **4. Turn on the AI chat (optional, needs an Anthropic API key)**

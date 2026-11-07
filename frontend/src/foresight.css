@@ -1,51 +1,53 @@
-/* Foresight design tokens.
-   Palette: NatWest brand colours. Dark Grape #401664 leads (buttons, your messages, logo); Trendy Red #D71C2B is
-   kept for risk and money out, so red always means "careful"; the pinks (Fresh Light Red #F78E99, Cora #FBC9CF,
-   Light Pink Rose #FEDFE2) are the soft risk backgrounds. Green stays for money in, so in/out never relies on hue alone
-   (amounts also carry a sign). Text on pink uses a deeper shade of Trendy Red (#B5121F) to pass 4.5:1 contrast.
+/* Foresight design tokens: "money terminal".
+   Direction: a trading-terminal screen for your own money. Near-black panels, amber for commands and labels,
+   green for money in / above £0, red (NatWest Funky Red family) for money out / below £0, cyan for "needs you".
+   Type: IBM Plex Mono for every figure, label and tab; IBM Plex Sans for sentences, so chat stays easy to read.
+   Square corners and hairline rules everywhere. A light "paper" mode keeps the same structure.
    Variable names are kept from earlier versions so every component keeps working. */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 
 :root {
-  --fs-ink: #1e1030;        /* text: grape-black */
-  --fs-ink-2: #5e5470;      /* secondary text (6.4:1 on page) */
-  --fs-mist: #f6f4f8;       /* page */
-  --fs-paper: #ffffff;      /* surfaces */
-  --fs-sunk: #efeaf4;       /* sidebar, input wells */
-  --fs-line: #e2dbea;       /* hairlines */
-  --fs-violet: #401664;     /* Dark Grape: primary actions */
-  --fs-violet-soft: #ece4f4;
+  /* paper mode */
+  --fs-ink: #14120f;
+  --fs-ink-2: #5a554c;      /* 6.6:1 on paper */
+  --fs-mist: #ece8df;       /* page */
+  --fs-paper: #fbf9f4;      /* panels */
+  --fs-sunk: #e3ded2;       /* headers, wells */
+  --fs-line: #cfc8b9;
+  --fs-violet: #a34f00;     /* amber (primary, labels, keys) - 5.3:1 on paper */
+  --fs-violet-soft: #f6e3cc;
   --fs-on-accent: #ffffff;
-  --fs-risk: #b5121f;       /* risk text and dots (deeper Trendy Red) */
-  --fs-risk-soft: #fedfe2;  /* Light Pink Rose */
-  --fs-safe: #157a43;
-  --fs-safe-soft: #e5f2ea;
-  --fs-up: #157a43;         /* money in / above £0 */
-  --fs-down: #d71c2b;       /* Trendy Red: money out / below £0 */
-  --fs-amber: #8a5a00;      /* "needs you" */
-  --fs-amber-soft: #fbf1dc;
-  --fs-brand-pink: #f78e99; /* Fresh Light Red: logo accent */
+  --fs-risk: #b5121f;
+  --fs-risk-soft: #fbdfe1;
+  --fs-safe: #136c3b;
+  --fs-safe-soft: #dcefe3;
+  --fs-up: #136c3b;
+  --fs-down: #c41a28;
+  --fs-amber: #006a82;      /* "needs you" (cyan family) */
+  --fs-amber-soft: #d8eef3;
+  --fs-brand-pink: #f78e99;
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
-  --fs-ink: #ede8f3;
-  --fs-ink-2: #a79bb8;
-  --fs-mist: #140a1f;
-  --fs-paper: #1e1230;
-  --fs-sunk: #180d27;
-  --fs-line: #33244a;
-  --fs-violet: #c9b3ec;     /* light grape so buttons stay readable on dark */
-  --fs-violet-soft: #2b1c42;
-  --fs-on-accent: #140a1f;
-  --fs-risk: #f78e99;       /* Fresh Light Red */
-  --fs-risk-soft: #3a1520;
-  --fs-safe: #52cc87;
-  --fs-safe-soft: #13291f;
-  --fs-up: #52cc87;
-  --fs-down: #f78e99;
-  --fs-amber: #f2c46b;
-  --fs-amber-soft: #2e2512;
+  /* terminal mode (default) */
+  --fs-ink: #ececec;
+  --fs-ink-2: #9a9a9a;      /* 7:1 on panels */
+  --fs-mist: #000000;
+  --fs-paper: #0b0b0b;
+  --fs-sunk: #161616;
+  --fs-line: #2b2b2b;
+  --fs-violet: #ffa028;     /* terminal amber */
+  --fs-violet-soft: #2a1b06;
+  --fs-on-accent: #000000;
+  --fs-risk: #ff5a5f;
+  --fs-risk-soft: #2b0c0e;
+  --fs-safe: #3ddc84;
+  --fs-safe-soft: #0a2414;
+  --fs-up: #3ddc84;
+  --fs-down: #ff5a5f;
+  --fs-amber: #4cc9f0;      /* "needs you" */
+  --fs-amber-soft: #06262f;
   --fs-brand-pink: #f78e99;
   color-scheme: dark;
 }
@@ -53,33 +55,59 @@
 html, body { background: var(--fs-mist); }
 
 .fs-app {
-  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
   color: var(--fs-ink);
   background: var(--fs-mist);
-  font-feature-settings: "tnum" 1, "cv11" 1;
+  font-feature-settings: "tnum" 1;
 }
 .fs-app input, .fs-app textarea, .fs-app select { background: var(--fs-paper); color: var(--fs-ink); }
 .fs-app input::placeholder, .fs-app textarea::placeholder { color: var(--fs-ink-2); }
 
-.fs-display { font-family: "Space Grotesk", "Inter", sans-serif; letter-spacing: -0.015em; }
-.fs-surface { background: var(--fs-paper); border: 1px solid var(--fs-line); border-radius: 16px; }
-.fs-focus:focus-visible, .fs-app button:focus-visible, .fs-app a:focus-visible { outline: 2px solid var(--fs-ink); outline-offset: 2px; }
+/* terminal geometry: square corners, mono figures */
+.fs-app *, .fs-app *::before, .fs-app *::after { border-radius: 0 !important; }
+.fs-app .recharts-wrapper, .fs-app svg text { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+.fs-mono, .fs-display { font-family: "IBM Plex Mono", ui-monospace, monospace; letter-spacing: 0; }
+.fs-label { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--fs-violet); }
+
+.fs-surface { background: var(--fs-paper); border: 1px solid var(--fs-line); }
+.fs-focus:focus-visible, .fs-app button:focus-visible, .fs-app a:focus-visible, .fs-app input:focus-visible, .fs-app select:focus-visible { outline: 2px solid var(--fs-violet); outline-offset: 1px; }
+
+/* panel header strip */
+.fs-panel-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 30px; padding: 0 10px;
+  background: var(--fs-sunk); border-bottom: 1px solid var(--fs-line); }
+
+/* tabs */
+.fs-tab { font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; font-weight: 600; letter-spacing: .04em;
+  min-height: 40px; padding: 0 14px; display: inline-flex; align-items: center; gap: 8px; color: var(--fs-ink-2);
+  border-right: 1px solid var(--fs-line); white-space: nowrap; }
+.fs-tab:hover { color: var(--fs-ink); background: var(--fs-sunk); }
+.fs-tab[aria-selected="true"] { background: var(--fs-violet); color: var(--fs-on-accent); }
+.fs-key { font-size: 10px; padding: 1px 4px; border: 1px solid currentColor; opacity: .75; }
+
+/* tables */
+.fs-table { width: 100%; border-collapse: collapse; font-family: "IBM Plex Mono", ui-monospace, monospace; font-size: 13px; }
+.fs-table th { text-align: left; font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--fs-ink-2); padding: 6px 10px; border-bottom: 1px solid var(--fs-line); }
+.fs-table th.text-right { text-align: right; }
+.fs-table td { padding: 7px 10px; border-bottom: 1px solid var(--fs-line); }
+.fs-table tr:hover td { background: var(--fs-sunk); }
 
 /* message text: a little markdown */
 .fs-prose p { margin: 0 0 .6em; }
 .fs-prose p:last-child { margin-bottom: 0; }
-.fs-prose ul { margin: .2em 0 .6em; padding-left: 1.2em; list-style: disc; }
+.fs-prose ul { margin: .2em 0 .6em; padding-left: 1.2em; list-style: square; }
 .fs-prose li { margin: .15em 0; }
-.fs-prose strong { font-weight: 600; }
+.fs-prose strong { font-weight: 600; color: var(--fs-violet); }
 
 .fs-scroll { scrollbar-width: thin; scrollbar-color: var(--fs-line) transparent; }
+.fs-blink { animation: fs-blink 1.1s steps(1) infinite; }
+@keyframes fs-blink { 50% { opacity: 0; } }
 
 @media (prefers-reduced-motion: no-preference) {
   .fs-dot { animation: fs-dot 900ms ease-in-out infinite; }
-  @keyframes fs-dot { 0%, 100% { opacity: .25; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-3px); } }
+  @keyframes fs-dot { 0%, 100% { opacity: .25; } 50% { opacity: 1; } }
   .fs-busy { transition: opacity 200ms; }
-  .fs-reveal { animation: fs-reveal 360ms ease-out both; }
-  @keyframes fs-reveal { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-  .fs-drawer { animation: fs-drawer 220ms ease-out both; }
-  @keyframes fs-drawer { from { opacity: 0; transform: translateX(16px); } to { opacity: 1; transform: none; } }
+  .fs-reveal { animation: fs-reveal 240ms ease-out both; }
+  @keyframes fs-reveal { from { opacity: 0; } to { opacity: 1; } }
+  .fs-drawer { animation: fs-reveal 180ms ease-out both; }
 }
+@media (prefers-reduced-motion: reduce) { .fs-blink { animation: none; } }

@@ -7,7 +7,7 @@
     <title>Foresight · your AI accountant</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script>
-      try { var t = localStorage.getItem("fs-theme"); if (t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches)) { document.documentElement.dataset.theme = "dark"; document.documentElement.classList.add("dark"); } } catch (e) {}
+      try { var t = localStorage.getItem("fs-theme"); if (t !== "light") { document.documentElement.dataset.theme = "dark"; document.documentElement.classList.add("dark"); } } catch (e) {}
     </script>
   </head>
   <body>

@@ -1,24 +1,27 @@
-// Chat-first layout: the conversation is the app. Accounts and "handled for you" on the left,
-// the live forecast on the right (collapsible). Approving a fix or asking a what-if redraws the forecast.
+// Terminal layout: watchlist on the left, a ticker line of vital signs, and tabs for each job.
+// ASK is the conversation (with pre-answered questions beside it); approving a fix anywhere updates the plan.
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { LineChart, Menu } from "lucide-react";
 import type { Adjustment, Approval, ChatMessage, Forecast, ProfileSummary, SimulateResponse, Summary } from "@/lib/types";
 import { type Brain, SUGGESTIONS, USING_MOCKS, chat, detectBrain, getForecast, getProfiles, getSummary, playAudio, simulate } from "@/lib/api";
 import { briefing, onApprove, plain } from "@/lib/plan";
-import { gbp, inTen } from "@/lib/format";
 import { useTheme } from "@/hooks/useTheme";
 import Conversation from "@/components/Conversation";
-import Sidebar from "@/components/Sidebar";
-import GlancePanel from "@/components/GlancePanel";
+import ForecastChart from "@/components/ForecastChart";
+import TimeTravel from "@/components/TimeTravel";
+import { AlertCard, ScenarioDelta } from "@/components/Cards";
+import { CashflowChart, CategoryChart, InvoiceTable } from "@/components/Charts";
+import { RehearsePanel } from "@/components/Controls";
 import { ApproveContext } from "@/components/BlockRenderer";
+import { Clock, HandledList, Logo, MonthlyTable, Panel, ProfileCard, QuickAnswers, RecurringTable, type TabDef, TabBar, Ticker, UpcomingTable, Watchlist } from "@/components/Terminal";
 
-const wide = () => typeof window !== "undefined" && window.matchMedia?.("(min-width: 1280px)").matches;
+type Tab = "ask" | "answers" | "forecast" | "plan" | "bills" | "spend" | "profile";
 
 export default function Index() {
   const { theme, toggle } = useTheme();
   const [profiles, setProfiles] = useState<ProfileSummary[]>([]);
-  const [risks, setRisks] = useState<Record<string, number>>({});
+  const [stats, setStats] = useState<Record<string, { risk: number; bal: number }>>({});
   const [pid, setPid] = useState("amara");
+  const [tab, setTab] = useState<Tab>("ask");
   const [baseline, setBaseline] = useState<Forecast | null>(null);
   const [summary, setSummary] = useState<Summary | null>(null);
   const [threads, setThreads] = useState<Record<string, ChatMessage[]>>({});
@@ -30,8 +33,6 @@ export default function Index() {
   const [working, setWorking] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [travel, setTravel] = useState(0);
-  const [panelOpen, setPanelOpen] = useState<boolean>(wide);
-  const [menuOpen, setMenuOpen] = useState(false);
   const [voiceOn, setVoiceOn] = useState(false);
   const [brain, setBrain] = useState<Brain>("coach");
   const reqId = useRef(0);
@@ -42,17 +43,15 @@ export default function Index() {
   const mode = current?.mode ?? baseline?.mode ?? "personal";
   const say = useCallback((id: string, ...m: ChatMessage[]) => setThreads((t) => ({ ...t, [id]: [...(t[id] ?? []), ...m] })), []);
 
-  // Accounts, which brain is answering, and each account's headline risk for the sidebar
   useEffect(() => {
     detectBrain().then(setBrain);
     getProfiles().then((ps) => {
       setProfiles(ps);
       ps.forEach((p, i) => setTimeout(() => getForecast(p.profile_id)
-        .then((f) => setRisks((r) => ({ ...r, [p.profile_id]: f.risk_summary.peak_p_negative }))).catch(() => undefined), i * 150));
-    }).catch(() => setError("I couldn't load the accounts. Check VITE_ENGINE_URL and that the engine is running."));
+        .then((f) => setStats((r) => ({ ...r, [p.profile_id]: { risk: f.risk_summary.peak_p_negative, bal: f.balance_now } }))).catch(() => undefined), i * 150));
+    }).catch(() => setError("Couldn't load the accounts. Check VITE_ENGINE_URL and that the engine is running."));
   }, []);
 
-  // Load an account; the first time, the accountant opens with a briefing
   useEffect(() => {
     let live = true;
     setBaseline(null); setSummary(null); setScenario(null); setExplore(null); setError(null);
@@ -62,12 +61,12 @@ export default function Index() {
       const a = f.alerts[0];
       setTravel(a ? Math.max(0, f.bands.findIndex((b) => b.date >= a.peak_date)) : 13);
       setThreads((t) => (t[pid]?.length ? t : { ...t, [pid]: [briefing(f, s)] }));
-    }).catch(() => live && setError("I couldn't load this account's forecast. Is the engine still running?"));
+    }).catch(() => live && setError("Couldn't load this account's forecast. Is the engine still running?"));
     return () => { live = false; };
   }, [pid]);
 
-  // Approved fixes plus any what-if being explored become one scenario
-  const adjustments = useMemo(() => [...approvals.map((a) => a.adjustment), ...(explore?.adjustments ?? [])], [approvals, explore]);
+  const plan = useMemo(() => approvals.map((a) => a.adjustment), [approvals]);
+  const adjustments = useMemo(() => [...plan, ...(explore?.adjustments ?? [])], [plan, explore]);
   useEffect(() => {
     if (!baseline) return;
     if (!adjustments.length) { setScenario(null); return; }
@@ -85,6 +84,7 @@ export default function Index() {
   const send = useCallback(async (text: string) => {
     const msg = text.trim();
     if (!msg || busy) return;
+    setTab("ask");
     const history = threads[pid] ?? [];
     say(pid, { role: "user", content: msg });
     setBusy(true); setError(null);
@@ -92,10 +92,10 @@ export default function Index() {
       const res = await chat({ profile_id: pid, mode, message: msg, history, voice: voiceOn });
       say(pid, { role: "assistant", content: res.reply, blocks: res.blocks, notes: res.data_notes,
         audio: res.audio_base64 ? { b64: res.audio_base64, mime: res.audio_mime } : undefined });
-      if (res.adjustments?.length) { setExplore({ label: msg, adjustments: res.adjustments }); if (wide()) setPanelOpen(true); }
+      if (res.adjustments?.length) setExplore({ label: msg, adjustments: res.adjustments });
       if (voiceOn) playAudio(res.audio_base64, res.audio_mime);
     } catch {
-      setError("I couldn't answer that just now. Try again in a moment.");
+      setError("Couldn't answer that just now. Try again in a moment.");
     } finally {
       setBusy(false);
     }
@@ -104,9 +104,10 @@ export default function Index() {
   const approve = useCallback(async (adj: Adjustment, label: string) => {
     if (!baseline || !summary || working) return;
     setWorking(label);
+    setTab("ask");   // the follow-ups (drafted letters etc.) arrive in the conversation
     say(pid, { role: "user", content: `Yes, go ahead: ${plain(label)}.` });
     try {
-      const sim = await simulate(pid, [...approvals.map((a) => a.adjustment), adj]);
+      const sim = await simulate(pid, [...plan, adj]);
       const { message, approval } = onApprove(adj, label, baseline, summary, sim);
       setApprovalsBy((m) => ({ ...m, [pid]: [...(m[pid] ?? []), approval] }));
       setExplore(null);
@@ -116,7 +117,7 @@ export default function Index() {
     } finally {
       setWorking(null);
     }
-  }, [approvals, baseline, pid, say, summary, working]);
+  }, [baseline, pid, plan, say, summary, working]);
 
   const undo = useCallback((id: string) => {
     const a = approvals.find((x) => x.id === id);
@@ -124,75 +125,162 @@ export default function Index() {
     if (a) say(pid, { role: "assistant", content: `Undone. I've taken this out of your plan: **${plain(a.label)}**. I've stopped tracking its follow-ups too.` });
   }, [approvals, pid, say]);
 
-  const pick = (id: string) => { setPid(id); setMenuOpen(false); };
   const shown = scenario?.scenario ?? baseline;
-  const risk = shown?.risk_summary.peak_p_negative ?? 0;
-  const ctx = useMemo(() => ({ approve, approved: approvals.map((a) => a.label), working }), [approve, approvals, working]);
+  const needs = approvals.flatMap((a) => a.tasks).filter((t) => t.status === "needs_you").length;
+  const tabs: TabDef[] = [
+    { id: "ask", label: "ASK", key: "1" },
+    { id: "answers", label: "ANSWERS", key: "2" },
+    { id: "forecast", label: "FORECAST", key: "3", badge: shown?.alerts.length || undefined },
+    { id: "plan", label: "PLAN", key: "4", badge: needs || undefined },
+    { id: "bills", label: mode === "business" ? "BILLS & INVOICES" : "BILLS", key: "5" },
+    { id: "spend", label: "SPENDING", key: "6" },
+    { id: "profile", label: "PROFILE", key: "7" },
+  ];
 
-  const sidebar = (onClose?: () => void) => (
-    <Sidebar profiles={profiles} risks={{ ...risks, ...(baseline ? { [pid]: risk } : {}) }} pid={pid} onPick={pick}
-      approvals={approvals} onUndo={undo} theme={theme} onTheme={toggle} brain={brain} onClose={onClose} />
+  // Alt+1..7 switches tabs, like function keys
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (!e.altKey || e.ctrlKey || e.metaKey) return;
+      const t = tabs.find((x) => x.key === e.key || e.code === `Digit${x.key}`);
+      if (t) { e.preventDefault(); setTab(t.id as Tab); }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
+
+  const ctx = useMemo(() => ({ approve, approved: approvals.map((a) => a.label), working }), [approve, approvals, working]);
+  const exploring = explore && (
+    <div className="flex flex-wrap items-center gap-2 border-b border-[var(--fs-line)] bg-[var(--fs-amber-soft)] px-3 py-2 text-sm">
+      <span className="fs-label !text-[var(--fs-amber)]">Exploring</span>
+      <span className="min-w-0 flex-1">{explore.label}</span>
+      <button onClick={() => setExplore(null)} className="fs-mono min-h-[32px] px-2 text-xs font-semibold underline">BACK TO MY PLAN</button>
+    </div>
   );
 
   return (
     <ApproveContext.Provider value={ctx}>
-      <div className="fs-app flex h-[100dvh] overflow-hidden">
-        <div className="hidden w-[280px] flex-none border-r border-[var(--fs-line)] lg:block">{sidebar()}</div>
-        {menuOpen && (
-          <div className="fixed inset-0 z-50 lg:hidden">
-            <button aria-label="Close menu" className="absolute inset-0 bg-black/40" onClick={() => setMenuOpen(false)} />
-            <div className="fs-drawer absolute inset-y-0 left-0 w-[86%] max-w-[320px] shadow-xl">{sidebar(() => setMenuOpen(false))}</div>
+      <div className="fs-app flex h-[100dvh] flex-col overflow-hidden">
+        <header className="flex items-center gap-3 border-b border-[var(--fs-line)] bg-[var(--fs-mist)] px-3 py-2">
+          <Logo />
+          <span className="fs-mono hidden text-xs text-[var(--fs-ink-2)] md:inline">YOUR AI ACCOUNTANT</span>
+          <div className="ml-auto flex items-center gap-3">
+            <label htmlFor="fs-acc" className="sr-only">Account</label>
+            <select id="fs-acc" value={pid} onChange={(e) => setPid(e.target.value)}
+              className="fs-mono h-9 max-w-[180px] border border-[var(--fs-line)] px-2 text-[13px] font-semibold uppercase text-[var(--fs-violet)] lg:hidden">
+              {profiles.map((p) => <option key={p.profile_id} value={p.profile_id}>{p.name}</option>)}
+            </select>
+            {summary && (
+              <span className="fs-mono hidden text-[13px] lg:inline">
+                <span className="font-bold uppercase text-[var(--fs-violet)]">{summary.name}</span>
+                <span className="ml-2 text-[var(--fs-ink-2)]">{summary.mode === "business" ? "BUSINESS" : "PERSONAL"}</span>
+              </span>
+            )}
+            <Clock />
           </div>
-        )}
+        </header>
+        {shown && baseline && <Ticker f={shown} base={baseline} />}
+        <TabBar tabs={tabs} active={tab} onChange={(id) => setTab(id as Tab)} />
 
-        <main className="flex min-w-0 flex-1 flex-col">
-          <header className="flex flex-wrap items-center gap-3 border-b border-[var(--fs-line)] px-4 py-3 sm:px-6">
-            <button onClick={() => setMenuOpen(true)} aria-label="Open accounts and tasks" className="fs-focus -ml-2 flex h-10 w-10 items-center justify-center rounded-xl hover:bg-[var(--fs-violet-soft)] lg:hidden"><Menu size={20} /></button>
-            <div className="min-w-0 flex-1">
-              <h1 className="fs-display truncate text-lg font-semibold leading-tight">{summary?.name ?? current?.name ?? "Loading…"}</h1>
-              <p className="truncate text-sm text-[var(--fs-ink-2)]">{summary?.tagline ?? current?.tagline ?? ""}</p>
-            </div>
-            {shown && (
-              <div className="flex items-center gap-2">
-                <span className="hidden rounded-full bg-[var(--fs-paper)] px-3 py-1.5 text-sm ring-1 ring-[var(--fs-line)] sm:inline">
-                  <span className="text-[var(--fs-ink-2)]">Today </span><span className="font-semibold">{gbp(shown.balance_now)}</span>
-                </span>
-                <span className="rounded-full px-3 py-1.5 text-sm font-semibold"
-                  style={risk >= 0.25 ? { background: "var(--fs-risk-soft)", color: "var(--fs-risk)" } : { background: "var(--fs-safe-soft)", color: "var(--fs-safe)" }}>
-                  {risk < 0.05 ? "Safe for 90 days" : `${inTen(risk)} risk`}
-                </span>
-                <button onClick={() => setPanelOpen((o) => !o)} aria-pressed={panelOpen} aria-label={panelOpen ? "Hide the forecast" : "Show the forecast"}
-                  className="fs-focus flex h-10 items-center gap-2 rounded-xl border border-[var(--fs-line)] bg-[var(--fs-paper)] px-3 text-sm font-medium">
-                  <LineChart size={18} /><span className="hidden sm:inline">Forecast</span>
-                </button>
+        <div className="flex min-h-0 flex-1">
+          <aside className="hidden w-[250px] flex-none border-r border-[var(--fs-line)] lg:block xl:w-[300px]">
+            <Watchlist profiles={profiles} stats={{ ...stats, ...(shown ? { [pid]: { risk: shown.risk_summary.peak_p_negative, bal: shown.balance_now } } : {}) }}
+              pid={pid} onPick={setPid} brain={brain} theme={theme} onTheme={toggle} />
+          </aside>
+
+          <main id={`panel-${tab}`} role="tabpanel" aria-labelledby={`tab-${tab}`} className="flex min-h-0 min-w-0 flex-1 flex-col">
+            {!baseline || !summary || !shown ? (
+              <div className="fs-mono flex flex-1 items-center justify-center p-6 text-sm text-[var(--fs-ink-2)]" role="status">
+                {error ?? <>LOADING · SIMULATING 1,000 FUTURES<span className="fs-blink">_</span></>}
+              </div>
+            ) : tab === "ask" ? (
+              <div className="flex min-h-0 flex-1 gap-px bg-[var(--fs-line)]">
+                <section aria-label="Conversation" className="flex min-h-0 min-w-0 flex-1 flex-col bg-[var(--fs-mist)]">
+                  <div className="fs-panel-h"><h2 className="fs-label">Ask your accountant</h2><span className="fs-mono text-[10px] text-[var(--fs-ink-2)]">ENTER TO SEND</span></div>
+                  {exploring}
+                  <Conversation messages={messages} busy={busy} profileId={pid} error={error}
+                    suggestions={SUGGESTIONS[mode]} placeholder={mode === "business" ? "Ask about cash, invoices, tax…" : "Ask anything about your money"}
+                    voiceOn={voiceOn} onToggleVoice={() => setVoiceOn((v) => !v)} onSend={send} />
+                </section>
+                <div className="hidden w-[400px] flex-none xl:flex">
+                  <QuickAnswers pid={pid} f={baseline} s={summary} plan={plan} onAsk={send} />
+                </div>
+              </div>
+            ) : (
+              <div className="fs-scroll min-h-0 flex-1 overflow-y-auto p-2 sm:p-3">
+                {tab === "answers" && (
+                  <div className="mx-auto max-w-[900px]"><QuickAnswers pid={pid} f={baseline} s={summary} plan={plan} onAsk={send} /></div>
+                )}
+
+                {tab === "forecast" && (
+                  <div className="grid gap-2 sm:gap-3 2xl:grid-cols-[1fr_420px]">
+                    <Panel title="90-day forecast" right={<span className="fs-mono text-[10px] text-[var(--fs-ink-2)]">P10–P90 · 1,000 FUTURES</span>}>
+                      {exploring}
+                      <div className="fs-busy p-3" style={{ opacity: simBusy ? 0.5 : 1 }}>
+                        <ForecastChart history={shown.history} bands={shown.bands} alerts={shown.alerts} height={340}
+                          baseline={scenario ? baseline.bands : null} cursorDate={shown.bands[travel]?.date} />
+                        <p className="fs-mono mt-1 text-[11px] text-[var(--fs-ink-2)]">LINE: MOST LIKELY · SHADING: 8 IN 10 FUTURES · GREEN ABOVE £0, RED BELOW{scenario && " · DASHED: BEFORE CHANGES"}</p>
+                        <TimeTravel bands={shown.bands} index={travel} onChange={setTravel} />
+                      </div>
+                    </Panel>
+                    <Panel title={`Alerts (${shown.alerts.length})`}>
+                      <div className="flex flex-col gap-2 p-2">
+                        {scenario?.focus_alert && <ScenarioDelta focus={scenario.focus_alert} />}
+                        {shown.alerts.length ? shown.alerts.map((a) => <AlertCard key={a.id} alert={a} onApply={approve} approved={ctx.approved} applying={working} />)
+                          : <p className="p-2 text-sm text-[var(--fs-ink-2)]">No cash crunches in the next 90 days.</p>}
+                      </div>
+                    </Panel>
+                  </div>
+                )}
+
+                {tab === "plan" && (
+                  <div className="grid gap-2 sm:gap-3 xl:grid-cols-[1fr_380px]">
+                    <Panel title="Fixes to approve">
+                      <div className="flex flex-col gap-2 p-2">
+                        {baseline.alerts.length ? baseline.alerts.map((a) => <AlertCard key={a.id} alert={a} onApply={approve} approved={ctx.approved} applying={working} />)
+                          : <p className="p-2 text-sm text-[var(--fs-ink-2)]">Nothing needs fixing right now. I'll flag it here the moment that changes.</p>}
+                      </div>
+                    </Panel>
+                    <div className="flex flex-col gap-2 sm:gap-3">
+                      <Panel title="Handled for you" right={needs ? <span className="fs-mono bg-[var(--fs-amber-soft)] px-1.5 text-[10px] font-semibold text-[var(--fs-amber)]">{needs} NEED YOU</span> : undefined}>
+                        <HandledList approvals={approvals} onUndo={undo} />
+                      </Panel>
+                      <RehearsePanel mode={mode} />
+                    </div>
+                  </div>
+                )}
+
+                {tab === "bills" && (
+                  <div className="grid gap-2 sm:gap-3 xl:grid-cols-2">
+                    <Panel title="Next 30 days"><UpcomingTable f={shown} /></Panel>
+                    <Panel title={`Regular payments (${summary.recurring.length})`}><RecurringTable s={summary} /></Panel>
+                    {mode === "business" && summary.invoices.length > 0 && (
+                      <Panel title="Invoices" className="xl:col-span-2"><InvoiceTable items={summary.invoices} profileId={pid} /></Panel>
+                    )}
+                  </div>
+                )}
+
+                {tab === "spend" && (
+                  <div className="grid gap-2 sm:gap-3 xl:grid-cols-2">
+                    <Panel title="Where money went · last 90 days"><div className="p-2"><CategoryChart data={summary.categories_90d} /></div></Panel>
+                    <Panel title="In and out by month"><div className="p-2"><CashflowChart data={summary.monthly} /></div><MonthlyTable s={summary} /></Panel>
+                  </div>
+                )}
+
+                {tab === "profile" && (
+                  <div className="mx-auto max-w-[1000px]"><Panel title="Profile"><ProfileCard p={current} s={summary} f={shown} /></Panel></div>
+                )}
               </div>
             )}
-          </header>
-          {USING_MOCKS && (
-            <div className="border-b border-[var(--fs-line)] bg-[var(--fs-amber-soft)] px-4 py-1.5 text-center text-xs text-[var(--fs-amber)] sm:px-6">
-              Demo mode: forecasts come from saved engine output. Set VITE_ENGINE_URL to go live.
-            </div>
-          )}
-          {baseline ? (
-            <Conversation messages={messages} busy={busy} profileId={pid} error={error}
-              suggestions={SUGGESTIONS[mode]} placeholder={mode === "business" ? "Ask about cash, invoices, tax…" : "Ask anything about your money"}
-              voiceOn={voiceOn} onToggleVoice={() => setVoiceOn((v) => !v)} onSend={send} />
-          ) : (
-            <div className="flex flex-1 items-center justify-center p-6 text-sm text-[var(--fs-ink-2)]" role="status">
-              {error ?? "Reading the last few months and simulating the next 90 days…"}
-            </div>
-          )}
-        </main>
+          </main>
+        </div>
 
-        {panelOpen && baseline && (
-          <>
-            <button aria-label="Hide the forecast" className="fixed inset-0 z-30 bg-black/40 xl:hidden" onClick={() => setPanelOpen(false)} />
-            <div className="fs-drawer fixed inset-y-0 right-0 z-40 w-full max-w-[420px] border-l border-[var(--fs-line)] bg-[var(--fs-mist)] xl:static xl:z-auto xl:w-[400px] xl:flex-none">
-              <GlancePanel baseline={baseline} scenario={scenario} busy={simBusy} travel={travel} onTravel={setTravel}
-                exploring={explore?.label ?? null} onStopExploring={() => setExplore(null)} onClose={() => setPanelOpen(false)} />
-            </div>
-          </>
-        )}
+        <footer className="fs-mono flex items-center gap-3 border-t border-[var(--fs-line)] bg-[var(--fs-paper)] px-3 py-1 text-[11px] text-[var(--fs-ink-2)]">
+          <span className="lg:hidden">
+            <button onClick={toggle} className="min-h-[28px] whitespace-nowrap underline">{theme === "dark" ? "PAPER MODE" : "TERMINAL MODE"}</button>
+          </span>
+          <span className="truncate">{USING_MOCKS ? "DEMO DATA" : "LIVE ENGINE"}<span className="hidden md:inline">{USING_MOCKS ? " · SET VITE_ENGINE_URL TO GO LIVE" : ""} · GUIDANCE ONLY, NOT REGULATED ADVICE · YOU APPROVE EVERY ACTION</span></span>
+          <span className="ml-auto hidden whitespace-nowrap sm:inline">ALT+1–7 SWITCH TABS</span>
+        </footer>
       </div>
     </ApproveContext.Provider>
   );

@@ -1,4 +1,4 @@
-// Light/dark theme: remembers the choice, defaults to the device setting.
+// Terminal (dark) or paper (light) theme: remembers the choice, defaults to terminal.
 import { useEffect, useState } from "react";
 
 export type Theme = "light" | "dark";
@@ -8,7 +8,7 @@ function initial(): Theme {
     const saved = localStorage.getItem("fs-theme");
     if (saved === "light" || saved === "dark") return saved;
   } catch { /* storage blocked */ }
-  return window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  return "dark"; // the terminal look is the default; "paper" (light) is one click away
 }
 
 export function useTheme() {

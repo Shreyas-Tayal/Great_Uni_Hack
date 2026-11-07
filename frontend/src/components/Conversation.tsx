@@ -29,7 +29,7 @@ export function Markdown({ text }: { text: string }) {
 function Avatar() {
   return (
     <span aria-hidden="true" className="mt-0.5 hidden h-8 w-8 flex-none sm:flex items-center justify-center rounded-full bg-[var(--fs-violet)] text-[var(--fs-on-accent)]">
-      <svg width="18" height="18" viewBox="0 0 32 32" fill="none"><path d="M5 21c5 0 6-11 11-11s5 7 11 4" stroke="currentColor" strokeWidth="3" strokeLinecap="round" /></svg>
+      <svg width="18" height="18" viewBox="0 0 32 32" fill="none"><path d="M5 21h6l3-9 4 12 3-7h6" stroke="currentColor" strokeWidth="3" strokeLinecap="square" /></svg>
     </span>
   );
 }
@@ -63,7 +63,7 @@ export default function Conversation({ messages, busy, profileId, suggestions, p
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <div className="fs-scroll min-h-0 flex-1 overflow-y-auto" aria-live="polite">
-        <div className="mx-auto flex w-full max-w-[760px] flex-col gap-6 px-4 pb-6 pt-6 sm:px-6">
+        <div className="mx-auto flex w-full max-w-[860px] flex-col gap-5 px-3 pb-6 pt-5 sm:px-5">
           {messages.map((m, i) => m.role === "user" ? (
             <div key={i} className="flex justify-end">
               <div className="max-w-[85%] whitespace-pre-wrap break-words rounded-2xl rounded-br-md bg-[var(--fs-violet)] px-4 py-2.5 text-[var(--fs-on-accent)]">{m.content}</div>
@@ -96,22 +96,22 @@ export default function Conversation({ messages, busy, profileId, suggestions, p
       </div>
 
       <div className="border-t border-[var(--fs-line)] bg-[var(--fs-mist)]">
-        <div className="mx-auto w-full max-w-[760px] px-4 pb-4 pt-3 sm:px-6">
+        <div className="mx-auto w-full max-w-[860px] px-3 pb-3 pt-2 sm:px-5">
           {suggestions.length > 0 && (
             <div className="fs-scroll -mx-1 mb-2 flex gap-2 overflow-x-auto px-1 pb-1">
               {suggestions.map((s) => (
                 <button key={s} onClick={() => onSend(s)} disabled={busy}
-                  className="fs-focus min-h-[36px] flex-none rounded-full border border-[var(--fs-line)] bg-[var(--fs-paper)] px-3 text-sm hover:bg-[var(--fs-violet-soft)] disabled:opacity-50">{s}</button>
+                  className="fs-mono min-h-[34px] flex-none border border-[var(--fs-line)] bg-[var(--fs-paper)] px-3 text-[12px] hover:border-[var(--fs-violet)] hover:text-[var(--fs-violet)] disabled:opacity-50">{s}</button>
               ))}
             </div>
           )}
-          <form className="flex items-end gap-2 rounded-2xl border border-[var(--fs-line)] bg-[var(--fs-paper)] p-2 focus-within:border-[var(--fs-ink-2)]"
+          <form className="flex items-end gap-2 border border-[var(--fs-line)] bg-[var(--fs-paper)] p-1.5 focus-within:border-[var(--fs-violet)]"
             onSubmit={(e) => { e.preventDefault(); submit(); }}>
             <label htmlFor="fs-ask" className="sr-only">Ask your accountant</label>
             <textarea id="fs-ask" ref={taRef} rows={1} value={input} placeholder={placeholder}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); submit(); } }}
-              className="max-h-[168px] min-h-[40px] flex-1 resize-none border-0 bg-transparent px-2 py-2 leading-6 outline-none" />
+              className="fs-mono max-h-[168px] min-h-[40px] flex-1 resize-none border-0 bg-transparent px-2 py-2 text-[15px] leading-6 outline-none" />
             {voice.supported && (
               <button type="button" aria-label={voice.listening ? "Stop listening" : "Speak your question"} onClick={voice.listening ? voice.stop : voice.start}
                 className="fs-focus flex h-10 w-10 flex-none items-center justify-center rounded-xl hover:bg-[var(--fs-violet-soft)]"
@@ -128,7 +128,6 @@ export default function Conversation({ messages, busy, profileId, suggestions, p
               <ArrowUp size={20} />
             </button>
           </form>
-          <p className="mt-2 text-center text-xs text-[var(--fs-ink-2)]">Foresight prepares; you approve. Guidance only, not regulated financial advice.</p>
         </div>
       </div>
     </div>

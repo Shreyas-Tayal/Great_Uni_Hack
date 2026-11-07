@@ -4,6 +4,7 @@ export type Mode = "personal" | "business";
 export interface ProfileSummary {
   profile_id: string; name: string; mode: Mode; tagline: string;
   closing_balance: number; min_balance: number;
+  transactions?: number; total_in?: number; total_out?: number; min_balance_date?: string; days_closed_negative?: number;
 }
 
 export type Adjustment =
@@ -46,6 +47,7 @@ export interface Summary {
   categories_90d: { category: string; amount: number }[];
   recurring: { stream_id: string; label: string; cadence: string; direction: "in" | "out"; amount: number; next_date: string | null }[];
   invoices: Invoice[];
+  detection_score?: { scope: string; precision: number; recall: number; streams: number };
 }
 
 export interface FocusAlert { alert_id: string; title: string; peak_date: string; p_before: number; p_after: number }
