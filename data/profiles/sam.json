@@ -1,0 +1,3735 @@
+{
+  "profile_id": "sam",
+  "name": "Sam",
+  "mode": "personal",
+  "opening_balance": 760.0,
+  "tagline": "Second-year student living between loan instalments",
+  "persona": {
+    "household": "shared student house",
+    "income_type": "student loan + bar job",
+    "pay_cycle": "loan 3x/year, wages 4-weekly"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 815.62,
+  "transactions": [
+    {
+      "id": "sam-00000",
+      "date": "2025-11-08",
+      "description": "FAC251 MANCHESTER",
+      "amount": -7.73,
+      "balance": 752.27,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00001",
+      "date": "2025-11-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 742.27,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00002",
+      "date": "2025-11-08",
+      "description": "TESCO EXPRESS 9531",
+      "amount": -33.26,
+      "balance": 709.01,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00003",
+      "date": "2025-11-10",
+      "description": "TESCO EXPRESS 4402",
+      "amount": -19.41,
+      "balance": 689.6,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00004",
+      "date": "2025-11-11",
+      "description": "STAGECOACH BUS 3159",
+      "amount": -10.74,
+      "balance": 678.86,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00005",
+      "date": "2025-11-11",
+      "description": "TESCO EXPRESS 4178",
+      "amount": -13.36,
+      "balance": 665.5,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00006",
+      "date": "2025-11-12",
+      "description": "STAGECOACH BUS 3423",
+      "amount": -9.7,
+      "balance": 655.8,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00007",
+      "date": "2025-11-13",
+      "description": "STAGECOACH BUS 2780",
+      "amount": -7.79,
+      "balance": 648.01,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00008",
+      "date": "2025-11-13",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -19.9,
+      "balance": 628.11,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00009",
+      "date": "2025-11-13",
+      "description": "FIXR.CO",
+      "amount": -37.04,
+      "balance": 591.07,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00010",
+      "date": "2025-11-14",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 363.06,
+      "balance": 954.13,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00011",
+      "date": "2025-11-14",
+      "description": "FIXR.CO",
+      "amount": -21.19,
+      "balance": 932.94,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00012",
+      "date": "2025-11-16",
+      "description": "SPOTIFY P2341",
+      "amount": -5.99,
+      "balance": 926.95,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00013",
+      "date": "2025-11-18",
+      "description": "ALDI 2890 MANCHESTER",
+      "amount": -13.44,
+      "balance": 913.51,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00014",
+      "date": "2025-11-21",
+      "description": "SU BAR MANCHESTER",
+      "amount": -32.63,
+      "balance": 880.88,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00015",
+      "date": "2025-11-22",
+      "description": "AMAZON PRIME*TM993733",
+      "amount": -4.49,
+      "balance": 876.39,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00016",
+      "date": "2025-11-22",
+      "description": "CO-OP GROUP 8732",
+      "amount": -16.36,
+      "balance": 860.03,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00017",
+      "date": "2025-11-26",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -17.45,
+      "balance": 842.58,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00018",
+      "date": "2025-11-27",
+      "description": "CO-OP GROUP 5533",
+      "amount": -14.92,
+      "balance": 827.66,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00019",
+      "date": "2025-11-27",
+      "description": "DICE.FM",
+      "amount": -59.46,
+      "balance": 768.2,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00020",
+      "date": "2025-11-28",
+      "description": "ALDI 9466 MANCHESTER",
+      "amount": -16.67,
+      "balance": 751.53,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00021",
+      "date": "2025-11-29",
+      "description": "FIXR.CO",
+      "amount": -6.21,
+      "balance": 745.32,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00022",
+      "date": "2025-12-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 865.32,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00023",
+      "date": "2025-12-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 325.32,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00024",
+      "date": "2025-12-03",
+      "description": "FAC251 MANCHESTER",
+      "amount": -20.77,
+      "balance": 304.55,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00025",
+      "date": "2025-12-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 259.55,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00026",
+      "date": "2025-12-05",
+      "description": "SU BAR MANCHESTER",
+      "amount": -7.4,
+      "balance": 252.15,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00027",
+      "date": "2025-12-06",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -12.39,
+      "balance": 239.76,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00028",
+      "date": "2025-12-06",
+      "description": "FAC251 MANCHESTER",
+      "amount": -20.78,
+      "balance": 218.98,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00029",
+      "date": "2025-12-08",
+      "description": "STAGECOACH BUS 8793",
+      "amount": -5.3,
+      "balance": 213.68,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00030",
+      "date": "2025-12-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 203.68,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00031",
+      "date": "2025-12-10",
+      "description": "UBER *EATS",
+      "amount": -18.33,
+      "balance": 185.35,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00032",
+      "date": "2025-12-11",
+      "description": "UBER *EATS",
+      "amount": -11.19,
+      "balance": 174.16,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00033",
+      "date": "2025-12-12",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 369.4,
+      "balance": 543.56,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00034",
+      "date": "2025-12-12",
+      "description": "FAC251 MANCHESTER",
+      "amount": -16.47,
+      "balance": 527.09,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00035",
+      "date": "2025-12-13",
+      "description": "FAC251 MANCHESTER",
+      "amount": -9.25,
+      "balance": 517.84,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00036",
+      "date": "2025-12-16",
+      "description": "SPOTIFY P4782",
+      "amount": -5.99,
+      "balance": 511.85,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00037",
+      "date": "2025-12-17",
+      "description": "UBER *TRIP",
+      "amount": -5.77,
+      "balance": 506.08,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00038",
+      "date": "2025-12-18",
+      "description": "DICE.FM",
+      "amount": -45.37,
+      "balance": 460.71,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00039",
+      "date": "2025-12-19",
+      "description": "CO-OP GROUP 3495",
+      "amount": -37.15,
+      "balance": 423.56,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00040",
+      "date": "2025-12-21",
+      "description": "UBER *EATS",
+      "amount": -12.59,
+      "balance": 410.97,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00041",
+      "date": "2025-12-22",
+      "description": "AMAZON PRIME*ZG633065",
+      "amount": -4.49,
+      "balance": 406.48,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00042",
+      "date": "2025-12-24",
+      "description": "TESCO EXPRESS 3127",
+      "amount": -40.9,
+      "balance": 365.58,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00043",
+      "date": "2025-12-25",
+      "description": "UBER *TRIP",
+      "amount": -6.18,
+      "balance": 359.4,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00044",
+      "date": "2025-12-25",
+      "description": "FAC251 MANCHESTER",
+      "amount": -14.07,
+      "balance": 345.33,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00045",
+      "date": "2025-12-26",
+      "description": "CO-OP GROUP 6045",
+      "amount": -22.67,
+      "balance": 322.66,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00046",
+      "date": "2025-12-26",
+      "description": "DICE.FM",
+      "amount": -36.47,
+      "balance": 286.19,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00047",
+      "date": "2025-12-27",
+      "description": "ALDI 9593 MANCHESTER",
+      "amount": -8.22,
+      "balance": 277.97,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00048",
+      "date": "2025-12-27",
+      "description": "DICE.FM",
+      "amount": -21.19,
+      "balance": 256.78,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00049",
+      "date": "2025-12-29",
+      "description": "UBER *TRIP",
+      "amount": -3.88,
+      "balance": 252.9,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00050",
+      "date": "2025-12-29",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -11.08,
+      "balance": 241.82,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00051",
+      "date": "2025-12-30",
+      "description": "UBER *TRIP",
+      "amount": -3.94,
+      "balance": 237.88,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00052",
+      "date": "2026-01-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 357.88,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00053",
+      "date": "2026-01-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": -182.12,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00054",
+      "date": "2026-01-02",
+      "description": "UBER *TRIP",
+      "amount": -6.56,
+      "balance": -188.68,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00055",
+      "date": "2026-01-02",
+      "description": "CO-OP GROUP 2248",
+      "amount": -14.53,
+      "balance": -203.21,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00056",
+      "date": "2026-01-02",
+      "description": "DICE.FM",
+      "amount": -18.38,
+      "balance": -221.59,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00057",
+      "date": "2026-01-03",
+      "description": "TESCO EXPRESS 3919",
+      "amount": -11.7,
+      "balance": -233.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00058",
+      "date": "2026-01-03",
+      "description": "FIXR.CO",
+      "amount": -27.42,
+      "balance": -260.71,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00059",
+      "date": "2026-01-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": -305.71,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00060",
+      "date": "2026-01-05",
+      "description": "DOMINOS PIZZA 7815",
+      "amount": -16.18,
+      "balance": -321.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00061",
+      "date": "2026-01-07",
+      "description": "FAC251 MANCHESTER",
+      "amount": -13.73,
+      "balance": -335.62,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00062",
+      "date": "2026-01-07",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -21.15,
+      "balance": -356.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00063",
+      "date": "2026-01-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": -366.77,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00064",
+      "date": "2026-01-08",
+      "description": "CO-OP GROUP 8139",
+      "amount": -29.76,
+      "balance": -396.53,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00065",
+      "date": "2026-01-09",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 505.78,
+      "balance": 109.25,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00066",
+      "date": "2026-01-09",
+      "description": "CO-OP GROUP 9504",
+      "amount": -9.55,
+      "balance": 99.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00067",
+      "date": "2026-01-09",
+      "description": "SU BAR MANCHESTER",
+      "amount": -15.94,
+      "balance": 83.76,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00068",
+      "date": "2026-01-10",
+      "description": "FAC251 MANCHESTER",
+      "amount": -55.4,
+      "balance": 28.36,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00069",
+      "date": "2026-01-12",
+      "description": "UBER *EATS",
+      "amount": -33.39,
+      "balance": -5.03,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00070",
+      "date": "2026-01-16",
+      "description": "SPOTIFY P7864",
+      "amount": -5.99,
+      "balance": -11.02,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00071",
+      "date": "2026-01-16",
+      "description": "SU BAR MANCHESTER",
+      "amount": -48.82,
+      "balance": -59.84,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00072",
+      "date": "2026-01-18",
+      "description": "ALDI 3294 MANCHESTER",
+      "amount": -14.89,
+      "balance": -74.73,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00073",
+      "date": "2026-01-18",
+      "description": "DOMINOS PIZZA 8217",
+      "amount": -15.89,
+      "balance": -90.62,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00074",
+      "date": "2026-01-19",
+      "description": "UBER *TRIP",
+      "amount": -9.76,
+      "balance": -100.38,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00075",
+      "date": "2026-01-19",
+      "description": "CO-OP GROUP 8047",
+      "amount": -11.74,
+      "balance": -112.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00076",
+      "date": "2026-01-21",
+      "description": "FIXR.CO",
+      "amount": -18.8,
+      "balance": -130.92,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00077",
+      "date": "2026-01-22",
+      "description": "AMAZON PRIME*FG690539",
+      "amount": -4.49,
+      "balance": -135.41,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00078",
+      "date": "2026-01-22",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -16.31,
+      "balance": -151.72,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00079",
+      "date": "2026-01-23",
+      "description": "DICE.FM",
+      "amount": -17.84,
+      "balance": -169.56,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00080",
+      "date": "2026-01-24",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -11.36,
+      "balance": -180.92,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00081",
+      "date": "2026-01-26",
+      "description": "SLC RECEIPTS YA801096",
+      "amount": 1612.0,
+      "balance": 1431.08,
+      "_category": "income:student_loan",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00082",
+      "date": "2026-01-26",
+      "description": "ALDI 5122 MANCHESTER",
+      "amount": -23.94,
+      "balance": 1407.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00083",
+      "date": "2026-01-27",
+      "description": "DOMINOS PIZZA 5696",
+      "amount": -14.33,
+      "balance": 1392.81,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00084",
+      "date": "2026-01-29",
+      "description": "FAC251 MANCHESTER",
+      "amount": -11.28,
+      "balance": 1381.53,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00085",
+      "date": "2026-01-29",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -13.44,
+      "balance": 1368.09,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00086",
+      "date": "2026-01-30",
+      "description": "SU BAR MANCHESTER",
+      "amount": -17.56,
+      "balance": 1350.53,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00087",
+      "date": "2026-01-31",
+      "description": "TESCO EXPRESS 5759",
+      "amount": -17.0,
+      "balance": 1333.53,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00088",
+      "date": "2026-02-01",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -16.38,
+      "balance": 1317.15,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00089",
+      "date": "2026-02-02",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 1437.15,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00090",
+      "date": "2026-02-02",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 897.15,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00091",
+      "date": "2026-02-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 852.15,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00092",
+      "date": "2026-02-05",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -11.85,
+      "balance": 840.3,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00093",
+      "date": "2026-02-05",
+      "description": "ALDI 1221 MANCHESTER",
+      "amount": -15.51,
+      "balance": 824.79,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00094",
+      "date": "2026-02-05",
+      "description": "DICE.FM",
+      "amount": -26.54,
+      "balance": 798.25,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00095",
+      "date": "2026-02-06",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 601.17,
+      "balance": 1399.42,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00096",
+      "date": "2026-02-06",
+      "description": "STAGECOACH BUS 9726",
+      "amount": -5.86,
+      "balance": 1393.56,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00097",
+      "date": "2026-02-07",
+      "description": "STAGECOACH BUS 1759",
+      "amount": -3.27,
+      "balance": 1390.29,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00098",
+      "date": "2026-02-08",
+      "description": "UBER *TRIP",
+      "amount": -4.75,
+      "balance": 1385.54,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00099",
+      "date": "2026-02-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 1375.54,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00100",
+      "date": "2026-02-09",
+      "description": "TESCO EXPRESS 3991",
+      "amount": -25.32,
+      "balance": 1350.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00101",
+      "date": "2026-02-10",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -18.99,
+      "balance": 1331.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00102",
+      "date": "2026-02-11",
+      "description": "UBER *TRIP",
+      "amount": -7.76,
+      "balance": 1323.47,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00103",
+      "date": "2026-02-12",
+      "description": "DOMINOS PIZZA 7250",
+      "amount": -14.19,
+      "balance": 1309.28,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00104",
+      "date": "2026-02-13",
+      "description": "STAGECOACH BUS 5158",
+      "amount": -4.92,
+      "balance": 1304.36,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00105",
+      "date": "2026-02-13",
+      "description": "FAC251 MANCHESTER",
+      "amount": -59.92,
+      "balance": 1244.44,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00106",
+      "date": "2026-02-14",
+      "description": "UBER *TRIP",
+      "amount": -6.0,
+      "balance": 1238.44,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00107",
+      "date": "2026-02-14",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -9.97,
+      "balance": 1228.47,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00108",
+      "date": "2026-02-14",
+      "description": "SU BAR MANCHESTER",
+      "amount": -29.46,
+      "balance": 1199.01,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00109",
+      "date": "2026-02-16",
+      "description": "UBER *TRIP",
+      "amount": -3.51,
+      "balance": 1195.5,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00110",
+      "date": "2026-02-16",
+      "description": "SPOTIFY P8496",
+      "amount": -5.99,
+      "balance": 1189.51,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00111",
+      "date": "2026-02-17",
+      "description": "STAGECOACH BUS 4777",
+      "amount": -5.34,
+      "balance": 1184.17,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00112",
+      "date": "2026-02-18",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -8.23,
+      "balance": 1175.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00113",
+      "date": "2026-02-19",
+      "description": "UBER *TRIP",
+      "amount": -7.11,
+      "balance": 1168.83,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00114",
+      "date": "2026-02-19",
+      "description": "TESCO EXPRESS 5179",
+      "amount": -15.24,
+      "balance": 1153.59,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00115",
+      "date": "2026-02-19",
+      "description": "FAC251 MANCHESTER",
+      "amount": -28.2,
+      "balance": 1125.39,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00116",
+      "date": "2026-02-20",
+      "description": "FAC251 MANCHESTER",
+      "amount": -10.93,
+      "balance": 1114.46,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00117",
+      "date": "2026-02-21",
+      "description": "FIXR.CO",
+      "amount": -39.91,
+      "balance": 1074.55,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00118",
+      "date": "2026-02-22",
+      "description": "AMAZON PRIME*CJ443772",
+      "amount": -4.49,
+      "balance": 1070.06,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00119",
+      "date": "2026-02-22",
+      "description": "TESCO EXPRESS 9142",
+      "amount": -18.01,
+      "balance": 1052.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00120",
+      "date": "2026-02-23",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -10.15,
+      "balance": 1041.9,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00121",
+      "date": "2026-02-26",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -13.38,
+      "balance": 1028.52,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00122",
+      "date": "2026-02-27",
+      "description": "STAGECOACH BUS 6959",
+      "amount": -8.97,
+      "balance": 1019.55,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00123",
+      "date": "2026-02-27",
+      "description": "CO-OP GROUP 8542",
+      "amount": -17.51,
+      "balance": 1002.04,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00124",
+      "date": "2026-02-27",
+      "description": "SU BAR MANCHESTER",
+      "amount": -23.26,
+      "balance": 978.78,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00125",
+      "date": "2026-03-01",
+      "description": "UBER *TRIP",
+      "amount": -14.82,
+      "balance": 963.96,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00126",
+      "date": "2026-03-02",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 1083.96,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00127",
+      "date": "2026-03-02",
+      "description": "STAGECOACH BUS 4422",
+      "amount": -4.49,
+      "balance": 1079.47,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00128",
+      "date": "2026-03-02",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 539.47,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00129",
+      "date": "2026-03-03",
+      "description": "TESCO EXPRESS 5392",
+      "amount": -8.6,
+      "balance": 530.87,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00130",
+      "date": "2026-03-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 485.87,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00131",
+      "date": "2026-03-05",
+      "description": "UBER *TRIP",
+      "amount": -3.94,
+      "balance": 481.93,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00132",
+      "date": "2026-03-05",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -15.69,
+      "balance": 466.24,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00133",
+      "date": "2026-03-06",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 453.09,
+      "balance": 919.33,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00134",
+      "date": "2026-03-07",
+      "description": "ALDI 5347 MANCHESTER",
+      "amount": -18.45,
+      "balance": 900.88,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00135",
+      "date": "2026-03-08",
+      "description": "STAGECOACH BUS 6625",
+      "amount": -1.89,
+      "balance": 898.99,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00136",
+      "date": "2026-03-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 888.99,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00137",
+      "date": "2026-03-08",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -21.26,
+      "balance": 867.73,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00138",
+      "date": "2026-03-09",
+      "description": "UBER *TRIP",
+      "amount": -5.19,
+      "balance": 862.54,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00139",
+      "date": "2026-03-09",
+      "description": "TESCO EXPRESS 5828",
+      "amount": -13.25,
+      "balance": 849.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00140",
+      "date": "2026-03-12",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -3.89,
+      "balance": 845.4,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00141",
+      "date": "2026-03-12",
+      "description": "FIXR.CO",
+      "amount": -32.77,
+      "balance": 812.63,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00142",
+      "date": "2026-03-14",
+      "description": "CO-OP GROUP 6105",
+      "amount": -20.58,
+      "balance": 792.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00143",
+      "date": "2026-03-15",
+      "description": "UBER *EATS",
+      "amount": -11.06,
+      "balance": 780.99,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00144",
+      "date": "2026-03-16",
+      "description": "UBER *TRIP",
+      "amount": -5.83,
+      "balance": 775.16,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00145",
+      "date": "2026-03-16",
+      "description": "SPOTIFY P3087",
+      "amount": -5.99,
+      "balance": 769.17,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00146",
+      "date": "2026-03-16",
+      "description": "ALDI 4279 MANCHESTER",
+      "amount": -19.76,
+      "balance": 749.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00147",
+      "date": "2026-03-17",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -20.01,
+      "balance": 729.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00148",
+      "date": "2026-03-19",
+      "description": "SU BAR MANCHESTER",
+      "amount": -10.5,
+      "balance": 718.9,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00149",
+      "date": "2026-03-20",
+      "description": "DOMINOS PIZZA 7802",
+      "amount": -14.55,
+      "balance": 704.35,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00150",
+      "date": "2026-03-20",
+      "description": "FAC251 MANCHESTER",
+      "amount": -18.09,
+      "balance": 686.26,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00151",
+      "date": "2026-03-22",
+      "description": "AMAZON PRIME*LP678324",
+      "amount": -4.49,
+      "balance": 681.77,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00152",
+      "date": "2026-03-25",
+      "description": "ALDI 4726 MANCHESTER",
+      "amount": -20.13,
+      "balance": 661.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00153",
+      "date": "2026-03-25",
+      "description": "DOMINOS PIZZA 5522",
+      "amount": -23.28,
+      "balance": 638.36,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00154",
+      "date": "2026-03-26",
+      "description": "CO-OP GROUP 6205",
+      "amount": -16.06,
+      "balance": 622.3,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00155",
+      "date": "2026-03-27",
+      "description": "FIXR.CO",
+      "amount": -13.26,
+      "balance": 609.04,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00156",
+      "date": "2026-03-29",
+      "description": "TESCO EXPRESS 9351",
+      "amount": -24.92,
+      "balance": 584.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00157",
+      "date": "2026-03-31",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -11.94,
+      "balance": 572.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00158",
+      "date": "2026-04-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 692.18,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00159",
+      "date": "2026-04-01",
+      "description": "STAGECOACH BUS 4329",
+      "amount": -10.68,
+      "balance": 681.5,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00160",
+      "date": "2026-04-01",
+      "description": "UBER *EATS",
+      "amount": -21.27,
+      "balance": 660.23,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00161",
+      "date": "2026-04-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 120.23,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00162",
+      "date": "2026-04-02",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -10.93,
+      "balance": 109.3,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00163",
+      "date": "2026-04-02",
+      "description": "FAC251 MANCHESTER",
+      "amount": -51.53,
+      "balance": 57.77,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00164",
+      "date": "2026-04-03",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 425.44,
+      "balance": 483.21,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00165",
+      "date": "2026-04-03",
+      "description": "UBER *TRIP",
+      "amount": -3.69,
+      "balance": 479.52,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00166",
+      "date": "2026-04-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 434.52,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00167",
+      "date": "2026-04-05",
+      "description": "TESCO EXPRESS 8598",
+      "amount": -24.31,
+      "balance": 410.21,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00168",
+      "date": "2026-04-06",
+      "description": "TESCO EXPRESS 8864",
+      "amount": -12.01,
+      "balance": 398.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00169",
+      "date": "2026-04-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 388.2,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00170",
+      "date": "2026-04-11",
+      "description": "SU BAR MANCHESTER",
+      "amount": -16.88,
+      "balance": 371.32,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00171",
+      "date": "2026-04-11",
+      "description": "TESCO EXPRESS 9343",
+      "amount": -16.96,
+      "balance": 354.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00172",
+      "date": "2026-04-12",
+      "description": "DOMINOS PIZZA 2855",
+      "amount": -8.08,
+      "balance": 346.28,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00173",
+      "date": "2026-04-12",
+      "description": "ALDI 7417 MANCHESTER",
+      "amount": -15.7,
+      "balance": 330.58,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00174",
+      "date": "2026-04-15",
+      "description": "SU BAR MANCHESTER",
+      "amount": -45.03,
+      "balance": 285.55,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00175",
+      "date": "2026-04-16",
+      "description": "SPOTIFY P5381",
+      "amount": -5.99,
+      "balance": 279.56,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00176",
+      "date": "2026-04-16",
+      "description": "SU BAR MANCHESTER",
+      "amount": -32.72,
+      "balance": 246.84,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00177",
+      "date": "2026-04-17",
+      "description": "TESCO EXPRESS 6247",
+      "amount": -18.5,
+      "balance": 228.34,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00178",
+      "date": "2026-04-18",
+      "description": "UBER *EATS",
+      "amount": -5.57,
+      "balance": 222.77,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00179",
+      "date": "2026-04-18",
+      "description": "FAC251 MANCHESTER",
+      "amount": -8.27,
+      "balance": 214.5,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00180",
+      "date": "2026-04-19",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -15.62,
+      "balance": 198.88,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00181",
+      "date": "2026-04-20",
+      "description": "SLC RECEIPTS BU404169",
+      "amount": 1612.0,
+      "balance": 1810.88,
+      "_category": "income:student_loan",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00182",
+      "date": "2026-04-20",
+      "description": "ALDI 7564 MANCHESTER",
+      "amount": -28.06,
+      "balance": 1782.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00183",
+      "date": "2026-04-21",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -14.95,
+      "balance": 1767.87,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00184",
+      "date": "2026-04-21",
+      "description": "ALDI 3475 MANCHESTER",
+      "amount": -23.89,
+      "balance": 1743.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00185",
+      "date": "2026-04-22",
+      "description": "AMAZON PRIME*AY225920",
+      "amount": -4.49,
+      "balance": 1739.49,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00186",
+      "date": "2026-04-22",
+      "description": "SU BAR MANCHESTER",
+      "amount": -19.76,
+      "balance": 1719.73,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00187",
+      "date": "2026-04-23",
+      "description": "UBER *EATS",
+      "amount": -13.55,
+      "balance": 1706.18,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00188",
+      "date": "2026-04-24",
+      "description": "FIXR.CO",
+      "amount": -21.73,
+      "balance": 1684.45,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00189",
+      "date": "2026-04-25",
+      "description": "STAGECOACH BUS 6892",
+      "amount": -4.81,
+      "balance": 1679.64,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00190",
+      "date": "2026-04-25",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -11.16,
+      "balance": 1668.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00191",
+      "date": "2026-04-26",
+      "description": "CO-OP GROUP 1122",
+      "amount": -16.07,
+      "balance": 1652.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00192",
+      "date": "2026-04-27",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -10.4,
+      "balance": 1642.01,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00193",
+      "date": "2026-04-29",
+      "description": "UBER *TRIP",
+      "amount": -2.79,
+      "balance": 1639.22,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00194",
+      "date": "2026-04-29",
+      "description": "FAC251 MANCHESTER",
+      "amount": -29.74,
+      "balance": 1609.48,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00195",
+      "date": "2026-04-30",
+      "description": "TESCO EXPRESS 5721",
+      "amount": -18.6,
+      "balance": 1590.88,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00196",
+      "date": "2026-04-30",
+      "description": "FIXR.CO",
+      "amount": -34.57,
+      "balance": 1556.31,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00197",
+      "date": "2026-05-01",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 278.26,
+      "balance": 1834.57,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00198",
+      "date": "2026-05-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 1954.57,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00199",
+      "date": "2026-05-01",
+      "description": "DICE.FM",
+      "amount": -14.92,
+      "balance": 1939.65,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00200",
+      "date": "2026-05-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 1399.65,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00201",
+      "date": "2026-05-02",
+      "description": "STAGECOACH BUS 3518",
+      "amount": -4.53,
+      "balance": 1395.12,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00202",
+      "date": "2026-05-02",
+      "description": "CO-OP GROUP 1421",
+      "amount": -16.29,
+      "balance": 1378.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00203",
+      "date": "2026-05-02",
+      "description": "SU BAR MANCHESTER",
+      "amount": -16.66,
+      "balance": 1362.17,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00204",
+      "date": "2026-05-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 1317.17,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00205",
+      "date": "2026-05-04",
+      "description": "STAGECOACH BUS 6864",
+      "amount": -3.0,
+      "balance": 1314.17,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00206",
+      "date": "2026-05-07",
+      "description": "DICE.FM",
+      "amount": -16.27,
+      "balance": 1297.9,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00207",
+      "date": "2026-05-07",
+      "description": "TESCO EXPRESS 5110",
+      "amount": -24.24,
+      "balance": 1273.66,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00208",
+      "date": "2026-05-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 1263.66,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00209",
+      "date": "2026-05-08",
+      "description": "SU BAR MANCHESTER",
+      "amount": -15.31,
+      "balance": 1248.35,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00210",
+      "date": "2026-05-08",
+      "description": "ALDI 3721 MANCHESTER",
+      "amount": -18.31,
+      "balance": 1230.04,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00211",
+      "date": "2026-05-10",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -15.69,
+      "balance": 1214.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00212",
+      "date": "2026-05-11",
+      "description": "ALDI 3091 MANCHESTER",
+      "amount": -3.71,
+      "balance": 1210.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00213",
+      "date": "2026-05-11",
+      "description": "STAGECOACH BUS 4249",
+      "amount": -6.54,
+      "balance": 1204.1,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00214",
+      "date": "2026-05-12",
+      "description": "DOMINOS PIZZA 1454",
+      "amount": -16.43,
+      "balance": 1187.67,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00215",
+      "date": "2026-05-14",
+      "description": "SU BAR MANCHESTER",
+      "amount": -27.9,
+      "balance": 1159.77,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00216",
+      "date": "2026-05-15",
+      "description": "TESCO EXPRESS 2142",
+      "amount": -11.04,
+      "balance": 1148.73,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00217",
+      "date": "2026-05-16",
+      "description": "SPOTIFY P1296",
+      "amount": -5.99,
+      "balance": 1142.74,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00218",
+      "date": "2026-05-18",
+      "description": "UBER *TRIP",
+      "amount": -8.13,
+      "balance": 1134.61,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00219",
+      "date": "2026-05-18",
+      "description": "FAC251 MANCHESTER",
+      "amount": -13.69,
+      "balance": 1120.92,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00220",
+      "date": "2026-05-18",
+      "description": "CO-OP GROUP 9338",
+      "amount": -13.96,
+      "balance": 1106.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00221",
+      "date": "2026-05-19",
+      "description": "DOMINOS PIZZA 8220",
+      "amount": -17.98,
+      "balance": 1088.98,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00222",
+      "date": "2026-05-21",
+      "description": "FIXR.CO",
+      "amount": -23.11,
+      "balance": 1065.87,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00223",
+      "date": "2026-05-22",
+      "description": "AMAZON PRIME*AR231484",
+      "amount": -4.49,
+      "balance": 1061.38,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00224",
+      "date": "2026-05-22",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -14.74,
+      "balance": 1046.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00225",
+      "date": "2026-05-24",
+      "description": "UBER *EATS",
+      "amount": -38.43,
+      "balance": 1008.21,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00226",
+      "date": "2026-05-27",
+      "description": "SU BAR MANCHESTER",
+      "amount": -16.68,
+      "balance": 991.53,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00227",
+      "date": "2026-05-27",
+      "description": "TESCO EXPRESS 7323",
+      "amount": -34.17,
+      "balance": 957.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00228",
+      "date": "2026-05-28",
+      "description": "ALDI 3407 MANCHESTER",
+      "amount": -17.88,
+      "balance": 939.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00229",
+      "date": "2026-05-29",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 90.34,
+      "balance": 1029.82,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00230",
+      "date": "2026-05-29",
+      "description": "SU BAR MANCHESTER",
+      "amount": -5.23,
+      "balance": 1024.59,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00231",
+      "date": "2026-05-29",
+      "description": "STAGECOACH BUS 8310",
+      "amount": -8.21,
+      "balance": 1016.38,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00232",
+      "date": "2026-05-30",
+      "description": "UBER *TRIP",
+      "amount": -9.19,
+      "balance": 1007.19,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00233",
+      "date": "2026-05-30",
+      "description": "DICE.FM",
+      "amount": -12.59,
+      "balance": 994.6,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00234",
+      "date": "2026-05-31",
+      "description": "STAGECOACH BUS 5357",
+      "amount": -6.98,
+      "balance": 987.62,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00235",
+      "date": "2026-05-31",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -20.72,
+      "balance": 966.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00236",
+      "date": "2026-05-31",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -37.46,
+      "balance": 929.44,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00237",
+      "date": "2026-06-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 1049.44,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00238",
+      "date": "2026-06-01",
+      "description": "STAGECOACH BUS 8255",
+      "amount": -5.01,
+      "balance": 1044.43,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00239",
+      "date": "2026-06-01",
+      "description": "DICE.FM",
+      "amount": -9.94,
+      "balance": 1034.49,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00240",
+      "date": "2026-06-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 494.49,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00241",
+      "date": "2026-06-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 449.49,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00242",
+      "date": "2026-06-04",
+      "description": "UBER *TRIP",
+      "amount": -7.48,
+      "balance": 442.01,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00243",
+      "date": "2026-06-05",
+      "description": "SU BAR MANCHESTER",
+      "amount": -12.33,
+      "balance": 429.68,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00244",
+      "date": "2026-06-05",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -29.11,
+      "balance": 400.57,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00245",
+      "date": "2026-06-06",
+      "description": "FIXR.CO",
+      "amount": -11.23,
+      "balance": 389.34,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00246",
+      "date": "2026-06-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 379.34,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00247",
+      "date": "2026-06-08",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -11.29,
+      "balance": 368.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00248",
+      "date": "2026-06-10",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -8.51,
+      "balance": 359.54,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00249",
+      "date": "2026-06-11",
+      "description": "CO-OP GROUP 1385",
+      "amount": -18.89,
+      "balance": 340.65,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00250",
+      "date": "2026-06-11",
+      "description": "SU BAR MANCHESTER",
+      "amount": -36.94,
+      "balance": 303.71,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00251",
+      "date": "2026-06-12",
+      "description": "FAC251 MANCHESTER",
+      "amount": -7.6,
+      "balance": 296.11,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00252",
+      "date": "2026-06-12",
+      "description": "STAGECOACH BUS 5726",
+      "amount": -8.68,
+      "balance": 287.43,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00253",
+      "date": "2026-06-15",
+      "description": "UBER *EATS",
+      "amount": -22.81,
+      "balance": 264.62,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00254",
+      "date": "2026-06-16",
+      "description": "SPOTIFY P6695",
+      "amount": -5.99,
+      "balance": 258.63,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00255",
+      "date": "2026-06-16",
+      "description": "TESCO EXPRESS 1181",
+      "amount": -14.9,
+      "balance": 243.73,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00256",
+      "date": "2026-06-19",
+      "description": "FAC251 MANCHESTER",
+      "amount": -59.37,
+      "balance": 184.36,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00257",
+      "date": "2026-06-20",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -15.16,
+      "balance": 169.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00258",
+      "date": "2026-06-22",
+      "description": "AMAZON PRIME*EU253577",
+      "amount": -4.49,
+      "balance": 164.71,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00259",
+      "date": "2026-06-25",
+      "description": "STAGECOACH BUS 6944",
+      "amount": -10.32,
+      "balance": 154.39,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00260",
+      "date": "2026-06-25",
+      "description": "ALDI 8033 MANCHESTER",
+      "amount": -15.72,
+      "balance": 138.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00261",
+      "date": "2026-06-25",
+      "description": "FIXR.CO",
+      "amount": -20.1,
+      "balance": 118.57,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00262",
+      "date": "2026-06-26",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 737.39,
+      "balance": 855.96,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00263",
+      "date": "2026-06-26",
+      "description": "TESCO EXPRESS 8528",
+      "amount": -10.7,
+      "balance": 845.26,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00264",
+      "date": "2026-06-27",
+      "description": "SU BAR MANCHESTER",
+      "amount": -6.19,
+      "balance": 839.07,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00265",
+      "date": "2026-06-27",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -15.32,
+      "balance": 823.75,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00266",
+      "date": "2026-06-29",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -14.18,
+      "balance": 809.57,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00267",
+      "date": "2026-07-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 929.57,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00268",
+      "date": "2026-07-01",
+      "description": "UBER *EATS",
+      "amount": -11.72,
+      "balance": 917.85,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00269",
+      "date": "2026-07-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 377.85,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00270",
+      "date": "2026-07-02",
+      "description": "FIXR.CO",
+      "amount": -5.33,
+      "balance": 372.52,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00271",
+      "date": "2026-07-02",
+      "description": "UBER *TRIP",
+      "amount": -8.28,
+      "balance": 364.24,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00272",
+      "date": "2026-07-02",
+      "description": "CO-OP GROUP 5112",
+      "amount": -22.24,
+      "balance": 342.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00273",
+      "date": "2026-07-03",
+      "description": "SU BAR MANCHESTER",
+      "amount": -12.14,
+      "balance": 329.86,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00274",
+      "date": "2026-07-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 284.86,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00275",
+      "date": "2026-07-04",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -12.01,
+      "balance": 272.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00276",
+      "date": "2026-07-04",
+      "description": "DICE.FM",
+      "amount": -14.79,
+      "balance": 258.06,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00277",
+      "date": "2026-07-04",
+      "description": "UBER *EATS",
+      "amount": -23.34,
+      "balance": 234.72,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00278",
+      "date": "2026-07-06",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -15.95,
+      "balance": 218.77,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00279",
+      "date": "2026-07-07",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -24.79,
+      "balance": 193.98,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00280",
+      "date": "2026-07-07",
+      "description": "TESCO EXPRESS 3218",
+      "amount": -32.44,
+      "balance": 161.54,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00281",
+      "date": "2026-07-08",
+      "description": "SU BAR MANCHESTER",
+      "amount": -4.38,
+      "balance": 157.16,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00282",
+      "date": "2026-07-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 147.16,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00283",
+      "date": "2026-07-10",
+      "description": "SU BAR MANCHESTER",
+      "amount": -6.01,
+      "balance": 141.15,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00284",
+      "date": "2026-07-11",
+      "description": "DICE.FM",
+      "amount": -6.68,
+      "balance": 134.47,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00285",
+      "date": "2026-07-11",
+      "description": "CO-OP GROUP 6187",
+      "amount": -14.36,
+      "balance": 120.11,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00286",
+      "date": "2026-07-16",
+      "description": "SPOTIFY P6546",
+      "amount": -5.99,
+      "balance": 114.12,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00287",
+      "date": "2026-07-17",
+      "description": "SU BAR MANCHESTER",
+      "amount": -6.57,
+      "balance": 107.55,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00288",
+      "date": "2026-07-18",
+      "description": "DICE.FM",
+      "amount": -13.41,
+      "balance": 94.14,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00289",
+      "date": "2026-07-22",
+      "description": "AMAZON PRIME*MW848267",
+      "amount": -4.49,
+      "balance": 89.65,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00290",
+      "date": "2026-07-22",
+      "description": "TESCO EXPRESS 3142",
+      "amount": -9.96,
+      "balance": 79.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00291",
+      "date": "2026-07-23",
+      "description": "TESCO EXPRESS 7757",
+      "amount": -18.33,
+      "balance": 61.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00292",
+      "date": "2026-07-24",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 837.68,
+      "balance": 899.04,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00293",
+      "date": "2026-07-24",
+      "description": "TESCO EXPRESS 1282",
+      "amount": -5.82,
+      "balance": 893.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00294",
+      "date": "2026-07-25",
+      "description": "STAGECOACH BUS 6529",
+      "amount": -7.66,
+      "balance": 885.56,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00295",
+      "date": "2026-07-25",
+      "description": "FIXR.CO",
+      "amount": -11.71,
+      "balance": 873.85,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00296",
+      "date": "2026-07-27",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -10.23,
+      "balance": 863.62,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00297",
+      "date": "2026-07-27",
+      "description": "ALDI 7155 MANCHESTER",
+      "amount": -17.48,
+      "balance": 846.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00298",
+      "date": "2026-07-29",
+      "description": "ALDI 1470 MANCHESTER",
+      "amount": -19.6,
+      "balance": 826.54,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00299",
+      "date": "2026-07-30",
+      "description": "UBER *TRIP",
+      "amount": -4.4,
+      "balance": 822.14,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00300",
+      "date": "2026-07-31",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -12.13,
+      "balance": 810.01,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00301",
+      "date": "2026-07-31",
+      "description": "SU BAR MANCHESTER",
+      "amount": -14.35,
+      "balance": 795.66,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00302",
+      "date": "2026-08-01",
+      "description": "DOMINOS PIZZA 4904",
+      "amount": -17.76,
+      "balance": 777.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00303",
+      "date": "2026-08-03",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 897.9,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00304",
+      "date": "2026-08-03",
+      "description": "FAC251 MANCHESTER",
+      "amount": -10.28,
+      "balance": 887.62,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00305",
+      "date": "2026-08-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 842.62,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00306",
+      "date": "2026-08-03",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 302.62,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00307",
+      "date": "2026-08-05",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -8.71,
+      "balance": 293.91,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00308",
+      "date": "2026-08-06",
+      "description": "FIXR.CO",
+      "amount": -7.15,
+      "balance": 286.76,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00309",
+      "date": "2026-08-06",
+      "description": "TESCO EXPRESS 8558",
+      "amount": -14.34,
+      "balance": 272.42,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00310",
+      "date": "2026-08-07",
+      "description": "STAGECOACH BUS 8076",
+      "amount": -5.3,
+      "balance": 267.12,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00311",
+      "date": "2026-08-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 257.12,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00312",
+      "date": "2026-08-09",
+      "description": "TESCO EXPRESS 7593",
+      "amount": -26.23,
+      "balance": 230.89,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00313",
+      "date": "2026-08-10",
+      "description": "CO-OP GROUP 9030",
+      "amount": -28.59,
+      "balance": 202.3,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00314",
+      "date": "2026-08-14",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -9.16,
+      "balance": 193.14,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00315",
+      "date": "2026-08-14",
+      "description": "FIXR.CO",
+      "amount": -15.8,
+      "balance": 177.34,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00316",
+      "date": "2026-08-15",
+      "description": "FIXR.CO",
+      "amount": -14.1,
+      "balance": 163.24,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00317",
+      "date": "2026-08-16",
+      "description": "SPOTIFY P1438",
+      "amount": -5.99,
+      "balance": 157.25,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00318",
+      "date": "2026-08-17",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -4.94,
+      "balance": 152.31,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00319",
+      "date": "2026-08-18",
+      "description": "CO-OP GROUP 1356",
+      "amount": -19.22,
+      "balance": 133.09,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00320",
+      "date": "2026-08-21",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 833.66,
+      "balance": 966.75,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00321",
+      "date": "2026-08-21",
+      "description": "UBER *EATS",
+      "amount": -15.42,
+      "balance": 951.33,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00322",
+      "date": "2026-08-21",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -18.21,
+      "balance": 933.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00323",
+      "date": "2026-08-22",
+      "description": "AMAZON PRIME*VD876480",
+      "amount": -4.49,
+      "balance": 928.63,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00324",
+      "date": "2026-08-22",
+      "description": "SU BAR MANCHESTER",
+      "amount": -10.52,
+      "balance": 918.11,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00325",
+      "date": "2026-08-23",
+      "description": "CO-OP GROUP 1012",
+      "amount": -10.54,
+      "balance": 907.57,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00326",
+      "date": "2026-08-24",
+      "description": "CO-OP GROUP 6447",
+      "amount": -6.09,
+      "balance": 901.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00327",
+      "date": "2026-08-26",
+      "description": "TESCO EXPRESS 1156",
+      "amount": -10.34,
+      "balance": 891.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00328",
+      "date": "2026-08-26",
+      "description": "UBER *TRIP",
+      "amount": -11.4,
+      "balance": 879.74,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00329",
+      "date": "2026-08-26",
+      "description": "UBER *EATS",
+      "amount": -12.78,
+      "balance": 866.96,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00330",
+      "date": "2026-08-27",
+      "description": "DICE.FM",
+      "amount": -8.72,
+      "balance": 858.24,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00331",
+      "date": "2026-08-28",
+      "description": "DICE.FM",
+      "amount": -17.56,
+      "balance": 840.68,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00332",
+      "date": "2026-08-29",
+      "description": "FIXR.CO",
+      "amount": -5.65,
+      "balance": 835.03,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00333",
+      "date": "2026-08-29",
+      "description": "STAGECOACH BUS 5025",
+      "amount": -15.31,
+      "balance": 819.72,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00334",
+      "date": "2026-09-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 939.72,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00335",
+      "date": "2026-09-01",
+      "description": "TESCO EXPRESS 8693",
+      "amount": -30.27,
+      "balance": 909.45,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00336",
+      "date": "2026-09-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 369.45,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00337",
+      "date": "2026-09-02",
+      "description": "STAGECOACH BUS 4803",
+      "amount": -8.66,
+      "balance": 360.79,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00338",
+      "date": "2026-09-02",
+      "description": "DICE.FM",
+      "amount": -46.11,
+      "balance": 314.68,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00339",
+      "date": "2026-09-03",
+      "description": "CO-OP GROUP 2581",
+      "amount": -6.87,
+      "balance": 307.81,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00340",
+      "date": "2026-09-03",
+      "description": "DICE.FM",
+      "amount": -10.13,
+      "balance": 297.68,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00341",
+      "date": "2026-09-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 252.68,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00342",
+      "date": "2026-09-04",
+      "description": "TESCO EXPRESS 4872",
+      "amount": -6.72,
+      "balance": 245.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00343",
+      "date": "2026-09-04",
+      "description": "FAC251 MANCHESTER",
+      "amount": -8.27,
+      "balance": 237.69,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00344",
+      "date": "2026-09-07",
+      "description": "DOMINOS PIZZA 5109",
+      "amount": -17.99,
+      "balance": 219.7,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00345",
+      "date": "2026-09-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 209.7,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00346",
+      "date": "2026-09-08",
+      "description": "CO-OP GROUP 8639",
+      "amount": -10.34,
+      "balance": 199.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00347",
+      "date": "2026-09-08",
+      "description": "UBER *TRIP",
+      "amount": -15.78,
+      "balance": 183.58,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00348",
+      "date": "2026-09-09",
+      "description": "FIXR.CO",
+      "amount": -21.4,
+      "balance": 162.18,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00349",
+      "date": "2026-09-10",
+      "description": "DICE.FM",
+      "amount": -23.05,
+      "balance": 139.13,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00350",
+      "date": "2026-09-12",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -23.51,
+      "balance": 115.62,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00351",
+      "date": "2026-09-12",
+      "description": "FIXR.CO",
+      "amount": -31.07,
+      "balance": 84.55,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00352",
+      "date": "2026-09-15",
+      "description": "STAGECOACH BUS 7065",
+      "amount": -4.68,
+      "balance": 79.87,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00353",
+      "date": "2026-09-16",
+      "description": "SPOTIFY P1949",
+      "amount": -5.99,
+      "balance": 73.88,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00354",
+      "date": "2026-09-17",
+      "description": "FIXR.CO",
+      "amount": -11.41,
+      "balance": 62.47,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00355",
+      "date": "2026-09-18",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 483.32,
+      "balance": 545.79,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00356",
+      "date": "2026-09-18",
+      "description": "DOMINOS PIZZA 8465",
+      "amount": -10.87,
+      "balance": 534.92,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00357",
+      "date": "2026-09-18",
+      "description": "FIXR.CO",
+      "amount": -36.6,
+      "balance": 498.32,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00358",
+      "date": "2026-09-21",
+      "description": "SLC RECEIPTS VA739677",
+      "amount": 1705.0,
+      "balance": 2203.32,
+      "_category": "income:student_loan",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00359",
+      "date": "2026-09-22",
+      "description": "AMAZON PRIME*KO336705",
+      "amount": -4.49,
+      "balance": 2198.83,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00360",
+      "date": "2026-09-22",
+      "description": "ALDI 1197 MANCHESTER",
+      "amount": -10.91,
+      "balance": 2187.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00361",
+      "date": "2026-09-23",
+      "description": "ALDI 5930 MANCHESTER",
+      "amount": -24.72,
+      "balance": 2163.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00362",
+      "date": "2026-09-24",
+      "description": "FIXR.CO",
+      "amount": -5.31,
+      "balance": 2157.89,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00363",
+      "date": "2026-09-25",
+      "description": "FAC251 MANCHESTER",
+      "amount": -17.3,
+      "balance": 2140.59,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00364",
+      "date": "2026-09-25",
+      "description": "BLACKWELLS MANCHESTER",
+      "amount": -84.0,
+      "balance": 2056.59,
+      "_category": "education:books",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00365",
+      "date": "2026-09-26",
+      "description": "ALDI 3816 MANCHESTER",
+      "amount": -29.61,
+      "balance": 2026.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00366",
+      "date": "2026-09-26",
+      "description": "FIXR.CO",
+      "amount": -36.03,
+      "balance": 1990.95,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00367",
+      "date": "2026-09-28",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -40.3,
+      "balance": 1950.65,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00368",
+      "date": "2026-09-28",
+      "description": "UOM SPORT",
+      "amount": -125.0,
+      "balance": 1825.65,
+      "_category": "subscriptions:gym_annual",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00369",
+      "date": "2026-10-01",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 1945.65,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00370",
+      "date": "2026-10-01",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 1405.65,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00371",
+      "date": "2026-10-02",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -10.43,
+      "balance": 1395.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00372",
+      "date": "2026-10-02",
+      "description": "SU BAR MANCHESTER",
+      "amount": -38.75,
+      "balance": 1356.47,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00373",
+      "date": "2026-10-03",
+      "description": "UBER *TRIP",
+      "amount": -5.48,
+      "balance": 1350.99,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00374",
+      "date": "2026-10-03",
+      "description": "SU BAR MANCHESTER",
+      "amount": -28.02,
+      "balance": 1322.97,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00375",
+      "date": "2026-10-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 1277.97,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00376",
+      "date": "2026-10-05",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -16.28,
+      "balance": 1261.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00377",
+      "date": "2026-10-08",
+      "description": "GIFFGAFF",
+      "amount": -10.0,
+      "balance": 1251.69,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "sam-00378",
+      "date": "2026-10-08",
+      "description": "SU BAR MANCHESTER",
+      "amount": -30.68,
+      "balance": 1221.01,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00379",
+      "date": "2026-10-09",
+      "description": "DICE.FM",
+      "amount": -20.31,
+      "balance": 1200.7,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00380",
+      "date": "2026-10-10",
+      "description": "UBER *EATS",
+      "amount": -5.4,
+      "balance": 1195.3,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00381",
+      "date": "2026-10-10",
+      "description": "STAGECOACH BUS 4010",
+      "amount": -8.11,
+      "balance": 1187.19,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00382",
+      "date": "2026-10-10",
+      "description": "DICE.FM",
+      "amount": -22.42,
+      "balance": 1164.77,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00383",
+      "date": "2026-10-13",
+      "description": "CO-OP GROUP 2857",
+      "amount": -23.36,
+      "balance": 1141.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00384",
+      "date": "2026-10-15",
+      "description": "UBER *TRIP",
+      "amount": -7.59,
+      "balance": 1133.82,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00385",
+      "date": "2026-10-15",
+      "description": "ALDI 5428 MANCHESTER",
+      "amount": -17.64,
+      "balance": 1116.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00386",
+      "date": "2026-10-16",
+      "description": "J D WETHERSPOON PLC",
+      "amount": 473.0,
+      "balance": 1589.18,
+      "_category": "income:wages",
+      "_recurring_id": "bar_job"
+    },
+    {
+      "id": "sam-00387",
+      "date": "2026-10-16",
+      "description": "SPOTIFY P4641",
+      "amount": -5.99,
+      "balance": 1583.19,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "sam-00388",
+      "date": "2026-10-17",
+      "description": "STAGECOACH BUS 4331",
+      "amount": -4.74,
+      "balance": 1578.45,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00389",
+      "date": "2026-10-17",
+      "description": "SU BAR MANCHESTER",
+      "amount": -21.57,
+      "balance": 1556.88,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00390",
+      "date": "2026-10-18",
+      "description": "UBER *TRIP",
+      "amount": -7.72,
+      "balance": 1549.16,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00391",
+      "date": "2026-10-18",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -17.51,
+      "balance": 1531.65,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00392",
+      "date": "2026-10-21",
+      "description": "UBER *TRIP",
+      "amount": -6.92,
+      "balance": 1524.73,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00393",
+      "date": "2026-10-22",
+      "description": "AMAZON PRIME*DP621929",
+      "amount": -4.49,
+      "balance": 1520.24,
+      "_category": "subscriptions",
+      "_recurring_id": "prime"
+    },
+    {
+      "id": "sam-00394",
+      "date": "2026-10-22",
+      "description": "FAC251 MANCHESTER",
+      "amount": -28.96,
+      "balance": 1491.28,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00395",
+      "date": "2026-10-23",
+      "description": "SU BAR MANCHESTER",
+      "amount": -14.53,
+      "balance": 1476.75,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00396",
+      "date": "2026-10-24",
+      "description": "TESCO EXPRESS 1649",
+      "amount": -8.62,
+      "balance": 1468.13,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00397",
+      "date": "2026-10-25",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -16.96,
+      "balance": 1451.17,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00398",
+      "date": "2026-10-26",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -44.39,
+      "balance": 1406.78,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00399",
+      "date": "2026-10-27",
+      "description": "UBER *EATS",
+      "amount": -7.65,
+      "balance": 1399.13,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00400",
+      "date": "2026-10-28",
+      "description": "STAGECOACH BUS 3189",
+      "amount": -3.78,
+      "balance": 1395.35,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00401",
+      "date": "2026-10-28",
+      "description": "DELIVEROO.CO.UK",
+      "amount": -8.92,
+      "balance": 1386.43,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00402",
+      "date": "2026-10-30",
+      "description": "DICE.FM",
+      "amount": -9.61,
+      "balance": 1376.82,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00403",
+      "date": "2026-11-02",
+      "description": "TRANSFER FROM MUM",
+      "amount": 120.0,
+      "balance": 1496.82,
+      "_category": "income:family",
+      "_recurring_id": "parents"
+    },
+    {
+      "id": "sam-00404",
+      "date": "2026-11-02",
+      "description": "UBER *TRIP",
+      "amount": -6.5,
+      "balance": 1490.32,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00405",
+      "date": "2026-11-02",
+      "description": "SO STUDENT HOMES MCR",
+      "amount": -540.0,
+      "balance": 950.32,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "sam-00406",
+      "date": "2026-11-03",
+      "description": "BILLS SPLIT ALEX",
+      "amount": -45.0,
+      "balance": 905.32,
+      "_category": "bills:shared",
+      "_recurring_id": "bills_split"
+    },
+    {
+      "id": "sam-00407",
+      "date": "2026-11-05",
+      "description": "TESCO EXPRESS 5585",
+      "amount": -8.13,
+      "balance": 897.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00408",
+      "date": "2026-11-05",
+      "description": "DICE.FM",
+      "amount": -9.67,
+      "balance": 887.52,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00409",
+      "date": "2026-11-05",
+      "description": "UBER *EATS",
+      "amount": -16.52,
+      "balance": 871.0,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00410",
+      "date": "2026-11-06",
+      "description": "FIXR.CO",
+      "amount": -20.31,
+      "balance": 850.69,
+      "_category": "going_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00411",
+      "date": "2026-11-07",
+      "description": "TESCO EXPRESS 7968",
+      "amount": -6.75,
+      "balance": 843.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "sam-00412",
+      "date": "2026-11-07",
+      "description": "FIXR.CO",
+      "amount": -28.32,
+      "balance": 815.62,
+      "_category": "going_out",
+      "_recurring_id": null
+    }
+  ]
+}

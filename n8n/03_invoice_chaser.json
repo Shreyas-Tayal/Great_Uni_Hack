@@ -1,0 +1,206 @@
+{
+  "name": "Foresight - Invoice chaser (draft)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "chase-invoice",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "*"
+        }
+      },
+      "id": "2a609e37-9bad-4a79-a725-9305a6a09bc6",
+      "name": "Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "5fc8fa7f-4f52-40bd-98e3-b1f89bb33590"
+    },
+    {
+      "parameters": {
+        "jsCode": "// HACKATHON CONFIG - paste values here inside n8n. Never commit real keys to git.\nconst body = $input.first().json.body || {};\nreturn [{ json: {\n  ENGINE_URL: 'https://YOUR-ENGINE-TUNNEL.trycloudflare.com',   // cloudflared tunnel --url http://localhost:8000\n  ANTHROPIC_API_KEY: 'PASTE_KEY',\n  LLM_MODEL: 'claude-haiku-5-5',            // fast + cheap; swap to claude-sonnet-5-5 for nicer prose\n  ELEVEN_API_KEY: 'PASTE_KEY',\n  ELEVEN_VOICE_ID: 'PASTE_VOICE_ID',        // ElevenLabs -> Voices -> copy voice ID\n  ELEVEN_MODEL: 'eleven_multilingual_v2',   // multilingual: same voice speaks Urdu, Polish, etc.\n  TELEGRAM_CHAT_ID: 'PASTE_CHAT_ID',\n  req: body,\n}}];"
+      },
+      "id": "81c79fb7-15a3-466d-84a9-6702db0948e3",
+      "name": "Config",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $json.ENGINE_URL }}/profiles/{{ $json.req.profile_id }}/summary",
+        "options": {}
+      },
+      "id": "309ef6f5-25e9-4372-83bc-6432be390f40",
+      "name": "Engine summary",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const cfg = $('Config').first().json;\nconst s = $input.first().json;\nconst inv = (s.invoices || []).find(i => i.id === cfg.req.invoice_id) || (s.invoices || [])[0];\nif (!inv) return [{ json: { body: null, invoice: null } }];\nconst tone = cfg.req.tone === 'firm' ? 'polite but firm, mention the agreed terms' : 'warm and friendly, assume it was an oversight';\nreturn [{ json: { invoice: inv, body: {\n  model: cfg.LLM_MODEL, max_tokens: 500,\n  system: `Write a short payment reminder email from ${s.name} to ${inv.client}. Tone: ${tone}. UK English. Max 110 words.\nReturn ONLY JSON: {\"subject\": \"...\", \"body\": \"...\"} (plain text body, sign off as \"The ${s.name} team\").`,\n  messages: [{ role: 'user', content: `Invoice ${inv.id}, amount \u00a3${inv.amount}, issued ${inv.issued}, due ${inv.due}, status ${inv.status}, ${inv.days_late ?? 0} days late.` }]\n}}}];"
+      },
+      "id": "0b8a66c1-331f-4b26-bb92-9d47f3386a53",
+      "name": "Build chase prompt",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "options": {},
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "={{ $('Config').first().json.ANTHROPIC_API_KEY }}"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.body) }}"
+      },
+      "id": "b4de7e36-c85f-4808-b228-d70e303f5296",
+      "name": "LLM: draft",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const inv = $('Build chase prompt').first().json.invoice;\nlet out;\ntry { out = JSON.parse(($input.first().json.content?.[0]?.text || '').replace(/```json|```/g, '').trim()); }\ncatch (e) { out = { subject: `Invoice ${inv?.id} reminder`, body: 'Draft failed - please write manually.' }; }\nreturn [{ json: { ...out, invoice: inv } }];"
+      },
+      "id": "7c9c5d0d-0650-40e3-90d6-e0778e19f92e",
+      "name": "Parse draft",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ $json }}",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Origin",
+                "value": "*"
+              }
+            ]
+          }
+        }
+      },
+      "id": "834f46fa-c356-4bf9-b7b1-6fe1b2736454",
+      "name": "Respond",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1320,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Engine summary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Engine summary": {
+      "main": [
+        [
+          {
+            "node": "Build chase prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Build chase prompt": {
+      "main": [
+        [
+          {
+            "node": "LLM: draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "LLM: draft": {
+      "main": [
+        [
+          {
+            "node": "Parse draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Parse draft": {
+      "main": [
+        [
+          {
+            "node": "Respond",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

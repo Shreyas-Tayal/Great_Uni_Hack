@@ -1,0 +1,4338 @@
+{
+  "profile_id": "jay",
+  "name": "Jay",
+  "mode": "personal",
+  "opening_balance": 150.0,
+  "tagline": "Self-employed delivery rider with irregular weekly income",
+  "persona": {
+    "household": "1 adult",
+    "income_type": "gig platforms (self-employed)",
+    "pay_cycle": "weekly, variable; tax due Jan + Jul"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 2618.84,
+  "transactions": [
+    {
+      "id": "jay-00000",
+      "date": "2025-11-08",
+      "description": "MCDONALDS 6966",
+      "amount": -3.4,
+      "balance": 146.6,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00001",
+      "date": "2025-11-09",
+      "description": "GREGGS 5089",
+      "amount": -8.0,
+      "balance": 138.6,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00002",
+      "date": "2025-11-10",
+      "description": "DELIVEROO PAYOUT LO619828",
+      "amount": 374.31,
+      "balance": 512.91,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00003",
+      "date": "2025-11-10",
+      "description": "GREGGS 8557",
+      "amount": -5.75,
+      "balance": 507.16,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00004",
+      "date": "2025-11-10",
+      "description": "TESCO EXPRESS 4472",
+      "amount": -12.87,
+      "balance": 494.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00005",
+      "date": "2025-11-11",
+      "description": "NANDOS 9057",
+      "amount": -3.87,
+      "balance": 490.42,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00006",
+      "date": "2025-11-12",
+      "description": "GREGGS 4441",
+      "amount": -17.58,
+      "balance": 472.84,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00007",
+      "date": "2025-11-12",
+      "description": "BIKE DOCTOR MANCHESTER",
+      "amount": -87.48,
+      "balance": 385.36,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00008",
+      "date": "2025-11-13",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 124.68,
+      "balance": 510.04,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00009",
+      "date": "2025-11-13",
+      "description": "MCDONALDS 6000",
+      "amount": -13.9,
+      "balance": 496.14,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00010",
+      "date": "2025-11-13",
+      "description": "SAINSBURYS LOCAL 6463",
+      "amount": -20.02,
+      "balance": 476.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00011",
+      "date": "2025-11-14",
+      "description": "NANDOS 2621",
+      "amount": -7.51,
+      "balance": 468.61,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00012",
+      "date": "2025-11-14",
+      "description": "SPOTIFY P8904",
+      "amount": -11.99,
+      "balance": 456.62,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00013",
+      "date": "2025-11-14",
+      "description": "TESCO EXPRESS 8441",
+      "amount": -13.5,
+      "balance": 443.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00014",
+      "date": "2025-11-15",
+      "description": "MCDONALDS 2842",
+      "amount": -8.85,
+      "balance": 434.27,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00015",
+      "date": "2025-11-16",
+      "description": "ALDI 6253 MANCHESTER",
+      "amount": -21.42,
+      "balance": 412.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00016",
+      "date": "2025-11-17",
+      "description": "DELIVEROO PAYOUT XZ204231",
+      "amount": 450.52,
+      "balance": 863.37,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00017",
+      "date": "2025-11-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 838.37,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00018",
+      "date": "2025-11-20",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 63.1,
+      "balance": 901.47,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00019",
+      "date": "2025-11-20",
+      "description": "GREGGS 4374",
+      "amount": -5.21,
+      "balance": 896.26,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00020",
+      "date": "2025-11-21",
+      "description": "MCDONALDS 6878",
+      "amount": -5.51,
+      "balance": 890.75,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00021",
+      "date": "2025-11-22",
+      "description": "COSTA COFFEE 8844",
+      "amount": -8.21,
+      "balance": 882.54,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00022",
+      "date": "2025-11-22",
+      "description": "ALDI 9953 MANCHESTER",
+      "amount": -28.06,
+      "balance": 854.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00023",
+      "date": "2025-11-24",
+      "description": "DELIVEROO PAYOUT XQ913234",
+      "amount": 295.42,
+      "balance": 1149.9,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00024",
+      "date": "2025-11-24",
+      "description": "COSTA COFFEE 9697",
+      "amount": -6.82,
+      "balance": 1143.08,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00025",
+      "date": "2025-11-24",
+      "description": "SAINSBURYS LOCAL 4268",
+      "amount": -26.44,
+      "balance": 1116.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00026",
+      "date": "2025-11-25",
+      "description": "SAINSBURYS LOCAL 1063",
+      "amount": -18.17,
+      "balance": 1098.47,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00027",
+      "date": "2025-11-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 998.47,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00028",
+      "date": "2025-11-26",
+      "description": "NANDOS 3491",
+      "amount": -5.91,
+      "balance": 992.56,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00029",
+      "date": "2025-11-26",
+      "description": "ALDI 8177 MANCHESTER",
+      "amount": -14.51,
+      "balance": 978.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00030",
+      "date": "2025-11-27",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 130.64,
+      "balance": 1108.69,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00031",
+      "date": "2025-11-29",
+      "description": "GREGGS 9012",
+      "amount": -8.76,
+      "balance": 1099.93,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00032",
+      "date": "2025-12-01",
+      "description": "DELIVEROO PAYOUT IS952067",
+      "amount": 304.64,
+      "balance": 1404.57,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00033",
+      "date": "2025-12-01",
+      "description": "COSTA COFFEE 1272",
+      "amount": -6.47,
+      "balance": 1398.1,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00034",
+      "date": "2025-12-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 798.1,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00035",
+      "date": "2025-12-02",
+      "description": "GREGGS 8877",
+      "amount": -5.86,
+      "balance": 792.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00036",
+      "date": "2025-12-02",
+      "description": "ALDI 4762 MANCHESTER",
+      "amount": -17.42,
+      "balance": 774.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00037",
+      "date": "2025-12-03",
+      "description": "GREGGS 8333",
+      "amount": -6.29,
+      "balance": 768.53,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00038",
+      "date": "2025-12-03",
+      "description": "ALDI 8873 MANCHESTER",
+      "amount": -23.84,
+      "balance": 744.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00039",
+      "date": "2025-12-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 702.69,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00040",
+      "date": "2025-12-06",
+      "description": "COSTA COFFEE 8867",
+      "amount": -12.83,
+      "balance": 689.86,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00041",
+      "date": "2025-12-06",
+      "description": "TESCO EXPRESS 4155",
+      "amount": -25.17,
+      "balance": 664.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00042",
+      "date": "2025-12-07",
+      "description": "PUREGYM EZ369435",
+      "amount": -24.99,
+      "balance": 639.7,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00043",
+      "date": "2025-12-07",
+      "description": "JD SPORTS 5958",
+      "amount": -79.92,
+      "balance": 559.78,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00044",
+      "date": "2025-12-08",
+      "description": "DELIVEROO PAYOUT AP590076",
+      "amount": 444.49,
+      "balance": 1004.27,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00045",
+      "date": "2025-12-08",
+      "description": "COSTA COFFEE 1028",
+      "amount": -7.31,
+      "balance": 996.96,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00046",
+      "date": "2025-12-09",
+      "description": "MCDONALDS 4809",
+      "amount": -6.3,
+      "balance": 990.66,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00047",
+      "date": "2025-12-09",
+      "description": "ALDI 7262 MANCHESTER",
+      "amount": -33.54,
+      "balance": 957.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00048",
+      "date": "2025-12-10",
+      "description": "GREGGS 9539",
+      "amount": -10.17,
+      "balance": 946.95,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00049",
+      "date": "2025-12-10",
+      "description": "ALDI 1148 MANCHESTER",
+      "amount": -21.24,
+      "balance": 925.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00050",
+      "date": "2025-12-10",
+      "description": "HALFORDS 1380",
+      "amount": -44.8,
+      "balance": 880.91,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00051",
+      "date": "2025-12-12",
+      "description": "TESCO EXPRESS 4527",
+      "amount": -33.48,
+      "balance": 847.43,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00052",
+      "date": "2025-12-13",
+      "description": "NANDOS 9065",
+      "amount": -14.38,
+      "balance": 833.05,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00053",
+      "date": "2025-12-14",
+      "description": "COSTA COFFEE 7565",
+      "amount": -7.26,
+      "balance": 825.79,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00054",
+      "date": "2025-12-14",
+      "description": "SPOTIFY P8938",
+      "amount": -11.99,
+      "balance": 813.8,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00055",
+      "date": "2025-12-14",
+      "description": "TESCO EXPRESS 6331",
+      "amount": -40.6,
+      "balance": 773.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00056",
+      "date": "2025-12-15",
+      "description": "DELIVEROO PAYOUT YH748828",
+      "amount": 455.25,
+      "balance": 1228.45,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00057",
+      "date": "2025-12-15",
+      "description": "GREGGS 8808",
+      "amount": -7.46,
+      "balance": 1220.99,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00058",
+      "date": "2025-12-16",
+      "description": "HALFORDS 8863",
+      "amount": -98.03,
+      "balance": 1122.96,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00059",
+      "date": "2025-12-17",
+      "description": "COSTA COFFEE 8391",
+      "amount": -9.72,
+      "balance": 1113.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00060",
+      "date": "2025-12-18",
+      "description": "SAINSBURYS LOCAL 4247",
+      "amount": -15.27,
+      "balance": 1097.97,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00061",
+      "date": "2025-12-18",
+      "description": "COSTA COFFEE 3607",
+      "amount": -15.61,
+      "balance": 1082.36,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00062",
+      "date": "2025-12-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 1057.36,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00063",
+      "date": "2025-12-20",
+      "description": "COSTA COFFEE 1165",
+      "amount": -11.44,
+      "balance": 1045.92,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00064",
+      "date": "2025-12-22",
+      "description": "DELIVEROO PAYOUT AL885782",
+      "amount": 214.97,
+      "balance": 1260.89,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00065",
+      "date": "2025-12-24",
+      "description": "SAINSBURYS LOCAL 6574",
+      "amount": -10.22,
+      "balance": 1250.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00066",
+      "date": "2025-12-24",
+      "description": "NANDOS 9867",
+      "amount": -15.91,
+      "balance": 1234.76,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00067",
+      "date": "2025-12-25",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 88.7,
+      "balance": 1323.46,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00068",
+      "date": "2025-12-25",
+      "description": "ALDI 8380 MANCHESTER",
+      "amount": -18.21,
+      "balance": 1305.25,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00069",
+      "date": "2025-12-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 1205.25,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00070",
+      "date": "2025-12-28",
+      "description": "MCDONALDS 4252",
+      "amount": -4.2,
+      "balance": 1201.05,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00071",
+      "date": "2025-12-29",
+      "description": "DELIVEROO PAYOUT GQ331735",
+      "amount": 444.34,
+      "balance": 1645.39,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00072",
+      "date": "2026-01-01",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 81.02,
+      "balance": 1726.41,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00073",
+      "date": "2026-01-01",
+      "description": "GREGGS 4806",
+      "amount": -10.21,
+      "balance": 1716.2,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00074",
+      "date": "2026-01-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1116.2,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00075",
+      "date": "2026-01-02",
+      "description": "NANDOS 7757",
+      "amount": -10.81,
+      "balance": 1105.39,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00076",
+      "date": "2026-01-03",
+      "description": "GREGGS 7487",
+      "amount": -7.58,
+      "balance": 1097.81,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00077",
+      "date": "2026-01-04",
+      "description": "COSTA COFFEE 2952",
+      "amount": -4.13,
+      "balance": 1093.68,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00078",
+      "date": "2026-01-04",
+      "description": "BIKE DOCTOR MANCHESTER",
+      "amount": -50.24,
+      "balance": 1043.44,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00079",
+      "date": "2026-01-05",
+      "description": "DELIVEROO PAYOUT PC158692",
+      "amount": 277.39,
+      "balance": 1320.83,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00080",
+      "date": "2026-01-05",
+      "description": "MCDONALDS 3494",
+      "amount": -14.19,
+      "balance": 1306.64,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00081",
+      "date": "2026-01-05",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 1264.64,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00082",
+      "date": "2026-01-07",
+      "description": "PUREGYM QJ646333",
+      "amount": -24.99,
+      "balance": 1239.65,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00083",
+      "date": "2026-01-08",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 78.34,
+      "balance": 1317.99,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00084",
+      "date": "2026-01-11",
+      "description": "COSTA COFFEE 2442",
+      "amount": -11.45,
+      "balance": 1306.54,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00085",
+      "date": "2026-01-11",
+      "description": "ALDI 9295 MANCHESTER",
+      "amount": -13.3,
+      "balance": 1293.24,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00086",
+      "date": "2026-01-12",
+      "description": "DELIVEROO PAYOUT AP460253",
+      "amount": 181.96,
+      "balance": 1475.2,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00087",
+      "date": "2026-01-12",
+      "description": "SAINSBURYS LOCAL 8246",
+      "amount": -15.06,
+      "balance": 1460.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00088",
+      "date": "2026-01-12",
+      "description": "GREGGS 4723",
+      "amount": -15.5,
+      "balance": 1444.64,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00089",
+      "date": "2026-01-13",
+      "description": "SAINSBURYS LOCAL 7269",
+      "amount": -31.06,
+      "balance": 1413.58,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00090",
+      "date": "2026-01-14",
+      "description": "SPOTIFY P1719",
+      "amount": -11.99,
+      "balance": 1401.59,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00091",
+      "date": "2026-01-15",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 154.11,
+      "balance": 1555.7,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00092",
+      "date": "2026-01-15",
+      "description": "GREGGS 1796",
+      "amount": -8.24,
+      "balance": 1547.46,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00093",
+      "date": "2026-01-16",
+      "description": "GREGGS 6752",
+      "amount": -7.27,
+      "balance": 1540.19,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00094",
+      "date": "2026-01-17",
+      "description": "GREGGS 4964",
+      "amount": -14.15,
+      "balance": 1526.04,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00095",
+      "date": "2026-01-18",
+      "description": "NANDOS 7877",
+      "amount": -4.45,
+      "balance": 1521.59,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00096",
+      "date": "2026-01-18",
+      "description": "TESCO EXPRESS 8568",
+      "amount": -12.8,
+      "balance": 1508.79,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00097",
+      "date": "2026-01-19",
+      "description": "DELIVEROO PAYOUT CI406989",
+      "amount": 504.64,
+      "balance": 2013.43,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00098",
+      "date": "2026-01-19",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 1988.43,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00099",
+      "date": "2026-01-19",
+      "description": "JD SPORTS 2528",
+      "amount": -28.13,
+      "balance": 1960.3,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00100",
+      "date": "2026-01-19",
+      "description": "TESCO EXPRESS 8205",
+      "amount": -30.83,
+      "balance": 1929.47,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00101",
+      "date": "2026-01-20",
+      "description": "ALDI 1395 MANCHESTER",
+      "amount": -21.41,
+      "balance": 1908.06,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00102",
+      "date": "2026-01-20",
+      "description": "JD SPORTS 5075",
+      "amount": -73.06,
+      "balance": 1835.0,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00103",
+      "date": "2026-01-21",
+      "description": "COSTA COFFEE 4874",
+      "amount": -7.33,
+      "balance": 1827.67,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00104",
+      "date": "2026-01-22",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 85.9,
+      "balance": 1913.57,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00105",
+      "date": "2026-01-22",
+      "description": "GREGGS 4275",
+      "amount": -9.31,
+      "balance": 1904.26,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00106",
+      "date": "2026-01-22",
+      "description": "ALDI 9023 MANCHESTER",
+      "amount": -15.49,
+      "balance": 1888.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00107",
+      "date": "2026-01-24",
+      "description": "TESCO EXPRESS 2400",
+      "amount": -12.42,
+      "balance": 1876.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00108",
+      "date": "2026-01-25",
+      "description": "GREGGS 3628",
+      "amount": -6.8,
+      "balance": 1869.55,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00109",
+      "date": "2026-01-26",
+      "description": "DELIVEROO PAYOUT ZP768649",
+      "amount": 378.77,
+      "balance": 2248.32,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00110",
+      "date": "2026-01-26",
+      "description": "GREGGS 7848",
+      "amount": -6.55,
+      "balance": 2241.77,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00111",
+      "date": "2026-01-26",
+      "description": "TESCO EXPRESS 6267",
+      "amount": -19.62,
+      "balance": 2222.15,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00112",
+      "date": "2026-01-26",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2122.15,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00113",
+      "date": "2026-01-27",
+      "description": "TESCO EXPRESS 5701",
+      "amount": -9.67,
+      "balance": 2112.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00114",
+      "date": "2026-01-29",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 67.87,
+      "balance": 2180.35,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00115",
+      "date": "2026-01-29",
+      "description": "SAINSBURYS LOCAL 2530",
+      "amount": -25.51,
+      "balance": 2154.84,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00116",
+      "date": "2026-01-30",
+      "description": "HMRC SELF ASSESSMENT",
+      "amount": -1240.0,
+      "balance": 914.84,
+      "_category": "tax:self_assessment",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00117",
+      "date": "2026-01-31",
+      "description": "SAINSBURYS LOCAL 8566",
+      "amount": -21.81,
+      "balance": 893.03,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00118",
+      "date": "2026-02-02",
+      "description": "DELIVEROO PAYOUT QN263578",
+      "amount": 178.18,
+      "balance": 1071.21,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00119",
+      "date": "2026-02-02",
+      "description": "MCDONALDS 8970",
+      "amount": -7.19,
+      "balance": 1064.02,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00120",
+      "date": "2026-02-02",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 464.02,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00121",
+      "date": "2026-02-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 422.02,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00122",
+      "date": "2026-02-06",
+      "description": "SAINSBURYS LOCAL 7456",
+      "amount": -16.12,
+      "balance": 405.9,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00123",
+      "date": "2026-02-07",
+      "description": "PUREGYM PU107715",
+      "amount": -24.99,
+      "balance": 380.91,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00124",
+      "date": "2026-02-09",
+      "description": "DELIVEROO PAYOUT RY901509",
+      "amount": 420.53,
+      "balance": 801.44,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00125",
+      "date": "2026-02-10",
+      "description": "COSTA COFFEE 1837",
+      "amount": -6.15,
+      "balance": 795.29,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00126",
+      "date": "2026-02-10",
+      "description": "JD SPORTS 2873",
+      "amount": -10.87,
+      "balance": 784.42,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00127",
+      "date": "2026-02-11",
+      "description": "NANDOS 4866",
+      "amount": -5.3,
+      "balance": 779.12,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00128",
+      "date": "2026-02-12",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 106.79,
+      "balance": 885.91,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00129",
+      "date": "2026-02-12",
+      "description": "GREGGS 2716",
+      "amount": -5.77,
+      "balance": 880.14,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00130",
+      "date": "2026-02-13",
+      "description": "COSTA COFFEE 8740",
+      "amount": -18.48,
+      "balance": 861.66,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00131",
+      "date": "2026-02-14",
+      "description": "JD SPORTS 7012",
+      "amount": -11.1,
+      "balance": 850.56,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00132",
+      "date": "2026-02-14",
+      "description": "SPOTIFY P6462",
+      "amount": -11.99,
+      "balance": 838.57,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00133",
+      "date": "2026-02-14",
+      "description": "MCDONALDS 1765",
+      "amount": -13.97,
+      "balance": 824.6,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00134",
+      "date": "2026-02-16",
+      "description": "DELIVEROO PAYOUT FF923036",
+      "amount": 344.54,
+      "balance": 1169.14,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00135",
+      "date": "2026-02-16",
+      "description": "GREGGS 3249",
+      "amount": -5.72,
+      "balance": 1163.42,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00136",
+      "date": "2026-02-17",
+      "description": "NANDOS 3265",
+      "amount": -5.8,
+      "balance": 1157.62,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00137",
+      "date": "2026-02-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 1132.62,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00138",
+      "date": "2026-02-19",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 58.3,
+      "balance": 1190.92,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00139",
+      "date": "2026-02-19",
+      "description": "GREGGS 5081",
+      "amount": -3.32,
+      "balance": 1187.6,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00140",
+      "date": "2026-02-19",
+      "description": "SAINSBURYS LOCAL 8853",
+      "amount": -6.83,
+      "balance": 1180.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00141",
+      "date": "2026-02-19",
+      "description": "BIKE DOCTOR MANCHESTER",
+      "amount": -44.02,
+      "balance": 1136.75,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00142",
+      "date": "2026-02-20",
+      "description": "COSTA COFFEE 5181",
+      "amount": -5.32,
+      "balance": 1131.43,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00143",
+      "date": "2026-02-23",
+      "description": "DELIVEROO PAYOUT VM810668",
+      "amount": 368.31,
+      "balance": 1499.74,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00144",
+      "date": "2026-02-24",
+      "description": "NANDOS 2813",
+      "amount": -12.08,
+      "balance": 1487.66,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00145",
+      "date": "2026-02-25",
+      "description": "TESCO EXPRESS 4936",
+      "amount": -25.24,
+      "balance": 1462.42,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00146",
+      "date": "2026-02-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 1362.42,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00147",
+      "date": "2026-02-28",
+      "description": "COSTA COFFEE 9853",
+      "amount": -2.23,
+      "balance": 1360.19,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00148",
+      "date": "2026-03-01",
+      "description": "GREGGS 7457",
+      "amount": -11.55,
+      "balance": 1348.64,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00149",
+      "date": "2026-03-02",
+      "description": "DELIVEROO PAYOUT MU577034",
+      "amount": 208.86,
+      "balance": 1557.5,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00150",
+      "date": "2026-03-02",
+      "description": "GREGGS 9358",
+      "amount": -9.25,
+      "balance": 1548.25,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00151",
+      "date": "2026-03-02",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 948.25,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00152",
+      "date": "2026-03-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 906.25,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00153",
+      "date": "2026-03-05",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 66.11,
+      "balance": 972.36,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00154",
+      "date": "2026-03-06",
+      "description": "NANDOS 2942",
+      "amount": -9.51,
+      "balance": 962.85,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00155",
+      "date": "2026-03-07",
+      "description": "PUREGYM TI613534",
+      "amount": -24.99,
+      "balance": 937.86,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00156",
+      "date": "2026-03-09",
+      "description": "DELIVEROO PAYOUT UY788067",
+      "amount": 468.98,
+      "balance": 1406.84,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00157",
+      "date": "2026-03-09",
+      "description": "MCDONALDS 9090",
+      "amount": -3.12,
+      "balance": 1403.72,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00158",
+      "date": "2026-03-10",
+      "description": "SAINSBURYS LOCAL 5555",
+      "amount": -15.71,
+      "balance": 1388.01,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00159",
+      "date": "2026-03-11",
+      "description": "MCDONALDS 1814",
+      "amount": -17.8,
+      "balance": 1370.21,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00160",
+      "date": "2026-03-11",
+      "description": "TESCO EXPRESS 6572",
+      "amount": -23.4,
+      "balance": 1346.81,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00161",
+      "date": "2026-03-12",
+      "description": "NANDOS 9502",
+      "amount": -11.9,
+      "balance": 1334.91,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00162",
+      "date": "2026-03-13",
+      "description": "NANDOS 6502",
+      "amount": -4.02,
+      "balance": 1330.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00163",
+      "date": "2026-03-14",
+      "description": "SPOTIFY P7429",
+      "amount": -11.99,
+      "balance": 1318.9,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00164",
+      "date": "2026-03-14",
+      "description": "TESCO EXPRESS 2272",
+      "amount": -13.87,
+      "balance": 1305.03,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00165",
+      "date": "2026-03-15",
+      "description": "SAINSBURYS LOCAL 4594",
+      "amount": -21.98,
+      "balance": 1283.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00166",
+      "date": "2026-03-16",
+      "description": "DELIVEROO PAYOUT NC115716",
+      "amount": 343.72,
+      "balance": 1626.77,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00167",
+      "date": "2026-03-17",
+      "description": "NANDOS 5054",
+      "amount": -6.64,
+      "balance": 1620.13,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00168",
+      "date": "2026-03-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 1595.13,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00169",
+      "date": "2026-03-19",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 75.21,
+      "balance": 1670.34,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00170",
+      "date": "2026-03-19",
+      "description": "TESCO EXPRESS 1847",
+      "amount": -11.66,
+      "balance": 1658.68,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00171",
+      "date": "2026-03-20",
+      "description": "MCDONALDS 8585",
+      "amount": -6.15,
+      "balance": 1652.53,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00172",
+      "date": "2026-03-21",
+      "description": "COSTA COFFEE 3226",
+      "amount": -10.38,
+      "balance": 1642.15,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00173",
+      "date": "2026-03-23",
+      "description": "DELIVEROO PAYOUT SN899867",
+      "amount": 331.72,
+      "balance": 1973.87,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00174",
+      "date": "2026-03-23",
+      "description": "NANDOS 4396",
+      "amount": -16.78,
+      "balance": 1957.09,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00175",
+      "date": "2026-03-23",
+      "description": "ALDI 4905 MANCHESTER",
+      "amount": -40.46,
+      "balance": 1916.63,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00176",
+      "date": "2026-03-24",
+      "description": "GREGGS 9708",
+      "amount": -9.08,
+      "balance": 1907.55,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00177",
+      "date": "2026-03-25",
+      "description": "AMAZON.CO.UK*RL328823",
+      "amount": -11.59,
+      "balance": 1895.96,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00178",
+      "date": "2026-03-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 1795.96,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00179",
+      "date": "2026-03-26",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 70.67,
+      "balance": 1866.63,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00180",
+      "date": "2026-03-26",
+      "description": "MCDONALDS 2630",
+      "amount": -8.16,
+      "balance": 1858.47,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00181",
+      "date": "2026-03-30",
+      "description": "DELIVEROO PAYOUT MR410315",
+      "amount": 306.78,
+      "balance": 2165.25,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00182",
+      "date": "2026-03-30",
+      "description": "MCDONALDS 9823",
+      "amount": -9.7,
+      "balance": 2155.55,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00183",
+      "date": "2026-03-30",
+      "description": "TESCO EXPRESS 5637",
+      "amount": -17.3,
+      "balance": 2138.25,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00184",
+      "date": "2026-03-31",
+      "description": "SAINSBURYS LOCAL 8090",
+      "amount": -34.12,
+      "balance": 2104.13,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00185",
+      "date": "2026-04-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1504.13,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00186",
+      "date": "2026-04-02",
+      "description": "GREGGS 1818",
+      "amount": -4.3,
+      "balance": 1499.83,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00187",
+      "date": "2026-04-03",
+      "description": "GREGGS 8050",
+      "amount": -4.78,
+      "balance": 1495.05,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00188",
+      "date": "2026-04-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 1453.05,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00189",
+      "date": "2026-04-04",
+      "description": "NANDOS 9781",
+      "amount": -14.69,
+      "balance": 1438.36,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00190",
+      "date": "2026-04-06",
+      "description": "DELIVEROO PAYOUT GP930810",
+      "amount": 426.15,
+      "balance": 1864.51,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00191",
+      "date": "2026-04-06",
+      "description": "NANDOS 7078",
+      "amount": -12.37,
+      "balance": 1852.14,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00192",
+      "date": "2026-04-06",
+      "description": "TESCO EXPRESS 3169",
+      "amount": -14.17,
+      "balance": 1837.97,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00193",
+      "date": "2026-04-07",
+      "description": "PUREGYM XM542100",
+      "amount": -24.99,
+      "balance": 1812.98,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00194",
+      "date": "2026-04-08",
+      "description": "COSTA COFFEE 2593",
+      "amount": -7.61,
+      "balance": 1805.37,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00195",
+      "date": "2026-04-09",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 15,
+      "balance": 1820.37,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00196",
+      "date": "2026-04-11",
+      "description": "NANDOS 5649",
+      "amount": -6.13,
+      "balance": 1814.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00197",
+      "date": "2026-04-12",
+      "description": "TESCO EXPRESS 4265",
+      "amount": -25.28,
+      "balance": 1788.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00198",
+      "date": "2026-04-13",
+      "description": "DELIVEROO PAYOUT MR368847",
+      "amount": 279.39,
+      "balance": 2068.35,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00199",
+      "date": "2026-04-13",
+      "description": "GREGGS 1871",
+      "amount": -7.11,
+      "balance": 2061.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00200",
+      "date": "2026-04-13",
+      "description": "JD SPORTS 4501",
+      "amount": -33.19,
+      "balance": 2028.05,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00201",
+      "date": "2026-04-14",
+      "description": "SPOTIFY P6344",
+      "amount": -11.99,
+      "balance": 2016.06,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00202",
+      "date": "2026-04-15",
+      "description": "GREGGS 3825",
+      "amount": -11.55,
+      "balance": 2004.51,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00203",
+      "date": "2026-04-15",
+      "description": "SAINSBURYS LOCAL 1159",
+      "amount": -15.28,
+      "balance": 1989.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00204",
+      "date": "2026-04-16",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 120.94,
+      "balance": 2110.17,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00205",
+      "date": "2026-04-16",
+      "description": "COSTA COFFEE 5050",
+      "amount": -7.23,
+      "balance": 2102.94,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00206",
+      "date": "2026-04-17",
+      "description": "COSTA COFFEE 3364",
+      "amount": -8.02,
+      "balance": 2094.92,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00207",
+      "date": "2026-04-19",
+      "description": "MCDONALDS 1880",
+      "amount": -13.4,
+      "balance": 2081.52,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00208",
+      "date": "2026-04-20",
+      "description": "NANDOS 8750",
+      "amount": -11.6,
+      "balance": 2069.92,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00209",
+      "date": "2026-04-20",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2044.92,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00210",
+      "date": "2026-04-21",
+      "description": "MCDONALDS 3319",
+      "amount": -11.01,
+      "balance": 2033.91,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00211",
+      "date": "2026-04-21",
+      "description": "SAINSBURYS LOCAL 4943",
+      "amount": -23.23,
+      "balance": 2010.68,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00212",
+      "date": "2026-04-23",
+      "description": "ALDI 6276 MANCHESTER",
+      "amount": -14.0,
+      "balance": 1996.68,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00213",
+      "date": "2026-04-25",
+      "description": "ALDI 7240 MANCHESTER",
+      "amount": -30.44,
+      "balance": 1966.24,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00214",
+      "date": "2026-04-27",
+      "description": "DELIVEROO PAYOUT IP287277",
+      "amount": 201.17,
+      "balance": 2167.41,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00215",
+      "date": "2026-04-27",
+      "description": "ALDI 9427 MANCHESTER",
+      "amount": -17.02,
+      "balance": 2150.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00216",
+      "date": "2026-04-27",
+      "description": "MCDONALDS 8959",
+      "amount": -17.28,
+      "balance": 2133.11,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00217",
+      "date": "2026-04-27",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2033.11,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00218",
+      "date": "2026-04-29",
+      "description": "TESCO EXPRESS 3600",
+      "amount": -22.72,
+      "balance": 2010.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00219",
+      "date": "2026-05-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1410.39,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00220",
+      "date": "2026-05-02",
+      "description": "MCDONALDS 6767",
+      "amount": -4.69,
+      "balance": 1405.7,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00221",
+      "date": "2026-05-04",
+      "description": "DELIVEROO PAYOUT JZ897084",
+      "amount": 171.93,
+      "balance": 1577.63,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00222",
+      "date": "2026-05-04",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 1535.63,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00223",
+      "date": "2026-05-05",
+      "description": "MCDONALDS 4351",
+      "amount": -6.51,
+      "balance": 1529.12,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00224",
+      "date": "2026-05-06",
+      "description": "COSTA COFFEE 1177",
+      "amount": -3.34,
+      "balance": 1525.78,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00225",
+      "date": "2026-05-06",
+      "description": "TESCO EXPRESS 7140",
+      "amount": -14.48,
+      "balance": 1511.3,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00226",
+      "date": "2026-05-07",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 76.79,
+      "balance": 1588.09,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00227",
+      "date": "2026-05-07",
+      "description": "PUREGYM JT801580",
+      "amount": -24.99,
+      "balance": 1563.1,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00228",
+      "date": "2026-05-08",
+      "description": "ALDI 6351 MANCHESTER",
+      "amount": -14.88,
+      "balance": 1548.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00229",
+      "date": "2026-05-09",
+      "description": "MCDONALDS 4508",
+      "amount": -4.54,
+      "balance": 1543.68,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00230",
+      "date": "2026-05-09",
+      "description": "PHONE REPAIR CENTRE MCR",
+      "amount": -129.0,
+      "balance": 1414.68,
+      "_category": "shock:phone",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00231",
+      "date": "2026-05-11",
+      "description": "DELIVEROO PAYOUT JK953982",
+      "amount": 381.61,
+      "balance": 1796.29,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00232",
+      "date": "2026-05-11",
+      "description": "GREGGS 2521",
+      "amount": -5.07,
+      "balance": 1791.22,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00233",
+      "date": "2026-05-14",
+      "description": "SPOTIFY P1698",
+      "amount": -11.99,
+      "balance": 1779.23,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00234",
+      "date": "2026-05-14",
+      "description": "ALDI 3963 MANCHESTER",
+      "amount": -18.54,
+      "balance": 1760.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00235",
+      "date": "2026-05-15",
+      "description": "MCDONALDS 9234",
+      "amount": -6.46,
+      "balance": 1754.23,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00236",
+      "date": "2026-05-15",
+      "description": "ALDI 6447 MANCHESTER",
+      "amount": -8.79,
+      "balance": 1745.44,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00237",
+      "date": "2026-05-16",
+      "description": "MCDONALDS 4037",
+      "amount": -9.81,
+      "balance": 1735.63,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00238",
+      "date": "2026-05-17",
+      "description": "GREGGS 8775",
+      "amount": -13.26,
+      "balance": 1722.37,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00239",
+      "date": "2026-05-17",
+      "description": "ALDI 1903 MANCHESTER",
+      "amount": -25.61,
+      "balance": 1696.76,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00240",
+      "date": "2026-05-18",
+      "description": "DELIVEROO PAYOUT BK559640",
+      "amount": 338.07,
+      "balance": 2034.83,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00241",
+      "date": "2026-05-18",
+      "description": "MCDONALDS 4900",
+      "amount": -5.58,
+      "balance": 2029.25,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00242",
+      "date": "2026-05-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2004.25,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00243",
+      "date": "2026-05-19",
+      "description": "MCDONALDS 2923",
+      "amount": -7.62,
+      "balance": 1996.63,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00244",
+      "date": "2026-05-19",
+      "description": "SAINSBURYS LOCAL 6480",
+      "amount": -13.68,
+      "balance": 1982.95,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00245",
+      "date": "2026-05-20",
+      "description": "COSTA COFFEE 7672",
+      "amount": -7.21,
+      "balance": 1975.74,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00246",
+      "date": "2026-05-21",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 24.25,
+      "balance": 1999.99,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00247",
+      "date": "2026-05-21",
+      "description": "GREGGS 2986",
+      "amount": -13.29,
+      "balance": 1986.7,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00248",
+      "date": "2026-05-21",
+      "description": "ALDI 3137 MANCHESTER",
+      "amount": -42.1,
+      "balance": 1944.6,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00249",
+      "date": "2026-05-22",
+      "description": "MCDONALDS 6143",
+      "amount": -11.45,
+      "balance": 1933.15,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00250",
+      "date": "2026-05-24",
+      "description": "MCDONALDS 8435",
+      "amount": -4.77,
+      "balance": 1928.38,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00251",
+      "date": "2026-05-25",
+      "description": "DELIVEROO PAYOUT XJ977206",
+      "amount": 386.63,
+      "balance": 2315.01,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00252",
+      "date": "2026-05-25",
+      "description": "TESCO EXPRESS 7751",
+      "amount": -14.99,
+      "balance": 2300.02,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00253",
+      "date": "2026-05-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2200.02,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00254",
+      "date": "2026-05-26",
+      "description": "COSTA COFFEE 4301",
+      "amount": -12.03,
+      "balance": 2187.99,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00255",
+      "date": "2026-05-27",
+      "description": "COSTA COFFEE 4693",
+      "amount": -8.59,
+      "balance": 2179.4,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00256",
+      "date": "2026-05-28",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 15,
+      "balance": 2194.4,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00257",
+      "date": "2026-05-28",
+      "description": "ALDI 4212 MANCHESTER",
+      "amount": -15.04,
+      "balance": 2179.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00258",
+      "date": "2026-05-30",
+      "description": "BIKE DOCTOR MANCHESTER",
+      "amount": -81.84,
+      "balance": 2097.52,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00259",
+      "date": "2026-06-01",
+      "description": "DELIVEROO PAYOUT PE101553",
+      "amount": 332.62,
+      "balance": 2430.14,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00260",
+      "date": "2026-06-01",
+      "description": "COSTA COFFEE 1714",
+      "amount": -9.34,
+      "balance": 2420.8,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00261",
+      "date": "2026-06-01",
+      "description": "SAINSBURYS LOCAL 8082",
+      "amount": -18.16,
+      "balance": 2402.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00262",
+      "date": "2026-06-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1802.64,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00263",
+      "date": "2026-06-02",
+      "description": "NANDOS 1054",
+      "amount": -7.0,
+      "balance": 1795.64,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00264",
+      "date": "2026-06-02",
+      "description": "SAINSBURYS LOCAL 5044",
+      "amount": -32.28,
+      "balance": 1763.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00265",
+      "date": "2026-06-03",
+      "description": "COSTA COFFEE 1523",
+      "amount": -4.77,
+      "balance": 1758.59,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00266",
+      "date": "2026-06-03",
+      "description": "SAINSBURYS LOCAL 1632",
+      "amount": -30.37,
+      "balance": 1728.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00267",
+      "date": "2026-06-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 1686.22,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00268",
+      "date": "2026-06-05",
+      "description": "AMAZON.CO.UK*TT438509",
+      "amount": -22.71,
+      "balance": 1663.51,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00269",
+      "date": "2026-06-07",
+      "description": "PUREGYM AC482405",
+      "amount": -24.99,
+      "balance": 1638.52,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00270",
+      "date": "2026-06-08",
+      "description": "DELIVEROO PAYOUT SA752807",
+      "amount": 408.51,
+      "balance": 2047.03,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00271",
+      "date": "2026-06-09",
+      "description": "ALDI 5025 MANCHESTER",
+      "amount": -19.32,
+      "balance": 2027.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00272",
+      "date": "2026-06-10",
+      "description": "COSTA COFFEE 8962",
+      "amount": -7.93,
+      "balance": 2019.78,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00273",
+      "date": "2026-06-10",
+      "description": "TESCO EXPRESS 3643",
+      "amount": -27.54,
+      "balance": 1992.24,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00274",
+      "date": "2026-06-11",
+      "description": "JD SPORTS 6713",
+      "amount": -10.22,
+      "balance": 1982.02,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00275",
+      "date": "2026-06-11",
+      "description": "NANDOS 7421",
+      "amount": -30.7,
+      "balance": 1951.32,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00276",
+      "date": "2026-06-12",
+      "description": "SAINSBURYS LOCAL 3877",
+      "amount": -10.16,
+      "balance": 1941.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00277",
+      "date": "2026-06-13",
+      "description": "SAINSBURYS LOCAL 3653",
+      "amount": -33.78,
+      "balance": 1907.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00278",
+      "date": "2026-06-14",
+      "description": "GREGGS 4067",
+      "amount": -4.02,
+      "balance": 1903.36,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00279",
+      "date": "2026-06-14",
+      "description": "SPOTIFY P3656",
+      "amount": -11.99,
+      "balance": 1891.37,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00280",
+      "date": "2026-06-15",
+      "description": "DELIVEROO PAYOUT OH711549",
+      "amount": 519.06,
+      "balance": 2410.43,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00281",
+      "date": "2026-06-16",
+      "description": "COSTA COFFEE 8952",
+      "amount": -13.74,
+      "balance": 2396.69,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00282",
+      "date": "2026-06-16",
+      "description": "SAINSBURYS LOCAL 4184",
+      "amount": -32.02,
+      "balance": 2364.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00283",
+      "date": "2026-06-17",
+      "description": "COSTA COFFEE 1635",
+      "amount": -6.38,
+      "balance": 2358.29,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00284",
+      "date": "2026-06-18",
+      "description": "GREGGS 5410",
+      "amount": -12.68,
+      "balance": 2345.61,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00285",
+      "date": "2026-06-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2320.61,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00286",
+      "date": "2026-06-20",
+      "description": "COSTA COFFEE 7699",
+      "amount": -5.65,
+      "balance": 2314.96,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00287",
+      "date": "2026-06-20",
+      "description": "TESCO EXPRESS 5933",
+      "amount": -26.68,
+      "balance": 2288.28,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00288",
+      "date": "2026-06-21",
+      "description": "NANDOS 8574",
+      "amount": -14.29,
+      "balance": 2273.99,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00289",
+      "date": "2026-06-22",
+      "description": "DELIVEROO PAYOUT LS456871",
+      "amount": 155.6,
+      "balance": 2429.59,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00290",
+      "date": "2026-06-23",
+      "description": "GREGGS 5782",
+      "amount": -9.17,
+      "balance": 2420.42,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00291",
+      "date": "2026-06-24",
+      "description": "NANDOS 8006",
+      "amount": -11.36,
+      "balance": 2409.06,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00292",
+      "date": "2026-06-25",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 93.62,
+      "balance": 2502.68,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00293",
+      "date": "2026-06-25",
+      "description": "SAINSBURYS LOCAL 9817",
+      "amount": -19.35,
+      "balance": 2483.33,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00294",
+      "date": "2026-06-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2383.33,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00295",
+      "date": "2026-06-26",
+      "description": "GREGGS 3891",
+      "amount": -6.09,
+      "balance": 2377.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00296",
+      "date": "2026-06-28",
+      "description": "JD SPORTS 6704",
+      "amount": -22.78,
+      "balance": 2354.46,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00297",
+      "date": "2026-06-28",
+      "description": "HALFORDS 7485",
+      "amount": -55.02,
+      "balance": 2299.44,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00298",
+      "date": "2026-06-29",
+      "description": "DELIVEROO PAYOUT OR828457",
+      "amount": 266.01,
+      "balance": 2565.45,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00299",
+      "date": "2026-06-29",
+      "description": "NANDOS 4382",
+      "amount": -3.7,
+      "balance": 2561.75,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00300",
+      "date": "2026-06-29",
+      "description": "SAINSBURYS LOCAL 3793",
+      "amount": -16.81,
+      "balance": 2544.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00301",
+      "date": "2026-06-30",
+      "description": "MCDONALDS 6143",
+      "amount": -12.49,
+      "balance": 2532.45,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00302",
+      "date": "2026-07-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1932.45,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00303",
+      "date": "2026-07-02",
+      "description": "TESCO EXPRESS 8854",
+      "amount": -13.86,
+      "balance": 1918.59,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00304",
+      "date": "2026-07-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 1876.59,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00305",
+      "date": "2026-07-04",
+      "description": "NANDOS 1816",
+      "amount": -18.23,
+      "balance": 1858.36,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00306",
+      "date": "2026-07-05",
+      "description": "SAINSBURYS LOCAL 1328",
+      "amount": -24.99,
+      "balance": 1833.37,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00307",
+      "date": "2026-07-06",
+      "description": "DELIVEROO PAYOUT YL356872",
+      "amount": 280.37,
+      "balance": 2113.74,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00308",
+      "date": "2026-07-07",
+      "description": "PUREGYM JI545576",
+      "amount": -24.99,
+      "balance": 2088.75,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00309",
+      "date": "2026-07-07",
+      "description": "SAINSBURYS LOCAL 2451",
+      "amount": -31.3,
+      "balance": 2057.45,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00310",
+      "date": "2026-07-08",
+      "description": "MCDONALDS 9901",
+      "amount": -13.84,
+      "balance": 2043.61,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00311",
+      "date": "2026-07-09",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 131.09,
+      "balance": 2174.7,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00312",
+      "date": "2026-07-10",
+      "description": "GREGGS 4814",
+      "amount": -6.86,
+      "balance": 2167.84,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00313",
+      "date": "2026-07-11",
+      "description": "COSTA COFFEE 8091",
+      "amount": -18.44,
+      "balance": 2149.4,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00314",
+      "date": "2026-07-12",
+      "description": "GREGGS 4596",
+      "amount": -5.63,
+      "balance": 2143.77,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00315",
+      "date": "2026-07-12",
+      "description": "SAINSBURYS LOCAL 4340",
+      "amount": -16.43,
+      "balance": 2127.34,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00316",
+      "date": "2026-07-13",
+      "description": "DELIVEROO PAYOUT ZF296327",
+      "amount": 328.39,
+      "balance": 2455.73,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00317",
+      "date": "2026-07-13",
+      "description": "GREGGS 2834",
+      "amount": -6.02,
+      "balance": 2449.71,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00318",
+      "date": "2026-07-14",
+      "description": "SPOTIFY P7861",
+      "amount": -11.99,
+      "balance": 2437.72,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00319",
+      "date": "2026-07-14",
+      "description": "MCDONALDS 3237",
+      "amount": -13.84,
+      "balance": 2423.88,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00320",
+      "date": "2026-07-15",
+      "description": "ALDI 4036 MANCHESTER",
+      "amount": -7.96,
+      "balance": 2415.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00321",
+      "date": "2026-07-15",
+      "description": "NANDOS 3453",
+      "amount": -11.49,
+      "balance": 2404.43,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00322",
+      "date": "2026-07-16",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 73.5,
+      "balance": 2477.93,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00323",
+      "date": "2026-07-17",
+      "description": "ALDI 9612 MANCHESTER",
+      "amount": -30.41,
+      "balance": 2447.52,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00324",
+      "date": "2026-07-18",
+      "description": "COSTA COFFEE 4741",
+      "amount": -8.16,
+      "balance": 2439.36,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00325",
+      "date": "2026-07-19",
+      "description": "AMAZON.CO.UK*UQ283077",
+      "amount": -21.09,
+      "balance": 2418.27,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00326",
+      "date": "2026-07-20",
+      "description": "DELIVEROO PAYOUT AC795923",
+      "amount": 330.91,
+      "balance": 2749.18,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00327",
+      "date": "2026-07-20",
+      "description": "MCDONALDS 4502",
+      "amount": -13.87,
+      "balance": 2735.31,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00328",
+      "date": "2026-07-20",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2710.31,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00329",
+      "date": "2026-07-21",
+      "description": "SAINSBURYS LOCAL 7505",
+      "amount": -23.36,
+      "balance": 2686.95,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00330",
+      "date": "2026-07-22",
+      "description": "ALDI 2967 MANCHESTER",
+      "amount": -11.89,
+      "balance": 2675.06,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00331",
+      "date": "2026-07-23",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 70.52,
+      "balance": 2745.58,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00332",
+      "date": "2026-07-24",
+      "description": "TESCO EXPRESS 4386",
+      "amount": -13.47,
+      "balance": 2732.11,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00333",
+      "date": "2026-07-24",
+      "description": "COSTA COFFEE 6878",
+      "amount": -16.46,
+      "balance": 2715.65,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00334",
+      "date": "2026-07-25",
+      "description": "NANDOS 6593",
+      "amount": -5.81,
+      "balance": 2709.84,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00335",
+      "date": "2026-07-25",
+      "description": "SAINSBURYS LOCAL 7524",
+      "amount": -11.14,
+      "balance": 2698.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00336",
+      "date": "2026-07-26",
+      "description": "TESCO EXPRESS 3081",
+      "amount": -24.63,
+      "balance": 2674.07,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00337",
+      "date": "2026-07-27",
+      "description": "DELIVEROO PAYOUT ZV657410",
+      "amount": 272.0,
+      "balance": 2946.07,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00338",
+      "date": "2026-07-27",
+      "description": "MCDONALDS 4209",
+      "amount": -3.31,
+      "balance": 2942.76,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00339",
+      "date": "2026-07-27",
+      "description": "ALDI 6229 MANCHESTER",
+      "amount": -21.34,
+      "balance": 2921.42,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00340",
+      "date": "2026-07-27",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2821.42,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00341",
+      "date": "2026-07-28",
+      "description": "ALDI 9310 MANCHESTER",
+      "amount": -18.69,
+      "balance": 2802.73,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00342",
+      "date": "2026-07-30",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 108.12,
+      "balance": 2910.85,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00343",
+      "date": "2026-07-30",
+      "description": "BIKE DOCTOR MANCHESTER",
+      "amount": -77.6,
+      "balance": 2833.25,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00344",
+      "date": "2026-07-31",
+      "description": "HMRC SELF ASSESSMENT",
+      "amount": -520.0,
+      "balance": 2313.25,
+      "_category": "tax:self_assessment",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00345",
+      "date": "2026-08-01",
+      "description": "GREGGS 5142",
+      "amount": -9.1,
+      "balance": 2304.15,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00346",
+      "date": "2026-08-01",
+      "description": "SAINSBURYS LOCAL 7398",
+      "amount": -25.21,
+      "balance": 2278.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00347",
+      "date": "2026-08-02",
+      "description": "MCDONALDS 2348",
+      "amount": -6.05,
+      "balance": 2272.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00348",
+      "date": "2026-08-02",
+      "description": "ALDI 4082 MANCHESTER",
+      "amount": -21.07,
+      "balance": 2251.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00349",
+      "date": "2026-08-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 2209.82,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00350",
+      "date": "2026-08-03",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1609.82,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00351",
+      "date": "2026-08-04",
+      "description": "COSTA COFFEE 6002",
+      "amount": -12.07,
+      "balance": 1597.75,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00352",
+      "date": "2026-08-06",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 94.87,
+      "balance": 1692.62,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00353",
+      "date": "2026-08-06",
+      "description": "GREGGS 5014",
+      "amount": -11.94,
+      "balance": 1680.68,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00354",
+      "date": "2026-08-06",
+      "description": "TESCO EXPRESS 9470",
+      "amount": -18.01,
+      "balance": 1662.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00355",
+      "date": "2026-08-07",
+      "description": "PUREGYM UE359070",
+      "amount": -24.99,
+      "balance": 1637.68,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00356",
+      "date": "2026-08-08",
+      "description": "MCDONALDS 9008",
+      "amount": -5.09,
+      "balance": 1632.59,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00357",
+      "date": "2026-08-09",
+      "description": "COSTA COFFEE 9885",
+      "amount": -7.24,
+      "balance": 1625.35,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00358",
+      "date": "2026-08-09",
+      "description": "ALDI 1565 MANCHESTER",
+      "amount": -14.26,
+      "balance": 1611.09,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00359",
+      "date": "2026-08-10",
+      "description": "DELIVEROO PAYOUT KC658831",
+      "amount": 144.81,
+      "balance": 1755.9,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00360",
+      "date": "2026-08-13",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 72.63,
+      "balance": 1828.53,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00361",
+      "date": "2026-08-13",
+      "description": "SAINSBURYS LOCAL 2639",
+      "amount": -35.73,
+      "balance": 1792.8,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00362",
+      "date": "2026-08-14",
+      "description": "SPOTIFY P8417",
+      "amount": -11.99,
+      "balance": 1780.81,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00363",
+      "date": "2026-08-15",
+      "description": "TESCO EXPRESS 7469",
+      "amount": -21.42,
+      "balance": 1759.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00364",
+      "date": "2026-08-17",
+      "description": "DELIVEROO PAYOUT XL816527",
+      "amount": 360.83,
+      "balance": 2120.22,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00365",
+      "date": "2026-08-17",
+      "description": "COSTA COFFEE 4645",
+      "amount": -6.43,
+      "balance": 2113.79,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00366",
+      "date": "2026-08-18",
+      "description": "MCDONALDS 4688",
+      "amount": -4.96,
+      "balance": 2108.83,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00367",
+      "date": "2026-08-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2083.83,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00368",
+      "date": "2026-08-18",
+      "description": "SAINSBURYS LOCAL 9091",
+      "amount": -25.54,
+      "balance": 2058.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00369",
+      "date": "2026-08-19",
+      "description": "GREGGS 4852",
+      "amount": -5.22,
+      "balance": 2053.07,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00370",
+      "date": "2026-08-19",
+      "description": "SAINSBURYS LOCAL 8269",
+      "amount": -20.69,
+      "balance": 2032.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00371",
+      "date": "2026-08-20",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 95.35,
+      "balance": 2127.73,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00372",
+      "date": "2026-08-20",
+      "description": "GREGGS 4314",
+      "amount": -4.28,
+      "balance": 2123.45,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00373",
+      "date": "2026-08-21",
+      "description": "COSTA COFFEE 2727",
+      "amount": -8.41,
+      "balance": 2115.04,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00374",
+      "date": "2026-08-21",
+      "description": "TESCO EXPRESS 8439",
+      "amount": -21.13,
+      "balance": 2093.91,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00375",
+      "date": "2026-08-23",
+      "description": "MCDONALDS 1131",
+      "amount": -4.1,
+      "balance": 2089.81,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00376",
+      "date": "2026-08-23",
+      "description": "ALDI 5641 MANCHESTER",
+      "amount": -15.44,
+      "balance": 2074.37,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00377",
+      "date": "2026-08-24",
+      "description": "DELIVEROO PAYOUT GQ296988",
+      "amount": 244.28,
+      "balance": 2318.65,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00378",
+      "date": "2026-08-24",
+      "description": "NANDOS 2382",
+      "amount": -7.58,
+      "balance": 2311.07,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00379",
+      "date": "2026-08-24",
+      "description": "SAINSBURYS LOCAL 1006",
+      "amount": -25.13,
+      "balance": 2285.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00380",
+      "date": "2026-08-25",
+      "description": "ALDI 5541 MANCHESTER",
+      "amount": -9.94,
+      "balance": 2276.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00381",
+      "date": "2026-08-25",
+      "description": "NANDOS 1655",
+      "amount": -11.54,
+      "balance": 2264.46,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00382",
+      "date": "2026-08-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2164.46,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00383",
+      "date": "2026-08-27",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 106.25,
+      "balance": 2270.71,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00384",
+      "date": "2026-08-27",
+      "description": "GREGGS 1563",
+      "amount": -5.89,
+      "balance": 2264.82,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00385",
+      "date": "2026-08-27",
+      "description": "HALFORDS 1955",
+      "amount": -73.79,
+      "balance": 2191.03,
+      "_category": "work:bike",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00386",
+      "date": "2026-08-30",
+      "description": "AMAZON.CO.UK*FO852835",
+      "amount": -20.81,
+      "balance": 2170.22,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00387",
+      "date": "2026-08-31",
+      "description": "NANDOS 4326",
+      "amount": -6.61,
+      "balance": 2163.61,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00388",
+      "date": "2026-09-01",
+      "description": "MCDONALDS 8342",
+      "amount": -7.9,
+      "balance": 2155.71,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00389",
+      "date": "2026-09-01",
+      "description": "SAINSBURYS LOCAL 5407",
+      "amount": -16.6,
+      "balance": 2139.11,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00390",
+      "date": "2026-09-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1539.11,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00391",
+      "date": "2026-09-02",
+      "description": "SAINSBURYS LOCAL 3575",
+      "amount": -13.52,
+      "balance": 1525.59,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00392",
+      "date": "2026-09-03",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 115.52,
+      "balance": 1641.11,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00393",
+      "date": "2026-09-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 1599.11,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00394",
+      "date": "2026-09-04",
+      "description": "GREGGS 9896",
+      "amount": -10.95,
+      "balance": 1588.16,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00395",
+      "date": "2026-09-06",
+      "description": "GREGGS 1539",
+      "amount": -3.7,
+      "balance": 1584.46,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00396",
+      "date": "2026-09-06",
+      "description": "ALDI 7743 MANCHESTER",
+      "amount": -15.7,
+      "balance": 1568.76,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00397",
+      "date": "2026-09-07",
+      "description": "DELIVEROO PAYOUT GF430858",
+      "amount": 359.74,
+      "balance": 1928.5,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00398",
+      "date": "2026-09-07",
+      "description": "NANDOS 1261",
+      "amount": -8.69,
+      "balance": 1919.81,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00399",
+      "date": "2026-09-07",
+      "description": "PUREGYM DZ419457",
+      "amount": -24.99,
+      "balance": 1894.82,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00400",
+      "date": "2026-09-07",
+      "description": "TESCO EXPRESS 3096",
+      "amount": -28.46,
+      "balance": 1866.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00401",
+      "date": "2026-09-08",
+      "description": "COSTA COFFEE 8403",
+      "amount": -9.11,
+      "balance": 1857.25,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00402",
+      "date": "2026-09-09",
+      "description": "GREGGS 7731",
+      "amount": -8.62,
+      "balance": 1848.63,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00403",
+      "date": "2026-09-09",
+      "description": "JD SPORTS 5869",
+      "amount": -15.34,
+      "balance": 1833.29,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00404",
+      "date": "2026-09-10",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 50.5,
+      "balance": 1883.79,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00405",
+      "date": "2026-09-10",
+      "description": "TESCO EXPRESS 6310",
+      "amount": -26.07,
+      "balance": 1857.72,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00406",
+      "date": "2026-09-11",
+      "description": "COSTA COFFEE 4062",
+      "amount": -6.32,
+      "balance": 1851.4,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00407",
+      "date": "2026-09-12",
+      "description": "GREGGS 2162",
+      "amount": -7.25,
+      "balance": 1844.15,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00408",
+      "date": "2026-09-12",
+      "description": "TESCO EXPRESS 1996",
+      "amount": -14.46,
+      "balance": 1829.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00409",
+      "date": "2026-09-12",
+      "description": "AMAZON.CO.UK*DC720213",
+      "amount": -42.56,
+      "balance": 1787.13,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00410",
+      "date": "2026-09-14",
+      "description": "DELIVEROO PAYOUT LI493621",
+      "amount": 319.0,
+      "balance": 2106.13,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00411",
+      "date": "2026-09-14",
+      "description": "GREGGS 2504",
+      "amount": -6.61,
+      "balance": 2099.52,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00412",
+      "date": "2026-09-14",
+      "description": "SPOTIFY P1670",
+      "amount": -11.99,
+      "balance": 2087.53,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00413",
+      "date": "2026-09-15",
+      "description": "MCDONALDS 6756",
+      "amount": -13.06,
+      "balance": 2074.47,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00414",
+      "date": "2026-09-16",
+      "description": "ALDI 6393 MANCHESTER",
+      "amount": -14.96,
+      "balance": 2059.51,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00415",
+      "date": "2026-09-18",
+      "description": "AMAZON.CO.UK*HB753925",
+      "amount": -20.58,
+      "balance": 2038.93,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00416",
+      "date": "2026-09-18",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2013.93,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00417",
+      "date": "2026-09-18",
+      "description": "TESCO EXPRESS 5911",
+      "amount": -39.11,
+      "balance": 1974.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00418",
+      "date": "2026-09-21",
+      "description": "DELIVEROO PAYOUT LJ902671",
+      "amount": 320.85,
+      "balance": 2295.67,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00419",
+      "date": "2026-09-22",
+      "description": "GREGGS 1979",
+      "amount": -5.27,
+      "balance": 2290.4,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00420",
+      "date": "2026-09-24",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 85.77,
+      "balance": 2376.17,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00421",
+      "date": "2026-09-24",
+      "description": "GREGGS 5802",
+      "amount": -6.28,
+      "balance": 2369.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00422",
+      "date": "2026-09-25",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2269.89,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00423",
+      "date": "2026-09-26",
+      "description": "COSTA COFFEE 2708",
+      "amount": -4.04,
+      "balance": 2265.85,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00424",
+      "date": "2026-09-27",
+      "description": "MCDONALDS 9204",
+      "amount": -5.3,
+      "balance": 2260.55,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00425",
+      "date": "2026-09-28",
+      "description": "DELIVEROO PAYOUT PB568687",
+      "amount": 234.94,
+      "balance": 2495.49,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00426",
+      "date": "2026-09-29",
+      "description": "NANDOS 8876",
+      "amount": -4.59,
+      "balance": 2490.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00427",
+      "date": "2026-10-01",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 81.95,
+      "balance": 2572.85,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00428",
+      "date": "2026-10-01",
+      "description": "ALDI 2251 MANCHESTER",
+      "amount": -21.03,
+      "balance": 2551.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00429",
+      "date": "2026-10-01",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 1951.82,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00430",
+      "date": "2026-10-02",
+      "description": "SAINSBURYS LOCAL 7688",
+      "amount": -16.81,
+      "balance": 1935.01,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00431",
+      "date": "2026-10-04",
+      "description": "MCDONALDS 5442",
+      "amount": -4.75,
+      "balance": 1930.26,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00432",
+      "date": "2026-10-05",
+      "description": "DELIVEROO PAYOUT AG568160",
+      "amount": 319.35,
+      "balance": 2249.61,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00433",
+      "date": "2026-10-05",
+      "description": "MCDONALDS 3948",
+      "amount": -9.6,
+      "balance": 2240.01,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00434",
+      "date": "2026-10-05",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 2198.01,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00435",
+      "date": "2026-10-06",
+      "description": "COSTA COFFEE 6653",
+      "amount": -6.02,
+      "balance": 2191.99,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00436",
+      "date": "2026-10-07",
+      "description": "NANDOS 2973",
+      "amount": -5.92,
+      "balance": 2186.07,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00437",
+      "date": "2026-10-07",
+      "description": "PUREGYM FR531501",
+      "amount": -24.99,
+      "balance": 2161.08,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    },
+    {
+      "id": "jay-00438",
+      "date": "2026-10-08",
+      "description": "COSTA COFFEE 8160",
+      "amount": -2.87,
+      "balance": 2158.21,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00439",
+      "date": "2026-10-09",
+      "description": "NANDOS 4970",
+      "amount": -8.1,
+      "balance": 2150.11,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00440",
+      "date": "2026-10-10",
+      "description": "ALDI 7171 MANCHESTER",
+      "amount": -40.89,
+      "balance": 2109.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00441",
+      "date": "2026-10-11",
+      "description": "MCDONALDS 2808",
+      "amount": -3.28,
+      "balance": 2105.94,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00442",
+      "date": "2026-10-12",
+      "description": "DELIVEROO PAYOUT KW418591",
+      "amount": 299.21,
+      "balance": 2405.15,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00443",
+      "date": "2026-10-13",
+      "description": "ALDI 6934 MANCHESTER",
+      "amount": -9.83,
+      "balance": 2395.32,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00444",
+      "date": "2026-10-13",
+      "description": "NANDOS 6988",
+      "amount": -14.5,
+      "balance": 2380.82,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00445",
+      "date": "2026-10-14",
+      "description": "SPOTIFY P7542",
+      "amount": -11.99,
+      "balance": 2368.83,
+      "_category": "subscriptions",
+      "_recurring_id": "spotify"
+    },
+    {
+      "id": "jay-00446",
+      "date": "2026-10-16",
+      "description": "TESCO EXPRESS 2779",
+      "amount": -16.22,
+      "balance": 2352.61,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00447",
+      "date": "2026-10-18",
+      "description": "JD SPORTS 9771",
+      "amount": -25.72,
+      "balance": 2326.89,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00448",
+      "date": "2026-10-19",
+      "description": "DELIVEROO PAYOUT DK377256",
+      "amount": 494.37,
+      "balance": 2821.26,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00449",
+      "date": "2026-10-19",
+      "description": "DD EE LIMITED",
+      "amount": -25.0,
+      "balance": 2796.26,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "jay-00450",
+      "date": "2026-10-20",
+      "description": "GREGGS 5692",
+      "amount": -6.58,
+      "balance": 2789.68,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00451",
+      "date": "2026-10-20",
+      "description": "ALDI 4432 MANCHESTER",
+      "amount": -31.22,
+      "balance": 2758.46,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00452",
+      "date": "2026-10-21",
+      "description": "TESCO EXPRESS 3759",
+      "amount": -25.57,
+      "balance": 2732.89,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00453",
+      "date": "2026-10-22",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 121.12,
+      "balance": 2854.01,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00454",
+      "date": "2026-10-22",
+      "description": "SAINSBURYS LOCAL 6257",
+      "amount": -33.76,
+      "balance": 2820.25,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00455",
+      "date": "2026-10-24",
+      "description": "COSTA COFFEE 5963",
+      "amount": -5.16,
+      "balance": 2815.09,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00456",
+      "date": "2026-10-24",
+      "description": "TESCO EXPRESS 8112",
+      "amount": -32.09,
+      "balance": 2783.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00457",
+      "date": "2026-10-25",
+      "description": "COSTA COFFEE 9333",
+      "amount": -4.83,
+      "balance": 2778.17,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00458",
+      "date": "2026-10-25",
+      "description": "JD SPORTS 2046",
+      "amount": -38.38,
+      "balance": 2739.79,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00459",
+      "date": "2026-10-26",
+      "description": "DELIVEROO PAYOUT KL887027",
+      "amount": 313.24,
+      "balance": 3053.03,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00460",
+      "date": "2026-10-26",
+      "description": "GREGGS 4011",
+      "amount": -6.81,
+      "balance": 3046.22,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00461",
+      "date": "2026-10-26",
+      "description": "ALDI 6335 MANCHESTER",
+      "amount": -19.39,
+      "balance": 3026.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00462",
+      "date": "2026-10-26",
+      "description": "TRANSFER TO MUM",
+      "amount": -100.0,
+      "balance": 2926.83,
+      "_category": "transfers",
+      "_recurring_id": "family_support"
+    },
+    {
+      "id": "jay-00463",
+      "date": "2026-10-28",
+      "description": "GREGGS 6876",
+      "amount": -6.37,
+      "balance": 2920.46,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00464",
+      "date": "2026-10-28",
+      "description": "SAINSBURYS LOCAL 1793",
+      "amount": -34.25,
+      "balance": 2886.21,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00465",
+      "date": "2026-10-29",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 77.96,
+      "balance": 2964.17,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00466",
+      "date": "2026-10-31",
+      "description": "ALDI 5538 MANCHESTER",
+      "amount": -28.61,
+      "balance": 2935.56,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00467",
+      "date": "2026-11-01",
+      "description": "GREGGS 7465",
+      "amount": -8.09,
+      "balance": 2927.47,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00468",
+      "date": "2026-11-02",
+      "description": "DELIVEROO PAYOUT WD149034",
+      "amount": 344.81,
+      "balance": 3272.28,
+      "_category": "income:gig",
+      "_recurring_id": "deliveroo"
+    },
+    {
+      "id": "jay-00469",
+      "date": "2026-11-02",
+      "description": "MCDONALDS 5062",
+      "amount": -12.24,
+      "balance": 3260.04,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00470",
+      "date": "2026-11-02",
+      "description": "SO M OKAFOR RENT",
+      "amount": -600.0,
+      "balance": 2660.04,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "jay-00471",
+      "date": "2026-11-03",
+      "description": "MCDONALDS 7755",
+      "amount": -8.31,
+      "balance": 2651.73,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00472",
+      "date": "2026-11-03",
+      "description": "DD ZEGO INSURANCE",
+      "amount": -42.0,
+      "balance": 2609.73,
+      "_category": "work:insurance",
+      "_recurring_id": "bike_insurance"
+    },
+    {
+      "id": "jay-00473",
+      "date": "2026-11-04",
+      "description": "NANDOS 8691",
+      "amount": -12.63,
+      "balance": 2597.1,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00474",
+      "date": "2026-11-04",
+      "description": "TESCO EXPRESS 1420",
+      "amount": -13.87,
+      "balance": 2583.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00475",
+      "date": "2026-11-05",
+      "description": "UBER EATS UK PAYOUT",
+      "amount": 111.53,
+      "balance": 2694.76,
+      "_category": "income:gig",
+      "_recurring_id": "uber_eats"
+    },
+    {
+      "id": "jay-00476",
+      "date": "2026-11-05",
+      "description": "JD SPORTS 6836",
+      "amount": -16.29,
+      "balance": 2678.47,
+      "_category": "shopping",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00477",
+      "date": "2026-11-06",
+      "description": "SAINSBURYS LOCAL 5307",
+      "amount": -21.78,
+      "balance": 2656.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00478",
+      "date": "2026-11-07",
+      "description": "GREGGS 3165",
+      "amount": -12.86,
+      "balance": 2643.83,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "jay-00479",
+      "date": "2026-11-07",
+      "description": "PUREGYM PC924479",
+      "amount": -24.99,
+      "balance": 2618.84,
+      "_category": "subscriptions",
+      "_recurring_id": "gym"
+    }
+  ]
+}

@@ -1,0 +1,2571 @@
+{
+  "profile_id": "lumen_labs",
+  "name": "Lumen Labs",
+  "mode": "business",
+  "opening_balance": 190000.0,
+  "tagline": "Seed-stage B2B SaaS startup, 5 staff, burning cash while MRR grows",
+  "persona": {
+    "sector": "software",
+    "staff": "4 -> 5 (July)",
+    "vat_quarters_end": "Mar/Jun/Sep/Dec",
+    "income_type": "Stripe subscriptions + enterprise invoices"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 91607.25,
+  "transactions": [
+    {
+      "id": "lumen_labs-00000",
+      "date": "2025-11-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 189940.0,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00001",
+      "date": "2025-11-11",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1579.15,
+      "balance": 191519.15,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00002",
+      "date": "2025-11-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 191471.15,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00003",
+      "date": "2025-11-14",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1422.45,
+      "balance": 192893.6,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00004",
+      "date": "2025-11-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 192853.6,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00005",
+      "date": "2025-11-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 192811.6,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00006",
+      "date": "2025-11-17",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 191961.6,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00007",
+      "date": "2025-11-18",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1929.03,
+      "balance": 193890.63,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00008",
+      "date": "2025-11-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 193794.63,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00009",
+      "date": "2025-11-21",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1914.12,
+      "balance": 195708.75,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00010",
+      "date": "2025-11-24",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 190808.75,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00011",
+      "date": "2025-11-25",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1975.19,
+      "balance": 192783.94,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00012",
+      "date": "2025-11-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 175983.94,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00013",
+      "date": "2025-11-28",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1555.46,
+      "balance": 177539.4,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00014",
+      "date": "2025-12-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 177453.0,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00015",
+      "date": "2025-12-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -504.0,
+      "balance": 176949.0,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00016",
+      "date": "2025-12-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 174349.0,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00017",
+      "date": "2025-12-02",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1874.07,
+      "balance": 176223.07,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00018",
+      "date": "2025-12-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -1858.69,
+      "balance": 174364.38,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00019",
+      "date": "2025-12-04",
+      "description": "SLACK T9832",
+      "amount": -63.0,
+      "balance": 174301.38,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00020",
+      "date": "2025-12-05",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1839.87,
+      "balance": 176141.25,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00021",
+      "date": "2025-12-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 176057.25,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00022",
+      "date": "2025-12-09",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1770.68,
+      "balance": 177827.93,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00023",
+      "date": "2025-12-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 177767.93,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00024",
+      "date": "2025-12-12",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1983.9,
+      "balance": 179751.83,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00025",
+      "date": "2025-12-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 179703.83,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00026",
+      "date": "2025-12-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 179663.83,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00027",
+      "date": "2025-12-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 178813.83,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00028",
+      "date": "2025-12-16",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1845.04,
+      "balance": 180658.87,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00029",
+      "date": "2025-12-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 180616.87,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00030",
+      "date": "2025-12-19",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1533.48,
+      "balance": 182150.35,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00031",
+      "date": "2025-12-22",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 182054.35,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00032",
+      "date": "2025-12-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 177154.35,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00033",
+      "date": "2025-12-23",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1070.31,
+      "balance": 178224.66,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00034",
+      "date": "2025-12-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 161424.66,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00035",
+      "date": "2025-12-26",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1538.67,
+      "balance": 162963.33,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00036",
+      "date": "2025-12-30",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1523.18,
+      "balance": 164486.51,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00037",
+      "date": "2026-01-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 164400.11,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00038",
+      "date": "2026-01-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -529.2,
+      "balance": 163870.91,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00039",
+      "date": "2026-01-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 161270.91,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00040",
+      "date": "2026-01-02",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1967.65,
+      "balance": 163238.56,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00041",
+      "date": "2026-01-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -1947.49,
+      "balance": 161291.07,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00042",
+      "date": "2026-01-04",
+      "description": "SLACK T8328",
+      "amount": -63.0,
+      "balance": 161228.07,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00043",
+      "date": "2026-01-06",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1826.21,
+      "balance": 163054.28,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00044",
+      "date": "2026-01-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 162970.28,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00045",
+      "date": "2026-01-09",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1984.04,
+      "balance": 164954.32,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00046",
+      "date": "2026-01-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 164894.32,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00047",
+      "date": "2026-01-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 164846.32,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00048",
+      "date": "2026-01-13",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1682.6,
+      "balance": 166528.92,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00049",
+      "date": "2026-01-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 166488.92,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00050",
+      "date": "2026-01-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 165638.92,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00051",
+      "date": "2026-01-16",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1844.5,
+      "balance": 167483.42,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00052",
+      "date": "2026-01-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 167441.42,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00053",
+      "date": "2026-01-20",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1736.65,
+      "balance": 169178.07,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00054",
+      "date": "2026-01-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 169082.07,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00055",
+      "date": "2026-01-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 164182.07,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00056",
+      "date": "2026-01-23",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1867.97,
+      "balance": 166050.04,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00057",
+      "date": "2026-01-23",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 149250.04,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00058",
+      "date": "2026-01-27",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1263.6,
+      "balance": 150513.64,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00059",
+      "date": "2026-01-30",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1736.41,
+      "balance": 152250.05,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00060",
+      "date": "2026-02-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 152163.65,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00061",
+      "date": "2026-02-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -555.66,
+      "balance": 151607.99,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00062",
+      "date": "2026-02-02",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 149007.99,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00063",
+      "date": "2026-02-03",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1887.26,
+      "balance": 150895.25,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00064",
+      "date": "2026-02-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2087.09,
+      "balance": 148808.16,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00065",
+      "date": "2026-02-04",
+      "description": "SLACK T5998",
+      "amount": -63.0,
+      "balance": 148745.16,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00066",
+      "date": "2026-02-06",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1307.98,
+      "balance": 150053.14,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00067",
+      "date": "2026-02-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 149969.14,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00068",
+      "date": "2026-02-09",
+      "description": "HMRC VAT",
+      "amount": -5272.19,
+      "balance": 144696.95,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "lumen_labs-00069",
+      "date": "2026-02-10",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1422.23,
+      "balance": 146119.18,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00070",
+      "date": "2026-02-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 146059.18,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00071",
+      "date": "2026-02-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 146011.18,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00072",
+      "date": "2026-02-13",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1891.71,
+      "balance": 147902.89,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00073",
+      "date": "2026-02-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 147862.89,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00074",
+      "date": "2026-02-16",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 147012.89,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00075",
+      "date": "2026-02-17",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1759.45,
+      "balance": 148772.34,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00076",
+      "date": "2026-02-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 148730.34,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00077",
+      "date": "2026-02-20",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1510.01,
+      "balance": 150240.35,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00078",
+      "date": "2026-02-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 150144.35,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00079",
+      "date": "2026-02-23",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 145244.35,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00080",
+      "date": "2026-02-24",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2168.45,
+      "balance": 147412.8,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00081",
+      "date": "2026-02-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 130612.8,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00082",
+      "date": "2026-02-27",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1842.59,
+      "balance": 132455.39,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00083",
+      "date": "2026-03-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 132368.99,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00084",
+      "date": "2026-03-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -583.44,
+      "balance": 131785.55,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00085",
+      "date": "2026-03-02",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 129185.55,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00086",
+      "date": "2026-03-03",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1926.17,
+      "balance": 131111.72,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00087",
+      "date": "2026-03-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2019.49,
+      "balance": 129092.23,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00088",
+      "date": "2026-03-04",
+      "description": "SLACK T9709",
+      "amount": -63.0,
+      "balance": 129029.23,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00089",
+      "date": "2026-03-06",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1531.06,
+      "balance": 130560.29,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00090",
+      "date": "2026-03-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 130476.29,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00091",
+      "date": "2026-03-10",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1392.16,
+      "balance": 131868.45,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00092",
+      "date": "2026-03-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 131808.45,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00093",
+      "date": "2026-03-11",
+      "description": "SHOOSMITHS LLP",
+      "amount": -4800.0,
+      "balance": 127008.45,
+      "_category": "shock:legal",
+      "_recurring_id": null
+    },
+    {
+      "id": "lumen_labs-00094",
+      "date": "2026-03-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 126960.45,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00095",
+      "date": "2026-03-13",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1719.26,
+      "balance": 128679.71,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00096",
+      "date": "2026-03-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 128639.71,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00097",
+      "date": "2026-03-16",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 127789.71,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00098",
+      "date": "2026-03-17",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2090.48,
+      "balance": 129880.19,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00099",
+      "date": "2026-03-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 129838.19,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00100",
+      "date": "2026-03-20",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1772.79,
+      "balance": 131610.98,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00101",
+      "date": "2026-03-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 131514.98,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00102",
+      "date": "2026-03-23",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 126614.98,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00103",
+      "date": "2026-03-24",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1501.79,
+      "balance": 128116.77,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00104",
+      "date": "2026-03-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 111316.77,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00105",
+      "date": "2026-03-27",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1719.13,
+      "balance": 113035.9,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00106",
+      "date": "2026-03-31",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1908.02,
+      "balance": 114943.92,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00107",
+      "date": "2026-04-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 114857.52,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00108",
+      "date": "2026-04-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -612.62,
+      "balance": 114244.9,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00109",
+      "date": "2026-04-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 111644.9,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00110",
+      "date": "2026-04-03",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1352.86,
+      "balance": 112997.76,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00111",
+      "date": "2026-04-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2347.13,
+      "balance": 110650.63,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00112",
+      "date": "2026-04-04",
+      "description": "SLACK T8184",
+      "amount": -63.0,
+      "balance": 110587.63,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00113",
+      "date": "2026-04-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 110503.63,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00114",
+      "date": "2026-04-07",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1724.25,
+      "balance": 112227.88,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00115",
+      "date": "2026-04-10",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1987.28,
+      "balance": 114215.16,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00116",
+      "date": "2026-04-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 114155.16,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00117",
+      "date": "2026-04-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 114107.16,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00118",
+      "date": "2026-04-14",
+      "description": "NORTHWIND LOGISTICS LTD",
+      "amount": 21600.0,
+      "balance": 135707.16,
+      "_category": "income:invoice",
+      "_recurring_id": "enterprise_invoices"
+    },
+    {
+      "id": "lumen_labs-00119",
+      "date": "2026-04-14",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1418.24,
+      "balance": 137125.4,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00120",
+      "date": "2026-04-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 137085.4,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00121",
+      "date": "2026-04-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 136235.4,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00122",
+      "date": "2026-04-17",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2257.0,
+      "balance": 138492.4,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00123",
+      "date": "2026-04-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 138450.4,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00124",
+      "date": "2026-04-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 138354.4,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00125",
+      "date": "2026-04-21",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1862.76,
+      "balance": 140217.16,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00126",
+      "date": "2026-04-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 135317.16,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00127",
+      "date": "2026-04-24",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1753.31,
+      "balance": 137070.47,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00128",
+      "date": "2026-04-24",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 120270.47,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00129",
+      "date": "2026-04-28",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1787.24,
+      "balance": 122057.71,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00130",
+      "date": "2026-05-01",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2108.78,
+      "balance": 124166.49,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00131",
+      "date": "2026-05-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 124080.09,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00132",
+      "date": "2026-05-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -643.25,
+      "balance": 123436.84,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00133",
+      "date": "2026-05-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 120836.84,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00134",
+      "date": "2026-05-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2187.77,
+      "balance": 118649.07,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00135",
+      "date": "2026-05-04",
+      "description": "SLACK T4053",
+      "amount": -63.0,
+      "balance": 118586.07,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00136",
+      "date": "2026-05-05",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2230.73,
+      "balance": 120816.8,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00137",
+      "date": "2026-05-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 120732.8,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00138",
+      "date": "2026-05-07",
+      "description": "HMRC VAT",
+      "amount": -6016.44,
+      "balance": 114716.36,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "lumen_labs-00139",
+      "date": "2026-05-08",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2521.37,
+      "balance": 117237.73,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00140",
+      "date": "2026-05-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 117177.73,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00141",
+      "date": "2026-05-12",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1897.34,
+      "balance": 119075.07,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00142",
+      "date": "2026-05-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 119027.07,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00143",
+      "date": "2026-05-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 118987.07,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00144",
+      "date": "2026-05-15",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2760.14,
+      "balance": 121747.21,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00145",
+      "date": "2026-05-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 120897.21,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00146",
+      "date": "2026-05-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 120855.21,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00147",
+      "date": "2026-05-19",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1970.47,
+      "balance": 122825.68,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00148",
+      "date": "2026-05-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 122729.68,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00149",
+      "date": "2026-05-22",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1655.37,
+      "balance": 124385.05,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00150",
+      "date": "2026-05-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 119485.05,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00151",
+      "date": "2026-05-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 102685.05,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00152",
+      "date": "2026-05-26",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1648.63,
+      "balance": 104333.68,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00153",
+      "date": "2026-05-29",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2171.22,
+      "balance": 106504.9,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00154",
+      "date": "2026-06-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 106418.5,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00155",
+      "date": "2026-06-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -675.41,
+      "balance": 105743.09,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00156",
+      "date": "2026-06-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 103143.09,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00157",
+      "date": "2026-06-02",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2204.33,
+      "balance": 105347.42,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00158",
+      "date": "2026-06-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2314.27,
+      "balance": 103033.15,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00159",
+      "date": "2026-06-04",
+      "description": "SLACK T3984",
+      "amount": -63.0,
+      "balance": 102970.15,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00160",
+      "date": "2026-06-05",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2866.44,
+      "balance": 105836.59,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00161",
+      "date": "2026-06-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 105752.59,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00162",
+      "date": "2026-06-09",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1923.9,
+      "balance": 107676.49,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00163",
+      "date": "2026-06-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 107616.49,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00164",
+      "date": "2026-06-12",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2409.64,
+      "balance": 110026.13,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00165",
+      "date": "2026-06-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 109978.13,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00166",
+      "date": "2026-06-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 109938.13,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00167",
+      "date": "2026-06-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -850.0,
+      "balance": 109088.13,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00168",
+      "date": "2026-06-16",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1911.62,
+      "balance": 110999.75,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00169",
+      "date": "2026-06-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 110957.75,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00170",
+      "date": "2026-06-19",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2226.42,
+      "balance": 113184.17,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00171",
+      "date": "2026-06-22",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 113088.17,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00172",
+      "date": "2026-06-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -4900.0,
+      "balance": 108188.17,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00173",
+      "date": "2026-06-23",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1831.56,
+      "balance": 110019.73,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00174",
+      "date": "2026-06-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -16800.0,
+      "balance": 93219.73,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00175",
+      "date": "2026-06-26",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1694.6,
+      "balance": 94914.33,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00176",
+      "date": "2026-06-30",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1876.77,
+      "balance": 96791.1,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00177",
+      "date": "2026-07-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 96704.7,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00178",
+      "date": "2026-07-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -709.18,
+      "balance": 95995.52,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00179",
+      "date": "2026-07-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 93395.52,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00180",
+      "date": "2026-07-03",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2667.12,
+      "balance": 96062.64,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00181",
+      "date": "2026-07-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2452.43,
+      "balance": 93610.21,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00182",
+      "date": "2026-07-04",
+      "description": "SLACK T3532",
+      "amount": -63.0,
+      "balance": 93547.21,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00183",
+      "date": "2026-07-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 93463.21,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00184",
+      "date": "2026-07-06",
+      "description": "APPLE STORE R9651",
+      "amount": -2399.0,
+      "balance": 91064.21,
+      "_category": "shock:equipment",
+      "_recurring_id": null
+    },
+    {
+      "id": "lumen_labs-00185",
+      "date": "2026-07-07",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2688.54,
+      "balance": 93752.75,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00186",
+      "date": "2026-07-10",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2347.08,
+      "balance": 96099.83,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00187",
+      "date": "2026-07-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 96039.83,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00188",
+      "date": "2026-07-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 95991.83,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00189",
+      "date": "2026-07-14",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2932.09,
+      "balance": 98923.92,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00190",
+      "date": "2026-07-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 98883.92,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00191",
+      "date": "2026-07-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -1020.0,
+      "balance": 97863.92,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00192",
+      "date": "2026-07-17",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2165.23,
+      "balance": 100029.15,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00193",
+      "date": "2026-07-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 99987.15,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00194",
+      "date": "2026-07-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 99891.15,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00195",
+      "date": "2026-07-21",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2253.42,
+      "balance": 102144.57,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00196",
+      "date": "2026-07-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -6000.0,
+      "balance": 96144.57,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00197",
+      "date": "2026-07-24",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2208.17,
+      "balance": 98352.74,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00198",
+      "date": "2026-07-24",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -20400.0,
+      "balance": 77952.74,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00199",
+      "date": "2026-07-28",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1984.24,
+      "balance": 79936.98,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00200",
+      "date": "2026-07-31",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2240.21,
+      "balance": 82177.19,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00201",
+      "date": "2026-08-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 82090.79,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00202",
+      "date": "2026-08-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -744.64,
+      "balance": 81346.15,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00203",
+      "date": "2026-08-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2374.95,
+      "balance": 78971.2,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00204",
+      "date": "2026-08-03",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 76371.2,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00205",
+      "date": "2026-08-04",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1840.25,
+      "balance": 78211.45,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00206",
+      "date": "2026-08-04",
+      "description": "SLACK T3504",
+      "amount": -63.0,
+      "balance": 78148.45,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00207",
+      "date": "2026-08-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 78064.45,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00208",
+      "date": "2026-08-07",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2150.86,
+      "balance": 80215.31,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00209",
+      "date": "2026-08-07",
+      "description": "HMRC VAT",
+      "amount": -6865.76,
+      "balance": 73349.55,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "lumen_labs-00210",
+      "date": "2026-08-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 73289.55,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00211",
+      "date": "2026-08-11",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2385.4,
+      "balance": 75674.95,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00212",
+      "date": "2026-08-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 75626.95,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00213",
+      "date": "2026-08-14",
+      "description": "HMRC R&D TAX CREDIT",
+      "amount": 41300.0,
+      "balance": 116926.95,
+      "_category": "income:grant",
+      "_recurring_id": null
+    },
+    {
+      "id": "lumen_labs-00214",
+      "date": "2026-08-14",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2309.89,
+      "balance": 119236.84,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00215",
+      "date": "2026-08-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 119196.84,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00216",
+      "date": "2026-08-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 119154.84,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00217",
+      "date": "2026-08-17",
+      "description": "DD NEST PENSIONS",
+      "amount": -1020.0,
+      "balance": 118134.84,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00218",
+      "date": "2026-08-18",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2115.54,
+      "balance": 120250.38,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00219",
+      "date": "2026-08-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 120154.38,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00220",
+      "date": "2026-08-21",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2600.12,
+      "balance": 122754.5,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00221",
+      "date": "2026-08-24",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -6000.0,
+      "balance": 116754.5,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00222",
+      "date": "2026-08-25",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2381.74,
+      "balance": 119136.24,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00223",
+      "date": "2026-08-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -20400.0,
+      "balance": 98736.24,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00224",
+      "date": "2026-08-28",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2685.99,
+      "balance": 101422.23,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00225",
+      "date": "2026-09-01",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2372.53,
+      "balance": 103794.76,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00226",
+      "date": "2026-09-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 103708.36,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00227",
+      "date": "2026-09-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -781.87,
+      "balance": 102926.49,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00228",
+      "date": "2026-09-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 100326.49,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00229",
+      "date": "2026-09-02",
+      "description": "BRAMBLE HEALTH LTD",
+      "amount": 14400.0,
+      "balance": 114726.49,
+      "_category": "income:invoice",
+      "_recurring_id": "enterprise_invoices"
+    },
+    {
+      "id": "lumen_labs-00230",
+      "date": "2026-09-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2723.28,
+      "balance": 112003.21,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00231",
+      "date": "2026-09-04",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2622.69,
+      "balance": 114625.9,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00232",
+      "date": "2026-09-04",
+      "description": "SLACK T5645",
+      "amount": -63.0,
+      "balance": 114562.9,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00233",
+      "date": "2026-09-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 114478.9,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00234",
+      "date": "2026-09-08",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2989.07,
+      "balance": 117467.97,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00235",
+      "date": "2026-09-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 117407.97,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00236",
+      "date": "2026-09-11",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2286.3,
+      "balance": 119694.27,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00237",
+      "date": "2026-09-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 119646.27,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00238",
+      "date": "2026-09-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 119606.27,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00239",
+      "date": "2026-09-15",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2422.43,
+      "balance": 122028.7,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00240",
+      "date": "2026-09-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -1020.0,
+      "balance": 121008.7,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00241",
+      "date": "2026-09-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 120966.7,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00242",
+      "date": "2026-09-18",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1874.4,
+      "balance": 122841.1,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00243",
+      "date": "2026-09-21",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 122745.1,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00244",
+      "date": "2026-09-22",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 1708.76,
+      "balance": 124453.86,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00245",
+      "date": "2026-09-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -6000.0,
+      "balance": 118453.86,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00246",
+      "date": "2026-09-25",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2453.99,
+      "balance": 120907.85,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00247",
+      "date": "2026-09-25",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -20400.0,
+      "balance": 100507.85,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00248",
+      "date": "2026-09-29",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2711.83,
+      "balance": 103219.68,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00249",
+      "date": "2026-10-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 103133.28,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00250",
+      "date": "2026-10-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -820.96,
+      "balance": 102312.32,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00251",
+      "date": "2026-10-01",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 99712.32,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00252",
+      "date": "2026-10-02",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2871.34,
+      "balance": 102583.66,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00253",
+      "date": "2026-10-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2717.36,
+      "balance": 99866.3,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00254",
+      "date": "2026-10-04",
+      "description": "SLACK T9565",
+      "amount": -63.0,
+      "balance": 99803.3,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00255",
+      "date": "2026-10-06",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2766.17,
+      "balance": 102569.47,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00256",
+      "date": "2026-10-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 102485.47,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    },
+    {
+      "id": "lumen_labs-00257",
+      "date": "2026-10-09",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2771.52,
+      "balance": 105256.99,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00258",
+      "date": "2026-10-10",
+      "description": "FIGMA",
+      "amount": -60.0,
+      "balance": 105196.99,
+      "_category": "overheads:software",
+      "_recurring_id": "figma"
+    },
+    {
+      "id": "lumen_labs-00259",
+      "date": "2026-10-12",
+      "description": "LINEAR ORBIT",
+      "amount": -48.0,
+      "balance": 105148.99,
+      "_category": "overheads:software",
+      "_recurring_id": "linear"
+    },
+    {
+      "id": "lumen_labs-00260",
+      "date": "2026-10-13",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2998.81,
+      "balance": 108147.8,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00261",
+      "date": "2026-10-14",
+      "description": "NOTION LABS",
+      "amount": -40.0,
+      "balance": 108107.8,
+      "_category": "overheads:software",
+      "_recurring_id": "notion"
+    },
+    {
+      "id": "lumen_labs-00262",
+      "date": "2026-10-15",
+      "description": "DD NEST PENSIONS",
+      "amount": -1020.0,
+      "balance": 107087.8,
+      "_category": "staff:pension",
+      "_recurring_id": "pension"
+    },
+    {
+      "id": "lumen_labs-00263",
+      "date": "2026-10-16",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 3097.66,
+      "balance": 110185.46,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00264",
+      "date": "2026-10-17",
+      "description": "XERO UK",
+      "amount": -42.0,
+      "balance": 110143.46,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "lumen_labs-00265",
+      "date": "2026-10-20",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2581.79,
+      "balance": 112725.25,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00266",
+      "date": "2026-10-20",
+      "description": "DD HISCOX INSURANCE",
+      "amount": -96.0,
+      "balance": 112629.25,
+      "_category": "overheads:insurance",
+      "_recurring_id": "insurance"
+    },
+    {
+      "id": "lumen_labs-00267",
+      "date": "2026-10-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -6000.0,
+      "balance": 106629.25,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "lumen_labs-00268",
+      "date": "2026-10-23",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2345.97,
+      "balance": 108975.22,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00269",
+      "date": "2026-10-23",
+      "description": "BACS PAYROLL LUMEN LABS",
+      "amount": -20400.0,
+      "balance": 88575.22,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "lumen_labs-00270",
+      "date": "2026-10-27",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2338.46,
+      "balance": 90913.68,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00271",
+      "date": "2026-10-30",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2470.88,
+      "balance": 93384.56,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00272",
+      "date": "2026-11-01",
+      "description": "GOOGLE*WORKSPACE",
+      "amount": -86.4,
+      "balance": 93298.16,
+      "_category": "overheads:software",
+      "_recurring_id": "google_workspace"
+    },
+    {
+      "id": "lumen_labs-00273",
+      "date": "2026-11-01",
+      "description": "ANTHROPIC, PBC",
+      "amount": -862.01,
+      "balance": 92436.15,
+      "_category": "infra:ai_api",
+      "_recurring_id": "ai_api"
+    },
+    {
+      "id": "lumen_labs-00274",
+      "date": "2026-11-02",
+      "description": "WEWORK SPINNINGFIELDS",
+      "amount": -2600.0,
+      "balance": 89836.15,
+      "_category": "premises:office",
+      "_recurring_id": "office"
+    },
+    {
+      "id": "lumen_labs-00275",
+      "date": "2026-11-03",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2223.96,
+      "balance": 92060.11,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00276",
+      "date": "2026-11-03",
+      "description": "AMAZON WEB SERVICES AWS.AMAZON.CO",
+      "amount": -2684.08,
+      "balance": 89376.03,
+      "_category": "infra:cloud",
+      "_recurring_id": "aws"
+    },
+    {
+      "id": "lumen_labs-00277",
+      "date": "2026-11-04",
+      "description": "SLACK T2380",
+      "amount": -63.0,
+      "balance": 89313.03,
+      "_category": "overheads:software",
+      "_recurring_id": "slack"
+    },
+    {
+      "id": "lumen_labs-00278",
+      "date": "2026-11-06",
+      "description": "STRIPE PAYMENTS UK LTD",
+      "amount": 2378.22,
+      "balance": 91691.25,
+      "_category": "income:subscriptions",
+      "_recurring_id": "stripe"
+    },
+    {
+      "id": "lumen_labs-00279",
+      "date": "2026-11-06",
+      "description": "GITHUB, INC.",
+      "amount": -84.0,
+      "balance": 91607.25,
+      "_category": "overheads:software",
+      "_recurring_id": "github"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-1001",
+      "client": "Northwind Logistics",
+      "issued": "2026-02-02",
+      "due": "2026-03-04",
+      "amount": 21600.0,
+      "paid_date": "2026-04-14",
+      "status": "paid",
+      "days_late": 41
+    },
+    {
+      "id": "INV-1002",
+      "client": "Bramble Health",
+      "issued": "2026-06-01",
+      "due": "2026-07-01",
+      "amount": 14400.0,
+      "paid_date": "2026-09-02",
+      "status": "paid",
+      "days_late": 63
+    },
+    {
+      "id": "INV-1003",
+      "client": "Kestrel Retail",
+      "issued": "2026-10-01",
+      "due": "2026-10-31",
+      "amount": 18000.0,
+      "paid_date": null,
+      "status": "overdue",
+      "days_late": 7
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "as_of": "2026-11-07",
+  "seed": 42,
+  "profiles": [
+    {
+      "profile_id": "amara",
+      "name": "Amara",
+      "mode": "personal",
+      "tagline": "Single parent of two, part-time carer, on Universal Credit",
+      "transactions": 565,
+      "total_in": 23483.19,
+      "total_out": -22639.09,
+      "opening_balance": 210.0,
+      "closing_balance": 1054.1,
+      "min_balance": -887.62,
+      "min_balance_date": "2026-01-04",
+      "days_closed_negative": 112
+    },
+    {
+      "profile_id": "jay",
+      "name": "Jay",
+      "mode": "personal",
+      "tagline": "Self-employed delivery rider with irregular weekly income",
+      "transactions": 480,
+      "total_in": 19125.89,
+      "total_out": -16657.05,
+      "opening_balance": 150.0,
+      "closing_balance": 2618.84,
+      "min_balance": 138.6,
+      "min_balance_date": "2025-11-09",
+      "days_closed_negative": 0
+    },
+    {
+      "profile_id": "sam",
+      "name": "Sam",
+      "mode": "personal",
+      "tagline": "Second-year student living between loan instalments",
+      "transactions": 413,
+      "total_in": 12820.59,
+      "total_out": -12764.97,
+      "opening_balance": 760.0,
+      "closing_balance": 815.62,
+      "min_balance": -396.53,
+      "min_balance_date": "2026-01-08",
+      "days_closed_negative": 14
+    },
+    {
+      "profile_id": "corner_cup",
+      "name": "The Corner Cup",
+      "mode": "business",
+      "tagline": "Independent caf\u00e9 with 4 staff and a catering side-line",
+      "transactions": 615,
+      "total_in": 274231.12,
+      "total_out": -280957.21,
+      "opening_balance": 11500.0,
+      "closing_balance": 4773.91,
+      "min_balance": 3.94,
+      "min_balance_date": "2026-11-02",
+      "days_closed_negative": 0
+    },
+    {
+      "profile_id": "lumen_labs",
+      "name": "Lumen Labs",
+      "mode": "business",
+      "tagline": "Seed-stage B2B SaaS startup, 5 staff, burning cash while MRR grows",
+      "transactions": 280,
+      "total_in": 290209.71,
+      "total_out": -388602.46,
+      "opening_balance": 190000.0,
+      "closing_balance": 91607.25,
+      "min_balance": 73289.55,
+      "min_balance_date": "2026-08-10",
+      "days_closed_negative": 0
+    }
+  ]
+}

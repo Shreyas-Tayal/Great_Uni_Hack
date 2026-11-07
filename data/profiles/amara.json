@@ -1,0 +1,5103 @@
+{
+  "profile_id": "amara",
+  "name": "Amara",
+  "mode": "personal",
+  "opening_balance": 210.0,
+  "tagline": "Single parent of two, part-time carer, on Universal Credit",
+  "persona": {
+    "household": "1 adult, 2 children",
+    "income_type": "wages + benefits",
+    "pay_cycle": "monthly wages (28th), UC (6th), child benefit 4-weekly"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 1054.1,
+  "transactions": [
+    {
+      "id": "amara-00000",
+      "date": "2025-11-08",
+      "description": "SMYTHS TOYS 2563",
+      "amount": -19.09,
+      "balance": 190.91,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00001",
+      "date": "2025-11-08",
+      "description": "TESCO STORES 4204 MANCHESTER",
+      "amount": -50.77,
+      "balance": 140.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00002",
+      "date": "2025-11-09",
+      "description": "STAGECOACH BUS 5673",
+      "amount": -3.39,
+      "balance": 136.75,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00003",
+      "date": "2025-11-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 130.76,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00004",
+      "date": "2025-11-09",
+      "description": "CASH ATM 5498 MANCHESTER",
+      "amount": -23.51,
+      "balance": 107.25,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00005",
+      "date": "2025-11-10",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 280.05,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00006",
+      "date": "2025-11-10",
+      "description": "STAGECOACH BUS 5983",
+      "amount": -2.58,
+      "balance": 277.47,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00007",
+      "date": "2025-11-10",
+      "description": "CASH ATM 7979 MANCHESTER",
+      "amount": -51.42,
+      "balance": 226.05,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00008",
+      "date": "2025-11-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 108.05,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00009",
+      "date": "2025-11-11",
+      "description": "ALDI 6673 MANCHESTER",
+      "amount": -19.31,
+      "balance": 88.74,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00010",
+      "date": "2025-11-12",
+      "description": "TFGM METROLINK",
+      "amount": -3.69,
+      "balance": 85.05,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00011",
+      "date": "2025-11-12",
+      "description": "MCDONALDS 6855",
+      "amount": -4.8,
+      "balance": 80.25,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00012",
+      "date": "2025-11-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 60.25,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00013",
+      "date": "2025-11-12",
+      "description": "ASDA SUPERSTORE 2958",
+      "amount": -31.45,
+      "balance": 28.8,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00014",
+      "date": "2025-11-14",
+      "description": "TFGM METROLINK",
+      "amount": -2.98,
+      "balance": 25.82,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00015",
+      "date": "2025-11-14",
+      "description": "CASH ATM 1825 MANCHESTER",
+      "amount": -27.7,
+      "balance": -1.88,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00016",
+      "date": "2025-11-15",
+      "description": "CASH ATM 3189 MANCHESTER",
+      "amount": -31.35,
+      "balance": -33.23,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00017",
+      "date": "2025-11-17",
+      "description": "TESCO STORES 3825 MANCHESTER",
+      "amount": -34.96,
+      "balance": -68.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00018",
+      "date": "2025-11-17",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": -180.19,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00019",
+      "date": "2025-11-18",
+      "description": "CASH ATM 8250 MANCHESTER",
+      "amount": -30.55,
+      "balance": -210.74,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00020",
+      "date": "2025-11-18",
+      "description": "TESCO STORES 4028 MANCHESTER",
+      "amount": -30.7,
+      "balance": -241.44,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00021",
+      "date": "2025-11-19",
+      "description": "STAGECOACH BUS 8110",
+      "amount": -3.17,
+      "balance": -244.61,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00022",
+      "date": "2025-11-19",
+      "description": "GREGGS 6246",
+      "amount": -8.28,
+      "balance": -252.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00023",
+      "date": "2025-11-19",
+      "description": "B&M RETAIL 1130",
+      "amount": -8.37,
+      "balance": -261.26,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00024",
+      "date": "2025-11-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -299.26,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00025",
+      "date": "2025-11-20",
+      "description": "ASDA SUPERSTORE 3708",
+      "amount": -48.4,
+      "balance": -347.66,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00026",
+      "date": "2025-11-21",
+      "description": "TFGM METROLINK",
+      "amount": -3.54,
+      "balance": -351.2,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00027",
+      "date": "2025-11-21",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -45.98,
+      "balance": -397.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00028",
+      "date": "2025-11-24",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -33.11,
+      "balance": -430.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00029",
+      "date": "2025-11-25",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -9.18,
+      "balance": -439.47,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00030",
+      "date": "2025-11-25",
+      "description": "ALDI 6630 MANCHESTER",
+      "amount": -30.03,
+      "balance": -469.5,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00031",
+      "date": "2025-11-26",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -14.18,
+      "balance": -483.68,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00032",
+      "date": "2025-11-27",
+      "description": "TFGM METROLINK",
+      "amount": -1.82,
+      "balance": -485.5,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00033",
+      "date": "2025-11-27",
+      "description": "JUST EAT.CO.UK",
+      "amount": -6.43,
+      "balance": -491.93,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00034",
+      "date": "2025-11-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 795.44,
+      "balance": 303.51,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00035",
+      "date": "2025-11-28",
+      "description": "TESCO STORES 6038 MANCHESTER",
+      "amount": -35.8,
+      "balance": 267.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00036",
+      "date": "2025-11-29",
+      "description": "MCDONALDS 3723",
+      "amount": -7.91,
+      "balance": 259.8,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00037",
+      "date": "2025-11-29",
+      "description": "CASH ATM 3082 MANCHESTER",
+      "amount": -22.71,
+      "balance": 237.09,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00038",
+      "date": "2025-12-01",
+      "description": "TFGM METROLINK",
+      "amount": -1.36,
+      "balance": 235.73,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00039",
+      "date": "2025-12-01",
+      "description": "ALDI 6629 MANCHESTER",
+      "amount": -55.44,
+      "balance": 180.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00040",
+      "date": "2025-12-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -544.71,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00041",
+      "date": "2025-12-02",
+      "description": "JUST EAT.CO.UK",
+      "amount": -9.0,
+      "balance": -553.71,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00042",
+      "date": "2025-12-02",
+      "description": "ALDI 6096 MANCHESTER",
+      "amount": -53.47,
+      "balance": -607.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00043",
+      "date": "2025-12-03",
+      "description": "CLARKS 1794",
+      "amount": -11.89,
+      "balance": -619.07,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00044",
+      "date": "2025-12-04",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -36.14,
+      "balance": -655.21,
+      "_category": "seasonal:christmas",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00045",
+      "date": "2025-12-05",
+      "description": "TFGM METROLINK",
+      "amount": -2.04,
+      "balance": -657.25,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00046",
+      "date": "2025-12-05",
+      "description": "JUST EAT.CO.UK",
+      "amount": -5.61,
+      "balance": -662.86,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00047",
+      "date": "2025-12-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": -690.86,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00048",
+      "date": "2025-12-06",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -19.0,
+      "balance": -709.86,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00049",
+      "date": "2025-12-07",
+      "description": "JUST EAT.CO.UK",
+      "amount": -9.45,
+      "balance": -719.31,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00050",
+      "date": "2025-12-08",
+      "description": "DWP UC OA183762",
+      "amount": 964.71,
+      "balance": 245.4,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00051",
+      "date": "2025-12-08",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 418.2,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00052",
+      "date": "2025-12-08",
+      "description": "STAGECOACH BUS 5866",
+      "amount": -1.68,
+      "balance": 416.52,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00053",
+      "date": "2025-12-08",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -16.89,
+      "balance": 399.63,
+      "_category": "seasonal:christmas",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00054",
+      "date": "2025-12-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 393.64,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00055",
+      "date": "2025-12-10",
+      "description": "TFGM METROLINK",
+      "amount": -3.86,
+      "balance": 389.78,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00056",
+      "date": "2025-12-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 271.78,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00057",
+      "date": "2025-12-12",
+      "description": "STAGECOACH BUS 5446",
+      "amount": -6.25,
+      "balance": 265.53,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00058",
+      "date": "2025-12-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 245.53,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00059",
+      "date": "2025-12-12",
+      "description": "TESCO STORES 6079 MANCHESTER",
+      "amount": -42.5,
+      "balance": 203.03,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00060",
+      "date": "2025-12-13",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -35.16,
+      "balance": 167.87,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00061",
+      "date": "2025-12-14",
+      "description": "SMYTHS TOYS 4209",
+      "amount": -27.73,
+      "balance": 140.14,
+      "_category": "seasonal:christmas",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00062",
+      "date": "2025-12-15",
+      "description": "TFGM METROLINK",
+      "amount": -2.4,
+      "balance": 137.74,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00063",
+      "date": "2025-12-15",
+      "description": "JUST EAT.CO.UK",
+      "amount": -7.94,
+      "balance": 129.8,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00064",
+      "date": "2025-12-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 17.8,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00065",
+      "date": "2025-12-16",
+      "description": "GREGGS 2766",
+      "amount": -5.3,
+      "balance": 12.5,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00066",
+      "date": "2025-12-16",
+      "description": "SMYTHS TOYS 7771",
+      "amount": -24.41,
+      "balance": -11.91,
+      "_category": "seasonal:christmas",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00067",
+      "date": "2025-12-16",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -44.91,
+      "balance": -56.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00068",
+      "date": "2025-12-18",
+      "description": "STAGECOACH BUS 5718",
+      "amount": -3.37,
+      "balance": -60.19,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00069",
+      "date": "2025-12-18",
+      "description": "SMYTHS TOYS 7689",
+      "amount": -22.74,
+      "balance": -82.93,
+      "_category": "seasonal:christmas",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00070",
+      "date": "2025-12-18",
+      "description": "CASH ATM 8269 MANCHESTER",
+      "amount": -48.26,
+      "balance": -131.19,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00071",
+      "date": "2025-12-19",
+      "description": "GREGGS 8614",
+      "amount": -14.35,
+      "balance": -145.54,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00072",
+      "date": "2025-12-20",
+      "description": "CASH ATM 4852 MANCHESTER",
+      "amount": -35.19,
+      "balance": -180.73,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00073",
+      "date": "2025-12-20",
+      "description": "ALDI 4831 MANCHESTER",
+      "amount": -81.53,
+      "balance": -262.26,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00074",
+      "date": "2025-12-21",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -31.98,
+      "balance": -294.24,
+      "_category": "seasonal:christmas",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00075",
+      "date": "2025-12-22",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -332.24,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00076",
+      "date": "2025-12-24",
+      "description": "TFGM METROLINK",
+      "amount": -6.62,
+      "balance": -338.86,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00077",
+      "date": "2025-12-24",
+      "description": "TESCO STORES 6716 MANCHESTER",
+      "amount": -230.79,
+      "balance": -569.65,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00078",
+      "date": "2025-12-25",
+      "description": "STAGECOACH BUS 9290",
+      "amount": -3.44,
+      "balance": -573.09,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00079",
+      "date": "2025-12-25",
+      "description": "HOME BARGAINS 9341",
+      "amount": -20.96,
+      "balance": -594.05,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00080",
+      "date": "2025-12-26",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 805.3,
+      "balance": 211.25,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00081",
+      "date": "2025-12-26",
+      "description": "B&M RETAIL 1388",
+      "amount": -12.99,
+      "balance": 198.26,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00082",
+      "date": "2025-12-27",
+      "description": "TESCO STORES 3416 MANCHESTER",
+      "amount": -61.59,
+      "balance": 136.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00083",
+      "date": "2025-12-28",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -79.0,
+      "balance": 57.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00084",
+      "date": "2025-12-30",
+      "description": "CASH ATM 7594 MANCHESTER",
+      "amount": -36.67,
+      "balance": 21.0,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00085",
+      "date": "2026-01-01",
+      "description": "TFGM METROLINK",
+      "amount": -2.34,
+      "balance": 18.66,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00086",
+      "date": "2026-01-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -706.34,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00087",
+      "date": "2026-01-02",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -15.15,
+      "balance": -721.49,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00088",
+      "date": "2026-01-02",
+      "description": "ALDI 7661 MANCHESTER",
+      "amount": -32.46,
+      "balance": -753.95,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00089",
+      "date": "2026-01-03",
+      "description": "CASH ATM 5423 MANCHESTER",
+      "amount": -45.72,
+      "balance": -799.67,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00090",
+      "date": "2026-01-03",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -61.62,
+      "balance": -861.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00091",
+      "date": "2026-01-04",
+      "description": "STAGECOACH BUS 1992",
+      "amount": -2.39,
+      "balance": -863.68,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00092",
+      "date": "2026-01-04",
+      "description": "TESCO STORES 2018 MANCHESTER",
+      "amount": -23.94,
+      "balance": -887.62,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00093",
+      "date": "2026-01-05",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": -714.82,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00094",
+      "date": "2026-01-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": -742.82,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00095",
+      "date": "2026-01-06",
+      "description": "DWP UC GO851571",
+      "amount": 959.28,
+      "balance": 216.46,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00096",
+      "date": "2026-01-07",
+      "description": "TFGM METROLINK",
+      "amount": -3.21,
+      "balance": 213.25,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00097",
+      "date": "2026-01-07",
+      "description": "HOME BARGAINS 4634",
+      "amount": -8.57,
+      "balance": 204.68,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00098",
+      "date": "2026-01-07",
+      "description": "ALDI 7796 MANCHESTER",
+      "amount": -34.21,
+      "balance": 170.47,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00099",
+      "date": "2026-01-08",
+      "description": "ALDI 7299 MANCHESTER",
+      "amount": -37.96,
+      "balance": 132.51,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00100",
+      "date": "2026-01-09",
+      "description": "STAGECOACH BUS 2666",
+      "amount": -1.87,
+      "balance": 130.64,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00101",
+      "date": "2026-01-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 124.65,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00102",
+      "date": "2026-01-09",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -34.88,
+      "balance": 89.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00103",
+      "date": "2026-01-10",
+      "description": "TESCO STORES 9697 MANCHESTER",
+      "amount": -14.69,
+      "balance": 75.08,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00104",
+      "date": "2026-01-11",
+      "description": "TESCO STORES 2690 MANCHESTER",
+      "amount": -28.95,
+      "balance": 46.13,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00105",
+      "date": "2026-01-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 26.13,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00106",
+      "date": "2026-01-12",
+      "description": "CASH ATM 3640 MANCHESTER",
+      "amount": -35.85,
+      "balance": -9.72,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00107",
+      "date": "2026-01-12",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": -127.72,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00108",
+      "date": "2026-01-13",
+      "description": "TFGM METROLINK",
+      "amount": -3.17,
+      "balance": -130.89,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00109",
+      "date": "2026-01-14",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -29.01,
+      "balance": -159.9,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00110",
+      "date": "2026-01-15",
+      "description": "TFGM METROLINK",
+      "amount": -2.33,
+      "balance": -162.23,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00111",
+      "date": "2026-01-15",
+      "description": "BOOTS 4800",
+      "amount": -12.5,
+      "balance": -174.73,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00112",
+      "date": "2026-01-15",
+      "description": "TESCO STORES 2919 MANCHESTER",
+      "amount": -19.73,
+      "balance": -194.46,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00113",
+      "date": "2026-01-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": -306.46,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00114",
+      "date": "2026-01-16",
+      "description": "ALDI 2392 MANCHESTER",
+      "amount": -21.53,
+      "balance": -327.99,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00115",
+      "date": "2026-01-17",
+      "description": "TESCO STORES 3700 MANCHESTER",
+      "amount": -54.44,
+      "balance": -382.43,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00116",
+      "date": "2026-01-18",
+      "description": "TFGM METROLINK",
+      "amount": -2.8,
+      "balance": -385.23,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00117",
+      "date": "2026-01-18",
+      "description": "MCDONALDS 5110",
+      "amount": -12.67,
+      "balance": -397.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00118",
+      "date": "2026-01-18",
+      "description": "ALDI 7463 MANCHESTER",
+      "amount": -42.26,
+      "balance": -440.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00119",
+      "date": "2026-01-19",
+      "description": "ALDI 1146 MANCHESTER",
+      "amount": -29.44,
+      "balance": -469.6,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00120",
+      "date": "2026-01-19",
+      "description": "KLARNA*OR847198",
+      "amount": -85.0,
+      "balance": -554.6,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00121",
+      "date": "2026-01-20",
+      "description": "STAGECOACH BUS 9816",
+      "amount": -1.75,
+      "balance": -556.35,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00122",
+      "date": "2026-01-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -594.35,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00123",
+      "date": "2026-01-21",
+      "description": "STAGECOACH BUS 7977",
+      "amount": -3.82,
+      "balance": -598.17,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00124",
+      "date": "2026-01-21",
+      "description": "GREGGS 9143",
+      "amount": -11.5,
+      "balance": -609.67,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00125",
+      "date": "2026-01-21",
+      "description": "ALDI 1053 MANCHESTER",
+      "amount": -21.39,
+      "balance": -631.06,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00126",
+      "date": "2026-01-23",
+      "description": "TFGM METROLINK",
+      "amount": -2.82,
+      "balance": -633.88,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00127",
+      "date": "2026-01-23",
+      "description": "ALDI 9466 MANCHESTER",
+      "amount": -34.21,
+      "balance": -668.09,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00128",
+      "date": "2026-01-25",
+      "description": "CASH ATM 4829 MANCHESTER",
+      "amount": -31.75,
+      "balance": -699.84,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00129",
+      "date": "2026-01-26",
+      "description": "MCDONALDS 5710",
+      "amount": -25.17,
+      "balance": -725.01,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00130",
+      "date": "2026-01-27",
+      "description": "HOME BARGAINS 4481",
+      "amount": -18.59,
+      "balance": -743.6,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00131",
+      "date": "2026-01-27",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -70.31,
+      "balance": -813.91,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00132",
+      "date": "2026-01-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 871.34,
+      "balance": 57.43,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00133",
+      "date": "2026-01-28",
+      "description": "MCDONALDS 3993",
+      "amount": -5.13,
+      "balance": 52.3,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00134",
+      "date": "2026-01-29",
+      "description": "TFGM METROLINK",
+      "amount": -2.85,
+      "balance": 49.45,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00135",
+      "date": "2026-01-30",
+      "description": "ASDA SUPERSTORE 5508",
+      "amount": -23.29,
+      "balance": 26.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00136",
+      "date": "2026-01-31",
+      "description": "HOME BARGAINS 2739",
+      "amount": -14.0,
+      "balance": 12.16,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00137",
+      "date": "2026-01-31",
+      "description": "CASH ATM 1463 MANCHESTER",
+      "amount": -40.32,
+      "balance": -28.16,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00138",
+      "date": "2026-02-02",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 144.64,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00139",
+      "date": "2026-02-02",
+      "description": "STAGECOACH BUS 8137",
+      "amount": -1.91,
+      "balance": 142.73,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00140",
+      "date": "2026-02-02",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -582.27,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00141",
+      "date": "2026-02-03",
+      "description": "STAGECOACH BUS 4115",
+      "amount": -2.36,
+      "balance": -584.63,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00142",
+      "date": "2026-02-03",
+      "description": "GREGGS 5064",
+      "amount": -10.23,
+      "balance": -594.86,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00143",
+      "date": "2026-02-03",
+      "description": "TESCO STORES 7023 MANCHESTER",
+      "amount": -26.54,
+      "balance": -621.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00144",
+      "date": "2026-02-04",
+      "description": "STAGECOACH BUS 3850",
+      "amount": -3.84,
+      "balance": -625.24,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00145",
+      "date": "2026-02-04",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -56.15,
+      "balance": -681.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00146",
+      "date": "2026-02-05",
+      "description": "STAGECOACH BUS 3203",
+      "amount": -3.21,
+      "balance": -684.6,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00147",
+      "date": "2026-02-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": -712.6,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00148",
+      "date": "2026-02-05",
+      "description": "TESCO STORES 8398 MANCHESTER",
+      "amount": -32.47,
+      "balance": -745.07,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00149",
+      "date": "2026-02-06",
+      "description": "DWP UC OB167988",
+      "amount": 922.96,
+      "balance": 177.89,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00150",
+      "date": "2026-02-06",
+      "description": "STAGECOACH BUS 2024",
+      "amount": -2.15,
+      "balance": 175.74,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00151",
+      "date": "2026-02-07",
+      "description": "MCDONALDS 9238",
+      "amount": -6.39,
+      "balance": 169.35,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00152",
+      "date": "2026-02-09",
+      "description": "STAGECOACH BUS 6326",
+      "amount": -3.61,
+      "balance": 165.74,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00153",
+      "date": "2026-02-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 159.75,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00154",
+      "date": "2026-02-10",
+      "description": "B&M RETAIL 1127",
+      "amount": -12.09,
+      "balance": 147.66,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00155",
+      "date": "2026-02-10",
+      "description": "ALDI 9255 MANCHESTER",
+      "amount": -56.68,
+      "balance": 90.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00156",
+      "date": "2026-02-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": -27.02,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00157",
+      "date": "2026-02-11",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -16.96,
+      "balance": -43.98,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00158",
+      "date": "2026-02-11",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -28.79,
+      "balance": -72.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00159",
+      "date": "2026-02-12",
+      "description": "STAGECOACH BUS 8709",
+      "amount": -2.83,
+      "balance": -75.6,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00160",
+      "date": "2026-02-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": -95.6,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00161",
+      "date": "2026-02-12",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -21.62,
+      "balance": -117.22,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00162",
+      "date": "2026-02-12",
+      "description": "ALDI 7320 MANCHESTER",
+      "amount": -46.1,
+      "balance": -163.32,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00163",
+      "date": "2026-02-13",
+      "description": "TFGM METROLINK",
+      "amount": -2.94,
+      "balance": -166.26,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00164",
+      "date": "2026-02-14",
+      "description": "ASDA SUPERSTORE 4659",
+      "amount": -17.99,
+      "balance": -184.25,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00165",
+      "date": "2026-02-15",
+      "description": "TFGM METROLINK",
+      "amount": -2.8,
+      "balance": -187.05,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00166",
+      "date": "2026-02-15",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -32.39,
+      "balance": -219.44,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00167",
+      "date": "2026-02-16",
+      "description": "STAGECOACH BUS 4008",
+      "amount": -2.13,
+      "balance": -221.57,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00168",
+      "date": "2026-02-16",
+      "description": "ASDA SUPERSTORE 1373",
+      "amount": -54.26,
+      "balance": -275.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00169",
+      "date": "2026-02-17",
+      "description": "BOOTS 3355",
+      "amount": -17.68,
+      "balance": -293.51,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00170",
+      "date": "2026-02-18",
+      "description": "TFGM METROLINK",
+      "amount": -2.36,
+      "balance": -295.87,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00171",
+      "date": "2026-02-18",
+      "description": "PARENTPAY PP737789",
+      "amount": -17.22,
+      "balance": -313.09,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00172",
+      "date": "2026-02-19",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -28.95,
+      "balance": -342.04,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00173",
+      "date": "2026-02-19",
+      "description": "KLARNA*KJ805293",
+      "amount": -85.0,
+      "balance": -427.04,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00174",
+      "date": "2026-02-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -465.04,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00175",
+      "date": "2026-02-21",
+      "description": "ASDA SUPERSTORE 5110",
+      "amount": -37.95,
+      "balance": -502.99,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00176",
+      "date": "2026-02-23",
+      "description": "STAGECOACH BUS 3617",
+      "amount": -3.08,
+      "balance": -506.07,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00177",
+      "date": "2026-02-23",
+      "description": "MCDONALDS 5559",
+      "amount": -6.33,
+      "balance": -512.4,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00178",
+      "date": "2026-02-23",
+      "description": "ASDA SUPERSTORE 2403",
+      "amount": -42.64,
+      "balance": -555.04,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00179",
+      "date": "2026-02-25",
+      "description": "STAGECOACH BUS 4927",
+      "amount": -2.39,
+      "balance": -557.43,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00180",
+      "date": "2026-02-25",
+      "description": "PARENTPAY FY660166",
+      "amount": -5.54,
+      "balance": -562.97,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00181",
+      "date": "2026-02-25",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -47.64,
+      "balance": -610.61,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00182",
+      "date": "2026-02-27",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 704.76,
+      "balance": 94.15,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00183",
+      "date": "2026-02-27",
+      "description": "PARENTPAY II470796",
+      "amount": -18.56,
+      "balance": 75.59,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00184",
+      "date": "2026-02-28",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -34.38,
+      "balance": 41.21,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00185",
+      "date": "2026-03-02",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 214.01,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00186",
+      "date": "2026-03-02",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -510.99,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00187",
+      "date": "2026-03-03",
+      "description": "TFGM METROLINK",
+      "amount": -3.98,
+      "balance": -514.97,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00188",
+      "date": "2026-03-04",
+      "description": "GREGGS 2440",
+      "amount": -9.19,
+      "balance": -524.16,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00189",
+      "date": "2026-03-05",
+      "description": "MCDONALDS 8347",
+      "amount": -7.89,
+      "balance": -532.05,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00190",
+      "date": "2026-03-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": -560.05,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00191",
+      "date": "2026-03-05",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -72.11,
+      "balance": -632.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00192",
+      "date": "2026-03-06",
+      "description": "DWP UC GZ604135",
+      "amount": 1014.58,
+      "balance": 382.42,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00193",
+      "date": "2026-03-06",
+      "description": "ASDA SUPERSTORE 4697",
+      "amount": -17.14,
+      "balance": 365.28,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00194",
+      "date": "2026-03-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 359.29,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00195",
+      "date": "2026-03-09",
+      "description": "ASDA SUPERSTORE 5479",
+      "amount": -36.94,
+      "balance": 322.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00196",
+      "date": "2026-03-10",
+      "description": "TFGM METROLINK",
+      "amount": -1.86,
+      "balance": 320.49,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00197",
+      "date": "2026-03-10",
+      "description": "TESCO STORES 9234 MANCHESTER",
+      "amount": -23.66,
+      "balance": 296.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00198",
+      "date": "2026-03-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 178.83,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00199",
+      "date": "2026-03-11",
+      "description": "STAGECOACH BUS 1450",
+      "amount": -2.53,
+      "balance": 176.3,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00200",
+      "date": "2026-03-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 156.3,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00201",
+      "date": "2026-03-14",
+      "description": "ASDA SUPERSTORE 1675",
+      "amount": -26.41,
+      "balance": 129.89,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00202",
+      "date": "2026-03-14",
+      "description": "CURRYS 8089 MANCHESTER",
+      "amount": -329.0,
+      "balance": -199.11,
+      "_category": "shock:appliance",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00203",
+      "date": "2026-03-16",
+      "description": "TFGM METROLINK",
+      "amount": -4.06,
+      "balance": -203.17,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00204",
+      "date": "2026-03-16",
+      "description": "CLARKS 7560",
+      "amount": -17.22,
+      "balance": -220.39,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00205",
+      "date": "2026-03-16",
+      "description": "TESCO STORES 4656 MANCHESTER",
+      "amount": -32.99,
+      "balance": -253.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00206",
+      "date": "2026-03-17",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -49.53,
+      "balance": -302.91,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00207",
+      "date": "2026-03-18",
+      "description": "CASH ATM 2966 MANCHESTER",
+      "amount": -36.54,
+      "balance": -339.45,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00208",
+      "date": "2026-03-18",
+      "description": "ALDI 6586 MANCHESTER",
+      "amount": -44.35,
+      "balance": -383.8,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00209",
+      "date": "2026-03-19",
+      "description": "TFGM METROLINK",
+      "amount": -3.6,
+      "balance": -387.4,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00210",
+      "date": "2026-03-19",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -12.96,
+      "balance": -400.36,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00211",
+      "date": "2026-03-19",
+      "description": "KLARNA*AF421096",
+      "amount": -85.0,
+      "balance": -485.36,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00212",
+      "date": "2026-03-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -523.36,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00213",
+      "date": "2026-03-20",
+      "description": "TESCO STORES 4543 MANCHESTER",
+      "amount": -54.31,
+      "balance": -577.67,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00214",
+      "date": "2026-03-22",
+      "description": "PARENTPAY TX739285",
+      "amount": -27.66,
+      "balance": -605.33,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00215",
+      "date": "2026-03-22",
+      "description": "CASH ATM 4981 MANCHESTER",
+      "amount": -28.15,
+      "balance": -633.48,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00216",
+      "date": "2026-03-23",
+      "description": "TFGM METROLINK",
+      "amount": -3.21,
+      "balance": -636.69,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00217",
+      "date": "2026-03-24",
+      "description": "STAGECOACH BUS 3602",
+      "amount": -3.31,
+      "balance": -640.0,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00218",
+      "date": "2026-03-24",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -44.22,
+      "balance": -684.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00219",
+      "date": "2026-03-25",
+      "description": "STAGECOACH BUS 3093",
+      "amount": -2.18,
+      "balance": -686.4,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00220",
+      "date": "2026-03-25",
+      "description": "ALDI 7089 MANCHESTER",
+      "amount": -33.45,
+      "balance": -719.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00221",
+      "date": "2026-03-26",
+      "description": "TFGM METROLINK",
+      "amount": -3.03,
+      "balance": -722.88,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00222",
+      "date": "2026-03-26",
+      "description": "ALDI 1515 MANCHESTER",
+      "amount": -20.32,
+      "balance": -743.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00223",
+      "date": "2026-03-27",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 827.25,
+      "balance": 84.05,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00224",
+      "date": "2026-03-28",
+      "description": "TFGM METROLINK",
+      "amount": -2.07,
+      "balance": 81.98,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00225",
+      "date": "2026-03-30",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 254.78,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00226",
+      "date": "2026-03-30",
+      "description": "STAGECOACH BUS 4101",
+      "amount": -2.43,
+      "balance": 252.35,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00227",
+      "date": "2026-03-30",
+      "description": "PARENTPAY RY678598",
+      "amount": -19.63,
+      "balance": 232.72,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00228",
+      "date": "2026-04-01",
+      "description": "TFGM METROLINK",
+      "amount": -6.21,
+      "balance": 226.51,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00229",
+      "date": "2026-04-01",
+      "description": "TESCO STORES 2313 MANCHESTER",
+      "amount": -30.96,
+      "balance": 195.55,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00230",
+      "date": "2026-04-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -529.45,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00231",
+      "date": "2026-04-03",
+      "description": "TFGM METROLINK",
+      "amount": -2.86,
+      "balance": -532.31,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00232",
+      "date": "2026-04-03",
+      "description": "MCDONALDS 9603",
+      "amount": -4.04,
+      "balance": -536.35,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00233",
+      "date": "2026-04-03",
+      "description": "HOME BARGAINS 1559",
+      "amount": -18.92,
+      "balance": -555.27,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00234",
+      "date": "2026-04-04",
+      "description": "SMYTHS TOYS 8077",
+      "amount": -19.18,
+      "balance": -574.45,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00235",
+      "date": "2026-04-05",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -34.62,
+      "balance": -609.07,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00236",
+      "date": "2026-04-06",
+      "description": "DWP UC XD752617",
+      "amount": 947.21,
+      "balance": 338.14,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00237",
+      "date": "2026-04-06",
+      "description": "ASDA SUPERSTORE 4944",
+      "amount": -21.74,
+      "balance": 316.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00238",
+      "date": "2026-04-06",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": 288.4,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00239",
+      "date": "2026-04-07",
+      "description": "STAGECOACH BUS 9192",
+      "amount": -5.95,
+      "balance": 282.45,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00240",
+      "date": "2026-04-08",
+      "description": "STAGECOACH BUS 9103",
+      "amount": -2.64,
+      "balance": 279.81,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00241",
+      "date": "2026-04-08",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -18.43,
+      "balance": 261.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00242",
+      "date": "2026-04-08",
+      "description": "JUST EAT.CO.UK",
+      "amount": -29.85,
+      "balance": 231.53,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00243",
+      "date": "2026-04-09",
+      "description": "STAGECOACH BUS 5842",
+      "amount": -4.48,
+      "balance": 227.05,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00244",
+      "date": "2026-04-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 221.06,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00245",
+      "date": "2026-04-09",
+      "description": "CLARKS 6280",
+      "amount": -13.32,
+      "balance": 207.74,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00246",
+      "date": "2026-04-09",
+      "description": "ASDA SUPERSTORE 1883",
+      "amount": -31.41,
+      "balance": 176.33,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00247",
+      "date": "2026-04-10",
+      "description": "TFGM METROLINK",
+      "amount": -2.01,
+      "balance": 174.32,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00248",
+      "date": "2026-04-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 56.32,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00249",
+      "date": "2026-04-11",
+      "description": "STAGECOACH BUS 9454",
+      "amount": -4.0,
+      "balance": 52.32,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00250",
+      "date": "2026-04-11",
+      "description": "B&M RETAIL 8253",
+      "amount": -12.29,
+      "balance": 40.03,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00251",
+      "date": "2026-04-11",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -13.15,
+      "balance": 26.88,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00252",
+      "date": "2026-04-12",
+      "description": "CASH ATM 8157 MANCHESTER",
+      "amount": -40.86,
+      "balance": -13.98,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00253",
+      "date": "2026-04-13",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": -33.98,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00254",
+      "date": "2026-04-13",
+      "description": "B&M RETAIL 5516",
+      "amount": -20.94,
+      "balance": -54.92,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00255",
+      "date": "2026-04-13",
+      "description": "CASH ATM 1462 MANCHESTER",
+      "amount": -23.01,
+      "balance": -77.93,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00256",
+      "date": "2026-04-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": -189.93,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00257",
+      "date": "2026-04-17",
+      "description": "ASDA SUPERSTORE 4428",
+      "amount": -88.29,
+      "balance": -278.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00258",
+      "date": "2026-04-19",
+      "description": "ASDA SUPERSTORE 1905",
+      "amount": -29.18,
+      "balance": -307.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00259",
+      "date": "2026-04-19",
+      "description": "KLARNA*AT757251",
+      "amount": -85.0,
+      "balance": -392.4,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00260",
+      "date": "2026-04-20",
+      "description": "ASDA SUPERSTORE 7945",
+      "amount": -16.58,
+      "balance": -408.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00261",
+      "date": "2026-04-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -446.98,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00262",
+      "date": "2026-04-22",
+      "description": "TFGM METROLINK",
+      "amount": -1.66,
+      "balance": -448.64,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00263",
+      "date": "2026-04-22",
+      "description": "ALDI 4911 MANCHESTER",
+      "amount": -29.72,
+      "balance": -478.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00264",
+      "date": "2026-04-24",
+      "description": "STAGECOACH BUS 3837",
+      "amount": -2.73,
+      "balance": -481.09,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00265",
+      "date": "2026-04-24",
+      "description": "SMYTHS TOYS 9809",
+      "amount": -8.88,
+      "balance": -489.97,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00266",
+      "date": "2026-04-25",
+      "description": "TFGM METROLINK",
+      "amount": -3.82,
+      "balance": -493.79,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00267",
+      "date": "2026-04-25",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -32.26,
+      "balance": -526.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00268",
+      "date": "2026-04-26",
+      "description": "STAGECOACH BUS 9075",
+      "amount": -3.79,
+      "balance": -529.84,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00269",
+      "date": "2026-04-26",
+      "description": "TESCO STORES 3491 MANCHESTER",
+      "amount": -10.64,
+      "balance": -540.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00270",
+      "date": "2026-04-27",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": -367.68,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00271",
+      "date": "2026-04-27",
+      "description": "TFGM METROLINK",
+      "amount": -3.68,
+      "balance": -371.36,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00272",
+      "date": "2026-04-27",
+      "description": "HOME BARGAINS 5793",
+      "amount": -10.45,
+      "balance": -381.81,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00273",
+      "date": "2026-04-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 860.18,
+      "balance": 478.37,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00274",
+      "date": "2026-04-29",
+      "description": "TFGM METROLINK",
+      "amount": -3.35,
+      "balance": 475.02,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00275",
+      "date": "2026-04-29",
+      "description": "GREGGS 2168",
+      "amount": -4.12,
+      "balance": 470.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00276",
+      "date": "2026-04-29",
+      "description": "CLARKS 9862",
+      "amount": -10.48,
+      "balance": 460.42,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00277",
+      "date": "2026-04-29",
+      "description": "HOME BARGAINS 3896",
+      "amount": -11.26,
+      "balance": 449.16,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00278",
+      "date": "2026-04-30",
+      "description": "STAGECOACH BUS 9833",
+      "amount": -3.86,
+      "balance": 445.3,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00279",
+      "date": "2026-04-30",
+      "description": "BOOTS 2625",
+      "amount": -5.89,
+      "balance": 439.41,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00280",
+      "date": "2026-04-30",
+      "description": "TESCO STORES 1322 MANCHESTER",
+      "amount": -40.06,
+      "balance": 399.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00281",
+      "date": "2026-05-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -325.65,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00282",
+      "date": "2026-05-02",
+      "description": "CASH ATM 8550 MANCHESTER",
+      "amount": -28.2,
+      "balance": -353.85,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00283",
+      "date": "2026-05-05",
+      "description": "GREGGS 9078",
+      "amount": -13.87,
+      "balance": -367.72,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00284",
+      "date": "2026-05-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": -395.72,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00285",
+      "date": "2026-05-06",
+      "description": "DWP UC VN645837",
+      "amount": 929.1,
+      "balance": 533.38,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00286",
+      "date": "2026-05-06",
+      "description": "TFGM METROLINK",
+      "amount": -2.34,
+      "balance": 531.04,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00287",
+      "date": "2026-05-06",
+      "description": "HOME BARGAINS 3453",
+      "amount": -8.35,
+      "balance": 522.69,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00288",
+      "date": "2026-05-06",
+      "description": "SMYTHS TOYS 1582",
+      "amount": -13.26,
+      "balance": 509.43,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00289",
+      "date": "2026-05-07",
+      "description": "B&M RETAIL 3537",
+      "amount": -7.55,
+      "balance": 501.88,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00290",
+      "date": "2026-05-07",
+      "description": "ASDA SUPERSTORE 1723",
+      "amount": -19.73,
+      "balance": 482.15,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00291",
+      "date": "2026-05-08",
+      "description": "BOOTS 7527",
+      "amount": -6.85,
+      "balance": 475.3,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00292",
+      "date": "2026-05-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 469.31,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00293",
+      "date": "2026-05-09",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -26.75,
+      "balance": 442.56,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00294",
+      "date": "2026-05-09",
+      "description": "CASH ATM 5611 MANCHESTER",
+      "amount": -29.56,
+      "balance": 413.0,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00295",
+      "date": "2026-05-10",
+      "description": "ALDI 4668 MANCHESTER",
+      "amount": -35.59,
+      "balance": 377.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00296",
+      "date": "2026-05-11",
+      "description": "TFGM METROLINK",
+      "amount": -3.71,
+      "balance": 373.7,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00297",
+      "date": "2026-05-11",
+      "description": "ASDA SUPERSTORE 6151",
+      "amount": -62.08,
+      "balance": 311.62,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00298",
+      "date": "2026-05-11",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 193.62,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00299",
+      "date": "2026-05-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 173.62,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00300",
+      "date": "2026-05-14",
+      "description": "STAGECOACH BUS 5602",
+      "amount": -2.03,
+      "balance": 171.59,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00301",
+      "date": "2026-05-14",
+      "description": "GREGGS 4539",
+      "amount": -10.2,
+      "balance": 161.39,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00302",
+      "date": "2026-05-15",
+      "description": "STAGECOACH BUS 7722",
+      "amount": -4.13,
+      "balance": 157.26,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00303",
+      "date": "2026-05-15",
+      "description": "GREGGS 1725",
+      "amount": -7.89,
+      "balance": 149.37,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00304",
+      "date": "2026-05-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 37.37,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00305",
+      "date": "2026-05-17",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -25.28,
+      "balance": 12.09,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00306",
+      "date": "2026-05-18",
+      "description": "TFGM METROLINK",
+      "amount": -2.86,
+      "balance": 9.23,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00307",
+      "date": "2026-05-18",
+      "description": "PARENTPAY DB602196",
+      "amount": -8.77,
+      "balance": 0.46,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00308",
+      "date": "2026-05-18",
+      "description": "TESCO STORES 9430 MANCHESTER",
+      "amount": -18.82,
+      "balance": -18.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00309",
+      "date": "2026-05-19",
+      "description": "KLARNA*GJ385889",
+      "amount": -85.0,
+      "balance": -103.36,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00310",
+      "date": "2026-05-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": -141.36,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00311",
+      "date": "2026-05-21",
+      "description": "TFGM METROLINK",
+      "amount": -3.03,
+      "balance": -144.39,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00312",
+      "date": "2026-05-23",
+      "description": "ASDA SUPERSTORE 2457",
+      "amount": -33.13,
+      "balance": -177.52,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00313",
+      "date": "2026-05-24",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -21.58,
+      "balance": -199.1,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00314",
+      "date": "2026-05-25",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": -26.3,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00315",
+      "date": "2026-05-26",
+      "description": "HOME BARGAINS 8667",
+      "amount": -9.0,
+      "balance": -35.3,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00316",
+      "date": "2026-05-26",
+      "description": "CASH ATM 4336 MANCHESTER",
+      "amount": -32.41,
+      "balance": -67.71,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00317",
+      "date": "2026-05-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 859.57,
+      "balance": 791.86,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00318",
+      "date": "2026-05-28",
+      "description": "ASDA SUPERSTORE 9585",
+      "amount": -72.12,
+      "balance": 719.74,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00319",
+      "date": "2026-05-29",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -28.76,
+      "balance": 690.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00320",
+      "date": "2026-05-31",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -48.86,
+      "balance": 642.12,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00321",
+      "date": "2026-06-01",
+      "description": "STAGECOACH BUS 2399",
+      "amount": -1.87,
+      "balance": 640.25,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00322",
+      "date": "2026-06-01",
+      "description": "JUST EAT.CO.UK",
+      "amount": -6.28,
+      "balance": 633.97,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00323",
+      "date": "2026-06-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": -91.03,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00324",
+      "date": "2026-06-02",
+      "description": "B&M RETAIL 8914",
+      "amount": -7.61,
+      "balance": -98.64,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00325",
+      "date": "2026-06-02",
+      "description": "ASDA SUPERSTORE 5828",
+      "amount": -11.27,
+      "balance": -109.91,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00326",
+      "date": "2026-06-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": -137.91,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00327",
+      "date": "2026-06-05",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -54.11,
+      "balance": -192.02,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00328",
+      "date": "2026-06-06",
+      "description": "CASH ATM 2631 MANCHESTER",
+      "amount": -24.27,
+      "balance": -216.29,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00329",
+      "date": "2026-06-08",
+      "description": "DWP UC JZ795851",
+      "amount": 929.44,
+      "balance": 713.15,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00330",
+      "date": "2026-06-08",
+      "description": "CASH ATM 1459 MANCHESTER",
+      "amount": -24.38,
+      "balance": 688.77,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00331",
+      "date": "2026-06-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 682.78,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00332",
+      "date": "2026-06-09",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -24.58,
+      "balance": 658.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00333",
+      "date": "2026-06-09",
+      "description": "SMYTHS TOYS 9894",
+      "amount": -29.08,
+      "balance": 629.12,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00334",
+      "date": "2026-06-10",
+      "description": "TESCO STORES 4829 MANCHESTER",
+      "amount": -12.9,
+      "balance": 616.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00335",
+      "date": "2026-06-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 498.22,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00336",
+      "date": "2026-06-11",
+      "description": "TFGM METROLINK",
+      "amount": -2.68,
+      "balance": 495.54,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00337",
+      "date": "2026-06-11",
+      "description": "ASDA SUPERSTORE 7188",
+      "amount": -19.12,
+      "balance": 476.42,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00338",
+      "date": "2026-06-12",
+      "description": "TFGM METROLINK",
+      "amount": -4.0,
+      "balance": 472.42,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00339",
+      "date": "2026-06-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 452.42,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00340",
+      "date": "2026-06-12",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -50.01,
+      "balance": 402.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00341",
+      "date": "2026-06-13",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -34.43,
+      "balance": 367.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00342",
+      "date": "2026-06-14",
+      "description": "TFGM METROLINK",
+      "amount": -2.82,
+      "balance": 365.16,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00343",
+      "date": "2026-06-14",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -30.8,
+      "balance": 334.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00344",
+      "date": "2026-06-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 222.36,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00345",
+      "date": "2026-06-16",
+      "description": "TFGM METROLINK",
+      "amount": -4.43,
+      "balance": 217.93,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00346",
+      "date": "2026-06-18",
+      "description": "TFGM METROLINK",
+      "amount": -1.93,
+      "balance": 216.0,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00347",
+      "date": "2026-06-18",
+      "description": "BOOTS 4359",
+      "amount": -11.18,
+      "balance": 204.82,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00348",
+      "date": "2026-06-19",
+      "description": "JUST EAT.CO.UK",
+      "amount": -16.58,
+      "balance": 188.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00349",
+      "date": "2026-06-19",
+      "description": "TESCO STORES 3777 MANCHESTER",
+      "amount": -52.1,
+      "balance": 136.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00350",
+      "date": "2026-06-19",
+      "description": "KLARNA*JH938960",
+      "amount": -85.0,
+      "balance": 51.14,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00351",
+      "date": "2026-06-20",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -30.36,
+      "balance": 20.78,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00352",
+      "date": "2026-06-22",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 193.58,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00353",
+      "date": "2026-06-22",
+      "description": "TFGM METROLINK",
+      "amount": -5.68,
+      "balance": 187.9,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00354",
+      "date": "2026-06-22",
+      "description": "PARENTPAY PZ577922",
+      "amount": -10.8,
+      "balance": 177.1,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00355",
+      "date": "2026-06-22",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": 139.1,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00356",
+      "date": "2026-06-23",
+      "description": "HOME BARGAINS 8271",
+      "amount": -7.13,
+      "balance": 131.97,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00357",
+      "date": "2026-06-23",
+      "description": "SMYTHS TOYS 3050",
+      "amount": -14.25,
+      "balance": 117.72,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00358",
+      "date": "2026-06-24",
+      "description": "STAGECOACH BUS 1619",
+      "amount": -2.9,
+      "balance": 114.82,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00359",
+      "date": "2026-06-25",
+      "description": "STAGECOACH BUS 6934",
+      "amount": -2.78,
+      "balance": 112.04,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00360",
+      "date": "2026-06-25",
+      "description": "GREGGS 3781",
+      "amount": -12.14,
+      "balance": 99.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00361",
+      "date": "2026-06-26",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 851.18,
+      "balance": 951.08,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00362",
+      "date": "2026-06-26",
+      "description": "TFGM METROLINK",
+      "amount": -2.44,
+      "balance": 948.64,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00363",
+      "date": "2026-06-26",
+      "description": "GREGGS 7482",
+      "amount": -8.34,
+      "balance": 940.3,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00364",
+      "date": "2026-06-26",
+      "description": "B&M RETAIL 6682",
+      "amount": -10.78,
+      "balance": 929.52,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00365",
+      "date": "2026-06-26",
+      "description": "TESCO STORES 4275 MANCHESTER",
+      "amount": -32.98,
+      "balance": 896.54,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00366",
+      "date": "2026-06-27",
+      "description": "JUST EAT.CO.UK",
+      "amount": -23.04,
+      "balance": 873.5,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00367",
+      "date": "2026-06-29",
+      "description": "STAGECOACH BUS 1297",
+      "amount": -2.49,
+      "balance": 871.01,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00368",
+      "date": "2026-06-29",
+      "description": "ASDA SUPERSTORE 5557",
+      "amount": -45.78,
+      "balance": 825.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00369",
+      "date": "2026-06-30",
+      "description": "STAGECOACH BUS 8140",
+      "amount": -3.76,
+      "balance": 821.47,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00370",
+      "date": "2026-06-30",
+      "description": "CLARKS 3175",
+      "amount": -13.02,
+      "balance": 808.45,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00371",
+      "date": "2026-07-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": 83.45,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00372",
+      "date": "2026-07-02",
+      "description": "CASH ATM 7560 MANCHESTER",
+      "amount": -34.33,
+      "balance": 49.12,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00373",
+      "date": "2026-07-03",
+      "description": "ASDA SUPERSTORE 7518",
+      "amount": -66.05,
+      "balance": -16.93,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00374",
+      "date": "2026-07-04",
+      "description": "MCDONALDS 3749",
+      "amount": -5.37,
+      "balance": -22.3,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00375",
+      "date": "2026-07-04",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -33.72,
+      "balance": -56.02,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00376",
+      "date": "2026-07-05",
+      "description": "ALDI 6988 MANCHESTER",
+      "amount": -13.41,
+      "balance": -69.43,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00377",
+      "date": "2026-07-06",
+      "description": "DWP UC JM865582",
+      "amount": 934.05,
+      "balance": 864.62,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00378",
+      "date": "2026-07-06",
+      "description": "B&M RETAIL 2726",
+      "amount": -10.03,
+      "balance": 854.59,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00379",
+      "date": "2026-07-06",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": 826.59,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00380",
+      "date": "2026-07-07",
+      "description": "TFGM METROLINK",
+      "amount": -3.95,
+      "balance": 822.64,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00381",
+      "date": "2026-07-07",
+      "description": "CLARKS 9255",
+      "amount": -55.49,
+      "balance": 767.15,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00382",
+      "date": "2026-07-08",
+      "description": "ALDI 1810 MANCHESTER",
+      "amount": -19.66,
+      "balance": 747.49,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00383",
+      "date": "2026-07-08",
+      "description": "CLARKS 2068",
+      "amount": -26.88,
+      "balance": 720.61,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00384",
+      "date": "2026-07-08",
+      "description": "CASH ATM 6867 MANCHESTER",
+      "amount": -54.7,
+      "balance": 665.91,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00385",
+      "date": "2026-07-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 659.92,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00386",
+      "date": "2026-07-09",
+      "description": "HOME BARGAINS 5427",
+      "amount": -12.89,
+      "balance": 647.03,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00387",
+      "date": "2026-07-10",
+      "description": "STAGECOACH BUS 4396",
+      "amount": -2.91,
+      "balance": 644.12,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00388",
+      "date": "2026-07-10",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -13.97,
+      "balance": 630.15,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00389",
+      "date": "2026-07-10",
+      "description": "ASDA SUPERSTORE 6993",
+      "amount": -28.52,
+      "balance": 601.63,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00390",
+      "date": "2026-07-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 483.63,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00391",
+      "date": "2026-07-11",
+      "description": "STAGECOACH BUS 6148",
+      "amount": -2.47,
+      "balance": 481.16,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00392",
+      "date": "2026-07-13",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 461.16,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00393",
+      "date": "2026-07-13",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -21.13,
+      "balance": 440.03,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00394",
+      "date": "2026-07-14",
+      "description": "TFGM METROLINK",
+      "amount": -2.02,
+      "balance": 438.01,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00395",
+      "date": "2026-07-14",
+      "description": "ALDI 9888 MANCHESTER",
+      "amount": -41.3,
+      "balance": 396.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00396",
+      "date": "2026-07-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 284.71,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00397",
+      "date": "2026-07-16",
+      "description": "ALDI 6479 MANCHESTER",
+      "amount": -35.63,
+      "balance": 249.08,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00398",
+      "date": "2026-07-17",
+      "description": "TESCO STORES 2952 MANCHESTER",
+      "amount": -33.32,
+      "balance": 215.76,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00399",
+      "date": "2026-07-18",
+      "description": "MCDONALDS 3821",
+      "amount": -7.82,
+      "balance": 207.94,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00400",
+      "date": "2026-07-19",
+      "description": "KLARNA*MA391906",
+      "amount": -85.0,
+      "balance": 122.94,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00401",
+      "date": "2026-07-20",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 295.74,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00402",
+      "date": "2026-07-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": 257.74,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00403",
+      "date": "2026-07-21",
+      "description": "TFGM METROLINK",
+      "amount": -1.93,
+      "balance": 255.81,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00404",
+      "date": "2026-07-21",
+      "description": "ASDA SUPERSTORE 4327",
+      "amount": -61.83,
+      "balance": 193.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00405",
+      "date": "2026-07-23",
+      "description": "PARENTPAY XK739666",
+      "amount": -6.45,
+      "balance": 187.53,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00406",
+      "date": "2026-07-24",
+      "description": "STAGECOACH BUS 6829",
+      "amount": -2.76,
+      "balance": 184.77,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00407",
+      "date": "2026-07-24",
+      "description": "CASH ATM 9635 MANCHESTER",
+      "amount": -29.75,
+      "balance": 155.02,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00408",
+      "date": "2026-07-25",
+      "description": "CASH ATM 4515 MANCHESTER",
+      "amount": -44.95,
+      "balance": 110.07,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00409",
+      "date": "2026-07-26",
+      "description": "ALDI 6807 MANCHESTER",
+      "amount": -41.98,
+      "balance": 68.09,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00410",
+      "date": "2026-07-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 885.52,
+      "balance": 953.61,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00411",
+      "date": "2026-07-30",
+      "description": "ALDI 4766 MANCHESTER",
+      "amount": -57.9,
+      "balance": 895.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00412",
+      "date": "2026-08-02",
+      "description": "TFGM METROLINK",
+      "amount": -2.7,
+      "balance": 893.01,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00413",
+      "date": "2026-08-02",
+      "description": "CASH ATM 2257 MANCHESTER",
+      "amount": -33.88,
+      "balance": 859.13,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00414",
+      "date": "2026-08-02",
+      "description": "TESCO STORES 2610 MANCHESTER",
+      "amount": -34.28,
+      "balance": 824.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00415",
+      "date": "2026-08-03",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": 99.85,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00416",
+      "date": "2026-08-04",
+      "description": "B&M RETAIL 8469",
+      "amount": -18.44,
+      "balance": 81.41,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00417",
+      "date": "2026-08-05",
+      "description": "STAGECOACH BUS 7874",
+      "amount": -2.65,
+      "balance": 78.76,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00418",
+      "date": "2026-08-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": 50.76,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00419",
+      "date": "2026-08-06",
+      "description": "DWP UC EO328031",
+      "amount": 915.16,
+      "balance": 965.92,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00420",
+      "date": "2026-08-07",
+      "description": "STAGECOACH BUS 9542",
+      "amount": -2.65,
+      "balance": 963.27,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00421",
+      "date": "2026-08-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 957.28,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00422",
+      "date": "2026-08-09",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -24.31,
+      "balance": 932.97,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00423",
+      "date": "2026-08-10",
+      "description": "STAGECOACH BUS 1933",
+      "amount": -2.34,
+      "balance": 930.63,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00424",
+      "date": "2026-08-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 812.63,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00425",
+      "date": "2026-08-11",
+      "description": "TESCO STORES 4845 MANCHESTER",
+      "amount": -36.99,
+      "balance": 775.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00426",
+      "date": "2026-08-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 755.64,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00427",
+      "date": "2026-08-13",
+      "description": "STAGECOACH BUS 5330",
+      "amount": -2.25,
+      "balance": 753.39,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00428",
+      "date": "2026-08-15",
+      "description": "ALDI 3330 MANCHESTER",
+      "amount": -16.45,
+      "balance": 736.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00429",
+      "date": "2026-08-15",
+      "description": "CASH ATM 8891 MANCHESTER",
+      "amount": -29.47,
+      "balance": 707.47,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00430",
+      "date": "2026-08-16",
+      "description": "STAGECOACH BUS 7731",
+      "amount": -2.7,
+      "balance": 704.77,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00431",
+      "date": "2026-08-16",
+      "description": "MCDONALDS 2339",
+      "amount": -4.73,
+      "balance": 700.04,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00432",
+      "date": "2026-08-17",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 872.84,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00433",
+      "date": "2026-08-17",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 760.84,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00434",
+      "date": "2026-08-18",
+      "description": "TFGM METROLINK",
+      "amount": -3.27,
+      "balance": 757.57,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00435",
+      "date": "2026-08-18",
+      "description": "ASDA SUPERSTORE 9645",
+      "amount": -29.18,
+      "balance": 728.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00436",
+      "date": "2026-08-19",
+      "description": "STAGECOACH BUS 2974",
+      "amount": -2.56,
+      "balance": 725.83,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00437",
+      "date": "2026-08-19",
+      "description": "MCDONALDS 9038",
+      "amount": -5.93,
+      "balance": 719.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00438",
+      "date": "2026-08-19",
+      "description": "CASH ATM 6382 MANCHESTER",
+      "amount": -32.02,
+      "balance": 687.88,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00439",
+      "date": "2026-08-19",
+      "description": "ASDA SUPERSTORE 3545",
+      "amount": -41.9,
+      "balance": 645.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00440",
+      "date": "2026-08-19",
+      "description": "KLARNA*IW928672",
+      "amount": -85.0,
+      "balance": 560.98,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00441",
+      "date": "2026-08-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": 522.98,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00442",
+      "date": "2026-08-21",
+      "description": "ASDA SUPERSTORE 4194",
+      "amount": -29.36,
+      "balance": 493.62,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00443",
+      "date": "2026-08-21",
+      "description": "CASH ATM 4316 MANCHESTER",
+      "amount": -37.12,
+      "balance": 456.5,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00444",
+      "date": "2026-08-23",
+      "description": "ASDA SUPERSTORE 1418",
+      "amount": -22.37,
+      "balance": 434.13,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00445",
+      "date": "2026-08-24",
+      "description": "STAGECOACH BUS 6924",
+      "amount": -3.88,
+      "balance": 430.25,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00446",
+      "date": "2026-08-24",
+      "description": "SCHOOLWEAR DIRECT 6021",
+      "amount": -96.4,
+      "balance": 333.85,
+      "_category": "children:uniform",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00447",
+      "date": "2026-08-25",
+      "description": "TFGM METROLINK",
+      "amount": -2.87,
+      "balance": 330.98,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00448",
+      "date": "2026-08-25",
+      "description": "CASH ATM 3312 MANCHESTER",
+      "amount": -20.75,
+      "balance": 310.23,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00449",
+      "date": "2026-08-26",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -36.46,
+      "balance": 273.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00450",
+      "date": "2026-08-26",
+      "description": "CLARKS 3720",
+      "amount": -78.0,
+      "balance": 195.77,
+      "_category": "children:uniform",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00451",
+      "date": "2026-08-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 767.06,
+      "balance": 962.83,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00452",
+      "date": "2026-08-28",
+      "description": "STAGECOACH BUS 6923",
+      "amount": -2.42,
+      "balance": 960.41,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00453",
+      "date": "2026-08-28",
+      "description": "ALDI 6331 MANCHESTER",
+      "amount": -40.99,
+      "balance": 919.42,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00454",
+      "date": "2026-08-30",
+      "description": "PRIMARK MANCHESTER",
+      "amount": -18.28,
+      "balance": 901.14,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00455",
+      "date": "2026-08-30",
+      "description": "ALDI 4992 MANCHESTER",
+      "amount": -27.22,
+      "balance": 873.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00456",
+      "date": "2026-08-31",
+      "description": "TFGM METROLINK",
+      "amount": -2.96,
+      "balance": 870.96,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00457",
+      "date": "2026-09-01",
+      "description": "JUST EAT.CO.UK",
+      "amount": -12.19,
+      "balance": 858.77,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00458",
+      "date": "2026-09-01",
+      "description": "HOME BARGAINS 6941",
+      "amount": -18.12,
+      "balance": 840.65,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00459",
+      "date": "2026-09-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": 115.65,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00460",
+      "date": "2026-09-02",
+      "description": "TFGM METROLINK",
+      "amount": -3.26,
+      "balance": 112.39,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00461",
+      "date": "2026-09-03",
+      "description": "ASDA SUPERSTORE 3221",
+      "amount": -36.65,
+      "balance": 75.74,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00462",
+      "date": "2026-09-04",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -14.2,
+      "balance": 61.54,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00463",
+      "date": "2026-09-05",
+      "description": "ALDI 2382 MANCHESTER",
+      "amount": -28.83,
+      "balance": 32.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00464",
+      "date": "2026-09-06",
+      "description": "GREGGS 5586",
+      "amount": -10.05,
+      "balance": 22.66,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00465",
+      "date": "2026-09-07",
+      "description": "DWP UC HQ871554",
+      "amount": 980.32,
+      "balance": 1002.98,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00466",
+      "date": "2026-09-07",
+      "description": "STAGECOACH BUS 1784",
+      "amount": -2.75,
+      "balance": 1000.23,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00467",
+      "date": "2026-09-07",
+      "description": "TESCO STORES 8872 MANCHESTER",
+      "amount": -22.92,
+      "balance": 977.31,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00468",
+      "date": "2026-09-07",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": 949.31,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00469",
+      "date": "2026-09-08",
+      "description": "TFGM METROLINK",
+      "amount": -3.14,
+      "balance": 946.17,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00470",
+      "date": "2026-09-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 940.18,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00471",
+      "date": "2026-09-10",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 822.18,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00472",
+      "date": "2026-09-11",
+      "description": "STAGECOACH BUS 4983",
+      "amount": -2.56,
+      "balance": 819.62,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00473",
+      "date": "2026-09-11",
+      "description": "ALDI 8682 MANCHESTER",
+      "amount": -10.99,
+      "balance": 808.63,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00474",
+      "date": "2026-09-12",
+      "description": "MCDONALDS 6090",
+      "amount": -6.74,
+      "balance": 801.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00475",
+      "date": "2026-09-12",
+      "description": "ASDA SUPERSTORE 1654",
+      "amount": -17.08,
+      "balance": 784.81,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00476",
+      "date": "2026-09-14",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 957.61,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00477",
+      "date": "2026-09-14",
+      "description": "TFGM METROLINK",
+      "amount": -1.99,
+      "balance": 955.62,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00478",
+      "date": "2026-09-14",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 935.62,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00479",
+      "date": "2026-09-14",
+      "description": "ALDI 9148 MANCHESTER",
+      "amount": -71.15,
+      "balance": 864.47,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00480",
+      "date": "2026-09-15",
+      "description": "STAGECOACH BUS 8543",
+      "amount": -2.19,
+      "balance": 862.28,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00481",
+      "date": "2026-09-15",
+      "description": "HOME BARGAINS 5568",
+      "amount": -12.81,
+      "balance": 849.47,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00482",
+      "date": "2026-09-15",
+      "description": "ASDA SUPERSTORE 5613",
+      "amount": -61.62,
+      "balance": 787.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00483",
+      "date": "2026-09-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 675.85,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00484",
+      "date": "2026-09-16",
+      "description": "TFGM METROLINK",
+      "amount": -3.03,
+      "balance": 672.82,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00485",
+      "date": "2026-09-16",
+      "description": "ASDA SUPERSTORE 4505",
+      "amount": -79.74,
+      "balance": 593.08,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00486",
+      "date": "2026-09-17",
+      "description": "ALDI 3573 MANCHESTER",
+      "amount": -34.72,
+      "balance": 558.36,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00487",
+      "date": "2026-09-18",
+      "description": "STAGECOACH BUS 1726",
+      "amount": -3.34,
+      "balance": 555.02,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00488",
+      "date": "2026-09-19",
+      "description": "TFGM METROLINK",
+      "amount": -2.4,
+      "balance": 552.62,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00489",
+      "date": "2026-09-19",
+      "description": "MCDONALDS 1704",
+      "amount": -3.51,
+      "balance": 549.11,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00490",
+      "date": "2026-09-19",
+      "description": "KLARNA*UM159016",
+      "amount": -85.0,
+      "balance": 464.11,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00491",
+      "date": "2026-09-20",
+      "description": "ASDA SUPERSTORE 5012",
+      "amount": -25.05,
+      "balance": 439.06,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00492",
+      "date": "2026-09-21",
+      "description": "TFGM METROLINK",
+      "amount": -2.59,
+      "balance": 436.47,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00493",
+      "date": "2026-09-21",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": 398.47,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00494",
+      "date": "2026-09-22",
+      "description": "STAGECOACH BUS 5070",
+      "amount": -2.8,
+      "balance": 395.67,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00495",
+      "date": "2026-09-22",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -39.27,
+      "balance": 356.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00496",
+      "date": "2026-09-24",
+      "description": "HOME BARGAINS 9938",
+      "amount": -17.61,
+      "balance": 338.79,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00497",
+      "date": "2026-09-25",
+      "description": "GREGGS 2251",
+      "amount": -9.35,
+      "balance": 329.44,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00498",
+      "date": "2026-09-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 791.42,
+      "balance": 1120.86,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00499",
+      "date": "2026-09-28",
+      "description": "TFGM METROLINK",
+      "amount": -4.18,
+      "balance": 1116.68,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00500",
+      "date": "2026-09-29",
+      "description": "ASDA SUPERSTORE 4114",
+      "amount": -72.99,
+      "balance": 1043.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00501",
+      "date": "2026-09-30",
+      "description": "TFGM METROLINK",
+      "amount": -3.86,
+      "balance": 1039.83,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00502",
+      "date": "2026-10-01",
+      "description": "STAGECOACH BUS 4091",
+      "amount": -2.28,
+      "balance": 1037.55,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00503",
+      "date": "2026-10-01",
+      "description": "GREGGS 3520",
+      "amount": -16.87,
+      "balance": 1020.68,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00504",
+      "date": "2026-10-01",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": 295.68,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00505",
+      "date": "2026-10-02",
+      "description": "TFGM METROLINK",
+      "amount": -2.14,
+      "balance": 293.54,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00506",
+      "date": "2026-10-04",
+      "description": "TESCO STORES 5086 MANCHESTER",
+      "amount": -38.58,
+      "balance": 254.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00507",
+      "date": "2026-10-05",
+      "description": "TFGM METROLINK",
+      "amount": -3.45,
+      "balance": 251.51,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00508",
+      "date": "2026-10-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": 223.51,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00509",
+      "date": "2026-10-05",
+      "description": "ASDA SUPERSTORE 9198",
+      "amount": -35.25,
+      "balance": 188.26,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00510",
+      "date": "2026-10-06",
+      "description": "DWP UC UX186250",
+      "amount": 966.92,
+      "balance": 1155.18,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00511",
+      "date": "2026-10-06",
+      "description": "CASH ATM 8423 MANCHESTER",
+      "amount": -17.57,
+      "balance": 1137.61,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00512",
+      "date": "2026-10-07",
+      "description": "STAGECOACH BUS 8449",
+      "amount": -2.45,
+      "balance": 1135.16,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00513",
+      "date": "2026-10-07",
+      "description": "HOME BARGAINS 4483",
+      "amount": -12.9,
+      "balance": 1122.26,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00514",
+      "date": "2026-10-07",
+      "description": "PARENTPAY AY652359",
+      "amount": -16.8,
+      "balance": 1105.46,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00515",
+      "date": "2026-10-08",
+      "description": "STAGECOACH BUS 3134",
+      "amount": -2.55,
+      "balance": 1102.91,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00516",
+      "date": "2026-10-08",
+      "description": "ALDI 2588 MANCHESTER",
+      "amount": -20.87,
+      "balance": 1082.04,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00517",
+      "date": "2026-10-09",
+      "description": "NETFLIX.COM",
+      "amount": -5.99,
+      "balance": 1076.05,
+      "_category": "subscriptions",
+      "_recurring_id": "netflix"
+    },
+    {
+      "id": "amara-00518",
+      "date": "2026-10-09",
+      "description": "HOME BARGAINS 4762",
+      "amount": -17.63,
+      "balance": 1058.42,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00519",
+      "date": "2026-10-11",
+      "description": "ALDI 4826 MANCHESTER",
+      "amount": -15.94,
+      "balance": 1042.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00520",
+      "date": "2026-10-12",
+      "description": "HMRC CHILD BENEFIT",
+      "amount": 172.8,
+      "balance": 1215.28,
+      "_category": "income:benefits",
+      "_recurring_id": "child_benefit"
+    },
+    {
+      "id": "amara-00521",
+      "date": "2026-10-12",
+      "description": "DD EE LIMITED",
+      "amount": -20.0,
+      "balance": 1195.28,
+      "_category": "bills:phone",
+      "_recurring_id": "phone"
+    },
+    {
+      "id": "amara-00522",
+      "date": "2026-10-12",
+      "description": "DD OCTOPUS ENERGY",
+      "amount": -118.0,
+      "balance": 1077.28,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "amara-00523",
+      "date": "2026-10-13",
+      "description": "STAGECOACH BUS 1176",
+      "amount": -6.74,
+      "balance": 1070.54,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00524",
+      "date": "2026-10-14",
+      "description": "ASDA SUPERSTORE 8856",
+      "amount": -25.15,
+      "balance": 1045.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00525",
+      "date": "2026-10-15",
+      "description": "ASDA SUPERSTORE 7167",
+      "amount": -21.67,
+      "balance": 1023.72,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00526",
+      "date": "2026-10-15",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -112.0,
+      "balance": 911.72,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "amara-00527",
+      "date": "2026-10-16",
+      "description": "TFGM METROLINK",
+      "amount": -3.72,
+      "balance": 908.0,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00528",
+      "date": "2026-10-17",
+      "description": "ASDA SUPERSTORE 9088",
+      "amount": -27.06,
+      "balance": 880.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00529",
+      "date": "2026-10-18",
+      "description": "ASDA SUPERSTORE 9833",
+      "amount": -62.72,
+      "balance": 818.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00530",
+      "date": "2026-10-19",
+      "description": "TFGM METROLINK",
+      "amount": -2.39,
+      "balance": 815.83,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00531",
+      "date": "2026-10-19",
+      "description": "KLARNA*MZ236749",
+      "amount": -85.0,
+      "balance": 730.83,
+      "_category": "debt:bnpl",
+      "_recurring_id": "klarna"
+    },
+    {
+      "id": "amara-00532",
+      "date": "2026-10-20",
+      "description": "TESCO STORES 1457 MANCHESTER",
+      "amount": -21.44,
+      "balance": 709.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00533",
+      "date": "2026-10-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -38.0,
+      "balance": 671.39,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "amara-00534",
+      "date": "2026-10-21",
+      "description": "TFGM METROLINK",
+      "amount": -3.63,
+      "balance": 667.76,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00535",
+      "date": "2026-10-21",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -28.89,
+      "balance": 638.87,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00536",
+      "date": "2026-10-22",
+      "description": "ALDI 4463 MANCHESTER",
+      "amount": -17.37,
+      "balance": 621.5,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00537",
+      "date": "2026-10-23",
+      "description": "STAGECOACH BUS 7010",
+      "amount": -1.64,
+      "balance": 619.86,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00538",
+      "date": "2026-10-23",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -23.86,
+      "balance": 596.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00539",
+      "date": "2026-10-24",
+      "description": "B&M RETAIL 6126",
+      "amount": -22.02,
+      "balance": 573.98,
+      "_category": "household",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00540",
+      "date": "2026-10-24",
+      "description": "CASH ATM 5013 MANCHESTER",
+      "amount": -34.34,
+      "balance": 539.64,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00541",
+      "date": "2026-10-25",
+      "description": "CASH ATM 4283 MANCHESTER",
+      "amount": -40.36,
+      "balance": 499.28,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00542",
+      "date": "2026-10-27",
+      "description": "STAGECOACH BUS 3481",
+      "amount": -2.75,
+      "balance": 496.53,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00543",
+      "date": "2026-10-27",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -51.14,
+      "balance": 445.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00544",
+      "date": "2026-10-28",
+      "description": "BRIGHTCARE LTD SALARY",
+      "amount": 781.86,
+      "balance": 1227.25,
+      "_category": "income:wages",
+      "_recurring_id": "wages"
+    },
+    {
+      "id": "amara-00545",
+      "date": "2026-10-28",
+      "description": "GREGGS 5200",
+      "amount": -7.91,
+      "balance": 1219.34,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00546",
+      "date": "2026-10-28",
+      "description": "SMYTHS TOYS 4956",
+      "amount": -14.2,
+      "balance": 1205.14,
+      "_category": "children",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00547",
+      "date": "2026-10-29",
+      "description": "TFGM METROLINK",
+      "amount": -3.52,
+      "balance": 1201.62,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00548",
+      "date": "2026-10-29",
+      "description": "ASDA SUPERSTORE 7095",
+      "amount": -27.71,
+      "balance": 1173.91,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00549",
+      "date": "2026-10-30",
+      "description": "STAGECOACH BUS 6124",
+      "amount": -2.57,
+      "balance": 1171.34,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00550",
+      "date": "2026-10-30",
+      "description": "ALDI 6701 MANCHESTER",
+      "amount": -69.83,
+      "balance": 1101.51,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00551",
+      "date": "2026-11-01",
+      "description": "JUST EAT.CO.UK",
+      "amount": -9.93,
+      "balance": 1091.58,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00552",
+      "date": "2026-11-01",
+      "description": "ASDA SUPERSTORE 9581",
+      "amount": -53.85,
+      "balance": 1037.73,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00553",
+      "date": "2026-11-02",
+      "description": "CASH ATM 7363 MANCHESTER",
+      "amount": -29.86,
+      "balance": 1007.87,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00554",
+      "date": "2026-11-02",
+      "description": "SO HOMELY HOUSING ASSOC",
+      "amount": -725.0,
+      "balance": 282.87,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "amara-00555",
+      "date": "2026-11-03",
+      "description": "STAGECOACH BUS 7394",
+      "amount": -2.41,
+      "balance": 280.46,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00556",
+      "date": "2026-11-03",
+      "description": "CASH ATM 9105 MANCHESTER",
+      "amount": -36.88,
+      "balance": 243.58,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00557",
+      "date": "2026-11-04",
+      "description": "STAGECOACH BUS 7706",
+      "amount": -3.69,
+      "balance": 239.89,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00558",
+      "date": "2026-11-04",
+      "description": "TESCO STORES 6659 MANCHESTER",
+      "amount": -48.74,
+      "balance": 191.15,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00559",
+      "date": "2026-11-05",
+      "description": "TFGM METROLINK",
+      "amount": -2.77,
+      "balance": 188.38,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00560",
+      "date": "2026-11-05",
+      "description": "DD VIRGIN MEDIA",
+      "amount": -28.0,
+      "balance": 160.38,
+      "_category": "bills:broadband",
+      "_recurring_id": "broadband"
+    },
+    {
+      "id": "amara-00561",
+      "date": "2026-11-06",
+      "description": "DWP UC DN511532",
+      "amount": 972.18,
+      "balance": 1132.56,
+      "_category": "income:benefits",
+      "_recurring_id": "universal_credit"
+    },
+    {
+      "id": "amara-00562",
+      "date": "2026-11-06",
+      "description": "STAGECOACH BUS 1034",
+      "amount": -2.81,
+      "balance": 1129.75,
+      "_category": "transport",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00563",
+      "date": "2026-11-06",
+      "description": "LIDL GB MANCHESTER",
+      "amount": -38.51,
+      "balance": 1091.24,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "amara-00564",
+      "date": "2026-11-07",
+      "description": "CASH ATM 3217 MANCHESTER",
+      "amount": -37.14,
+      "balance": 1054.1,
+      "_category": "cash",
+      "_recurring_id": null
+    }
+  ]
+}

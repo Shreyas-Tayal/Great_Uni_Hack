@@ -1,0 +1,255 @@
+{
+  "name": "Foresight - Daily voice alerts (Telegram)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "3981c08a-5579-4ac7-9846-a50ed7707c9d",
+      "name": "Every morning 8am",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        200
+      ]
+    },
+    {
+      "parameters": {},
+      "id": "0e4c95d8-7340-400c-85c4-42ebc50e1c11",
+      "name": "Run now (demo)",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        400
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// HACKATHON CONFIG - paste values here inside n8n. Never commit real keys to git.\nconst body = $input.first().json.body || {};\nreturn [{ json: {\n  ENGINE_URL: 'https://YOUR-ENGINE-TUNNEL.trycloudflare.com',   // cloudflared tunnel --url http://localhost:8000\n  ANTHROPIC_API_KEY: 'PASTE_KEY',\n  LLM_MODEL: 'claude-haiku-5-5',            // fast + cheap; swap to claude-sonnet-5-5 for nicer prose\n  ELEVEN_API_KEY: 'PASTE_KEY',\n  ELEVEN_VOICE_ID: 'PASTE_VOICE_ID',        // ElevenLabs -> Voices -> copy voice ID\n  ELEVEN_MODEL: 'eleven_multilingual_v2',   // multilingual: same voice speaks Urdu, Polish, etc.\n  TELEGRAM_CHAT_ID: 'PASTE_CHAT_ID',\n  req: body,\n}}];"
+      },
+      "id": "93781036-a338-4f04-81d7-0fc93e54c6c0",
+      "name": "Config",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ $json.ENGINE_URL }}/profiles",
+        "options": {}
+      },
+      "id": "f0fd3895-764d-403d-9d75-c7a3a6ceaf2e",
+      "name": "Engine profiles",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        440,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.first().json.profiles.map(p => ({ json: { profile_id: p.profile_id, name: p.name, mode: p.mode } }));"
+      },
+      "id": "9c579a32-d1e4-42f9-a9b1-d2f2cbedb832",
+      "name": "Split profiles",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        660,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $('Config').first().json.ENGINE_URL }}/forecast",
+        "options": {},
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ profile_id: $json.profile_id, days: 60 }) }}"
+      },
+      "id": "7596d1fd-ecd7-434d-bb5c-a42e890015d2",
+      "name": "Engine forecast",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        880,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Keep only profiles with an alert; write the voice-note script (deterministic, no LLM needed)\nconst out = [];\nfor (const [i, item] of $input.all().entries()) {\n  const f = item.json;\n  const who = $('Split profiles').all()[i].json;\n  const a = f.alerts?.[0];\n  if (!a) continue;\n  const chance = Math.round(a.p_negative * 10);\n  const fix = a.actions?.[0];\n  const when = new Date(a.peak_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long' });\n  let text;\n  if (f.mode === 'business') {\n    text = `Good morning ${who.name}. Your cash runway is ${f.hero.value ?? 'healthy'} weeks. ` +\n           `Heads up for ${when}: ${a.title.toLowerCase()}. In ${chance} out of 10 futures we simulated, cash dips below zero. ` +\n           (fix ? `Best fix: ${fix.label.toLowerCase()}. That cuts the risk to ${Math.round(fix.new_p_negative * 10)} in 10.` : '');\n  } else {\n    text = `Hi ${who.name}, a quick heads up. Around ${when}, there's a ${chance} in 10 chance your balance goes below zero. ` +\n           (fix ? `If you ${fix.label.charAt(0).toLowerCase() + fix.label.slice(1)}, that drops to ${Math.round(fix.new_p_negative * 10)} in 10. ` : '') +\n           `Open Foresight to see the details.`;\n  }\n  out.push({ json: { profile_id: who.profile_id, text, caption: `${who.name}: ${a.title}`,\n                     tts_body: { text, model_id: $('Config').first().json.ELEVEN_MODEL } } });\n}\nreturn out;"
+      },
+      "id": "731c0895-4a28-4f0a-ac62-179901e52ee2",
+      "name": "Alerts only",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1100,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "=https://api.elevenlabs.io/v1/text-to-speech/{{ $('Config').first().json.ELEVEN_VOICE_ID }}?output_format=mp3_44100_128",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        },
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "xi-api-key",
+              "value": "={{ $('Config').first().json.ELEVEN_API_KEY }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify($json.tts_body) }}"
+      },
+      "id": "ebabdfaf-d867-4061-af85-8e24c005c0fd",
+      "name": "ElevenLabs TTS",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1320,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "sendAudio",
+        "chatId": "={{ $('Config').first().json.TELEGRAM_CHAT_ID }}",
+        "binaryData": true,
+        "binaryPropertyName": "data",
+        "additionalFields": {
+          "caption": "={{ $('Alerts only').item.json.caption }}"
+        }
+      },
+      "id": "387dc231-6eee-4883-a0cd-0dc85de4e9c8",
+      "name": "Telegram voice note",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1540,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Config": {
+      "main": [
+        [
+          {
+            "node": "Engine profiles",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Engine profiles": {
+      "main": [
+        [
+          {
+            "node": "Split profiles",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split profiles": {
+      "main": [
+        [
+          {
+            "node": "Engine forecast",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Engine forecast": {
+      "main": [
+        [
+          {
+            "node": "Alerts only",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Alerts only": {
+      "main": [
+        [
+          {
+            "node": "ElevenLabs TTS",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ElevenLabs TTS": {
+      "main": [
+        [
+          {
+            "node": "Telegram voice note",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Every morning 8am": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run now (demo)": {
+      "main": [
+        [
+          {
+            "node": "Config",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {}
+}

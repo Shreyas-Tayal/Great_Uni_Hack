@@ -1,0 +1,5807 @@
+{
+  "profile_id": "corner_cup",
+  "name": "The Corner Cup",
+  "mode": "business",
+  "opening_balance": 11500.0,
+  "tagline": "Independent caf\u00e9 with 4 staff and a catering side-line",
+  "persona": {
+    "sector": "hospitality",
+    "staff": 4,
+    "vat_quarters_end": "Jan/Apr/Jul/Oct",
+    "rent": "quarterly in advance",
+    "income_type": "card takings + B2B invoices"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 4773.91,
+  "transactions": [
+    {
+      "id": "corner_cup-00000",
+      "date": "2025-11-10",
+      "description": "HALDEN & CO LTD BM502885",
+      "amount": 2894.09,
+      "balance": 14394.09,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00001",
+      "date": "2025-11-10",
+      "description": "SUMUP PAYOUT VU366476",
+      "amount": 2036.33,
+      "balance": 16430.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00002",
+      "date": "2025-11-10",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 16382.42,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00003",
+      "date": "2025-11-10",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -112.13,
+      "balance": 16270.29,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00004",
+      "date": "2025-11-11",
+      "description": "SUMUP PAYOUT AT684767",
+      "amount": 589.37,
+      "balance": 16859.66,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00005",
+      "date": "2025-11-11",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -315.31,
+      "balance": 16544.35,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00006",
+      "date": "2025-11-12",
+      "description": "SUMUP PAYOUT JF707343",
+      "amount": 615.85,
+      "balance": 17160.2,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00007",
+      "date": "2025-11-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 16620.2,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00008",
+      "date": "2025-11-13",
+      "description": "SUMUP PAYOUT GY653229",
+      "amount": 658.47,
+      "balance": 17278.67,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00009",
+      "date": "2025-11-13",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -102.94,
+      "balance": 17175.73,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00010",
+      "date": "2025-11-14",
+      "description": "SUMUP PAYOUT XA268137",
+      "amount": 556.22,
+      "balance": 17731.95,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00011",
+      "date": "2025-11-14",
+      "description": "BOOKER LTD 2064",
+      "amount": -495.38,
+      "balance": 17236.57,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00012",
+      "date": "2025-11-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 17203.57,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00013",
+      "date": "2025-11-17",
+      "description": "SUMUP PAYOUT RM760784",
+      "amount": 2176.55,
+      "balance": 19380.12,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00014",
+      "date": "2025-11-17",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -100.14,
+      "balance": 19279.98,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00015",
+      "date": "2025-11-18",
+      "description": "SUMUP PAYOUT OF887023",
+      "amount": 566.91,
+      "balance": 19846.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00016",
+      "date": "2025-11-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 19750.89,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00017",
+      "date": "2025-11-18",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -401.61,
+      "balance": 19349.28,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00018",
+      "date": "2025-11-19",
+      "description": "SUMUP PAYOUT NA739783",
+      "amount": 445.25,
+      "balance": 19794.53,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00019",
+      "date": "2025-11-20",
+      "description": "SUMUP PAYOUT ZV288692",
+      "amount": 378.61,
+      "balance": 20173.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00020",
+      "date": "2025-11-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 20155.14,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00021",
+      "date": "2025-11-20",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -99.3,
+      "balance": 20055.84,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00022",
+      "date": "2025-11-21",
+      "description": "SUMUP PAYOUT DS115695",
+      "amount": 438.62,
+      "balance": 20494.46,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00023",
+      "date": "2025-11-21",
+      "description": "BOOKER LTD 7481",
+      "amount": -563.34,
+      "balance": 19931.12,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00024",
+      "date": "2025-11-24",
+      "description": "SUMUP PAYOUT XH317301",
+      "amount": 1991.26,
+      "balance": 21922.38,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00025",
+      "date": "2025-11-24",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -80.89,
+      "balance": 21841.49,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00026",
+      "date": "2025-11-24",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 20121.49,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00027",
+      "date": "2025-11-25",
+      "description": "SUMUP PAYOUT RH813122",
+      "amount": 510.96,
+      "balance": 20632.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00028",
+      "date": "2025-11-25",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -381.46,
+      "balance": 20250.99,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00029",
+      "date": "2025-11-26",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1595.31,
+      "balance": 21846.3,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00030",
+      "date": "2025-11-26",
+      "description": "SUMUP PAYOUT AU978724",
+      "amount": 522.22,
+      "balance": 22368.52,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00031",
+      "date": "2025-11-27",
+      "description": "SUMUP PAYOUT MZ805345",
+      "amount": 451.33,
+      "balance": 22819.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00032",
+      "date": "2025-11-27",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -120.85,
+      "balance": 22699.0,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00033",
+      "date": "2025-11-28",
+      "description": "SUMUP PAYOUT US833950",
+      "amount": 650.65,
+      "balance": 23349.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00034",
+      "date": "2025-11-28",
+      "description": "BOOKER LTD 4396",
+      "amount": -547.27,
+      "balance": 22802.38,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00035",
+      "date": "2025-11-28",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7772.68,
+      "balance": 15029.7,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00036",
+      "date": "2025-12-01",
+      "description": "SUMUP PAYOUT YB776492",
+      "amount": 2116.07,
+      "balance": 17145.77,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00037",
+      "date": "2025-12-01",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -105.33,
+      "balance": 17040.44,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00038",
+      "date": "2025-12-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 16728.44,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00039",
+      "date": "2025-12-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 15228.44,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00040",
+      "date": "2025-12-02",
+      "description": "SUMUP PAYOUT YW282587",
+      "amount": 482.76,
+      "balance": 15711.2,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00041",
+      "date": "2025-12-02",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -374.94,
+      "balance": 15336.26,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00042",
+      "date": "2025-12-03",
+      "description": "SUMUP PAYOUT TU882175",
+      "amount": 613.91,
+      "balance": 15950.17,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00043",
+      "date": "2025-12-04",
+      "description": "SUMUP PAYOUT BL866880",
+      "amount": 766.12,
+      "balance": 16716.29,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00044",
+      "date": "2025-12-04",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -93.35,
+      "balance": 16622.94,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00045",
+      "date": "2025-12-05",
+      "description": "SUMUP PAYOUT AM320397",
+      "amount": 659.87,
+      "balance": 17282.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00046",
+      "date": "2025-12-05",
+      "description": "BOOKER LTD 4155",
+      "amount": -611.82,
+      "balance": 16670.99,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00047",
+      "date": "2025-12-08",
+      "description": "SUMUP PAYOUT LG271091",
+      "amount": 2383.03,
+      "balance": 19054.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00048",
+      "date": "2025-12-08",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 18990.02,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00049",
+      "date": "2025-12-08",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -97.12,
+      "balance": 18892.9,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00050",
+      "date": "2025-12-08",
+      "description": "HMRC VAT",
+      "amount": -7853.92,
+      "balance": 11038.98,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "corner_cup-00051",
+      "date": "2025-12-09",
+      "description": "SUMUP PAYOUT JC233747",
+      "amount": 524.29,
+      "balance": 11563.27,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00052",
+      "date": "2025-12-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 11515.27,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00053",
+      "date": "2025-12-09",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -363.33,
+      "balance": 11151.94,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00054",
+      "date": "2025-12-10",
+      "description": "SUMUP PAYOUT EV211531",
+      "amount": 569.16,
+      "balance": 11721.1,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00055",
+      "date": "2025-12-11",
+      "description": "SUMUP PAYOUT HP628587",
+      "amount": 678.61,
+      "balance": 12399.71,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00056",
+      "date": "2025-12-11",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -97.39,
+      "balance": 12302.32,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00057",
+      "date": "2025-12-12",
+      "description": "SUMUP PAYOUT HZ516070",
+      "amount": 501.94,
+      "balance": 12804.26,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00058",
+      "date": "2025-12-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 12264.26,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00059",
+      "date": "2025-12-12",
+      "description": "BOOKER LTD 2824",
+      "amount": -677.35,
+      "balance": 11586.91,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00060",
+      "date": "2025-12-15",
+      "description": "SUMUP PAYOUT OH420003",
+      "amount": 2704.95,
+      "balance": 14291.86,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00061",
+      "date": "2025-12-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 14258.86,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00062",
+      "date": "2025-12-15",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -149.23,
+      "balance": 14109.63,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00063",
+      "date": "2025-12-16",
+      "description": "SUMUP PAYOUT SW760506",
+      "amount": 690.43,
+      "balance": 14800.06,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00064",
+      "date": "2025-12-16",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -417.6,
+      "balance": 14382.46,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00065",
+      "date": "2025-12-17",
+      "description": "SUMUP PAYOUT QN444216",
+      "amount": 618.33,
+      "balance": 15000.79,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00066",
+      "date": "2025-12-18",
+      "description": "SUMUP PAYOUT VM362951",
+      "amount": 498.35,
+      "balance": 15499.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00067",
+      "date": "2025-12-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 15403.14,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00068",
+      "date": "2025-12-18",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -121.57,
+      "balance": 15281.57,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00069",
+      "date": "2025-12-19",
+      "description": "SUMUP PAYOUT XO980661",
+      "amount": 595.75,
+      "balance": 15877.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00070",
+      "date": "2025-12-19",
+      "description": "BOOKER LTD 5842",
+      "amount": -708.95,
+      "balance": 15168.37,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00071",
+      "date": "2025-12-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 15150.37,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00072",
+      "date": "2025-12-22",
+      "description": "SUMUP PAYOUT BI143071",
+      "amount": 2391.65,
+      "balance": 17542.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00073",
+      "date": "2025-12-22",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -115.94,
+      "balance": 17426.08,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00074",
+      "date": "2025-12-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 15706.08,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00075",
+      "date": "2025-12-23",
+      "description": "SUMUP PAYOUT LX593922",
+      "amount": 654.43,
+      "balance": 16360.51,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00076",
+      "date": "2025-12-23",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -462.57,
+      "balance": 15897.94,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00077",
+      "date": "2025-12-24",
+      "description": "HALDEN & CO LTD AV105887",
+      "amount": 2281.76,
+      "balance": 18179.7,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00078",
+      "date": "2025-12-24",
+      "description": "SUMUP PAYOUT YZ187313",
+      "amount": 615.54,
+      "balance": 18795.24,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00079",
+      "date": "2025-12-24",
+      "description": "SO NORTHGATE PROPERTY LTD",
+      "amount": -6900.0,
+      "balance": 11895.24,
+      "_category": "premises:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "corner_cup-00080",
+      "date": "2025-12-25",
+      "description": "SUMUP PAYOUT HR806226",
+      "amount": 666.09,
+      "balance": 12561.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00081",
+      "date": "2025-12-25",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -98.79,
+      "balance": 12462.54,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00082",
+      "date": "2025-12-26",
+      "description": "BOOKER LTD 7500",
+      "amount": -524.79,
+      "balance": 11937.75,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00083",
+      "date": "2025-12-29",
+      "description": "SUMUP PAYOUT XV186277",
+      "amount": 1647.56,
+      "balance": 13585.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00084",
+      "date": "2025-12-29",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -116.64,
+      "balance": 13468.67,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00085",
+      "date": "2025-12-30",
+      "description": "SUMUP PAYOUT XF173427",
+      "amount": 520.97,
+      "balance": 13989.64,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00086",
+      "date": "2025-12-30",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -426.07,
+      "balance": 13563.57,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00087",
+      "date": "2025-12-31",
+      "description": "SUMUP PAYOUT AG680180",
+      "amount": 663.49,
+      "balance": 14227.06,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00088",
+      "date": "2025-12-31",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7520.11,
+      "balance": 6706.95,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00089",
+      "date": "2026-01-01",
+      "description": "SUMUP PAYOUT UF828348",
+      "amount": 549.39,
+      "balance": 7256.34,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00090",
+      "date": "2026-01-01",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -81.72,
+      "balance": 7174.62,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00091",
+      "date": "2026-01-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 6862.62,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00092",
+      "date": "2026-01-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 5362.62,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00093",
+      "date": "2026-01-02",
+      "description": "BOOKER LTD 8785",
+      "amount": -440.19,
+      "balance": 4922.43,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00094",
+      "date": "2026-01-05",
+      "description": "SUMUP PAYOUT YD505121",
+      "amount": 1738.71,
+      "balance": 6661.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00095",
+      "date": "2026-01-05",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -77.79,
+      "balance": 6583.35,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00096",
+      "date": "2026-01-06",
+      "description": "SUMUP PAYOUT SK945388",
+      "amount": 457.08,
+      "balance": 7040.43,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00097",
+      "date": "2026-01-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 6976.43,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00098",
+      "date": "2026-01-06",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -304.75,
+      "balance": 6671.68,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00099",
+      "date": "2026-01-07",
+      "description": "SUMUP PAYOUT KN465564",
+      "amount": 467.26,
+      "balance": 7138.94,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00100",
+      "date": "2026-01-08",
+      "description": "SUMUP PAYOUT BT602865",
+      "amount": 393.71,
+      "balance": 7532.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00101",
+      "date": "2026-01-08",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -60.19,
+      "balance": 7472.46,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00102",
+      "date": "2026-01-09",
+      "description": "SUMUP PAYOUT FJ113652",
+      "amount": 540.71,
+      "balance": 8013.17,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00103",
+      "date": "2026-01-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 7965.17,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00104",
+      "date": "2026-01-09",
+      "description": "BOOKER LTD 5971",
+      "amount": -481.99,
+      "balance": 7483.18,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00105",
+      "date": "2026-01-12",
+      "description": "SUMUP PAYOUT GS760858",
+      "amount": 1700.32,
+      "balance": 9183.5,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00106",
+      "date": "2026-01-12",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -90.71,
+      "balance": 9092.79,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00107",
+      "date": "2026-01-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 8552.79,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00108",
+      "date": "2026-01-13",
+      "description": "SUMUP PAYOUT AG417004",
+      "amount": 509.25,
+      "balance": 9062.04,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00109",
+      "date": "2026-01-13",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -315.64,
+      "balance": 8746.4,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00110",
+      "date": "2026-01-14",
+      "description": "SUMUP PAYOUT IA445235",
+      "amount": 413.12,
+      "balance": 9159.52,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00111",
+      "date": "2026-01-15",
+      "description": "SUMUP PAYOUT AC221071",
+      "amount": 470.7,
+      "balance": 9630.22,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00112",
+      "date": "2026-01-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 9597.22,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00113",
+      "date": "2026-01-15",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -81.78,
+      "balance": 9515.44,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00114",
+      "date": "2026-01-16",
+      "description": "SUMUP PAYOUT ED182263",
+      "amount": 507.52,
+      "balance": 10022.96,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00115",
+      "date": "2026-01-16",
+      "description": "BOOKER LTD 4667",
+      "amount": -403.69,
+      "balance": 9619.27,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00116",
+      "date": "2026-01-19",
+      "description": "SUMUP PAYOUT YX382476",
+      "amount": 1839.06,
+      "balance": 11458.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00117",
+      "date": "2026-01-19",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1504.55,
+      "balance": 12962.88,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00118",
+      "date": "2026-01-19",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -85.63,
+      "balance": 12877.25,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00119",
+      "date": "2026-01-19",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 12781.25,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00120",
+      "date": "2026-01-20",
+      "description": "SUMUP PAYOUT MN814713",
+      "amount": 435.36,
+      "balance": 13216.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00121",
+      "date": "2026-01-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 13198.61,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00122",
+      "date": "2026-01-20",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -329.49,
+      "balance": 12869.12,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00123",
+      "date": "2026-01-21",
+      "description": "SUMUP PAYOUT RC357328",
+      "amount": 401.21,
+      "balance": 13270.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00124",
+      "date": "2026-01-22",
+      "description": "SUMUP PAYOUT XK552862",
+      "amount": 431.28,
+      "balance": 13701.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00125",
+      "date": "2026-01-22",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -80.68,
+      "balance": 13620.93,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00126",
+      "date": "2026-01-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 11900.93,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00127",
+      "date": "2026-01-23",
+      "description": "SUMUP PAYOUT OO601231",
+      "amount": 510.19,
+      "balance": 12411.12,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00128",
+      "date": "2026-01-23",
+      "description": "BOOKER LTD 6432",
+      "amount": -471.64,
+      "balance": 11939.48,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00129",
+      "date": "2026-01-26",
+      "description": "SUMUP PAYOUT TX339177",
+      "amount": 1732.64,
+      "balance": 13672.12,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00130",
+      "date": "2026-01-26",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -94.4,
+      "balance": 13577.72,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00131",
+      "date": "2026-01-27",
+      "description": "SUMUP PAYOUT XM726208",
+      "amount": 334.88,
+      "balance": 13912.6,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00132",
+      "date": "2026-01-27",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -262.5,
+      "balance": 13650.1,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00133",
+      "date": "2026-01-28",
+      "description": "SUMUP PAYOUT BY349152",
+      "amount": 522.93,
+      "balance": 14173.03,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00134",
+      "date": "2026-01-29",
+      "description": "SUMUP PAYOUT MQ712764",
+      "amount": 474.59,
+      "balance": 14647.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00135",
+      "date": "2026-01-29",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -84.79,
+      "balance": 14562.83,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00136",
+      "date": "2026-01-30",
+      "description": "SUMUP PAYOUT UC762499",
+      "amount": 363.38,
+      "balance": 14926.21,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00137",
+      "date": "2026-01-30",
+      "description": "BOOKER LTD 6149",
+      "amount": -420.63,
+      "balance": 14505.58,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00138",
+      "date": "2026-01-30",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7826.59,
+      "balance": 6678.99,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00139",
+      "date": "2026-02-02",
+      "description": "SUMUP PAYOUT FE464366",
+      "amount": 1776.03,
+      "balance": 8455.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00140",
+      "date": "2026-02-02",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -83.49,
+      "balance": 8371.53,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00141",
+      "date": "2026-02-02",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 6871.53,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00142",
+      "date": "2026-02-03",
+      "description": "HALDEN & CO LTD IY418044",
+      "amount": 2790.23,
+      "balance": 9661.76,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00143",
+      "date": "2026-02-03",
+      "description": "SUMUP PAYOUT LJ844228",
+      "amount": 375.05,
+      "balance": 10036.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00144",
+      "date": "2026-02-03",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -294.96,
+      "balance": 9741.85,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00145",
+      "date": "2026-02-04",
+      "description": "HALDEN & CO LTD ZD973144",
+      "amount": 2950.52,
+      "balance": 12692.37,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00146",
+      "date": "2026-02-04",
+      "description": "SUMUP PAYOUT ZJ723875",
+      "amount": 365.35,
+      "balance": 13057.72,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00147",
+      "date": "2026-02-05",
+      "description": "SUMUP PAYOUT OE377784",
+      "amount": 445.61,
+      "balance": 13503.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00148",
+      "date": "2026-02-05",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -100.33,
+      "balance": 13403.0,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00149",
+      "date": "2026-02-06",
+      "description": "SUMUP PAYOUT UK393180",
+      "amount": 528.85,
+      "balance": 13931.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00150",
+      "date": "2026-02-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 13867.85,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00151",
+      "date": "2026-02-06",
+      "description": "BOOKER LTD 2754",
+      "amount": -487.21,
+      "balance": 13380.64,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00152",
+      "date": "2026-02-09",
+      "description": "SUMUP PAYOUT EO905150",
+      "amount": 1602.7,
+      "balance": 14983.34,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00153",
+      "date": "2026-02-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 14935.34,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00154",
+      "date": "2026-02-09",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -81.76,
+      "balance": 14853.58,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00155",
+      "date": "2026-02-10",
+      "description": "SUMUP PAYOUT DI273656",
+      "amount": 399.51,
+      "balance": 15253.09,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00156",
+      "date": "2026-02-10",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -365.13,
+      "balance": 14887.96,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00157",
+      "date": "2026-02-11",
+      "description": "SUMUP PAYOUT KX778450",
+      "amount": 414.18,
+      "balance": 15302.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00158",
+      "date": "2026-02-12",
+      "description": "SUMUP PAYOUT ME819493",
+      "amount": 541.08,
+      "balance": 15843.22,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00159",
+      "date": "2026-02-12",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -112.03,
+      "balance": 15731.19,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00160",
+      "date": "2026-02-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 15191.19,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00161",
+      "date": "2026-02-13",
+      "description": "SUMUP PAYOUT IY635254",
+      "amount": 567.3,
+      "balance": 15758.49,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00162",
+      "date": "2026-02-13",
+      "description": "BOOKER LTD 1839",
+      "amount": -458.82,
+      "balance": 15299.67,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00163",
+      "date": "2026-02-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 15266.67,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00164",
+      "date": "2026-02-16",
+      "description": "SUMUP PAYOUT HK292824",
+      "amount": 1803.2,
+      "balance": 17069.87,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00165",
+      "date": "2026-02-16",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -96.22,
+      "balance": 16973.65,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00166",
+      "date": "2026-02-17",
+      "description": "SUMUP PAYOUT HL972167",
+      "amount": 404.0,
+      "balance": 17377.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00167",
+      "date": "2026-02-17",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -383.9,
+      "balance": 16993.75,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00168",
+      "date": "2026-02-17",
+      "description": "COFFEE MACHINE SERVICE",
+      "amount": -940.0,
+      "balance": 16053.75,
+      "_category": "shock:equipment",
+      "_recurring_id": null
+    },
+    {
+      "id": "corner_cup-00169",
+      "date": "2026-02-18",
+      "description": "SUMUP PAYOUT IX386146",
+      "amount": 408.55,
+      "balance": 16462.3,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00170",
+      "date": "2026-02-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 16366.3,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00171",
+      "date": "2026-02-19",
+      "description": "SUMUP PAYOUT LY397342",
+      "amount": 572.7,
+      "balance": 16939.0,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00172",
+      "date": "2026-02-19",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -79.18,
+      "balance": 16859.82,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00173",
+      "date": "2026-02-20",
+      "description": "SUMUP PAYOUT ST264242",
+      "amount": 567.38,
+      "balance": 17427.2,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00174",
+      "date": "2026-02-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 17409.2,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00175",
+      "date": "2026-02-20",
+      "description": "BOOKER LTD 6925",
+      "amount": -520.54,
+      "balance": 16888.66,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00176",
+      "date": "2026-02-23",
+      "description": "SUMUP PAYOUT FC966831",
+      "amount": 1816.94,
+      "balance": 18705.6,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00177",
+      "date": "2026-02-23",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -94.2,
+      "balance": 18611.4,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00178",
+      "date": "2026-02-23",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 16891.4,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00179",
+      "date": "2026-02-24",
+      "description": "SUMUP PAYOUT OE662330",
+      "amount": 371.26,
+      "balance": 17262.66,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00180",
+      "date": "2026-02-24",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -290.96,
+      "balance": 16971.7,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00181",
+      "date": "2026-02-25",
+      "description": "SUMUP PAYOUT LV484157",
+      "amount": 425.42,
+      "balance": 17397.12,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00182",
+      "date": "2026-02-26",
+      "description": "SUMUP PAYOUT HL279764",
+      "amount": 513.41,
+      "balance": 17910.53,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00183",
+      "date": "2026-02-26",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -89.26,
+      "balance": 17821.27,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00184",
+      "date": "2026-02-27",
+      "description": "SUMUP PAYOUT NN233444",
+      "amount": 408.34,
+      "balance": 18229.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00185",
+      "date": "2026-02-27",
+      "description": "BOOKER LTD 4711",
+      "amount": -383.64,
+      "balance": 17845.97,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00186",
+      "date": "2026-02-27",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7679.51,
+      "balance": 10166.46,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00187",
+      "date": "2026-03-02",
+      "description": "SUMUP PAYOUT ZE187583",
+      "amount": 1833.5,
+      "balance": 11999.96,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00188",
+      "date": "2026-03-02",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -106.53,
+      "balance": 11893.43,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00189",
+      "date": "2026-03-02",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 10393.43,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00190",
+      "date": "2026-03-03",
+      "description": "SUMUP PAYOUT OM499398",
+      "amount": 507.57,
+      "balance": 10901.0,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00191",
+      "date": "2026-03-03",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -331.25,
+      "balance": 10569.75,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00192",
+      "date": "2026-03-04",
+      "description": "SUMUP PAYOUT TK987387",
+      "amount": 413.59,
+      "balance": 10983.34,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00193",
+      "date": "2026-03-05",
+      "description": "SUMUP PAYOUT FR588455",
+      "amount": 565.56,
+      "balance": 11548.9,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00194",
+      "date": "2026-03-05",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -116.03,
+      "balance": 11432.87,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00195",
+      "date": "2026-03-06",
+      "description": "SUMUP PAYOUT FN564578",
+      "amount": 714.74,
+      "balance": 12147.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00196",
+      "date": "2026-03-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 12083.61,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00197",
+      "date": "2026-03-06",
+      "description": "BOOKER LTD 3373",
+      "amount": -539.04,
+      "balance": 11544.57,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00198",
+      "date": "2026-03-09",
+      "description": "SUMUP PAYOUT NT359618",
+      "amount": 2231.2,
+      "balance": 13775.77,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00199",
+      "date": "2026-03-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 13727.77,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00200",
+      "date": "2026-03-09",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -114.23,
+      "balance": 13613.54,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00201",
+      "date": "2026-03-09",
+      "description": "HMRC VAT",
+      "amount": -7026.05,
+      "balance": 6587.49,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "corner_cup-00202",
+      "date": "2026-03-10",
+      "description": "SUMUP PAYOUT AF524532",
+      "amount": 466.02,
+      "balance": 7053.51,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00203",
+      "date": "2026-03-10",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -415.61,
+      "balance": 6637.9,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00204",
+      "date": "2026-03-11",
+      "description": "SUMUP PAYOUT NK113493",
+      "amount": 475.38,
+      "balance": 7113.28,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00205",
+      "date": "2026-03-12",
+      "description": "SUMUP PAYOUT UR936125",
+      "amount": 548.17,
+      "balance": 7661.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00206",
+      "date": "2026-03-12",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -82.5,
+      "balance": 7578.95,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00207",
+      "date": "2026-03-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 7038.95,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00208",
+      "date": "2026-03-13",
+      "description": "SUMUP PAYOUT PJ376897",
+      "amount": 564.18,
+      "balance": 7603.13,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00209",
+      "date": "2026-03-13",
+      "description": "BOOKER LTD 6203",
+      "amount": -463.89,
+      "balance": 7139.24,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00210",
+      "date": "2026-03-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 7106.24,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00211",
+      "date": "2026-03-16",
+      "description": "SUMUP PAYOUT FB751441",
+      "amount": 2069.03,
+      "balance": 9175.27,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00212",
+      "date": "2026-03-16",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -67.35,
+      "balance": 9107.92,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00213",
+      "date": "2026-03-17",
+      "description": "SUMUP PAYOUT MY712169",
+      "amount": 473.86,
+      "balance": 9581.78,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00214",
+      "date": "2026-03-17",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -354.47,
+      "balance": 9227.31,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00215",
+      "date": "2026-03-18",
+      "description": "HALDEN & CO LTD ND453125",
+      "amount": 2978.93,
+      "balance": 12206.24,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00216",
+      "date": "2026-03-18",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1686.62,
+      "balance": 13892.86,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00217",
+      "date": "2026-03-18",
+      "description": "SUMUP PAYOUT NY522129",
+      "amount": 593.72,
+      "balance": 14486.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00218",
+      "date": "2026-03-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 14390.58,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00219",
+      "date": "2026-03-19",
+      "description": "SUMUP PAYOUT UO255051",
+      "amount": 503.96,
+      "balance": 14894.54,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00220",
+      "date": "2026-03-19",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -98.15,
+      "balance": 14796.39,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00221",
+      "date": "2026-03-20",
+      "description": "SUMUP PAYOUT HA259965",
+      "amount": 531.3,
+      "balance": 15327.69,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00222",
+      "date": "2026-03-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 15309.69,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00223",
+      "date": "2026-03-20",
+      "description": "BOOKER LTD 5469",
+      "amount": -558.36,
+      "balance": 14751.33,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00224",
+      "date": "2026-03-23",
+      "description": "SUMUP PAYOUT JH297009",
+      "amount": 2081.14,
+      "balance": 16832.47,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00225",
+      "date": "2026-03-23",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -116.21,
+      "balance": 16716.26,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00226",
+      "date": "2026-03-23",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 14996.26,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00227",
+      "date": "2026-03-24",
+      "description": "SUMUP PAYOUT NO554945",
+      "amount": 439.27,
+      "balance": 15435.53,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00228",
+      "date": "2026-03-24",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -361.75,
+      "balance": 15073.78,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00229",
+      "date": "2026-03-25",
+      "description": "SUMUP PAYOUT LP875340",
+      "amount": 453.17,
+      "balance": 15526.95,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00230",
+      "date": "2026-03-25",
+      "description": "SO NORTHGATE PROPERTY LTD",
+      "amount": -6900.0,
+      "balance": 8626.95,
+      "_category": "premises:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "corner_cup-00231",
+      "date": "2026-03-26",
+      "description": "SUMUP PAYOUT BZ703399",
+      "amount": 487.75,
+      "balance": 9114.7,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00232",
+      "date": "2026-03-26",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -90.43,
+      "balance": 9024.27,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00233",
+      "date": "2026-03-27",
+      "description": "SUMUP PAYOUT YG448692",
+      "amount": 594.47,
+      "balance": 9618.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00234",
+      "date": "2026-03-27",
+      "description": "BOOKER LTD 4816",
+      "amount": -532.78,
+      "balance": 9085.96,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00235",
+      "date": "2026-03-30",
+      "description": "SUMUP PAYOUT BQ359957",
+      "amount": 2038.96,
+      "balance": 11124.92,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00236",
+      "date": "2026-03-30",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -102.59,
+      "balance": 11022.33,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00237",
+      "date": "2026-03-31",
+      "description": "SUMUP PAYOUT ZQ841912",
+      "amount": 404.2,
+      "balance": 11426.53,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00238",
+      "date": "2026-03-31",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -370.45,
+      "balance": 11056.08,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00239",
+      "date": "2026-03-31",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7996.01,
+      "balance": 3060.07,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00240",
+      "date": "2026-04-01",
+      "description": "SUMUP PAYOUT CB633431",
+      "amount": 324.72,
+      "balance": 3384.79,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00241",
+      "date": "2026-04-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 3072.79,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00242",
+      "date": "2026-04-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 1572.79,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00243",
+      "date": "2026-04-02",
+      "description": "SUMUP PAYOUT DY153013",
+      "amount": 552.41,
+      "balance": 2125.2,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00244",
+      "date": "2026-04-02",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -108.3,
+      "balance": 2016.9,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00245",
+      "date": "2026-04-03",
+      "description": "SUMUP PAYOUT QJ466299",
+      "amount": 587.2,
+      "balance": 2604.1,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00246",
+      "date": "2026-04-03",
+      "description": "BOOKER LTD 6196",
+      "amount": -568.41,
+      "balance": 2035.69,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00247",
+      "date": "2026-04-06",
+      "description": "HALDEN & CO LTD ZC339879",
+      "amount": 3089.21,
+      "balance": 5124.9,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00248",
+      "date": "2026-04-06",
+      "description": "SUMUP PAYOUT HL541516",
+      "amount": 2360.75,
+      "balance": 7485.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00249",
+      "date": "2026-04-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 7421.65,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00250",
+      "date": "2026-04-06",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -92.62,
+      "balance": 7329.03,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00251",
+      "date": "2026-04-07",
+      "description": "SUMUP PAYOUT ZL694960",
+      "amount": 559.05,
+      "balance": 7888.08,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00252",
+      "date": "2026-04-07",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -383.72,
+      "balance": 7504.36,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00253",
+      "date": "2026-04-08",
+      "description": "SUMUP PAYOUT LG217774",
+      "amount": 578.46,
+      "balance": 8082.82,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00254",
+      "date": "2026-04-09",
+      "description": "SUMUP PAYOUT PR506392",
+      "amount": 569.08,
+      "balance": 8651.9,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00255",
+      "date": "2026-04-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 8603.9,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00256",
+      "date": "2026-04-09",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -97.03,
+      "balance": 8506.87,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00257",
+      "date": "2026-04-10",
+      "description": "SUMUP PAYOUT DL440871",
+      "amount": 585.04,
+      "balance": 9091.91,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00258",
+      "date": "2026-04-10",
+      "description": "BOOKER LTD 4002",
+      "amount": -430.01,
+      "balance": 8661.9,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00259",
+      "date": "2026-04-13",
+      "description": "SUMUP PAYOUT NK397096",
+      "amount": 2171.17,
+      "balance": 10833.07,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00260",
+      "date": "2026-04-13",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -78.26,
+      "balance": 10754.81,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00261",
+      "date": "2026-04-13",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 10214.81,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00262",
+      "date": "2026-04-14",
+      "description": "SUMUP PAYOUT XW966268",
+      "amount": 649.34,
+      "balance": 10864.15,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00263",
+      "date": "2026-04-14",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -403.41,
+      "balance": 10460.74,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00264",
+      "date": "2026-04-15",
+      "description": "SUMUP PAYOUT PB807308",
+      "amount": 640.57,
+      "balance": 11101.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00265",
+      "date": "2026-04-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 11068.31,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00266",
+      "date": "2026-04-16",
+      "description": "SUMUP PAYOUT SM823504",
+      "amount": 590.74,
+      "balance": 11659.05,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00267",
+      "date": "2026-04-16",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -100.93,
+      "balance": 11558.12,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00268",
+      "date": "2026-04-17",
+      "description": "SUMUP PAYOUT JA214841",
+      "amount": 688.53,
+      "balance": 12246.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00269",
+      "date": "2026-04-17",
+      "description": "BOOKER LTD 1748",
+      "amount": -488.5,
+      "balance": 11758.15,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00270",
+      "date": "2026-04-20",
+      "description": "SUMUP PAYOUT LP337446",
+      "amount": 2114.93,
+      "balance": 13873.08,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00271",
+      "date": "2026-04-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 13855.08,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00272",
+      "date": "2026-04-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 13759.08,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00273",
+      "date": "2026-04-20",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -101.85,
+      "balance": 13657.23,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00274",
+      "date": "2026-04-21",
+      "description": "SUMUP PAYOUT HT186906",
+      "amount": 521.88,
+      "balance": 14179.11,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00275",
+      "date": "2026-04-21",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -381.86,
+      "balance": 13797.25,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00276",
+      "date": "2026-04-22",
+      "description": "SUMUP PAYOUT PZ707447",
+      "amount": 493.64,
+      "balance": 14290.89,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00277",
+      "date": "2026-04-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 12570.89,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00278",
+      "date": "2026-04-23",
+      "description": "SUMUP PAYOUT ZM817728",
+      "amount": 497.15,
+      "balance": 13068.04,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00279",
+      "date": "2026-04-23",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -89.75,
+      "balance": 12978.29,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00280",
+      "date": "2026-04-24",
+      "description": "SUMUP PAYOUT VC564495",
+      "amount": 600.26,
+      "balance": 13578.55,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00281",
+      "date": "2026-04-24",
+      "description": "BOOKER LTD 5285",
+      "amount": -557.23,
+      "balance": 13021.32,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00282",
+      "date": "2026-04-27",
+      "description": "SUMUP PAYOUT YC224879",
+      "amount": 2186.7,
+      "balance": 15208.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00283",
+      "date": "2026-04-27",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -105.66,
+      "balance": 15102.36,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00284",
+      "date": "2026-04-28",
+      "description": "SUMUP PAYOUT ML919695",
+      "amount": 485.58,
+      "balance": 15587.94,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00285",
+      "date": "2026-04-28",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -344.56,
+      "balance": 15243.38,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00286",
+      "date": "2026-04-29",
+      "description": "SUMUP PAYOUT II396822",
+      "amount": 603.85,
+      "balance": 15847.23,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00287",
+      "date": "2026-04-30",
+      "description": "SUMUP PAYOUT AF329358",
+      "amount": 623.12,
+      "balance": 16470.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00288",
+      "date": "2026-04-30",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -100.6,
+      "balance": 16369.75,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00289",
+      "date": "2026-04-30",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7677.82,
+      "balance": 8691.93,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00290",
+      "date": "2026-05-01",
+      "description": "SUMUP PAYOUT HB291452",
+      "amount": 618.46,
+      "balance": 9310.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00291",
+      "date": "2026-05-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 8998.39,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00292",
+      "date": "2026-05-01",
+      "description": "BOOKER LTD 8227",
+      "amount": -612.48,
+      "balance": 8385.91,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00293",
+      "date": "2026-05-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 6885.91,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00294",
+      "date": "2026-05-04",
+      "description": "SUMUP PAYOUT GR910989",
+      "amount": 2496.81,
+      "balance": 9382.72,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00295",
+      "date": "2026-05-04",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -120.8,
+      "balance": 9261.92,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00296",
+      "date": "2026-05-05",
+      "description": "SUMUP PAYOUT KR972136",
+      "amount": 376.74,
+      "balance": 9638.66,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00297",
+      "date": "2026-05-05",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -405.44,
+      "balance": 9233.22,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00298",
+      "date": "2026-05-06",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1281.49,
+      "balance": 10514.71,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00299",
+      "date": "2026-05-06",
+      "description": "SUMUP PAYOUT OS391569",
+      "amount": 680.43,
+      "balance": 11195.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00300",
+      "date": "2026-05-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 11131.14,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00301",
+      "date": "2026-05-07",
+      "description": "SUMUP PAYOUT DT647767",
+      "amount": 702.22,
+      "balance": 11833.36,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00302",
+      "date": "2026-05-07",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -110.74,
+      "balance": 11722.62,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00303",
+      "date": "2026-05-08",
+      "description": "SUMUP PAYOUT KH305392",
+      "amount": 649.08,
+      "balance": 12371.7,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00304",
+      "date": "2026-05-08",
+      "description": "BOOKER LTD 8059",
+      "amount": -561.85,
+      "balance": 11809.85,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00305",
+      "date": "2026-05-11",
+      "description": "SUMUP PAYOUT JS735475",
+      "amount": 2348.47,
+      "balance": 14158.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00306",
+      "date": "2026-05-11",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 14110.32,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00307",
+      "date": "2026-05-11",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -120.95,
+      "balance": 13989.37,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00308",
+      "date": "2026-05-12",
+      "description": "SUMUP PAYOUT WR956021",
+      "amount": 476.21,
+      "balance": 14465.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00309",
+      "date": "2026-05-12",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -419.68,
+      "balance": 14045.9,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00310",
+      "date": "2026-05-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 13505.9,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00311",
+      "date": "2026-05-13",
+      "description": "SUMUP PAYOUT JI299381",
+      "amount": 627.39,
+      "balance": 14133.29,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00312",
+      "date": "2026-05-14",
+      "description": "SUMUP PAYOUT DC100081",
+      "amount": 576.51,
+      "balance": 14709.8,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00313",
+      "date": "2026-05-14",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -107.24,
+      "balance": 14602.56,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00314",
+      "date": "2026-05-15",
+      "description": "SUMUP PAYOUT RR437052",
+      "amount": 606.75,
+      "balance": 15209.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00315",
+      "date": "2026-05-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 15176.31,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00316",
+      "date": "2026-05-15",
+      "description": "BOOKER LTD 3335",
+      "amount": -545.97,
+      "balance": 14630.34,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00317",
+      "date": "2026-05-18",
+      "description": "SUMUP PAYOUT TV500741",
+      "amount": 2180.56,
+      "balance": 16810.9,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00318",
+      "date": "2026-05-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 16714.9,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00319",
+      "date": "2026-05-18",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -122.91,
+      "balance": 16591.99,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00320",
+      "date": "2026-05-19",
+      "description": "SUMUP PAYOUT MH339285",
+      "amount": 489.53,
+      "balance": 17081.52,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00321",
+      "date": "2026-05-19",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -438.35,
+      "balance": 16643.17,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00322",
+      "date": "2026-05-20",
+      "description": "SUMUP PAYOUT EK771830",
+      "amount": 635.63,
+      "balance": 17278.8,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00323",
+      "date": "2026-05-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 17260.8,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00324",
+      "date": "2026-05-21",
+      "description": "SUMUP PAYOUT OR567895",
+      "amount": 765.55,
+      "balance": 18026.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00325",
+      "date": "2026-05-21",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -87.86,
+      "balance": 17938.49,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00326",
+      "date": "2026-05-22",
+      "description": "SUMUP PAYOUT FR339252",
+      "amount": 659.38,
+      "balance": 18597.87,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00327",
+      "date": "2026-05-22",
+      "description": "BOOKER LTD 5458",
+      "amount": -580.66,
+      "balance": 18017.21,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00328",
+      "date": "2026-05-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 16297.21,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00329",
+      "date": "2026-05-25",
+      "description": "SUMUP PAYOUT CE350039",
+      "amount": 2208.55,
+      "balance": 18505.76,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00330",
+      "date": "2026-05-25",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -141.12,
+      "balance": 18364.64,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00331",
+      "date": "2026-05-26",
+      "description": "SUMUP PAYOUT UV183045",
+      "amount": 624.87,
+      "balance": 18989.51,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00332",
+      "date": "2026-05-26",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -473.52,
+      "balance": 18515.99,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00333",
+      "date": "2026-05-27",
+      "description": "SUMUP PAYOUT UX944960",
+      "amount": 594.92,
+      "balance": 19110.91,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00334",
+      "date": "2026-05-28",
+      "description": "SUMUP PAYOUT RK285677",
+      "amount": 513.55,
+      "balance": 19624.46,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00335",
+      "date": "2026-05-28",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -105.24,
+      "balance": 19519.22,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00336",
+      "date": "2026-05-29",
+      "description": "SUMUP PAYOUT QF810868",
+      "amount": 597.23,
+      "balance": 20116.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00337",
+      "date": "2026-05-29",
+      "description": "BOOKER LTD 2915",
+      "amount": -582.78,
+      "balance": 19533.67,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00338",
+      "date": "2026-05-29",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -8159.44,
+      "balance": 11374.23,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00339",
+      "date": "2026-06-01",
+      "description": "HALDEN & CO LTD SR937529",
+      "amount": 2340.93,
+      "balance": 13715.16,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00340",
+      "date": "2026-06-01",
+      "description": "SUMUP PAYOUT PI115718",
+      "amount": 2097.65,
+      "balance": 15812.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00341",
+      "date": "2026-06-01",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -107.57,
+      "balance": 15705.24,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00342",
+      "date": "2026-06-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 15393.24,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00343",
+      "date": "2026-06-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 13893.24,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00344",
+      "date": "2026-06-02",
+      "description": "SUMUP PAYOUT MC549333",
+      "amount": 524.79,
+      "balance": 14418.03,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00345",
+      "date": "2026-06-02",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -417.54,
+      "balance": 14000.49,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00346",
+      "date": "2026-06-03",
+      "description": "SUMUP PAYOUT QG494186",
+      "amount": 731.89,
+      "balance": 14732.38,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00347",
+      "date": "2026-06-04",
+      "description": "SUMUP PAYOUT RV328454",
+      "amount": 579.14,
+      "balance": 15311.52,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00348",
+      "date": "2026-06-04",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -135.69,
+      "balance": 15175.83,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00349",
+      "date": "2026-06-05",
+      "description": "HALDEN & CO LTD JR581756",
+      "amount": 3053.76,
+      "balance": 18229.59,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00350",
+      "date": "2026-06-05",
+      "description": "SUMUP PAYOUT SR963457",
+      "amount": 585.09,
+      "balance": 18814.68,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00351",
+      "date": "2026-06-05",
+      "description": "BOOKER LTD 1786",
+      "amount": -551.07,
+      "balance": 18263.61,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00352",
+      "date": "2026-06-08",
+      "description": "SUMUP PAYOUT EI393931",
+      "amount": 2357.5,
+      "balance": 20621.11,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00353",
+      "date": "2026-06-08",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 20557.11,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00354",
+      "date": "2026-06-08",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -124.22,
+      "balance": 20432.89,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00355",
+      "date": "2026-06-08",
+      "description": "HMRC VAT",
+      "amount": -6488.34,
+      "balance": 13944.55,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "corner_cup-00356",
+      "date": "2026-06-09",
+      "description": "SUMUP PAYOUT LX729272",
+      "amount": 596.14,
+      "balance": 14540.69,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00357",
+      "date": "2026-06-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 14492.69,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00358",
+      "date": "2026-06-09",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -428.15,
+      "balance": 14064.54,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00359",
+      "date": "2026-06-10",
+      "description": "SUMUP PAYOUT TY235290",
+      "amount": 704.27,
+      "balance": 14768.81,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00360",
+      "date": "2026-06-10",
+      "description": "HISCOX INSURANCE",
+      "amount": -1180.0,
+      "balance": 13588.81,
+      "_category": "overheads:insurance",
+      "_recurring_id": null
+    },
+    {
+      "id": "corner_cup-00361",
+      "date": "2026-06-11",
+      "description": "SUMUP PAYOUT ER459587",
+      "amount": 665.71,
+      "balance": 14254.52,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00362",
+      "date": "2026-06-11",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -131.5,
+      "balance": 14123.02,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00363",
+      "date": "2026-06-12",
+      "description": "SUMUP PAYOUT RS782619",
+      "amount": 670.75,
+      "balance": 14793.77,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00364",
+      "date": "2026-06-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 14253.77,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00365",
+      "date": "2026-06-12",
+      "description": "BOOKER LTD 9544",
+      "amount": -594.95,
+      "balance": 13658.82,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00366",
+      "date": "2026-06-15",
+      "description": "SUMUP PAYOUT LN596007",
+      "amount": 2509.96,
+      "balance": 16168.78,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00367",
+      "date": "2026-06-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 16135.78,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00368",
+      "date": "2026-06-15",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -107.88,
+      "balance": 16027.9,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00369",
+      "date": "2026-06-16",
+      "description": "SUMUP PAYOUT VW778007",
+      "amount": 533.95,
+      "balance": 16561.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00370",
+      "date": "2026-06-16",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -463.65,
+      "balance": 16098.2,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00371",
+      "date": "2026-06-17",
+      "description": "SUMUP PAYOUT MV168249",
+      "amount": 617.15,
+      "balance": 16715.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00372",
+      "date": "2026-06-18",
+      "description": "SUMUP PAYOUT GD767207",
+      "amount": 678.11,
+      "balance": 17393.46,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00373",
+      "date": "2026-06-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 17297.46,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00374",
+      "date": "2026-06-18",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -117.7,
+      "balance": 17179.76,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00375",
+      "date": "2026-06-19",
+      "description": "SUMUP PAYOUT SD467957",
+      "amount": 575.11,
+      "balance": 17754.87,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00376",
+      "date": "2026-06-19",
+      "description": "BOOKER LTD 7063",
+      "amount": -495.13,
+      "balance": 17259.74,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00377",
+      "date": "2026-06-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 17241.74,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00378",
+      "date": "2026-06-22",
+      "description": "SUMUP PAYOUT IH590334",
+      "amount": 2360.71,
+      "balance": 19602.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00379",
+      "date": "2026-06-22",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -102.45,
+      "balance": 19500.0,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00380",
+      "date": "2026-06-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 17780.0,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00381",
+      "date": "2026-06-23",
+      "description": "SUMUP PAYOUT ZQ169489",
+      "amount": 741.79,
+      "balance": 18521.79,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00382",
+      "date": "2026-06-23",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -427.38,
+      "balance": 18094.41,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00383",
+      "date": "2026-06-24",
+      "description": "SUMUP PAYOUT PB975533",
+      "amount": 578.0,
+      "balance": 18672.41,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00384",
+      "date": "2026-06-24",
+      "description": "SO NORTHGATE PROPERTY LTD",
+      "amount": -6900.0,
+      "balance": 11772.41,
+      "_category": "premises:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "corner_cup-00385",
+      "date": "2026-06-25",
+      "description": "SUMUP PAYOUT PL281826",
+      "amount": 652.76,
+      "balance": 12425.17,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00386",
+      "date": "2026-06-25",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -120.99,
+      "balance": 12304.18,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00387",
+      "date": "2026-06-26",
+      "description": "SUMUP PAYOUT CC275747",
+      "amount": 627.96,
+      "balance": 12932.14,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00388",
+      "date": "2026-06-26",
+      "description": "BOOKER LTD 9012",
+      "amount": -518.35,
+      "balance": 12413.79,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00389",
+      "date": "2026-06-29",
+      "description": "SUMUP PAYOUT GM257852",
+      "amount": 2216.03,
+      "balance": 14629.82,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00390",
+      "date": "2026-06-29",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -116.1,
+      "balance": 14513.72,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00391",
+      "date": "2026-06-30",
+      "description": "SUMUP PAYOUT UZ401866",
+      "amount": 728.9,
+      "balance": 15242.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00392",
+      "date": "2026-06-30",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -384.18,
+      "balance": 14858.44,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00393",
+      "date": "2026-06-30",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -8108.96,
+      "balance": 6749.48,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00394",
+      "date": "2026-07-01",
+      "description": "SUMUP PAYOUT XU269581",
+      "amount": 539.36,
+      "balance": 7288.84,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00395",
+      "date": "2026-07-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 6976.84,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00396",
+      "date": "2026-07-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 5476.84,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00397",
+      "date": "2026-07-02",
+      "description": "SUMUP PAYOUT KQ243898",
+      "amount": 514.52,
+      "balance": 5991.36,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00398",
+      "date": "2026-07-02",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -112.79,
+      "balance": 5878.57,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00399",
+      "date": "2026-07-03",
+      "description": "SUMUP PAYOUT HE455107",
+      "amount": 791.44,
+      "balance": 6670.01,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00400",
+      "date": "2026-07-03",
+      "description": "BOOKER LTD 4735",
+      "amount": -615.23,
+      "balance": 6054.78,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00401",
+      "date": "2026-07-06",
+      "description": "SUMUP PAYOUT QQ896933",
+      "amount": 2420.59,
+      "balance": 8475.37,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00402",
+      "date": "2026-07-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 8411.37,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00403",
+      "date": "2026-07-06",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -142.26,
+      "balance": 8269.11,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00404",
+      "date": "2026-07-07",
+      "description": "SUMUP PAYOUT EM156530",
+      "amount": 617.13,
+      "balance": 8886.24,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00405",
+      "date": "2026-07-07",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -401.52,
+      "balance": 8484.72,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00406",
+      "date": "2026-07-08",
+      "description": "SUMUP PAYOUT SX113025",
+      "amount": 675.72,
+      "balance": 9160.44,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00407",
+      "date": "2026-07-09",
+      "description": "SUMUP PAYOUT BF919223",
+      "amount": 698.83,
+      "balance": 9859.27,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00408",
+      "date": "2026-07-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 9811.27,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00409",
+      "date": "2026-07-09",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -108.73,
+      "balance": 9702.54,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00410",
+      "date": "2026-07-10",
+      "description": "SUMUP PAYOUT QI485728",
+      "amount": 649.91,
+      "balance": 10352.45,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00411",
+      "date": "2026-07-10",
+      "description": "BOOKER LTD 8670",
+      "amount": -537.28,
+      "balance": 9815.17,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00412",
+      "date": "2026-07-13",
+      "description": "SUMUP PAYOUT TF961072",
+      "amount": 2567.15,
+      "balance": 12382.32,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00413",
+      "date": "2026-07-13",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1496.43,
+      "balance": 13878.75,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00414",
+      "date": "2026-07-13",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -147.71,
+      "balance": 13731.04,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00415",
+      "date": "2026-07-13",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 13191.04,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00416",
+      "date": "2026-07-14",
+      "description": "SUMUP PAYOUT GD129827",
+      "amount": 491.05,
+      "balance": 13682.09,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00417",
+      "date": "2026-07-14",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -411.03,
+      "balance": 13271.06,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00418",
+      "date": "2026-07-15",
+      "description": "HALDEN & CO LTD SE794958",
+      "amount": 2078.1,
+      "balance": 15349.16,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00419",
+      "date": "2026-07-15",
+      "description": "SUMUP PAYOUT AD317871",
+      "amount": 593.56,
+      "balance": 15942.72,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00420",
+      "date": "2026-07-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 15909.72,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00421",
+      "date": "2026-07-16",
+      "description": "SUMUP PAYOUT TE192529",
+      "amount": 572.1,
+      "balance": 16481.82,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00422",
+      "date": "2026-07-16",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -124.35,
+      "balance": 16357.47,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00423",
+      "date": "2026-07-17",
+      "description": "SUMUP PAYOUT DX659954",
+      "amount": 688.93,
+      "balance": 17046.4,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00424",
+      "date": "2026-07-17",
+      "description": "BOOKER LTD 2219",
+      "amount": -490.15,
+      "balance": 16556.25,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00425",
+      "date": "2026-07-20",
+      "description": "SUMUP PAYOUT OT872742",
+      "amount": 2114.36,
+      "balance": 18670.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00426",
+      "date": "2026-07-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 18652.61,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00427",
+      "date": "2026-07-20",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -93.02,
+      "balance": 18559.59,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00428",
+      "date": "2026-07-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 18463.59,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00429",
+      "date": "2026-07-21",
+      "description": "SUMUP PAYOUT SS877095",
+      "amount": 637.0,
+      "balance": 19100.59,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00430",
+      "date": "2026-07-21",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -413.44,
+      "balance": 18687.15,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00431",
+      "date": "2026-07-22",
+      "description": "SUMUP PAYOUT GA737131",
+      "amount": 637.7,
+      "balance": 19324.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00432",
+      "date": "2026-07-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 17604.85,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00433",
+      "date": "2026-07-23",
+      "description": "SUMUP PAYOUT EC650537",
+      "amount": 699.66,
+      "balance": 18304.51,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00434",
+      "date": "2026-07-23",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -137.29,
+      "balance": 18167.22,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00435",
+      "date": "2026-07-24",
+      "description": "SUMUP PAYOUT YJ156041",
+      "amount": 729.17,
+      "balance": 18896.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00436",
+      "date": "2026-07-24",
+      "description": "BOOKER LTD 2640",
+      "amount": -612.5,
+      "balance": 18283.89,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00437",
+      "date": "2026-07-27",
+      "description": "SUMUP PAYOUT DY474561",
+      "amount": 2452.16,
+      "balance": 20736.05,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00438",
+      "date": "2026-07-27",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -115.82,
+      "balance": 20620.23,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00439",
+      "date": "2026-07-28",
+      "description": "SUMUP PAYOUT XT132712",
+      "amount": 557.1,
+      "balance": 21177.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00440",
+      "date": "2026-07-28",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -430.49,
+      "balance": 20746.84,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00441",
+      "date": "2026-07-29",
+      "description": "SUMUP PAYOUT LO497746",
+      "amount": 571.29,
+      "balance": 21318.13,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00442",
+      "date": "2026-07-30",
+      "description": "SUMUP PAYOUT VJ579384",
+      "amount": 685.89,
+      "balance": 22004.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00443",
+      "date": "2026-07-30",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -124.29,
+      "balance": 21879.73,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00444",
+      "date": "2026-07-31",
+      "description": "HALDEN & CO LTD WE730370",
+      "amount": 2690.53,
+      "balance": 24570.26,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00445",
+      "date": "2026-07-31",
+      "description": "SUMUP PAYOUT SY541606",
+      "amount": 580.18,
+      "balance": 25150.44,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00446",
+      "date": "2026-07-31",
+      "description": "BOOKER LTD 4338",
+      "amount": -540.34,
+      "balance": 24610.1,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00447",
+      "date": "2026-07-31",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -8194.01,
+      "balance": 16416.09,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00448",
+      "date": "2026-08-03",
+      "description": "SUMUP PAYOUT EX824842",
+      "amount": 2778.45,
+      "balance": 19194.54,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00449",
+      "date": "2026-08-03",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -136.57,
+      "balance": 19057.97,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00450",
+      "date": "2026-08-03",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 18745.97,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00451",
+      "date": "2026-08-03",
+      "description": "TRANSFER TO OWNER",
+      "amount": -1500.0,
+      "balance": 17245.97,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00452",
+      "date": "2026-08-04",
+      "description": "SUMUP PAYOUT HL326415",
+      "amount": 593.51,
+      "balance": 17839.48,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00453",
+      "date": "2026-08-04",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -423.28,
+      "balance": 17416.2,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00454",
+      "date": "2026-08-05",
+      "description": "SUMUP PAYOUT OH876733",
+      "amount": 628.16,
+      "balance": 18044.36,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00455",
+      "date": "2026-08-06",
+      "description": "SUMUP PAYOUT CF423883",
+      "amount": 701.74,
+      "balance": 18746.1,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00456",
+      "date": "2026-08-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 18682.1,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00457",
+      "date": "2026-08-06",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -108.74,
+      "balance": 18573.36,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00458",
+      "date": "2026-08-07",
+      "description": "SUMUP PAYOUT KX767992",
+      "amount": 636.34,
+      "balance": 19209.7,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00459",
+      "date": "2026-08-07",
+      "description": "BOOKER LTD 5243",
+      "amount": -676.63,
+      "balance": 18533.07,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00460",
+      "date": "2026-08-10",
+      "description": "SUMUP PAYOUT OB528544",
+      "amount": 2161.24,
+      "balance": 20694.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00461",
+      "date": "2026-08-10",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 20646.31,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00462",
+      "date": "2026-08-10",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -127.87,
+      "balance": 20518.44,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00463",
+      "date": "2026-08-11",
+      "description": "SUMUP PAYOUT ZM217485",
+      "amount": 570.38,
+      "balance": 21088.82,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00464",
+      "date": "2026-08-11",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -512.74,
+      "balance": 20576.08,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00465",
+      "date": "2026-08-12",
+      "description": "SUMUP PAYOUT QZ903818",
+      "amount": 612.18,
+      "balance": 21188.26,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00466",
+      "date": "2026-08-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 20648.26,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00467",
+      "date": "2026-08-13",
+      "description": "SUMUP PAYOUT UC475060",
+      "amount": 540.07,
+      "balance": 21188.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00468",
+      "date": "2026-08-13",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -89.46,
+      "balance": 21098.87,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00469",
+      "date": "2026-08-14",
+      "description": "SUMUP PAYOUT QZ412649",
+      "amount": 681.82,
+      "balance": 21780.69,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00470",
+      "date": "2026-08-14",
+      "description": "BOOKER LTD 4842",
+      "amount": -598.7,
+      "balance": 21181.99,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00471",
+      "date": "2026-08-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 21148.99,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00472",
+      "date": "2026-08-17",
+      "description": "SUMUP PAYOUT UA931561",
+      "amount": 2572.72,
+      "balance": 23721.71,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00473",
+      "date": "2026-08-17",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -118.82,
+      "balance": 23602.89,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00474",
+      "date": "2026-08-18",
+      "description": "SUMUP PAYOUT LG380788",
+      "amount": 577.13,
+      "balance": 24180.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00475",
+      "date": "2026-08-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 24084.02,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00476",
+      "date": "2026-08-18",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -419.35,
+      "balance": 23664.67,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00477",
+      "date": "2026-08-19",
+      "description": "SUMUP PAYOUT ES472402",
+      "amount": 630.07,
+      "balance": 24294.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00478",
+      "date": "2026-08-20",
+      "description": "SUMUP PAYOUT XX239643",
+      "amount": 728.34,
+      "balance": 25023.08,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00479",
+      "date": "2026-08-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 25005.08,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00480",
+      "date": "2026-08-20",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -144.35,
+      "balance": 24860.73,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00481",
+      "date": "2026-08-21",
+      "description": "SUMUP PAYOUT BB830251",
+      "amount": 684.6,
+      "balance": 25545.33,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00482",
+      "date": "2026-08-21",
+      "description": "BOOKER LTD 6830",
+      "amount": -526.64,
+      "balance": 25018.69,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00483",
+      "date": "2026-08-24",
+      "description": "SUMUP PAYOUT BQ755770",
+      "amount": 2555.95,
+      "balance": 27574.64,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00484",
+      "date": "2026-08-24",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -112.33,
+      "balance": 27462.31,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00485",
+      "date": "2026-08-24",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 25742.31,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00486",
+      "date": "2026-08-25",
+      "description": "SUMUP PAYOUT RE527004",
+      "amount": 425.04,
+      "balance": 26167.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00487",
+      "date": "2026-08-25",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -386.3,
+      "balance": 25781.05,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00488",
+      "date": "2026-08-26",
+      "description": "SUMUP PAYOUT PU762643",
+      "amount": 644.97,
+      "balance": 26426.02,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00489",
+      "date": "2026-08-27",
+      "description": "SUMUP PAYOUT UH861668",
+      "amount": 643.83,
+      "balance": 27069.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00490",
+      "date": "2026-08-27",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -115.85,
+      "balance": 26954.0,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00491",
+      "date": "2026-08-28",
+      "description": "SUMUP PAYOUT NT522937",
+      "amount": 656.71,
+      "balance": 27610.71,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00492",
+      "date": "2026-08-28",
+      "description": "BOOKER LTD 4347",
+      "amount": -739.28,
+      "balance": 26871.43,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00493",
+      "date": "2026-08-31",
+      "description": "SUMUP PAYOUT CO934876",
+      "amount": 2427.74,
+      "balance": 29299.17,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00494",
+      "date": "2026-08-31",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1094.64,
+      "balance": 30393.81,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00495",
+      "date": "2026-08-31",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -156.06,
+      "balance": 30237.75,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00496",
+      "date": "2026-08-31",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7990.49,
+      "balance": 22247.26,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00497",
+      "date": "2026-09-01",
+      "description": "SUMUP PAYOUT GC951434",
+      "amount": 683.71,
+      "balance": 22930.97,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00498",
+      "date": "2026-09-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 22618.97,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00499",
+      "date": "2026-09-01",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -352.7,
+      "balance": 22266.27,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00500",
+      "date": "2026-09-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -3500.0,
+      "balance": 18766.27,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00501",
+      "date": "2026-09-02",
+      "description": "SUMUP PAYOUT SK578486",
+      "amount": 446.47,
+      "balance": 19212.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00502",
+      "date": "2026-09-03",
+      "description": "SUMUP PAYOUT HT101355",
+      "amount": 571.18,
+      "balance": 19783.92,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00503",
+      "date": "2026-09-03",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -95.49,
+      "balance": 19688.43,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00504",
+      "date": "2026-09-04",
+      "description": "SUMUP PAYOUT FX640305",
+      "amount": 714.21,
+      "balance": 20402.64,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00505",
+      "date": "2026-09-04",
+      "description": "BOOKER LTD 1864",
+      "amount": -558.28,
+      "balance": 19844.36,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00506",
+      "date": "2026-09-07",
+      "description": "SUMUP PAYOUT AB883106",
+      "amount": 2237.22,
+      "balance": 22081.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00507",
+      "date": "2026-09-07",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 22017.58,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00508",
+      "date": "2026-09-07",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -78.06,
+      "balance": 21939.52,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00509",
+      "date": "2026-09-07",
+      "description": "HMRC VAT",
+      "amount": -7982.63,
+      "balance": 13956.89,
+      "_category": "tax:vat",
+      "_recurring_id": "vat"
+    },
+    {
+      "id": "corner_cup-00510",
+      "date": "2026-09-08",
+      "description": "SUMUP PAYOUT NG731890",
+      "amount": 537.7,
+      "balance": 14494.59,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00511",
+      "date": "2026-09-08",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -414.52,
+      "balance": 14080.07,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00512",
+      "date": "2026-09-09",
+      "description": "SUMUP PAYOUT XS185539",
+      "amount": 578.11,
+      "balance": 14658.18,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00513",
+      "date": "2026-09-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 14610.18,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00514",
+      "date": "2026-09-10",
+      "description": "SUMUP PAYOUT VX542694",
+      "amount": 593.05,
+      "balance": 15203.23,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00515",
+      "date": "2026-09-10",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -113.03,
+      "balance": 15090.2,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00516",
+      "date": "2026-09-11",
+      "description": "SUMUP PAYOUT TO371957",
+      "amount": 583.22,
+      "balance": 15673.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00517",
+      "date": "2026-09-11",
+      "description": "BOOKER LTD 1451",
+      "amount": -530.2,
+      "balance": 15143.22,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00518",
+      "date": "2026-09-14",
+      "description": "SUMUP PAYOUT SM715604",
+      "amount": 2402.57,
+      "balance": 17545.79,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00519",
+      "date": "2026-09-14",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -114.62,
+      "balance": 17431.17,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00520",
+      "date": "2026-09-14",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 16891.17,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00521",
+      "date": "2026-09-15",
+      "description": "SUMUP PAYOUT PN901688",
+      "amount": 507.98,
+      "balance": 17399.15,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00522",
+      "date": "2026-09-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 17366.15,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00523",
+      "date": "2026-09-15",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -398.49,
+      "balance": 16967.66,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00524",
+      "date": "2026-09-16",
+      "description": "HALDEN & CO LTD QQ234756",
+      "amount": 2618.14,
+      "balance": 19585.8,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00525",
+      "date": "2026-09-16",
+      "description": "SUMUP PAYOUT FB362404",
+      "amount": 617.64,
+      "balance": 20203.44,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00526",
+      "date": "2026-09-17",
+      "description": "SUMUP PAYOUT VU964709",
+      "amount": 430.91,
+      "balance": 20634.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00527",
+      "date": "2026-09-17",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -70.04,
+      "balance": 20564.31,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00528",
+      "date": "2026-09-18",
+      "description": "SUMUP PAYOUT TM770966",
+      "amount": 599.34,
+      "balance": 21163.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00529",
+      "date": "2026-09-18",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 21067.65,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00530",
+      "date": "2026-09-18",
+      "description": "BOOKER LTD 2857",
+      "amount": -460.51,
+      "balance": 20607.14,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00531",
+      "date": "2026-09-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 20589.14,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00532",
+      "date": "2026-09-21",
+      "description": "SUMUP PAYOUT QG299300",
+      "amount": 2266.25,
+      "balance": 22855.39,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00533",
+      "date": "2026-09-21",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -111.99,
+      "balance": 22743.4,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00534",
+      "date": "2026-09-22",
+      "description": "SUMUP PAYOUT AE384024",
+      "amount": 538.69,
+      "balance": 23282.09,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00535",
+      "date": "2026-09-22",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -408.54,
+      "balance": 22873.55,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00536",
+      "date": "2026-09-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 21153.55,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00537",
+      "date": "2026-09-23",
+      "description": "SUMUP PAYOUT SD931981",
+      "amount": 585.06,
+      "balance": 21738.61,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00538",
+      "date": "2026-09-24",
+      "description": "SUMUP PAYOUT QM688851",
+      "amount": 534.01,
+      "balance": 22272.62,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00539",
+      "date": "2026-09-24",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -120.38,
+      "balance": 22152.24,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00540",
+      "date": "2026-09-25",
+      "description": "SUMUP PAYOUT NW498757",
+      "amount": 608.59,
+      "balance": 22760.83,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00541",
+      "date": "2026-09-25",
+      "description": "BOOKER LTD 4452",
+      "amount": -603.34,
+      "balance": 22157.49,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00542",
+      "date": "2026-09-28",
+      "description": "SUMUP PAYOUT ZZ158539",
+      "amount": 2252.24,
+      "balance": 24409.73,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00543",
+      "date": "2026-09-28",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -112.52,
+      "balance": 24297.21,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00544",
+      "date": "2026-09-29",
+      "description": "SUMUP PAYOUT AK661702",
+      "amount": 572.7,
+      "balance": 24869.91,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00545",
+      "date": "2026-09-29",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -413.87,
+      "balance": 24456.04,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00546",
+      "date": "2026-09-29",
+      "description": "SO NORTHGATE PROPERTY LTD",
+      "amount": -6900.0,
+      "balance": 17556.04,
+      "_category": "premises:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "corner_cup-00547",
+      "date": "2026-09-30",
+      "description": "SUMUP PAYOUT OW639768",
+      "amount": 675.27,
+      "balance": 18231.31,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00548",
+      "date": "2026-09-30",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7933.13,
+      "balance": 10298.18,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00549",
+      "date": "2026-10-01",
+      "description": "SUMUP PAYOUT KQ289440",
+      "amount": 612.19,
+      "balance": 10910.37,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00550",
+      "date": "2026-10-01",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -108.38,
+      "balance": 10801.99,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00551",
+      "date": "2026-10-01",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 10489.99,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00552",
+      "date": "2026-10-01",
+      "description": "TRANSFER TO OWNER",
+      "amount": -3500.0,
+      "balance": 6989.99,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00553",
+      "date": "2026-10-02",
+      "description": "SUMUP PAYOUT GW789266",
+      "amount": 564.17,
+      "balance": 7554.16,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00554",
+      "date": "2026-10-02",
+      "description": "BOOKER LTD 2731",
+      "amount": -578.46,
+      "balance": 6975.7,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00555",
+      "date": "2026-10-05",
+      "description": "SUMUP PAYOUT ZP965133",
+      "amount": 2480.86,
+      "balance": 9456.56,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00556",
+      "date": "2026-10-05",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -102.52,
+      "balance": 9354.04,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00557",
+      "date": "2026-10-06",
+      "description": "SUMUP PAYOUT MI514038",
+      "amount": 405.7,
+      "balance": 9759.74,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00558",
+      "date": "2026-10-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 9695.74,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00559",
+      "date": "2026-10-06",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -409.63,
+      "balance": 9286.11,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00560",
+      "date": "2026-10-07",
+      "description": "SUMUP PAYOUT LV593670",
+      "amount": 421.58,
+      "balance": 9707.69,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00561",
+      "date": "2026-10-08",
+      "description": "SUMUP PAYOUT DD373401",
+      "amount": 525.89,
+      "balance": 10233.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00562",
+      "date": "2026-10-08",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -121.83,
+      "balance": 10111.75,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00563",
+      "date": "2026-10-09",
+      "description": "SUMUP PAYOUT KF906044",
+      "amount": 595.24,
+      "balance": 10706.99,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00564",
+      "date": "2026-10-09",
+      "description": "DD BT BUSINESS",
+      "amount": -48.0,
+      "balance": 10658.99,
+      "_category": "overheads:telecoms",
+      "_recurring_id": "telecoms"
+    },
+    {
+      "id": "corner_cup-00565",
+      "date": "2026-10-09",
+      "description": "BOOKER LTD 2199",
+      "amount": -526.61,
+      "balance": 10132.38,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00566",
+      "date": "2026-10-12",
+      "description": "HALDEN & CO LTD UO751823",
+      "amount": 2908.37,
+      "balance": 13040.75,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00567",
+      "date": "2026-10-12",
+      "description": "SUMUP PAYOUT IB830488",
+      "amount": 2415.51,
+      "balance": 15456.26,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00568",
+      "date": "2026-10-12",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -125.03,
+      "balance": 15331.23,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00569",
+      "date": "2026-10-12",
+      "description": "DD BRITISH GAS BUSINESS",
+      "amount": -540.0,
+      "balance": 14791.23,
+      "_category": "premises:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "corner_cup-00570",
+      "date": "2026-10-13",
+      "description": "SUMUP PAYOUT JI415925",
+      "amount": 518.49,
+      "balance": 15309.72,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00571",
+      "date": "2026-10-13",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -420.75,
+      "balance": 14888.97,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00572",
+      "date": "2026-10-14",
+      "description": "SUMUP PAYOUT UK163451",
+      "amount": 525.45,
+      "balance": 15414.42,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00573",
+      "date": "2026-10-14",
+      "description": "KITCHEN REFIT LTD",
+      "amount": -10500.0,
+      "balance": 4914.42,
+      "_category": "shock:capex",
+      "_recurring_id": null
+    },
+    {
+      "id": "corner_cup-00574",
+      "date": "2026-10-15",
+      "description": "SUMUP PAYOUT TV630031",
+      "amount": 661.92,
+      "balance": 5576.34,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00575",
+      "date": "2026-10-15",
+      "description": "XERO UK",
+      "amount": -33.0,
+      "balance": 5543.34,
+      "_category": "overheads:software",
+      "_recurring_id": "xero"
+    },
+    {
+      "id": "corner_cup-00576",
+      "date": "2026-10-15",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -91.37,
+      "balance": 5451.97,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00577",
+      "date": "2026-10-16",
+      "description": "SUMUP PAYOUT MU489815",
+      "amount": 532.86,
+      "balance": 5984.83,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00578",
+      "date": "2026-10-16",
+      "description": "BOOKER LTD 2159",
+      "amount": -380.23,
+      "balance": 5604.6,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00579",
+      "date": "2026-10-19",
+      "description": "SUMUP PAYOUT XK276483",
+      "amount": 1885.55,
+      "balance": 7490.15,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00580",
+      "date": "2026-10-19",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -81.12,
+      "balance": 7409.03,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00581",
+      "date": "2026-10-19",
+      "description": "DD UNITED UTILITIES",
+      "amount": -96.0,
+      "balance": 7313.03,
+      "_category": "premises:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "corner_cup-00582",
+      "date": "2026-10-20",
+      "description": "SUMUP PAYOUT VD597209",
+      "amount": 368.82,
+      "balance": 7681.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00583",
+      "date": "2026-10-20",
+      "description": "SQUARESPACE",
+      "amount": -18.0,
+      "balance": 7663.85,
+      "_category": "overheads:software",
+      "_recurring_id": "website"
+    },
+    {
+      "id": "corner_cup-00584",
+      "date": "2026-10-20",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -416.09,
+      "balance": 7247.76,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00585",
+      "date": "2026-10-21",
+      "description": "SUMUP PAYOUT GD290512",
+      "amount": 554.03,
+      "balance": 7801.79,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00586",
+      "date": "2026-10-22",
+      "description": "SUMUP PAYOUT IR555378",
+      "amount": 403.56,
+      "balance": 8205.35,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00587",
+      "date": "2026-10-22",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -116.98,
+      "balance": 8088.37,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00588",
+      "date": "2026-10-22",
+      "description": "HMRC PAYE CUMBERNAULD",
+      "amount": -1720.0,
+      "balance": 6368.37,
+      "_category": "tax:paye",
+      "_recurring_id": "paye"
+    },
+    {
+      "id": "corner_cup-00589",
+      "date": "2026-10-23",
+      "description": "SUMUP PAYOUT SX500590",
+      "amount": 361.17,
+      "balance": 6729.54,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00590",
+      "date": "2026-10-23",
+      "description": "BOOKER LTD 2317",
+      "amount": -593.56,
+      "balance": 6135.98,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00591",
+      "date": "2026-10-26",
+      "description": "SUMUP PAYOUT QR275039",
+      "amount": 2470.32,
+      "balance": 8606.3,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00592",
+      "date": "2026-10-26",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -107.9,
+      "balance": 8498.4,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00593",
+      "date": "2026-10-27",
+      "description": "SUMUP PAYOUT SA880481",
+      "amount": 467.61,
+      "balance": 8966.01,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00594",
+      "date": "2026-10-27",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -399.92,
+      "balance": 8566.09,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00595",
+      "date": "2026-10-28",
+      "description": "SUMUP PAYOUT KS597331",
+      "amount": 593.09,
+      "balance": 9159.18,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00596",
+      "date": "2026-10-29",
+      "description": "SUMUP PAYOUT XR550588",
+      "amount": 644.4,
+      "balance": 9803.58,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00597",
+      "date": "2026-10-29",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -111.94,
+      "balance": 9691.64,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00598",
+      "date": "2026-10-30",
+      "description": "SUMUP PAYOUT VK606212",
+      "amount": 558.08,
+      "balance": 10249.72,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00599",
+      "date": "2026-10-30",
+      "description": "BOOKER LTD 8371",
+      "amount": -437.39,
+      "balance": 9812.33,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    },
+    {
+      "id": "corner_cup-00600",
+      "date": "2026-10-30",
+      "description": "BACS PAYROLL CORNER CUP",
+      "amount": -7889.87,
+      "balance": 1922.46,
+      "_category": "staff:payroll",
+      "_recurring_id": "payroll"
+    },
+    {
+      "id": "corner_cup-00601",
+      "date": "2026-11-02",
+      "description": "SUMUP PAYOUT QX472282",
+      "amount": 2018.91,
+      "balance": 3941.37,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00602",
+      "date": "2026-11-02",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -125.43,
+      "balance": 3815.94,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00603",
+      "date": "2026-11-02",
+      "description": "DD MANCHESTER CC NNDR",
+      "amount": -312.0,
+      "balance": 3503.94,
+      "_category": "premises:business_rates",
+      "_recurring_id": "business_rates"
+    },
+    {
+      "id": "corner_cup-00604",
+      "date": "2026-11-02",
+      "description": "TRANSFER TO OWNER",
+      "amount": -3500.0,
+      "balance": 3.94,
+      "_category": "owner:drawings",
+      "_recurring_id": "drawings"
+    },
+    {
+      "id": "corner_cup-00605",
+      "date": "2026-11-03",
+      "description": "HALDEN & CO LTD TQ103933",
+      "amount": 2640.19,
+      "balance": 2644.13,
+      "_category": "income:invoice",
+      "_recurring_id": "halden_invoices"
+    },
+    {
+      "id": "corner_cup-00606",
+      "date": "2026-11-03",
+      "description": "MCR EVENTS COLLECTIVE",
+      "amount": 1170.39,
+      "balance": 3814.52,
+      "_category": "income:invoice",
+      "_recurring_id": "events_invoices"
+    },
+    {
+      "id": "corner_cup-00607",
+      "date": "2026-11-03",
+      "description": "SUMUP PAYOUT AH591039",
+      "amount": 506.99,
+      "balance": 4321.51,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00608",
+      "date": "2026-11-03",
+      "description": "BEAN AND LEAF ROASTERS",
+      "amount": -366.34,
+      "balance": 3955.17,
+      "_category": "cogs:coffee",
+      "_recurring_id": "coffee_supplier"
+    },
+    {
+      "id": "corner_cup-00609",
+      "date": "2026-11-04",
+      "description": "SUMUP PAYOUT US766524",
+      "amount": 539.48,
+      "balance": 4494.65,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00610",
+      "date": "2026-11-05",
+      "description": "SUMUP PAYOUT VA854893",
+      "amount": 537.41,
+      "balance": 5032.06,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00611",
+      "date": "2026-11-05",
+      "description": "MEADOW DAIRY LTD",
+      "amount": -104.79,
+      "balance": 4927.27,
+      "_category": "cogs:dairy",
+      "_recurring_id": "dairy_supplier"
+    },
+    {
+      "id": "corner_cup-00612",
+      "date": "2026-11-06",
+      "description": "SUMUP PAYOUT GI752695",
+      "amount": 456.58,
+      "balance": 5383.85,
+      "_category": "income:card_takings",
+      "_recurring_id": "card_takings"
+    },
+    {
+      "id": "corner_cup-00613",
+      "date": "2026-11-06",
+      "description": "DD BIFFA WASTE",
+      "amount": -64.0,
+      "balance": 5319.85,
+      "_category": "premises:waste",
+      "_recurring_id": "waste"
+    },
+    {
+      "id": "corner_cup-00614",
+      "date": "2026-11-06",
+      "description": "BOOKER LTD 7662",
+      "amount": -545.94,
+      "balance": 4773.91,
+      "_category": "cogs:wholesale",
+      "_recurring_id": "wholesaler"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV-1001",
+      "client": "Halden & Co Ltd",
+      "issued": "2025-07-01",
+      "due": "2025-07-31",
+      "amount": 2842.5,
+      "paid_date": "2025-08-04",
+      "status": "paid",
+      "days_late": 4
+    },
+    {
+      "id": "INV-1002",
+      "client": "Halden & Co Ltd",
+      "issued": "2025-08-01",
+      "due": "2025-08-31",
+      "amount": 2682.16,
+      "paid_date": "2025-09-09",
+      "status": "paid",
+      "days_late": 9
+    },
+    {
+      "id": "INV-1003",
+      "client": "Halden & Co Ltd",
+      "issued": "2025-09-01",
+      "due": "2025-10-01",
+      "amount": 2399.81,
+      "paid_date": "2025-10-06",
+      "status": "paid",
+      "days_late": 5
+    },
+    {
+      "id": "INV-1018",
+      "client": "MCR Events Collective",
+      "issued": "2025-09-29",
+      "due": "2025-10-13",
+      "amount": 1071.5,
+      "paid_date": "2025-10-20",
+      "status": "paid",
+      "days_late": 7
+    },
+    {
+      "id": "INV-1004",
+      "client": "Halden & Co Ltd",
+      "issued": "2025-10-01",
+      "due": "2025-10-31",
+      "amount": 2894.09,
+      "paid_date": "2025-11-10",
+      "status": "paid",
+      "days_late": 10
+    },
+    {
+      "id": "INV-1005",
+      "client": "Halden & Co Ltd",
+      "issued": "2025-11-03",
+      "due": "2025-12-03",
+      "amount": 2281.76,
+      "paid_date": "2025-12-24",
+      "status": "paid",
+      "days_late": 21
+    },
+    {
+      "id": "INV-1019",
+      "client": "MCR Events Collective",
+      "issued": "2025-11-10",
+      "due": "2025-11-24",
+      "amount": 1595.31,
+      "paid_date": "2025-11-26",
+      "status": "paid",
+      "days_late": 2
+    },
+    {
+      "id": "INV-1006",
+      "client": "Halden & Co Ltd",
+      "issued": "2025-12-01",
+      "due": "2025-12-31",
+      "amount": 2950.52,
+      "paid_date": "2026-02-04",
+      "status": "paid",
+      "days_late": 35
+    },
+    {
+      "id": "INV-1007",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-01-01",
+      "due": "2026-01-31",
+      "amount": 2790.23,
+      "paid_date": "2026-02-03",
+      "status": "paid",
+      "days_late": 3
+    },
+    {
+      "id": "INV-1020",
+      "client": "MCR Events Collective",
+      "issued": "2026-01-01",
+      "due": "2026-01-15",
+      "amount": 1504.55,
+      "paid_date": "2026-01-19",
+      "status": "paid",
+      "days_late": 4
+    },
+    {
+      "id": "INV-1008",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-02-02",
+      "due": "2026-03-04",
+      "amount": 2978.93,
+      "paid_date": "2026-03-18",
+      "status": "paid",
+      "days_late": 14
+    },
+    {
+      "id": "INV-1009",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-03-02",
+      "due": "2026-04-01",
+      "amount": 3089.21,
+      "paid_date": "2026-04-06",
+      "status": "paid",
+      "days_late": 5
+    },
+    {
+      "id": "INV-1021",
+      "client": "MCR Events Collective",
+      "issued": "2026-03-04",
+      "due": "2026-03-18",
+      "amount": 1686.62,
+      "paid_date": "2026-03-18",
+      "status": "paid",
+      "days_late": 0
+    },
+    {
+      "id": "INV-1010",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-04-01",
+      "due": "2026-05-01",
+      "amount": 3053.76,
+      "paid_date": "2026-06-05",
+      "status": "paid",
+      "days_late": 35
+    },
+    {
+      "id": "INV-1022",
+      "client": "MCR Events Collective",
+      "issued": "2026-04-20",
+      "due": "2026-05-04",
+      "amount": 1281.49,
+      "paid_date": "2026-05-06",
+      "status": "paid",
+      "days_late": 2
+    },
+    {
+      "id": "INV-1011",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-05-01",
+      "due": "2026-05-31",
+      "amount": 2340.93,
+      "paid_date": "2026-06-01",
+      "status": "paid",
+      "days_late": 1
+    },
+    {
+      "id": "INV-1012",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-06-01",
+      "due": "2026-07-01",
+      "amount": 2078.1,
+      "paid_date": "2026-07-15",
+      "status": "paid",
+      "days_late": 14
+    },
+    {
+      "id": "INV-1023",
+      "client": "MCR Events Collective",
+      "issued": "2026-06-22",
+      "due": "2026-07-06",
+      "amount": 1496.43,
+      "paid_date": "2026-07-13",
+      "status": "paid",
+      "days_late": 7
+    },
+    {
+      "id": "INV-1013",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-07-01",
+      "due": "2026-07-31",
+      "amount": 2690.53,
+      "paid_date": "2026-07-31",
+      "status": "paid",
+      "days_late": 0
+    },
+    {
+      "id": "INV-1014",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-08-03",
+      "due": "2026-09-02",
+      "amount": 2618.14,
+      "paid_date": "2026-09-16",
+      "status": "paid",
+      "days_late": 14
+    },
+    {
+      "id": "INV-1024",
+      "client": "MCR Events Collective",
+      "issued": "2026-08-10",
+      "due": "2026-08-24",
+      "amount": 1094.64,
+      "paid_date": "2026-08-31",
+      "status": "paid",
+      "days_late": 7
+    },
+    {
+      "id": "INV-1015",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-09-01",
+      "due": "2026-10-01",
+      "amount": 2908.37,
+      "paid_date": "2026-10-12",
+      "status": "paid",
+      "days_late": 11
+    },
+    {
+      "id": "INV-1016",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-10-01",
+      "due": "2026-10-31",
+      "amount": 2640.19,
+      "paid_date": "2026-11-03",
+      "status": "paid",
+      "days_late": 3
+    },
+    {
+      "id": "INV-1025",
+      "client": "MCR Events Collective",
+      "issued": "2026-10-05",
+      "due": "2026-10-19",
+      "amount": 1170.39,
+      "paid_date": "2026-11-03",
+      "status": "paid",
+      "days_late": 15
+    },
+    {
+      "id": "INV-1017",
+      "client": "Halden & Co Ltd",
+      "issued": "2026-11-02",
+      "due": "2026-12-02",
+      "amount": 2414.26,
+      "paid_date": null,
+      "status": "outstanding",
+      "days_late": 0
+    }
+  ]
+}
