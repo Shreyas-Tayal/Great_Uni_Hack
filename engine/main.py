@@ -8,12 +8,14 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from functools import lru_cache
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
+import httpx
 
 from foresight.engine import build_model, forecast, summary
 
@@ -25,6 +27,11 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 
 @lru_cache(maxsize=16)
 def model_for(pid: str):
+    if not re.fullmatch(r"[a-z0-9_]+", pid):
+        raise HTTPException(404, "Unknown profile")
+    known = json.loads((DATA / "index.json").read_text())["profiles"]
+    if pid not in {p["profile_id"] for p in known}:
+        raise HTTPException(404, "Unknown demo profile")
     f = DATA / f"{pid}.json"
     if not f.exists():
         raise HTTPException(404, f"Unknown profile '{pid}'. Run generate_data.py first.")
@@ -78,3 +85,59 @@ def post_simulate(req: ForecastReq):
                                                - base["risk_summary"]["peak_p_negative"], 3),
                       "low_point_p50": round(scen["risk_summary"]["low_point_p50"]
                                              - base["risk_summary"]["low_point_p50"], 2)}}
+
+
+class VoiceSessionReq(BaseModel):
+    profile_id: str
+
+
+@app.post("/voice/session")
+def voice_session(req: VoiceSessionReq, outgoing: Response):
+    m = model_for(req.profile_id)
+    key = os.getenv("ELEVENLABS_API_KEY")
+    agent = os.getenv("ELEVENLABS_AGENT_ID")
+    if not key or not agent:
+        raise HTTPException(503, "Set ELEVENLABS_API_KEY and ELEVENLABS_AGENT_ID on the server")
+    try:
+        response = httpx.get(
+            "https://api.elevenlabs.io/v1/convai/conversation/get-signed-url",
+            params={"agent_id": agent}, headers={"xi-api-key": key}, timeout=15,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        if not isinstance(payload, dict):
+            raise ValueError("Invalid provider response")
+        signed_url = payload.get("signed_url")
+        if not isinstance(signed_url, str) or not signed_url.startswith("wss://"):
+            raise ValueError("Invalid signed URL")
+    except (httpx.HTTPError, ValueError, KeyError):
+        raise HTTPException(502, "Could not start the voice service. Try again later.") from None
+    outgoing.headers["Cache-Control"] = "no-store"
+    # Use the same detected streams and amounts as the existing account summary.
+    streams = [{k: s[k] for k in ("stream_id", "label", "amount")}
+               for s in summary(m)["recurring"] if s["direction"] == "in"]
+    return {"signed_url": signed_url, "income_streams": streams,
+            "profile_name": m.profile["name"]}
+
+
+class VoiceScenarioReq(BaseModel):
+    profile_id: str
+    stream_id: str = Field(min_length=1, max_length=160)
+    days: int = Field(ge=1, le=90, strict=True)
+
+
+@app.post("/voice/simulate")
+def voice_simulate(req: VoiceScenarioReq):
+    m = model_for(req.profile_id)
+    stream = next((s for s in [*m.det.cadence, *m.det.weekday]
+                   if s.id == req.stream_id and s.direction == "in"), None)
+    if stream is None:
+        raise HTTPException(422, "Choose an income stream from this account's voice session context")
+    # Each question compares independently with today's plan, matching the displayed baseline.
+    result = post_simulate(ForecastReq(profile_id=req.profile_id, adjustments=[
+        {"type": "shift_stream", "stream_id": stream.id, "days": req.days}
+    ]))
+    base = forecast(m, 90, [], with_actions=False)
+    if result["scenario"]["bands"] == base["bands"]:
+        raise HTTPException(422, "This stream has no forecast receipts affected within 90 days; choose another income stream")
+    return {"label": f"{stream.label} paid {req.days} days late", "result": result}

@@ -162,14 +162,16 @@ def _simulate(model: Model, days: int, adjustments: list[dict], n: int = N_PATHS
         for k, d in enumerate(s.next_dates(today, end)):
             d2 = d + timedelta(days=sh)
             idx = (d2 - today).days - 1
-            if not 0 <= idx < T:
-                continue
             mean = s.amount_on(d, k) * factor(s.id, s.direction)
             sd = s.amount_std * factor(s.id, s.direction)
             amt = rng.normal(mean, sd, n) if sd > 0 else np.full(n, mean)
             if s.hit_rate < 0.9:                       # e.g. a side gig that pays most weeks
                 amt = amt * (rng.random(n) < s.hit_rate)
             amt = np.maximum(amt, 0) if s.direction == "in" else np.minimum(amt, 0)
+            # Draw even when the shifted receipt falls outside the horizon. This
+            # keeps all other streams on the same random draws as the baseline.
+            if not 0 <= idx < T:
+                continue
             flows[:, idx] += amt
             events.append({"date": d2.isoformat(), "label": s.label, "amount": round(mean, 2),
                            "stream_id": s.id, "cadence": s.cadence, "shifted": sh != 0})
@@ -179,13 +181,17 @@ def _simulate(model: Model, days: int, adjustments: list[dict], n: int = N_PATHS
         if s.id in removed:
             continue
         f = factor(s.id, s.direction)
+        sh = shifts.get(s.id, 0)
         for t in range(T):
             wd = (today + timedelta(days=t + 1)).weekday()
             pool = s.amounts_by_weekday[wd]
             if not pool:
                 continue
             hit = rng.random(n) < s.p_by_weekday[wd]
-            flows[:, t] += hit * rng.choice(pool, n) * f
+            amt = hit * rng.choice(pool, n) * f
+            idx = t + sh
+            if 0 <= idx < T:
+                flows[:, idx] += amt
 
     # Day-to-day residual spending (bootstrapped by weekday)
     cut = sum(a["weekly"] for a in adj["cut_spend"]) / 7.0
