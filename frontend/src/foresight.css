@@ -1,48 +1,52 @@
 /* Foresight design tokens.
-   Direction: a quiet ledger you talk to. Ink on warm paper, one typeface for words (Inter) and one for
-   numbers and headings (Space Grotesk). Green and red are reserved for money: in/out, above/below £0.
+   Palette: NatWest brand colours. Dark Grape #401664 leads (buttons, your messages, logo); Trendy Red #D71C2B is
+   kept for risk and money out, so red always means "careful"; the pinks (Fresh Light Red #F78E99, Cora #FBC9CF,
+   Light Pink Rose #FEDFE2) are the soft risk backgrounds. Green stays for money in, so in/out never relies on hue alone
+   (amounts also carry a sign). Text on pink uses a deeper shade of Trendy Red (#B5121F) to pass 4.5:1 contrast.
    Variable names are kept from earlier versions so every component keeps working. */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap");
 
 :root {
-  --fs-ink: #141b17;        /* text */
-  --fs-ink-2: #56615b;      /* secondary text (5.6:1 on paper) */
-  --fs-mist: #f3f4ef;       /* page */
+  --fs-ink: #1e1030;        /* text: grape-black */
+  --fs-ink-2: #5e5470;      /* secondary text (6.4:1 on page) */
+  --fs-mist: #f6f4f8;       /* page */
   --fs-paper: #ffffff;      /* surfaces */
-  --fs-sunk: #eceee7;       /* sidebar, input wells */
-  --fs-line: #dfe3da;       /* hairlines */
-  --fs-violet: #141b17;     /* primary actions (name kept for compatibility) */
-  --fs-violet-soft: #e8ebe3;
+  --fs-sunk: #efeaf4;       /* sidebar, input wells */
+  --fs-line: #e2dbea;       /* hairlines */
+  --fs-violet: #401664;     /* Dark Grape: primary actions */
+  --fs-violet-soft: #ece4f4;
   --fs-on-accent: #ffffff;
-  --fs-risk: #c02a22;       /* below-zero risk only */
-  --fs-risk-soft: #fbeceb;
-  --fs-safe: #157a43;       /* improvements */
+  --fs-risk: #b5121f;       /* risk text and dots (deeper Trendy Red) */
+  --fs-risk-soft: #fedfe2;  /* Light Pink Rose */
+  --fs-safe: #157a43;
   --fs-safe-soft: #e5f2ea;
   --fs-up: #157a43;         /* money in / above £0 */
-  --fs-down: #c02a22;       /* money out / below £0 */
+  --fs-down: #d71c2b;       /* Trendy Red: money out / below £0 */
   --fs-amber: #8a5a00;      /* "needs you" */
   --fs-amber-soft: #fbf1dc;
+  --fs-brand-pink: #f78e99; /* Fresh Light Red: logo accent */
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
-  --fs-ink: #e7ede9;
-  --fs-ink-2: #9ba7a0;
-  --fs-mist: #0c110f;
-  --fs-paper: #141b18;
-  --fs-sunk: #101613;
-  --fs-line: #28332e;
-  --fs-violet: #e7ede9;
-  --fs-violet-soft: #1f2a25;
-  --fs-on-accent: #0c110f;
-  --fs-risk: #ff7266;
-  --fs-risk-soft: #34191a;
+  --fs-ink: #ede8f3;
+  --fs-ink-2: #a79bb8;
+  --fs-mist: #140a1f;
+  --fs-paper: #1e1230;
+  --fs-sunk: #180d27;
+  --fs-line: #33244a;
+  --fs-violet: #c9b3ec;     /* light grape so buttons stay readable on dark */
+  --fs-violet-soft: #2b1c42;
+  --fs-on-accent: #140a1f;
+  --fs-risk: #f78e99;       /* Fresh Light Red */
+  --fs-risk-soft: #3a1520;
   --fs-safe: #52cc87;
-  --fs-safe-soft: #142a1e;
+  --fs-safe-soft: #13291f;
   --fs-up: #52cc87;
-  --fs-down: #ff7266;
+  --fs-down: #f78e99;
   --fs-amber: #f2c46b;
   --fs-amber-soft: #2e2512;
+  --fs-brand-pink: #f78e99;
   color-scheme: dark;
 }
 

@@ -35,21 +35,107 @@ foresight/
         └── mocks/              ← saved engine output, so the app runs with no engine
 ```
 
-## Quick start
+## Setup
 
+You run two things: the **engine** (Python, the forecasts and the AI chat) and the **web app** (the page you use).
+Both run on your own computer. No API key is needed to try it: without one, a built-in coach answers questions.
+
+**Quickest look (no Python):** skip step 2, and in step 3 don't create `.env.local`. The app then runs on saved
+demo data and shows a yellow "Demo mode" bar.
+
+### On a Mac
+
+**1. Install the tools (once)**
+
+Open **Terminal** (press Cmd + Space, type "Terminal", press Return) and check what you already have:
 ```bash
-cd engine
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000        # http://localhost:8000/docs
+node -v      # needs v18 or newer
+python3 -V   # needs 3.10 or newer
 ```
+If either is missing or too old, the easiest way is [Homebrew](https://brew.sh):
 ```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install node python@3.12
+```
+(Or use the installers from [nodejs.org](https://nodejs.org) and [python.org](https://www.python.org/downloads/macos/).)
+If macOS asks to install the "command line developer tools", click Install and let it finish.
+
+**2. Start the engine (Terminal tab 1)**
+
+Unzip `foresight.zip` (double-click it in Finder), then:
+```bash
+cd ~/Downloads/foresight/engine          # wherever you unzipped it
+python3 -m venv .venv                    # a private Python just for this project (once)
+source .venv/bin/activate                # do this every time you open a new tab for the engine
+pip install -r requirements.txt          # once
+uvicorn main:app --port 8000
+```
+Leave it running. Check it at http://localhost:8000/health: it should say `"ok": true`.
+
+The `.venv` step matters on a Mac: Homebrew's Python refuses `pip install` outside a virtual environment
+("externally-managed-environment" error).
+
+**3. Start the web app (Terminal tab 2, press Cmd + T)**
+```bash
+cd ~/Downloads/foresight/frontend
+npm install                              # once, takes a minute
+cp .env.example .env.local               # points the app at the engine on port 8000 (once)
+npm run dev
+```
+Open http://localhost:5173. The bottom-left corner says which brain is answering:
+"Built-in coach (demo, no AI)" without a key, "AI accountant (Claude)" with one.
+
+**4. Turn on the AI chat (optional, needs an Anthropic API key)**
+
+Stop the engine in tab 1 with Ctrl + C, then:
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...      # your key from console.anthropic.com
+export ANTHROPIC_MODEL=claude-haiku-5-5  # optional: cheaper and faster than the default
+uvicorn main:app --port 8000
+```
+`export` only lasts for that Terminal tab. To keep the key, add the `export` line to `~/.zshrc` and open a new tab.
+API usage is billed through the Claude Console; a Claude Pro chat subscription doesn't include it.
+
+**Stopping and starting again:** Ctrl + C in each tab stops it. Next time, you only need:
+```bash
+cd ~/Downloads/foresight/engine && source .venv/bin/activate && uvicorn main:app --port 8000
+cd ~/Downloads/foresight/frontend && npm run dev
+```
+
+### On Windows
+
+Same steps in **PowerShell**, with these differences:
+```powershell
+cd engine
+py -m venv .venv
+.venv\Scripts\Activate.ps1          # if blocked: Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+pip install -r requirements.txt
+uvicorn main:app --port 8000
+
 cd frontend
 npm install
-cp .env.example .env.local      # VITE_ENGINE_URL=http://localhost:8000
-npm run dev                      # http://localhost:5173
+copy .env.example .env.local
+npm run dev
 ```
-Set `ANTHROPIC_API_KEY` on the engine to turn on the AI chat. Without it, the built-in coach answers.
-Then follow `FINAL_SETUP.md` for voice (ElevenLabs) and n8n, both optional.
+Set the key with `$env:ANTHROPIC_API_KEY="sk-ant-..."` before starting the engine.
+
+### On Linux
+
+Same as the Mac steps; install Node and Python from your package manager.
+
+### If something goes wrong
+
+| Problem | Fix |
+|---|---|
+| `command not found: npm` or `node` | Node isn't installed, or Terminal was open before you installed it. Open a new tab. |
+| `externally-managed-environment` when running pip | You skipped the `.venv` step, or forgot `source .venv/bin/activate` in this tab. |
+| `command not found: uvicorn` | Same: activate the `.venv` first. |
+| App says it couldn't load the accounts | The engine isn't running, or `.env.local` points somewhere else. Check http://localhost:8000/health. |
+| `Address already in use` | Something else has that port. Use `--port 8001` for the engine (and update `.env.local`), or `npm run dev -- --port 5174`. |
+| Chat says "Built-in coach" after adding a key | The engine was started in a tab without the `export`. Stop it, export the key in that tab, start it again. |
+| Changed `.env.local` but nothing happened | Stop `npm run dev` with Ctrl + C and start it again. |
+
+Voice (ElevenLabs) and n8n are optional extras: see `FINAL_SETUP.md`.
 
 ## Who does what
 
