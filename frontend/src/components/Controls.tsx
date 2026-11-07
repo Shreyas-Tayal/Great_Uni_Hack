@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import { Moon, Sun } from "lucide-react";
 import type { Mode, ProfileSummary } from "@/lib/types";
+import { CONFIG } from "@/lib/config";
 
 export function ModeToggle({ mode, onChange }: { mode: Mode; onChange: (m: Mode) => void }) {
   return (
@@ -7,11 +9,21 @@ export function ModeToggle({ mode, onChange }: { mode: Mode; onChange: (m: Mode)
       {(["personal", "business"] as Mode[]).map((m) => (
         <button key={m} role="radio" aria-checked={mode === m} onClick={() => onChange(m)}
           className="fs-focus rounded-full px-4 py-1.5 text-sm capitalize transition-colors"
-          style={mode === m ? { background: "var(--fs-ink)", color: "white" } : { color: "var(--fs-ink-2)" }}>
+          style={mode === m ? { background: "var(--fs-ink)", color: "var(--fs-paper)" } : { color: "var(--fs-ink-2)" }}>
           {m}
         </button>
       ))}
     </div>
+  );
+}
+
+export function ThemeToggle({ theme, onToggle }: { theme: "light" | "dark"; onToggle: () => void }) {
+  const dark = theme === "dark";
+  return (
+    <button onClick={onToggle} aria-label={dark ? "Switch to light mode" : "Switch to dark mode"} title={dark ? "Light mode" : "Dark mode"}
+      className="fs-focus rounded-full border border-[var(--fs-line)] bg-[var(--fs-paper)] p-2 text-[var(--fs-ink)] hover:border-[var(--fs-violet)]">
+      {dark ? <Sun size={18} /> : <Moon size={18} />}
+    </button>
   );
 }
 
@@ -32,7 +44,7 @@ export function ProfilePicker({ profiles, value, onChange }: { profiles: Profile
  * ElevenLabs dashboard (prompt in contracts/rehearsal_agent_prompt.md), then set VITE_ELEVEN_AGENT_ID.
  */
 export function RehearsePanel({ mode }: { mode: Mode }) {
-  const agentId = import.meta.env.VITE_ELEVEN_AGENT_ID as string | undefined;
+  const agentId = CONFIG.ELEVEN_AGENT_ID;
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
@@ -53,9 +65,9 @@ export function RehearsePanel({ mode }: { mode: Mode }) {
           : "Rehearse asking your landlord or energy supplier for more time, with an AI that plays the other side."}
       </p>
       {!agentId ? (
-        <p className="mt-2 text-xs text-[var(--fs-ink-2)]">Set VITE_ELEVEN_AGENT_ID to turn this on.</p>
+        <p className="mt-2 text-xs text-[var(--fs-ink-2)]">Add your ElevenLabs agent ID in src/lib/config.ts to turn this on.</p>
       ) : !open ? (
-        <button onClick={() => setOpen(true)} className="fs-focus mt-3 rounded-md bg-[var(--fs-ink)] px-3 py-2 text-sm text-white">Start practice call</button>
+        <button onClick={() => setOpen(true)} className="fs-focus mt-3 rounded-md bg-[var(--fs-ink)] px-3 py-2 text-sm text-[var(--fs-paper)]">Start practice call</button>
       ) : (
         // @ts-expect-error custom element provided by the ElevenLabs embed script
         <elevenlabs-convai agent-id={agentId}></elevenlabs-convai>

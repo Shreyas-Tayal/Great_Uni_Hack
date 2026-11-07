@@ -36,7 +36,9 @@ def http(name, method, url, pos, body_expr=None, headers=None, file_response=Fal
         p["jsonBody"] = body_expr
     if file_response:
         p["options"] = {"response": {"response": {"responseFormat": "file"}}}
-    extra = {"onError": on_error} if on_error else {}
+    extra = {"retryOnFail": True, "maxTries": 3, "waitBetweenTries": 1000}
+    if on_error:
+        extra["onError"] = on_error
     return node(name, "n8n-nodes-base.httpRequest", 4.2, p, pos, **extra)
 
 
@@ -97,7 +99,7 @@ const system = `You are the planning step of Foresight, an AI accountant for ${s
 Convert the user's latest message into a tool call for the forecasting engine. Do not answer the user.
 
 Return ONLY a JSON object, no prose, no code fences:
-{"intent": "overview|forecast|whatif|fix|spending|cashflow|invoices|chase_invoice|explain|general",
+{"intent": "overview|forecast|upcoming|whatif|fix|spending|cashflow|invoices|chase_invoice|explain|general",
  "adjustments": [ ...zero or more adjustment objects... ],
  "language": "<ISO code of the user's language>"}
 
@@ -133,7 +135,7 @@ const cfg = $('Config').first().json;
 const raw = $input.first().json.content?.[0]?.text || '{}';
 let plan;
 try { plan = JSON.parse(raw.replace(/```json|```/g, '').trim()); }
-catch (e) { plan = { intent: 'general', adjustments: [], language: 'en' }; }
+catch (e) { plan = { intent: 'general', adjustments: [], language: 'en', planner_failed: true }; }
 const allowed = new Set(['cut_spend','shift_stream','remove_stream','scale_stream','income_change',
                          'one_off','invoice_on_time','invoice_finance','client_late']);
 plan.adjustments = (plan.adjustments || []).filter(a => a && allowed.has(a.type));
@@ -153,7 +155,7 @@ const facts = {
   risk_now: f.risk_summary,
   alerts: f.alerts.map(a => ({ title: a.title, peak_date: a.peak_date, chance_below_zero: a.p_negative,
                                why: a.explanation, best_fixes: (a.actions || []).map(x => ({ fix: x.label, chance_after: x.new_p_negative })) })),
-  upcoming: f.upcoming.slice(0, 8),
+  upcoming_30_days: f.upcoming,
   spending_last_90_days: summary.categories_90d.slice(0, 6),
   monthly_in_out: summary.monthly.slice(-6),
   unpaid_invoices: summary.invoices,
@@ -172,6 +174,7 @@ Return ONLY JSON, no code fences:
  "speak": "<max 45 words, natural spoken English or the user's language, no markdown, no symbols>",
  "blocks": [<ordered subset of: "kpis","forecast_chart","scenario_delta","alert","actions","category_chart","cashflow_chart","upcoming","invoices">]}
 Pick 1-3 blocks that best show the answer. What-ifs: "scenario_delta" + "forecast_chart". Spending: "category_chart".
+Payments due / bills / what's coming up: "upcoming" (list the biggest 3 with dates and the total going out).
 Overview: "kpis" + "forecast_chart" + "alert". Invoices: "invoices".
 
 FACTS:
@@ -188,7 +191,7 @@ const sim = $('Engine simulate').first().json;
 const f = sim.scenario;
 let out;
 try { out = JSON.parse(($input.first().json.content?.[0]?.text || '').replace(/```json|```/g, '').trim()); }
-catch (e) { out = { reply: "Here's where things stand.", speak: "Here's where things stand.", blocks: ['kpis', 'forecast_chart'] }; }
+catch (e) { out = { reply: "Here's where things stand.", speak: "Here's where things stand.", blocks: ['kpis', 'forecast_chart'], fallback: true }; }
 
 const fill = {
   kpis: () => ({ type: 'kpis', items: [{ label: f.hero.label, value: f.hero.value, unit: f.hero.unit }, ...(f.hero.kpis || [])] }),
@@ -206,6 +209,8 @@ const speak = cfg.req.voice === false ? '' : (out.speak || '');
 return [{ json: {
   reply: out.reply, speak, intent: plan.intent, adjustments: plan.adjustments,
   blocks: blocks.length ? blocks : [fill.kpis(), fill.forecast_chart()],
+  data_notes: [plan.planner_failed && 'I could not fully understand the question, so here is the overview.',
+               out.fallback && 'The AI writer was unavailable, so this is a standard summary.'].filter(Boolean),
   tts_body: { text: speak || ' ', model_id: cfg.ELEVEN_MODEL },
 }}];
 """
@@ -217,7 +222,9 @@ try {
   if (out.speak) audio_base64 = (await this.helpers.getBinaryDataBuffer(0, 'data')).toString('base64');
 } catch (e) { /* TTS failed or skipped - UI falls back to text only */ }
 const { tts_body, ...rest } = out;
-return [{ json: { ...rest, audio_base64, audio_mime: 'audio/mpeg' } }];
+const data_notes = [...(out.data_notes || [])];
+if (out.speak && !audio_base64) data_notes.push('Voice was unavailable, so this answer is text only.');
+return [{ json: { ...rest, audio_base64, audio_mime: 'audio/mpeg', data_notes } }];
 """
 
 ELEVEN_URL = "=https://api.elevenlabs.io/v1/text-to-speech/{{ $('Config').first().json.ELEVEN_VOICE_ID }}?output_format=mp3_44100_128"
@@ -328,13 +335,30 @@ chase_nodes = [
 chase = workflow("Foresight - Invoice chaser (draft)", chase_nodes, chain(*[n["name"] for n in chase_nodes]))
 
 # ---------------------------------------------------------------- 4. send email (human-approved)
+ALLOWLIST_JS = r"""
+// SAFETY: this webhook is public (its URL is in the browser bundle). Only allowlisted addresses
+// get real email; anything else is redirected to the team demo inbox with a note.
+const ALLOWED = ['PASTE_TEAM_EMAIL_1', 'PASTE_TEAM_EMAIL_2'];
+const DEMO_INBOX = 'PASTE_TEAM_EMAIL_1';
+const b = $input.first().json.body || {};
+const to = String(b.to || '').trim().toLowerCase();
+const ok = ALLOWED.map(x => x.toLowerCase()).includes(to);
+return [{ json: {
+  to: ok ? to : DEMO_INBOX,
+  subject: String(b.subject || 'Payment reminder').slice(0, 150),
+  body: (ok ? '' : `[Demo: originally addressed to ${to || 'nobody'}]\n\n`) + String(b.body || '').slice(0, 3000),
+  redirected: !ok,
+}}];
+"""
 send_nodes = [
     webhook("send-email", [0, 300]),
+    code("Recipient allowlist", ALLOWLIST_JS, [220, 300]),
     node("Gmail send", "n8n-nodes-base.gmail", 2.1,
-         {"sendTo": "={{ $json.body.to }}", "subject": "={{ $json.body.subject }}",
-          "emailType": "text", "message": "={{ $json.body.body }}", "options": {}}, [220, 300]),
-    code("OK", "return [{ json: { ok: true } }];", [440, 300]),
-    respond([660, 300]),
+         {"sendTo": "={{ $json.to }}", "subject": "={{ $json.subject }}",
+          "emailType": "text", "message": "={{ $json.body }}", "options": {}}, [440, 300],
+         retryOnFail=True, maxTries=2),
+    code("OK", "const a = $('Recipient allowlist').first().json; return [{ json: { ok: true, sent_to: a.to, redirected: a.redirected } }];", [660, 300]),
+    respond([880, 300]),
 ]
 send = workflow("Foresight - Send email", send_nodes, chain(*[n["name"] for n in send_nodes]))
 

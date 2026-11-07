@@ -143,6 +143,10 @@ def _simulate(model: Model, days: int, adjustments: list[dict], n: int = N_PATHS
     flows = np.zeros((n, T))
     events: list[dict] = []  # deterministic schedule for "upcoming" + alert explanations
 
+    flat = []
+    for a in adjustments:
+        flat.extend(a["items"] if a.get("type") == "combo" else [a])
+    adjustments = flat
     adj = defaultdict(list)
     for a in adjustments:
         adj[a["type"]].append(a)
@@ -251,9 +255,13 @@ def _alerts(model: Model, p_neg: np.ndarray, events: list[dict], dates: list[str
                 t += 1
             e = t - 1
             peak = int(s + np.argmax(p_neg[s:e + 1]))
-            lo = (model.today + timedelta(days=s - 4)).isoformat()
-            causes = sorted([ev for ev in events if lo <= ev["date"] <= dates[peak] and ev["amount"] < 0],
-                            key=lambda ev: ev["amount"])[:2]
+            lo = (model.today + timedelta(days=s - 10)).isoformat()
+            pool = [ev for ev in events if lo <= ev["date"] <= dates[peak] and ev["amount"] < 0]
+            near_lo = (model.today + timedelta(days=peak - 4)).isoformat()
+            near = [ev for ev in pool if ev["date"] >= near_lo]          # what actually tips it over
+            causes = (sorted(near, key=lambda ev: ev["amount"])[:1] +
+                      sorted([ev for ev in pool if ev not in near], key=lambda ev: ev["amount"])[:1]) if near else \
+                     sorted(pool, key=lambda ev: ev["amount"])[:2]
             cause_txt = " and ".join(f"{c['label']} (£{abs(c['amount']):,.0f}) on {_nice(c['date'])}" for c in causes)
             chance = f"{round(p_neg[peak] * 10)} out of 10"
             alerts.append({
@@ -283,14 +291,19 @@ def _raw_candidates(model: Model, alert: dict) -> list[dict]:
     cfg = MODES[model.mode]
     c = [{"type": "cut_spend", "weekly": w, "label": f"Spend £{w} less a week on day-to-day costs"}
          for w in cfg["cut_spend_options"]]
+    never_shift = ("Payroll & pensions",)   # don't advise paying staff late
     for cause in alert["causes"]:
-        if cause["stream_id"] not in ("invoices", "one_off", "invoice_finance"):
+        if cause["stream_id"] not in ("invoices", "one_off", "invoice_finance") \
+                and categorise(cause["label"], model.mode) not in never_shift and "PAYE" not in cause["label"].upper():
             c.append({"type": "shift_stream", "stream_id": cause["stream_id"], "days": cfg["shift_days"],
                       "label": f"Ask to move {cause['label']} {cfg['shift_days']} days later"})
     for s in model.det.cadence:
         if s.direction == "out" and s.cadence == "monthly" and abs(s.amount_mean) <= cfg["small_subscription_max"] \
-                and "DD" not in s.label.upper():
+                and categorise(s.label, model.mode) in ("Subscriptions", "Software & cloud"):
             c.append({"type": "remove_stream", "stream_id": s.id, "label": f"Pause {s.label} for now"})
+    for st_ in model.det.cadence:
+        if st_.direction == "out" and categorise(st_.label, model.mode) == "Owner drawings":
+            c.append({"type": "scale_stream", "stream_id": st_.id, "factor": 0.5, "label": "Halve owner drawings for now"})
     if model.mode == "business" and any(i["status"] in ("overdue", "outstanding") for i in model.invoices):
         c.append({"type": "invoice_on_time", "label": "Chase overdue invoices today"})
         c.append({"type": "invoice_finance", "advance": 0.8, "label": "Get 80% of unpaid invoices advanced now"})
@@ -307,17 +320,31 @@ def forecast(model: Model, days: int = 90, adjustments: list[dict] | None = None
     alerts = _alerts(model, p_neg, events, dates)
 
     if with_actions:
-        for a in alerts[:1]:  # rank fixes for the first (most urgent) cliff
-            s, e = a["window"]
-            lo, hi = max(0, s - 7), min(days, e + 8)
+        for a in alerts:  # rank fixes for every cliff
+            s_, e_ = a["window"]
+            lo, hi = max(0, s_ - 7), min(days, e_ + 8)
+
+            def risk(extra: list[dict]) -> float:
+                b2, _ = _simulate(model, days, adjustments + extra)
+                return float((b2[:, lo:hi] < 0).mean(axis=0).max())
+
             ranked = []
             for cand in _candidate_actions(model, a):
-                b2, _ = _simulate(model, days, adjustments + [cand])
-                new_p = float((b2[:, lo:hi] < 0).mean(axis=0).max())
-                ranked.append({"adjustment": {k: v for k, v in cand.items() if k != "label"},
-                               "label": cand["label"], "new_p_negative": round(new_p, 3)})
+                adj = {k: v for k, v in cand.items() if k != "label"}
+                ranked.append({"adjustment": adj, "label": cand["label"], "new_p_negative": round(risk([adj]), 3)})
             ranked.sort(key=lambda x: x["new_p_negative"])
-            a["actions"] = ranked[:3]
+            top = ranked[:3]
+            # Combined fix: when no single fix clears the cliff, try the best two together
+            partner = next((r for r in ranked[1:] if r["adjustment"]["type"] != ranked[0]["adjustment"]["type"]), None)
+            if partner and ranked[0]["new_p_negative"] > 0.05:
+                both = [ranked[0]["adjustment"], partner["adjustment"]]
+                p_both = risk(both)
+                if p_both < ranked[0]["new_p_negative"]:
+                    lc = lambda t: t[0].lower() + t[1:]
+                    top = [{"adjustment": {"type": "combo", "items": both},
+                            "label": f"Do both: {lc(ranked[0]['label'])} and {lc(partner['label'])}",
+                            "new_p_negative": round(p_both, 3)}] + top[:2]
+            a["actions"] = top
 
     return {
         "profile_id": model.profile["profile_id"], "mode": model.mode, "as_of": model.today.isoformat(),
@@ -326,7 +353,7 @@ def forecast(model: Model, days: int = 90, adjustments: list[dict] | None = None
         "bands": [{"date": d, "p10": round(float(a), 2), "p50": round(float(b), 2), "p90": round(float(c), 2),
                    "p_negative": round(float(p), 3)} for d, a, b, c, p in zip(dates, p10, p50, p90, p_neg)],
         "alerts": alerts,
-        "upcoming": [e for e in events if e["date"] <= dates[min(29, days - 1)]][:25],
+        "upcoming": [e for e in events if e["date"] <= dates[min(29, days - 1)]][:40],
         "adjustments": adjustments,
         "risk_summary": {"peak_p_negative": round(float(p_neg.max()), 3),
                          "low_point_p50": round(float(p50.min()), 2),

@@ -10,7 +10,7 @@
           "allowedOrigins": "*"
         }
       },
-      "id": "f7ce2ee3-21ef-4ef0-805a-c6c984be68ff",
+      "id": "39bd8139-8013-4dd5-b894-1c2819e66277",
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
@@ -18,13 +18,13 @@
         0,
         300
       ],
-      "webhookId": "9901fe60-5d48-419c-ad53-f22d90d450f7"
+      "webhookId": "1140aabd-9126-41b0-92cd-ea9309524a1c"
     },
     {
       "parameters": {
         "jsCode": "// HACKATHON CONFIG - paste values here inside n8n. Never commit real keys to git.\nconst body = $input.first().json.body || {};\nreturn [{ json: {\n  ENGINE_URL: 'https://YOUR-ENGINE-TUNNEL.trycloudflare.com',   // cloudflared tunnel --url http://localhost:8000\n  ANTHROPIC_API_KEY: 'PASTE_KEY',\n  LLM_MODEL: 'claude-haiku-5-5',            // fast + cheap; swap to claude-sonnet-5-5 for nicer prose\n  ELEVEN_API_KEY: 'PASTE_KEY',\n  ELEVEN_VOICE_ID: 'PASTE_VOICE_ID',        // ElevenLabs -> Voices -> copy voice ID\n  ELEVEN_MODEL: 'eleven_multilingual_v2',   // multilingual: same voice speaks Urdu, Polish, etc.\n  TELEGRAM_CHAT_ID: 'PASTE_CHAT_ID',\n  req: body,\n}}];"
       },
-      "id": "42c1c141-3757-4717-b205-1c4edb42de09",
+      "id": "b55ae840-db61-4f3a-a149-ab0b0ba5e09f",
       "name": "Config",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -39,20 +39,23 @@
         "url": "={{ $json.ENGINE_URL }}/profiles/{{ $json.req.profile_id }}/summary",
         "options": {}
       },
-      "id": "6ee72c06-2bcc-4776-aa4a-2937fc471744",
+      "id": "61aa8afd-d1ab-4681-85c1-365fd74dc290",
       "name": "Engine summary",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         440,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
-        "jsCode": "const cfg = $('Config').first().json;\nconst req = cfg.req;\nconst summary = $input.first().json;\nconst streams = summary.recurring.map(r => `${r.stream_id} | ${r.label} | ${r.cadence} | ${r.direction} | \u00a3${r.amount}`).join('\\n');\nconst invoices = (summary.invoices || []).map(i => `${i.id} | ${i.client} | \u00a3${i.amount} | due ${i.due} | ${i.status}`).join('\\n') || 'none';\n\nconst system = `You are the planning step of Foresight, an AI accountant for ${summary.mode === 'business' ? 'small businesses' : 'individuals and families'}.\nConvert the user's latest message into a tool call for the forecasting engine. Do not answer the user.\n\nReturn ONLY a JSON object, no prose, no code fences:\n{\"intent\": \"overview|forecast|whatif|fix|spending|cashflow|invoices|chase_invoice|explain|general\",\n \"adjustments\": [ ...zero or more adjustment objects... ],\n \"language\": \"<ISO code of the user's language>\"}\n\nAdjustment vocabulary (use ONLY these shapes):\n{\"type\":\"cut_spend\",\"weekly\":<\u00a3>}\n{\"type\":\"shift_stream\",\"stream_id\":\"<id>\",\"days\":<int>}\n{\"type\":\"remove_stream\",\"stream_id\":\"<id>\"}\n{\"type\":\"scale_stream\",\"stream_id\":\"<id>\",\"factor\":<0..2>}\n{\"type\":\"income_change\",\"factor\":<0..2>}\n{\"type\":\"one_off\",\"amount\":<signed \u00a3>,\"in_days\":<int>,\"label\":\"<short>\"}\n{\"type\":\"invoice_on_time\"}  {\"type\":\"invoice_finance\",\"advance\":0.8}  {\"type\":\"client_late\",\"extra_days\":<int>}\n\nRules:\n- Only use stream_id values from the list below. If unsure which stream, prefer income_change / one_off.\n- \"What if\" questions -> intent \"whatif\" with adjustments. Plain questions -> no adjustments.\n- Costs are negative amounts, money in is positive.\n\nKnown recurring streams (id | label | cadence | direction | amount):\n${streams}\n\nUnpaid invoices:\n${invoices}`;\n\nconst history = (req.history || []).slice(-6).filter(m => m.role && m.content);\nreturn [{ json: { body: {\n  model: cfg.LLM_MODEL, max_tokens: 400, system,\n  messages: [...history, { role: 'user', content: req.message || 'Give me an overview' }]\n}}}];"
+        "jsCode": "const cfg = $('Config').first().json;\nconst req = cfg.req;\nconst summary = $input.first().json;\nconst streams = summary.recurring.map(r => `${r.stream_id} | ${r.label} | ${r.cadence} | ${r.direction} | \u00a3${r.amount}`).join('\\n');\nconst invoices = (summary.invoices || []).map(i => `${i.id} | ${i.client} | \u00a3${i.amount} | due ${i.due} | ${i.status}`).join('\\n') || 'none';\n\nconst system = `You are the planning step of Foresight, an AI accountant for ${summary.mode === 'business' ? 'small businesses' : 'individuals and families'}.\nConvert the user's latest message into a tool call for the forecasting engine. Do not answer the user.\n\nReturn ONLY a JSON object, no prose, no code fences:\n{\"intent\": \"overview|forecast|upcoming|whatif|fix|spending|cashflow|invoices|chase_invoice|explain|general\",\n \"adjustments\": [ ...zero or more adjustment objects... ],\n \"language\": \"<ISO code of the user's language>\"}\n\nAdjustment vocabulary (use ONLY these shapes):\n{\"type\":\"cut_spend\",\"weekly\":<\u00a3>}\n{\"type\":\"shift_stream\",\"stream_id\":\"<id>\",\"days\":<int>}\n{\"type\":\"remove_stream\",\"stream_id\":\"<id>\"}\n{\"type\":\"scale_stream\",\"stream_id\":\"<id>\",\"factor\":<0..2>}\n{\"type\":\"income_change\",\"factor\":<0..2>}\n{\"type\":\"one_off\",\"amount\":<signed \u00a3>,\"in_days\":<int>,\"label\":\"<short>\"}\n{\"type\":\"invoice_on_time\"}  {\"type\":\"invoice_finance\",\"advance\":0.8}  {\"type\":\"client_late\",\"extra_days\":<int>}\n\nRules:\n- Only use stream_id values from the list below. If unsure which stream, prefer income_change / one_off.\n- \"What if\" questions -> intent \"whatif\" with adjustments. Plain questions -> no adjustments.\n- Costs are negative amounts, money in is positive.\n\nKnown recurring streams (id | label | cadence | direction | amount):\n${streams}\n\nUnpaid invoices:\n${invoices}`;\n\nconst history = (req.history || []).slice(-6).filter(m => m.role && m.content);\nreturn [{ json: { body: {\n  model: cfg.LLM_MODEL, max_tokens: 400, system,\n  messages: [...history, { role: 'user', content: req.message || 'Give me an overview' }]\n}}}];"
       },
-      "id": "6ad1349c-aa8c-4a11-a885-91e9f8c65b3a",
+      "id": "e01ac846-5d65-402b-893e-88d4b2bffa5c",
       "name": "Build intent prompt",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -83,20 +86,23 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.body) }}"
       },
-      "id": "b80ae3b7-0589-47b5-994b-a40f0bdb562e",
+      "id": "5a1e7a51-42eb-41e9-a721-a7be45f0bbcd",
       "name": "LLM: plan",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         880,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
-        "jsCode": "const cfg = $('Config').first().json;\nconst raw = $input.first().json.content?.[0]?.text || '{}';\nlet plan;\ntry { plan = JSON.parse(raw.replace(/```json|```/g, '').trim()); }\ncatch (e) { plan = { intent: 'general', adjustments: [], language: 'en' }; }\nconst allowed = new Set(['cut_spend','shift_stream','remove_stream','scale_stream','income_change',\n                         'one_off','invoice_on_time','invoice_finance','client_late']);\nplan.adjustments = (plan.adjustments || []).filter(a => a && allowed.has(a.type));\nreturn [{ json: { plan, simulate_body: { profile_id: cfg.req.profile_id, days: 90, adjustments: plan.adjustments } } }];"
+        "jsCode": "const cfg = $('Config').first().json;\nconst raw = $input.first().json.content?.[0]?.text || '{}';\nlet plan;\ntry { plan = JSON.parse(raw.replace(/```json|```/g, '').trim()); }\ncatch (e) { plan = { intent: 'general', adjustments: [], language: 'en', planner_failed: true }; }\nconst allowed = new Set(['cut_spend','shift_stream','remove_stream','scale_stream','income_change',\n                         'one_off','invoice_on_time','invoice_finance','client_late']);\nplan.adjustments = (plan.adjustments || []).filter(a => a && allowed.has(a.type));\nreturn [{ json: { plan, simulate_body: { profile_id: cfg.req.profile_id, days: 90, adjustments: plan.adjustments } } }];"
       },
-      "id": "0870704b-69c4-4ba2-a7f2-cba8df53a72f",
+      "id": "0fab17c9-920c-4218-b93c-3fd2503a33a0",
       "name": "Parse intent",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -114,20 +120,23 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.simulate_body) }}"
       },
-      "id": "b8e903d4-55ee-45c0-b4b1-00fee471c2ed",
+      "id": "50ef249e-459b-41c9-9a20-6f9e13d7c0b4",
       "name": "Engine simulate",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         1320,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
-        "jsCode": "const cfg = $('Config').first().json;\nconst plan = $('Parse intent').first().json.plan;\nconst summary = $('Engine summary').first().json;\nconst sim = $input.first().json;\nconst f = sim.scenario;\nconst facts = {\n  who: { name: summary.name, mode: summary.mode, tagline: summary.tagline },\n  balance_now: f.balance_now, hero: f.hero,\n  scenario_applied: plan.adjustments, baseline_risk: sim.baseline, change_to_most_urgent_alert: sim.focus_alert,\n  risk_now: f.risk_summary,\n  alerts: f.alerts.map(a => ({ title: a.title, peak_date: a.peak_date, chance_below_zero: a.p_negative,\n                               why: a.explanation, best_fixes: (a.actions || []).map(x => ({ fix: x.label, chance_after: x.new_p_negative })) })),\n  upcoming: f.upcoming.slice(0, 8),\n  spending_last_90_days: summary.categories_90d.slice(0, 6),\n  monthly_in_out: summary.monthly.slice(-6),\n  unpaid_invoices: summary.invoices,\n};\nconst tone = summary.mode === 'business'\n  ? 'a sharp, friendly startup accountant: direct, numbers-first, practical'\n  : 'a warm, plain-spoken money coach for someone who may be stretched: no jargon, no judgement';\nconst system = `You are Foresight, ${tone}. Today is ${f.as_of}.\nUse ONLY numbers from FACTS. Never invent figures, dates or names. Round money to the nearest pound.\nExpress chances simply (\"about 3 in 10 of the futures we simulated\"). This is guidance, not regulated financial advice.\nIf the user seems in hardship, mention free help (MoneyHelper, StepChange, Citizens Advice) and talking to their bank early.\nReply in the user's language (detected: ${plan.language || 'en'}).\n\nReturn ONLY JSON, no code fences:\n{\"reply\": \"<markdown, max 120 words, lead with the answer>\",\n \"speak\": \"<max 45 words, natural spoken English or the user's language, no markdown, no symbols>\",\n \"blocks\": [<ordered subset of: \"kpis\",\"forecast_chart\",\"scenario_delta\",\"alert\",\"actions\",\"category_chart\",\"cashflow_chart\",\"upcoming\",\"invoices\">]}\nPick 1-3 blocks that best show the answer. What-ifs: \"scenario_delta\" + \"forecast_chart\". Spending: \"category_chart\".\nOverview: \"kpis\" + \"forecast_chart\" + \"alert\". Invoices: \"invoices\".\n\nFACTS:\n${JSON.stringify(facts)}`;\nreturn [{ json: { body: { model: cfg.LLM_MODEL, max_tokens: 700, system,\n  messages: [{ role: 'user', content: cfg.req.message || 'Give me an overview' }] } } }];"
+        "jsCode": "const cfg = $('Config').first().json;\nconst plan = $('Parse intent').first().json.plan;\nconst summary = $('Engine summary').first().json;\nconst sim = $input.first().json;\nconst f = sim.scenario;\nconst facts = {\n  who: { name: summary.name, mode: summary.mode, tagline: summary.tagline },\n  balance_now: f.balance_now, hero: f.hero,\n  scenario_applied: plan.adjustments, baseline_risk: sim.baseline, change_to_most_urgent_alert: sim.focus_alert,\n  risk_now: f.risk_summary,\n  alerts: f.alerts.map(a => ({ title: a.title, peak_date: a.peak_date, chance_below_zero: a.p_negative,\n                               why: a.explanation, best_fixes: (a.actions || []).map(x => ({ fix: x.label, chance_after: x.new_p_negative })) })),\n  upcoming_30_days: f.upcoming,\n  spending_last_90_days: summary.categories_90d.slice(0, 6),\n  monthly_in_out: summary.monthly.slice(-6),\n  unpaid_invoices: summary.invoices,\n};\nconst tone = summary.mode === 'business'\n  ? 'a sharp, friendly startup accountant: direct, numbers-first, practical'\n  : 'a warm, plain-spoken money coach for someone who may be stretched: no jargon, no judgement';\nconst system = `You are Foresight, ${tone}. Today is ${f.as_of}.\nUse ONLY numbers from FACTS. Never invent figures, dates or names. Round money to the nearest pound.\nExpress chances simply (\"about 3 in 10 of the futures we simulated\"). This is guidance, not regulated financial advice.\nIf the user seems in hardship, mention free help (MoneyHelper, StepChange, Citizens Advice) and talking to their bank early.\nReply in the user's language (detected: ${plan.language || 'en'}).\n\nReturn ONLY JSON, no code fences:\n{\"reply\": \"<markdown, max 120 words, lead with the answer>\",\n \"speak\": \"<max 45 words, natural spoken English or the user's language, no markdown, no symbols>\",\n \"blocks\": [<ordered subset of: \"kpis\",\"forecast_chart\",\"scenario_delta\",\"alert\",\"actions\",\"category_chart\",\"cashflow_chart\",\"upcoming\",\"invoices\">]}\nPick 1-3 blocks that best show the answer. What-ifs: \"scenario_delta\" + \"forecast_chart\". Spending: \"category_chart\".\nPayments due / bills / what's coming up: \"upcoming\" (list the biggest 3 with dates and the total going out).\nOverview: \"kpis\" + \"forecast_chart\" + \"alert\". Invoices: \"invoices\".\n\nFACTS:\n${JSON.stringify(facts)}`;\nreturn [{ json: { body: { model: cfg.LLM_MODEL, max_tokens: 700, system,\n  messages: [{ role: 'user', content: cfg.req.message || 'Give me an overview' }] } } }];"
       },
-      "id": "6d7761b5-560b-455a-952d-75a0e3f25409",
+      "id": "5444fcfd-ac3f-43bd-823d-1cd21b9b9e26",
       "name": "Build reply prompt",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -158,20 +167,23 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.body) }}"
       },
-      "id": "74b449a8-2a40-4c77-bdcf-a1963e31a285",
+      "id": "84ebf8ca-d63c-42eb-a139-4f120b35b3f7",
       "name": "LLM: reply",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         1760,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
-        "jsCode": "const cfg = $('Config').first().json;\nconst plan = $('Parse intent').first().json.plan;\nconst summary = $('Engine summary').first().json;\nconst sim = $('Engine simulate').first().json;\nconst f = sim.scenario;\nlet out;\ntry { out = JSON.parse(($input.first().json.content?.[0]?.text || '').replace(/```json|```/g, '').trim()); }\ncatch (e) { out = { reply: \"Here's where things stand.\", speak: \"Here's where things stand.\", blocks: ['kpis', 'forecast_chart'] }; }\n\nconst fill = {\n  kpis: () => ({ type: 'kpis', items: [{ label: f.hero.label, value: f.hero.value, unit: f.hero.unit }, ...(f.hero.kpis || [])] }),\n  forecast_chart: () => ({ type: 'forecast_chart', data: { history: f.history, bands: f.bands, alerts: f.alerts } }),\n  scenario_delta: () => sim.focus_alert ? ({ type: 'scenario_delta', focus: sim.focus_alert }) : null,\n  alert: () => f.alerts[0] ? ({ type: 'alert', alert: f.alerts[0] }) : null,\n  actions: () => f.alerts[0]?.actions?.length ? ({ type: 'actions', actions: f.alerts[0].actions }) : null,\n  category_chart: () => ({ type: 'category_chart', data: summary.categories_90d }),\n  cashflow_chart: () => ({ type: 'cashflow_chart', data: summary.monthly }),\n  upcoming: () => ({ type: 'upcoming', items: f.upcoming }),\n  invoices: () => summary.invoices?.length ? ({ type: 'invoices', items: summary.invoices }) : null,\n};\nconst blocks = (out.blocks || []).map(t => fill[t] ? fill[t]() : null).filter(Boolean);\nconst speak = cfg.req.voice === false ? '' : (out.speak || '');\nreturn [{ json: {\n  reply: out.reply, speak, intent: plan.intent, adjustments: plan.adjustments,\n  blocks: blocks.length ? blocks : [fill.kpis(), fill.forecast_chart()],\n  tts_body: { text: speak || ' ', model_id: cfg.ELEVEN_MODEL },\n}}];"
+        "jsCode": "const cfg = $('Config').first().json;\nconst plan = $('Parse intent').first().json.plan;\nconst summary = $('Engine summary').first().json;\nconst sim = $('Engine simulate').first().json;\nconst f = sim.scenario;\nlet out;\ntry { out = JSON.parse(($input.first().json.content?.[0]?.text || '').replace(/```json|```/g, '').trim()); }\ncatch (e) { out = { reply: \"Here's where things stand.\", speak: \"Here's where things stand.\", blocks: ['kpis', 'forecast_chart'], fallback: true }; }\n\nconst fill = {\n  kpis: () => ({ type: 'kpis', items: [{ label: f.hero.label, value: f.hero.value, unit: f.hero.unit }, ...(f.hero.kpis || [])] }),\n  forecast_chart: () => ({ type: 'forecast_chart', data: { history: f.history, bands: f.bands, alerts: f.alerts } }),\n  scenario_delta: () => sim.focus_alert ? ({ type: 'scenario_delta', focus: sim.focus_alert }) : null,\n  alert: () => f.alerts[0] ? ({ type: 'alert', alert: f.alerts[0] }) : null,\n  actions: () => f.alerts[0]?.actions?.length ? ({ type: 'actions', actions: f.alerts[0].actions }) : null,\n  category_chart: () => ({ type: 'category_chart', data: summary.categories_90d }),\n  cashflow_chart: () => ({ type: 'cashflow_chart', data: summary.monthly }),\n  upcoming: () => ({ type: 'upcoming', items: f.upcoming }),\n  invoices: () => summary.invoices?.length ? ({ type: 'invoices', items: summary.invoices }) : null,\n};\nconst blocks = (out.blocks || []).map(t => fill[t] ? fill[t]() : null).filter(Boolean);\nconst speak = cfg.req.voice === false ? '' : (out.speak || '');\nreturn [{ json: {\n  reply: out.reply, speak, intent: plan.intent, adjustments: plan.adjustments,\n  blocks: blocks.length ? blocks : [fill.kpis(), fill.forecast_chart()],\n  data_notes: [plan.planner_failed && 'I could not fully understand the question, so here is the overview.',\n               out.fallback && 'The AI writer was unavailable, so this is a standard summary.'].filter(Boolean),\n  tts_body: { text: speak || ' ', model_id: cfg.ELEVEN_MODEL },\n}}];"
       },
-      "id": "0e469c75-5327-4b2a-8289-b14c5303323d",
+      "id": "a7969afd-868f-41f1-8691-72f402923486",
       "name": "Assemble response",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -204,7 +216,7 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.tts_body) }}"
       },
-      "id": "cc3cafc0-4d30-4366-a4c1-f15ee3c58caa",
+      "id": "86b8ea2b-198c-4c55-b28d-0d02dbc789d7",
       "name": "ElevenLabs TTS",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
@@ -212,13 +224,16 @@
         2200,
         300
       ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000,
       "onError": "continueRegularOutput"
     },
     {
       "parameters": {
-        "jsCode": "const out = $('Assemble response').first().json;\nlet audio_base64 = null;\ntry {\n  if (out.speak) audio_base64 = (await this.helpers.getBinaryDataBuffer(0, 'data')).toString('base64');\n} catch (e) { /* TTS failed or skipped - UI falls back to text only */ }\nconst { tts_body, ...rest } = out;\nreturn [{ json: { ...rest, audio_base64, audio_mime: 'audio/mpeg' } }];"
+        "jsCode": "const out = $('Assemble response').first().json;\nlet audio_base64 = null;\ntry {\n  if (out.speak) audio_base64 = (await this.helpers.getBinaryDataBuffer(0, 'data')).toString('base64');\n} catch (e) { /* TTS failed or skipped - UI falls back to text only */ }\nconst { tts_body, ...rest } = out;\nconst data_notes = [...(out.data_notes || [])];\nif (out.speak && !audio_base64) data_notes.push('Voice was unavailable, so this answer is text only.');\nreturn [{ json: { ...rest, audio_base64, audio_mime: 'audio/mpeg', data_notes } }];"
       },
-      "id": "e9bd31d1-4b59-48fe-b04d-d9cbc6404bb6",
+      "id": "07980275-f88b-4787-8409-3dadba6ec907",
       "name": "Attach audio",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -242,7 +257,7 @@
           }
         }
       },
-      "id": "9d15ed0d-0b73-45f1-9a97-c43dc88c0230",
+      "id": "3ab1ff18-d3ee-41e5-9a45-89a07b15d80b",
       "name": "Respond",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,

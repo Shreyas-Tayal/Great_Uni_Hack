@@ -10,7 +10,7 @@
           "allowedOrigins": "*"
         }
       },
-      "id": "2a609e37-9bad-4a79-a725-9305a6a09bc6",
+      "id": "a104916b-5c49-4b2e-8b9f-e255c487cba2",
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
@@ -18,13 +18,13 @@
         0,
         300
       ],
-      "webhookId": "5fc8fa7f-4f52-40bd-98e3-b1f89bb33590"
+      "webhookId": "e69c4228-0de5-44d9-bbfd-b679b1575dbb"
     },
     {
       "parameters": {
         "jsCode": "// HACKATHON CONFIG - paste values here inside n8n. Never commit real keys to git.\nconst body = $input.first().json.body || {};\nreturn [{ json: {\n  ENGINE_URL: 'https://YOUR-ENGINE-TUNNEL.trycloudflare.com',   // cloudflared tunnel --url http://localhost:8000\n  ANTHROPIC_API_KEY: 'PASTE_KEY',\n  LLM_MODEL: 'claude-haiku-5-5',            // fast + cheap; swap to claude-sonnet-5-5 for nicer prose\n  ELEVEN_API_KEY: 'PASTE_KEY',\n  ELEVEN_VOICE_ID: 'PASTE_VOICE_ID',        // ElevenLabs -> Voices -> copy voice ID\n  ELEVEN_MODEL: 'eleven_multilingual_v2',   // multilingual: same voice speaks Urdu, Polish, etc.\n  TELEGRAM_CHAT_ID: 'PASTE_CHAT_ID',\n  req: body,\n}}];"
       },
-      "id": "81c79fb7-15a3-466d-84a9-6702db0948e3",
+      "id": "658176ad-7f0c-43cc-b7b6-e4d298a9d25c",
       "name": "Config",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -39,20 +39,23 @@
         "url": "={{ $json.ENGINE_URL }}/profiles/{{ $json.req.profile_id }}/summary",
         "options": {}
       },
-      "id": "309ef6f5-25e9-4372-83bc-6432be390f40",
+      "id": "497f7548-499c-4a93-b50a-425c549d19aa",
       "name": "Engine summary",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         440,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
         "jsCode": "const cfg = $('Config').first().json;\nconst s = $input.first().json;\nconst inv = (s.invoices || []).find(i => i.id === cfg.req.invoice_id) || (s.invoices || [])[0];\nif (!inv) return [{ json: { body: null, invoice: null } }];\nconst tone = cfg.req.tone === 'firm' ? 'polite but firm, mention the agreed terms' : 'warm and friendly, assume it was an oversight';\nreturn [{ json: { invoice: inv, body: {\n  model: cfg.LLM_MODEL, max_tokens: 500,\n  system: `Write a short payment reminder email from ${s.name} to ${inv.client}. Tone: ${tone}. UK English. Max 110 words.\nReturn ONLY JSON: {\"subject\": \"...\", \"body\": \"...\"} (plain text body, sign off as \"The ${s.name} team\").`,\n  messages: [{ role: 'user', content: `Invoice ${inv.id}, amount \u00a3${inv.amount}, issued ${inv.issued}, due ${inv.due}, status ${inv.status}, ${inv.days_late ?? 0} days late.` }]\n}}}];"
       },
-      "id": "0b8a66c1-331f-4b26-bb92-9d47f3386a53",
+      "id": "28198c5a-7ec2-4a4a-8336-de71ce304d6b",
       "name": "Build chase prompt",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -83,20 +86,23 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.body) }}"
       },
-      "id": "b4de7e36-c85f-4808-b228-d70e303f5296",
+      "id": "729cb88b-5b6d-46de-af0d-5521a2bef5af",
       "name": "LLM: draft",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         880,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
         "jsCode": "const inv = $('Build chase prompt').first().json.invoice;\nlet out;\ntry { out = JSON.parse(($input.first().json.content?.[0]?.text || '').replace(/```json|```/g, '').trim()); }\ncatch (e) { out = { subject: `Invoice ${inv?.id} reminder`, body: 'Draft failed - please write manually.' }; }\nreturn [{ json: { ...out, invoice: inv } }];"
       },
-      "id": "7c9c5d0d-0650-40e3-90d6-e0778e19f92e",
+      "id": "fc093b7b-b761-414c-bdbc-4063a60b9441",
       "name": "Parse draft",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -120,7 +126,7 @@
           }
         }
       },
-      "id": "834f46fa-c356-4bf9-b7b1-6fe1b2736454",
+      "id": "aba56717-507c-4107-a7aa-f720a71b70f6",
       "name": "Respond",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,

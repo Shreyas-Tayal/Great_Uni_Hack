@@ -1,34 +1,81 @@
-/* Foresight design tokens. Import once in main.tsx:  import "./foresight.css";
-   Direction: a calm ledger with one loud moment - the forecast fan crossing "today".
-   Violet nods to NatWest without copying its brand. Risk red is the only warm colour. */
-@import url("https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600&display=swap");
+/* Foresight design tokens.
+   Direction: a quiet ledger you talk to. Ink on warm paper, one typeface for words (Inter) and one for
+   numbers and headings (Space Grotesk). Green and red are reserved for money: in/out, above/below £0.
+   Variable names are kept from earlier versions so every component keeps working. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap");
 
 :root {
-  --fs-ink: #1c1530;        /* text */
-  --fs-ink-2: #5d5875;      /* secondary text */
-  --fs-mist: #f4f3f8;       /* page */
+  --fs-ink: #141b17;        /* text */
+  --fs-ink-2: #56615b;      /* secondary text (5.6:1 on paper) */
+  --fs-mist: #f3f4ef;       /* page */
   --fs-paper: #ffffff;      /* surfaces */
-  --fs-line: #e3e0ec;       /* hairlines */
-  --fs-violet: #5b2bd9;     /* forecast, primary actions */
-  --fs-violet-soft: #ece6fd;
-  --fs-risk: #cf3048;       /* below-zero risk only */
-  --fs-risk-soft: #fdecef;
-  --fs-safe: #0f8065;       /* improvements */
-  --fs-safe-soft: #e3f4ef;
+  --fs-sunk: #eceee7;       /* sidebar, input wells */
+  --fs-line: #dfe3da;       /* hairlines */
+  --fs-violet: #141b17;     /* primary actions (name kept for compatibility) */
+  --fs-violet-soft: #e8ebe3;
+  --fs-on-accent: #ffffff;
+  --fs-risk: #c02a22;       /* below-zero risk only */
+  --fs-risk-soft: #fbeceb;
+  --fs-safe: #157a43;       /* improvements */
+  --fs-safe-soft: #e5f2ea;
+  --fs-up: #157a43;         /* money in / above £0 */
+  --fs-down: #c02a22;       /* money out / below £0 */
+  --fs-amber: #8a5a00;      /* "needs you" */
+  --fs-amber-soft: #fbf1dc;
+  color-scheme: light;
 }
+
+:root[data-theme="dark"] {
+  --fs-ink: #e7ede9;
+  --fs-ink-2: #9ba7a0;
+  --fs-mist: #0c110f;
+  --fs-paper: #141b18;
+  --fs-sunk: #101613;
+  --fs-line: #28332e;
+  --fs-violet: #e7ede9;
+  --fs-violet-soft: #1f2a25;
+  --fs-on-accent: #0c110f;
+  --fs-risk: #ff7266;
+  --fs-risk-soft: #34191a;
+  --fs-safe: #52cc87;
+  --fs-safe-soft: #142a1e;
+  --fs-up: #52cc87;
+  --fs-down: #ff7266;
+  --fs-amber: #f2c46b;
+  --fs-amber-soft: #2e2512;
+  color-scheme: dark;
+}
+
+html, body { background: var(--fs-mist); }
 
 .fs-app {
-  font-family: "Onest", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
   color: var(--fs-ink);
   background: var(--fs-mist);
-  font-feature-settings: "tnum" 1; /* aligned figures everywhere */
+  font-feature-settings: "tnum" 1, "cv11" 1;
 }
+.fs-app input, .fs-app textarea, .fs-app select { background: var(--fs-paper); color: var(--fs-ink); }
+.fs-app input::placeholder, .fs-app textarea::placeholder { color: var(--fs-ink-2); }
 
-.fs-surface { background: var(--fs-paper); border: 1px solid var(--fs-line); border-radius: 14px; }
+.fs-display { font-family: "Space Grotesk", "Inter", sans-serif; letter-spacing: -0.015em; }
+.fs-surface { background: var(--fs-paper); border: 1px solid var(--fs-line); border-radius: 16px; }
+.fs-focus:focus-visible, .fs-app button:focus-visible, .fs-app a:focus-visible { outline: 2px solid var(--fs-ink); outline-offset: 2px; }
 
-.fs-focus:focus-visible { outline: 2px solid var(--fs-violet); outline-offset: 2px; }
+/* message text: a little markdown */
+.fs-prose p { margin: 0 0 .6em; }
+.fs-prose p:last-child { margin-bottom: 0; }
+.fs-prose ul { margin: .2em 0 .6em; padding-left: 1.2em; list-style: disc; }
+.fs-prose li { margin: .15em 0; }
+.fs-prose strong { font-weight: 600; }
+
+.fs-scroll { scrollbar-width: thin; scrollbar-color: var(--fs-line) transparent; }
 
 @media (prefers-reduced-motion: no-preference) {
-  .fs-reveal { animation: fs-reveal 380ms ease-out both; }
+  .fs-dot { animation: fs-dot 900ms ease-in-out infinite; }
+  @keyframes fs-dot { 0%, 100% { opacity: .25; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-3px); } }
+  .fs-busy { transition: opacity 200ms; }
+  .fs-reveal { animation: fs-reveal 360ms ease-out both; }
   @keyframes fs-reveal { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .fs-drawer { animation: fs-drawer 220ms ease-out both; }
+  @keyframes fs-drawer { from { opacity: 0; transform: translateX(16px); } to { opacity: 1; transform: none; } }
 }

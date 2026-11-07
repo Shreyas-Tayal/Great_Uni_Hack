@@ -10,7 +10,7 @@
           "allowedOrigins": "*"
         }
       },
-      "id": "d2b059c7-9635-4893-b963-81a2328268f0",
+      "id": "5d1d8218-8a86-4903-a3c7-534d7b176b77",
       "name": "Webhook",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
@@ -18,20 +18,16 @@
         0,
         300
       ],
-      "webhookId": "8e089c24-c03f-4d72-9192-d78c3437c41e"
+      "webhookId": "ddbdfb7b-9483-4835-a0b9-8c9e85184bbe"
     },
     {
       "parameters": {
-        "sendTo": "={{ $json.body.to }}",
-        "subject": "={{ $json.body.subject }}",
-        "emailType": "text",
-        "message": "={{ $json.body.body }}",
-        "options": {}
+        "jsCode": "// SAFETY: this webhook is public (its URL is in the browser bundle). Only allowlisted addresses\n// get real email; anything else is redirected to the team demo inbox with a note.\nconst ALLOWED = ['PASTE_TEAM_EMAIL_1', 'PASTE_TEAM_EMAIL_2'];\nconst DEMO_INBOX = 'PASTE_TEAM_EMAIL_1';\nconst b = $input.first().json.body || {};\nconst to = String(b.to || '').trim().toLowerCase();\nconst ok = ALLOWED.map(x => x.toLowerCase()).includes(to);\nreturn [{ json: {\n  to: ok ? to : DEMO_INBOX,\n  subject: String(b.subject || 'Payment reminder').slice(0, 150),\n  body: (ok ? '' : `[Demo: originally addressed to ${to || 'nobody'}]\\n\\n`) + String(b.body || '').slice(0, 3000),\n  redirected: !ok,\n}}];"
       },
-      "id": "e297fea4-eb1d-4c4d-9a80-5e7fd1199745",
-      "name": "Gmail send",
-      "type": "n8n-nodes-base.gmail",
-      "typeVersion": 2.1,
+      "id": "df098ec0-6132-45c9-9392-b279e0052b51",
+      "name": "Recipient allowlist",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
       "position": [
         220,
         300
@@ -39,14 +35,33 @@
     },
     {
       "parameters": {
-        "jsCode": "return [{ json: { ok: true } }];"
+        "sendTo": "={{ $json.to }}",
+        "subject": "={{ $json.subject }}",
+        "emailType": "text",
+        "message": "={{ $json.body }}",
+        "options": {}
       },
-      "id": "5808d6d9-bc23-498f-aa98-6059a23cd465",
+      "id": "37ba77b2-2275-4827-843a-d706b7e3db38",
+      "name": "Gmail send",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        440,
+        300
+      ],
+      "retryOnFail": true,
+      "maxTries": 2
+    },
+    {
+      "parameters": {
+        "jsCode": "const a = $('Recipient allowlist').first().json; return [{ json: { ok: true, sent_to: a.to, redirected: a.redirected } }];"
+      },
+      "id": "6960b461-66e1-4648-bd8b-9b790144dba8",
       "name": "OK",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        440,
+        660,
         300
       ]
     },
@@ -65,18 +80,29 @@
           }
         }
       },
-      "id": "abe1c313-8c62-44eb-9f32-bba0f94f8571",
+      "id": "17b8023b-9807-4819-a34c-7a1439927301",
       "name": "Respond",
       "type": "n8n-nodes-base.respondToWebhook",
       "typeVersion": 1.1,
       "position": [
-        660,
+        880,
         300
       ]
     }
   ],
   "connections": {
     "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Recipient allowlist",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Recipient allowlist": {
       "main": [
         [
           {

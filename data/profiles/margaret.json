@@ -1,0 +1,3501 @@
+{
+  "profile_id": "margaret",
+  "name": "Margaret",
+  "mode": "personal",
+  "opening_balance": 520.0,
+  "tagline": "Retired, living alone on her pensions; winter bills bite",
+  "persona": {
+    "household": "1 adult, 78",
+    "income_type": "state + private pension",
+    "pay_cycle": "state pension every 4 weeks, private pension monthly"
+  },
+  "currency": "GBP",
+  "as_of": "2026-11-07",
+  "history_start": "2025-11-08",
+  "closing_balance": 694.89,
+  "transactions": [
+    {
+      "id": "margaret-00000",
+      "date": "2025-11-08",
+      "description": "ALDI 5348 MANCHESTER",
+      "amount": -24.36,
+      "balance": 495.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00001",
+      "date": "2025-11-10",
+      "description": "DWP SP PZ752492",
+      "amount": 964.4,
+      "balance": 1460.04,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00002",
+      "date": "2025-11-10",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 1414.04,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00003",
+      "date": "2025-11-14",
+      "description": "ALDI 4855 MANCHESTER",
+      "amount": -8.28,
+      "balance": 1405.76,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00004",
+      "date": "2025-11-14",
+      "description": "DD EDF ENERGY",
+      "amount": -175.0,
+      "balance": 1230.76,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00005",
+      "date": "2025-11-15",
+      "description": "LLOYDS PHARMACY",
+      "amount": -27.67,
+      "balance": 1203.09,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00006",
+      "date": "2025-11-15",
+      "description": "CO-OP GROUP 6375",
+      "amount": -36.92,
+      "balance": 1166.17,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00007",
+      "date": "2025-11-16",
+      "description": "CAFE 1315 MANCHESTER",
+      "amount": -7.32,
+      "balance": 1158.85,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00008",
+      "date": "2025-11-16",
+      "description": "CO-OP GROUP 7431",
+      "amount": -15.22,
+      "balance": 1143.63,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00009",
+      "date": "2025-11-18",
+      "description": "GREGGS 3159",
+      "amount": -5.24,
+      "balance": 1138.39,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00010",
+      "date": "2025-11-19",
+      "description": "CAFE 5881 MANCHESTER",
+      "amount": -3.41,
+      "balance": 1134.98,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00011",
+      "date": "2025-11-19",
+      "description": "CASH ATM 1088 MANCHESTER",
+      "amount": -24.24,
+      "balance": 1110.74,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00012",
+      "date": "2025-11-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 1075.74,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00013",
+      "date": "2025-11-21",
+      "description": "TESCO EXPRESS 3915",
+      "amount": -11.56,
+      "balance": 1064.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00014",
+      "date": "2025-11-25",
+      "description": "CO-OP GROUP 4466",
+      "amount": -10.69,
+      "balance": 1053.49,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00015",
+      "date": "2025-11-26",
+      "description": "CO-OP GROUP 6795",
+      "amount": -17.65,
+      "balance": 1035.84,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00016",
+      "date": "2025-11-28",
+      "description": "ALDI 7860 MANCHESTER",
+      "amount": -9.99,
+      "balance": 1025.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00017",
+      "date": "2025-11-29",
+      "description": "ALDI 1146 MANCHESTER",
+      "amount": -14.48,
+      "balance": 1011.37,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00018",
+      "date": "2025-12-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1321.37,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00019",
+      "date": "2025-12-01",
+      "description": "CO-OP GROUP 6913",
+      "amount": -9.66,
+      "balance": 1311.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00020",
+      "date": "2025-12-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1183.71,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00021",
+      "date": "2025-12-01",
+      "description": "TV LICENCE MBP",
+      "amount": -169.5,
+      "balance": 1014.21,
+      "_category": "bills:tv_licence",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00022",
+      "date": "2025-12-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 439.21,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00023",
+      "date": "2025-12-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 429.21,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00024",
+      "date": "2025-12-03",
+      "description": "CO-OP GROUP 1972",
+      "amount": -11.08,
+      "balance": 418.13,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00025",
+      "date": "2025-12-04",
+      "description": "CO-OP GROUP 8273",
+      "amount": -43.99,
+      "balance": 374.14,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00026",
+      "date": "2025-12-05",
+      "description": "TESCO EXPRESS 3184",
+      "amount": -19.37,
+      "balance": 354.77,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00027",
+      "date": "2025-12-05",
+      "description": "CASH ATM 6975 MANCHESTER",
+      "amount": -23.97,
+      "balance": 330.8,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00028",
+      "date": "2025-12-07",
+      "description": "ALDI 5834 MANCHESTER",
+      "amount": -15.82,
+      "balance": 314.98,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00029",
+      "date": "2025-12-08",
+      "description": "DWP SP CI808672",
+      "amount": 964.4,
+      "balance": 1279.38,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00030",
+      "date": "2025-12-08",
+      "description": "ALDI 2381 MANCHESTER",
+      "amount": -20.54,
+      "balance": 1258.84,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00031",
+      "date": "2025-12-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 1212.84,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00032",
+      "date": "2025-12-09",
+      "description": "TESCO EXPRESS 2798",
+      "amount": -17.14,
+      "balance": 1195.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00033",
+      "date": "2025-12-13",
+      "description": "LLOYDS PHARMACY",
+      "amount": -5.65,
+      "balance": 1190.05,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00034",
+      "date": "2025-12-14",
+      "description": "GREGGS 7914",
+      "amount": -3.21,
+      "balance": 1186.84,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00035",
+      "date": "2025-12-14",
+      "description": "ALDI 5875 MANCHESTER",
+      "amount": -23.2,
+      "balance": 1163.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00036",
+      "date": "2025-12-15",
+      "description": "GREGGS 5905",
+      "amount": -4.82,
+      "balance": 1158.82,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00037",
+      "date": "2025-12-15",
+      "description": "DD EDF ENERGY",
+      "amount": -215.0,
+      "balance": 943.82,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00038",
+      "date": "2025-12-16",
+      "description": "GREGGS 1998",
+      "amount": -12.29,
+      "balance": 931.53,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00039",
+      "date": "2025-12-16",
+      "description": "TESCO EXPRESS 4693",
+      "amount": -33.34,
+      "balance": 898.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00040",
+      "date": "2025-12-17",
+      "description": "CAFE 7448 MANCHESTER",
+      "amount": -3.3,
+      "balance": 894.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00041",
+      "date": "2025-12-18",
+      "description": "ALDI 6863 MANCHESTER",
+      "amount": -24.01,
+      "balance": 870.88,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00042",
+      "date": "2025-12-19",
+      "description": "GREGGS 1879",
+      "amount": -5.31,
+      "balance": 865.57,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00043",
+      "date": "2025-12-20",
+      "description": "TESCO EXPRESS 5502",
+      "amount": -10.57,
+      "balance": 855.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00044",
+      "date": "2025-12-20",
+      "description": "CAFE 6096 MANCHESTER",
+      "amount": -11.75,
+      "balance": 843.25,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00045",
+      "date": "2025-12-21",
+      "description": "CASH ATM 3227 MANCHESTER",
+      "amount": -29.63,
+      "balance": 813.62,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00046",
+      "date": "2025-12-22",
+      "description": "ALDI 1345 MANCHESTER",
+      "amount": -7.44,
+      "balance": 806.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00047",
+      "date": "2025-12-22",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 771.18,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00048",
+      "date": "2025-12-23",
+      "description": "LLOYDS PHARMACY",
+      "amount": -13.01,
+      "balance": 758.17,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00049",
+      "date": "2025-12-24",
+      "description": "CO-OP GROUP 8669",
+      "amount": -9.69,
+      "balance": 748.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00050",
+      "date": "2025-12-25",
+      "description": "CASH ATM 3546 MANCHESTER",
+      "amount": -32.68,
+      "balance": 715.8,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00051",
+      "date": "2025-12-27",
+      "description": "ALDI 4512 MANCHESTER",
+      "amount": -13.45,
+      "balance": 702.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00052",
+      "date": "2025-12-28",
+      "description": "LLOYDS PHARMACY",
+      "amount": -4.36,
+      "balance": 697.99,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00053",
+      "date": "2025-12-28",
+      "description": "TESCO EXPRESS 5066",
+      "amount": -7.94,
+      "balance": 690.05,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00054",
+      "date": "2025-12-29",
+      "description": "ALDI 8525 MANCHESTER",
+      "amount": -15.05,
+      "balance": 675.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00055",
+      "date": "2025-12-31",
+      "description": "ALDI 2131 MANCHESTER",
+      "amount": -14.08,
+      "balance": 660.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00056",
+      "date": "2026-01-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 970.92,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00057",
+      "date": "2026-01-01",
+      "description": "CO-OP GROUP 8010",
+      "amount": -23.57,
+      "balance": 947.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00058",
+      "date": "2026-01-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 819.35,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00059",
+      "date": "2026-01-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 244.35,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00060",
+      "date": "2026-01-02",
+      "description": "ALDI 6808 MANCHESTER",
+      "amount": -20.72,
+      "balance": 223.63,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00061",
+      "date": "2026-01-03",
+      "description": "CASH ATM 6617 MANCHESTER",
+      "amount": -24.64,
+      "balance": 198.99,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00062",
+      "date": "2026-01-04",
+      "description": "GREGGS 4729",
+      "amount": -8.35,
+      "balance": 190.64,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00063",
+      "date": "2026-01-04",
+      "description": "TESCO EXPRESS 8570",
+      "amount": -16.48,
+      "balance": 174.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00064",
+      "date": "2026-01-04",
+      "description": "CASH ATM 2507 MANCHESTER",
+      "amount": -23.04,
+      "balance": 151.12,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00065",
+      "date": "2026-01-05",
+      "description": "DWP SP MF557297",
+      "amount": 964.4,
+      "balance": 1115.52,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00066",
+      "date": "2026-01-05",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 1105.52,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00067",
+      "date": "2026-01-07",
+      "description": "CAFE 1259 MANCHESTER",
+      "amount": -2.99,
+      "balance": 1102.53,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00068",
+      "date": "2026-01-08",
+      "description": "GREGGS 4416",
+      "amount": -7.32,
+      "balance": 1095.21,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00069",
+      "date": "2026-01-08",
+      "description": "ALDI 8206 MANCHESTER",
+      "amount": -18.09,
+      "balance": 1077.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00070",
+      "date": "2026-01-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 1031.12,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00071",
+      "date": "2026-01-10",
+      "description": "CASH ATM 6021 MANCHESTER",
+      "amount": -28.37,
+      "balance": 1002.75,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00072",
+      "date": "2026-01-11",
+      "description": "CAFE 6091 MANCHESTER",
+      "amount": -4.42,
+      "balance": 998.33,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00073",
+      "date": "2026-01-12",
+      "description": "TV LICENCE MBP",
+      "amount": -174.5,
+      "balance": 823.83,
+      "_category": "bills:tv_licence",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00074",
+      "date": "2026-01-14",
+      "description": "TESCO EXPRESS 5379",
+      "amount": -21.77,
+      "balance": 802.06,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00075",
+      "date": "2026-01-14",
+      "description": "DD EDF ENERGY",
+      "amount": -238.0,
+      "balance": 564.06,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00076",
+      "date": "2026-01-15",
+      "description": "GREGGS 9039",
+      "amount": -7.72,
+      "balance": 556.34,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00077",
+      "date": "2026-01-15",
+      "description": "CO-OP GROUP 7566",
+      "amount": -10.4,
+      "balance": 545.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00078",
+      "date": "2026-01-16",
+      "description": "CAFE 5156 MANCHESTER",
+      "amount": -4.48,
+      "balance": 541.46,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00079",
+      "date": "2026-01-18",
+      "description": "BOOTS 5214",
+      "amount": -5.03,
+      "balance": 536.43,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00080",
+      "date": "2026-01-18",
+      "description": "ALDI 1766 MANCHESTER",
+      "amount": -13.24,
+      "balance": 523.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00081",
+      "date": "2026-01-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 488.19,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00082",
+      "date": "2026-01-21",
+      "description": "CO-OP GROUP 5392",
+      "amount": -19.56,
+      "balance": 468.63,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00083",
+      "date": "2026-01-22",
+      "description": "GREGGS 8291",
+      "amount": -3.97,
+      "balance": 464.66,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00084",
+      "date": "2026-01-22",
+      "description": "CO-OP GROUP 3506",
+      "amount": -13.48,
+      "balance": 451.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00085",
+      "date": "2026-01-27",
+      "description": "ALDI 1200 MANCHESTER",
+      "amount": -35.22,
+      "balance": 415.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00086",
+      "date": "2026-01-28",
+      "description": "ALDI 6300 MANCHESTER",
+      "amount": -15.41,
+      "balance": 400.55,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00087",
+      "date": "2026-01-29",
+      "description": "TESCO EXPRESS 9611",
+      "amount": -16.1,
+      "balance": 384.45,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00088",
+      "date": "2026-01-29",
+      "description": "CASH ATM 8821 MANCHESTER",
+      "amount": -36.9,
+      "balance": 347.55,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00089",
+      "date": "2026-01-31",
+      "description": "CASH ATM 7062 MANCHESTER",
+      "amount": -30.97,
+      "balance": 316.58,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00090",
+      "date": "2026-02-01",
+      "description": "GREGGS 1127",
+      "amount": -5.61,
+      "balance": 310.97,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00091",
+      "date": "2026-02-02",
+      "description": "DWP SP NP950559",
+      "amount": 964.4,
+      "balance": 1275.37,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00092",
+      "date": "2026-02-02",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1585.37,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00093",
+      "date": "2026-02-02",
+      "description": "ALDI 3131 MANCHESTER",
+      "amount": -25.22,
+      "balance": 1560.15,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00094",
+      "date": "2026-02-02",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 985.15,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00095",
+      "date": "2026-02-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 975.15,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00096",
+      "date": "2026-02-04",
+      "description": "ALDI 5394 MANCHESTER",
+      "amount": -16.75,
+      "balance": 958.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00097",
+      "date": "2026-02-05",
+      "description": "TESCO EXPRESS 5361",
+      "amount": -14.0,
+      "balance": 944.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00098",
+      "date": "2026-02-05",
+      "description": "M&S 7953",
+      "amount": -14.42,
+      "balance": 929.98,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00099",
+      "date": "2026-02-06",
+      "description": "TESCO EXPRESS 3636",
+      "amount": -13.44,
+      "balance": 916.54,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00100",
+      "date": "2026-02-07",
+      "description": "BOOTS 8714",
+      "amount": -8.89,
+      "balance": 907.65,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00101",
+      "date": "2026-02-07",
+      "description": "TESCO EXPRESS 1240",
+      "amount": -23.37,
+      "balance": 884.28,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00102",
+      "date": "2026-02-08",
+      "description": "ALDI 5694 MANCHESTER",
+      "amount": -35.41,
+      "balance": 848.87,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00103",
+      "date": "2026-02-09",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 802.87,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00104",
+      "date": "2026-02-11",
+      "description": "CO-OP GROUP 7937",
+      "amount": -7.42,
+      "balance": 795.45,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00105",
+      "date": "2026-02-12",
+      "description": "TESCO EXPRESS 4756",
+      "amount": -11.67,
+      "balance": 783.78,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00106",
+      "date": "2026-02-12",
+      "description": "CARD FACTORY 6757",
+      "amount": -13.26,
+      "balance": 770.52,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00107",
+      "date": "2026-02-13",
+      "description": "ALDI 7823 MANCHESTER",
+      "amount": -18.02,
+      "balance": 752.5,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00108",
+      "date": "2026-02-14",
+      "description": "CAFE 3259 MANCHESTER",
+      "amount": -4.19,
+      "balance": 748.31,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00109",
+      "date": "2026-02-14",
+      "description": "CO-OP GROUP 7450",
+      "amount": -11.19,
+      "balance": 737.12,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00110",
+      "date": "2026-02-16",
+      "description": "DD EDF ENERGY",
+      "amount": -205.0,
+      "balance": 532.12,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00111",
+      "date": "2026-02-17",
+      "description": "LLOYDS PHARMACY",
+      "amount": -6.95,
+      "balance": 525.17,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00112",
+      "date": "2026-02-17",
+      "description": "WHSMITH 7251",
+      "amount": -22.46,
+      "balance": 502.71,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00113",
+      "date": "2026-02-18",
+      "description": "DIRECT LINE HOME INS",
+      "amount": -238.0,
+      "balance": 264.71,
+      "_category": "bills:insurance",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00114",
+      "date": "2026-02-19",
+      "description": "TESCO EXPRESS 7097",
+      "amount": -6.52,
+      "balance": 258.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00115",
+      "date": "2026-02-20",
+      "description": "GREGGS 4678",
+      "amount": -8.88,
+      "balance": 249.31,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00116",
+      "date": "2026-02-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 214.31,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00117",
+      "date": "2026-02-21",
+      "description": "TESCO EXPRESS 3982",
+      "amount": -18.31,
+      "balance": 196.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00118",
+      "date": "2026-02-22",
+      "description": "TESCO EXPRESS 3795",
+      "amount": -13.62,
+      "balance": 182.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00119",
+      "date": "2026-02-27",
+      "description": "TESCO EXPRESS 8443",
+      "amount": -28.42,
+      "balance": 153.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00120",
+      "date": "2026-02-28",
+      "description": "M&S 4339",
+      "amount": -24.77,
+      "balance": 129.19,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00121",
+      "date": "2026-03-02",
+      "description": "DWP SP LD745122",
+      "amount": 964.4,
+      "balance": 1093.59,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00122",
+      "date": "2026-03-02",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1403.59,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00123",
+      "date": "2026-03-02",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 828.59,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00124",
+      "date": "2026-03-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 818.59,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00125",
+      "date": "2026-03-03",
+      "description": "TESCO EXPRESS 4890",
+      "amount": -11.33,
+      "balance": 807.26,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00126",
+      "date": "2026-03-05",
+      "description": "TESCO EXPRESS 4181",
+      "amount": -19.07,
+      "balance": 788.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00127",
+      "date": "2026-03-06",
+      "description": "CAFE 4309 MANCHESTER",
+      "amount": -12.86,
+      "balance": 775.33,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00128",
+      "date": "2026-03-08",
+      "description": "GREGGS 9547",
+      "amount": -4.35,
+      "balance": 770.98,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00129",
+      "date": "2026-03-08",
+      "description": "ALDI 1721 MANCHESTER",
+      "amount": -11.77,
+      "balance": 759.21,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00130",
+      "date": "2026-03-08",
+      "description": "CASH ATM 9155 MANCHESTER",
+      "amount": -34.84,
+      "balance": 724.37,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00131",
+      "date": "2026-03-09",
+      "description": "CO-OP GROUP 8689",
+      "amount": -14.4,
+      "balance": 709.97,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00132",
+      "date": "2026-03-09",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 663.97,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00133",
+      "date": "2026-03-10",
+      "description": "GREGGS 5280",
+      "amount": -2.82,
+      "balance": 661.15,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00134",
+      "date": "2026-03-13",
+      "description": "ALDI 3761 MANCHESTER",
+      "amount": -18.83,
+      "balance": 642.32,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00135",
+      "date": "2026-03-15",
+      "description": "TESCO EXPRESS 3480",
+      "amount": -13.14,
+      "balance": 629.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00136",
+      "date": "2026-03-16",
+      "description": "DD EDF ENERGY",
+      "amount": -150.0,
+      "balance": 479.18,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00137",
+      "date": "2026-03-17",
+      "description": "LLOYDS PHARMACY",
+      "amount": -9.63,
+      "balance": 469.55,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00138",
+      "date": "2026-03-18",
+      "description": "ALDI 4222 MANCHESTER",
+      "amount": -17.16,
+      "balance": 452.39,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00139",
+      "date": "2026-03-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 417.39,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00140",
+      "date": "2026-03-20",
+      "description": "CASH ATM 7162 MANCHESTER",
+      "amount": -38.03,
+      "balance": 379.36,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00141",
+      "date": "2026-03-21",
+      "description": "GREGGS 3519",
+      "amount": -11.21,
+      "balance": 368.15,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00142",
+      "date": "2026-03-21",
+      "description": "CO-OP GROUP 2041",
+      "amount": -20.54,
+      "balance": 347.61,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00143",
+      "date": "2026-03-24",
+      "description": "CASH ATM 4261 MANCHESTER",
+      "amount": -25.74,
+      "balance": 321.87,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00144",
+      "date": "2026-03-25",
+      "description": "GREGGS 4276",
+      "amount": -5.25,
+      "balance": 316.62,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00145",
+      "date": "2026-03-25",
+      "description": "CARD FACTORY 7393",
+      "amount": -15.45,
+      "balance": 301.17,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00146",
+      "date": "2026-03-25",
+      "description": "TESCO EXPRESS 2286",
+      "amount": -27.69,
+      "balance": 273.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00147",
+      "date": "2026-03-26",
+      "description": "CO-OP GROUP 9519",
+      "amount": -15.78,
+      "balance": 257.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00148",
+      "date": "2026-03-27",
+      "description": "CAFE 2706 MANCHESTER",
+      "amount": -4.74,
+      "balance": 252.96,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00149",
+      "date": "2026-03-29",
+      "description": "CASH ATM 1902 MANCHESTER",
+      "amount": -31.3,
+      "balance": 221.66,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00150",
+      "date": "2026-03-30",
+      "description": "DWP SP GH180544",
+      "amount": 964.4,
+      "balance": 1186.06,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00151",
+      "date": "2026-03-30",
+      "description": "WHSMITH 2359",
+      "amount": -16.19,
+      "balance": 1169.87,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00152",
+      "date": "2026-03-31",
+      "description": "CASH ATM 6345 MANCHESTER",
+      "amount": -37.61,
+      "balance": 1132.26,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00153",
+      "date": "2026-04-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1442.26,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00154",
+      "date": "2026-04-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1314.26,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00155",
+      "date": "2026-04-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 739.26,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00156",
+      "date": "2026-04-02",
+      "description": "GREGGS 9112",
+      "amount": -11.94,
+      "balance": 727.32,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00157",
+      "date": "2026-04-02",
+      "description": "ALDI 1485 MANCHESTER",
+      "amount": -16.91,
+      "balance": 710.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00158",
+      "date": "2026-04-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 700.41,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00159",
+      "date": "2026-04-05",
+      "description": "CAFE 8415 MANCHESTER",
+      "amount": -5.63,
+      "balance": 694.78,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00160",
+      "date": "2026-04-05",
+      "description": "TESCO EXPRESS 9607",
+      "amount": -6.09,
+      "balance": 688.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00161",
+      "date": "2026-04-06",
+      "description": "GREGGS 8895",
+      "amount": -3.79,
+      "balance": 684.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00162",
+      "date": "2026-04-08",
+      "description": "ALDI 1692 MANCHESTER",
+      "amount": -12.67,
+      "balance": 672.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00163",
+      "date": "2026-04-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 626.23,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00164",
+      "date": "2026-04-12",
+      "description": "ALDI 3494 MANCHESTER",
+      "amount": -6.44,
+      "balance": 619.79,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00165",
+      "date": "2026-04-13",
+      "description": "LLOYDS PHARMACY",
+      "amount": -4.8,
+      "balance": 614.99,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00166",
+      "date": "2026-04-14",
+      "description": "DD EDF ENERGY",
+      "amount": -78.0,
+      "balance": 536.99,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00167",
+      "date": "2026-04-16",
+      "description": "CASH ATM 5789 MANCHESTER",
+      "amount": -21.95,
+      "balance": 515.04,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00168",
+      "date": "2026-04-16",
+      "description": "ALDI 8728 MANCHESTER",
+      "amount": -27.24,
+      "balance": 487.8,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00169",
+      "date": "2026-04-18",
+      "description": "CAFE 7090 MANCHESTER",
+      "amount": -6.17,
+      "balance": 481.63,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00170",
+      "date": "2026-04-18",
+      "description": "BOOTS 3344",
+      "amount": -12.49,
+      "balance": 469.14,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00171",
+      "date": "2026-04-18",
+      "description": "TESCO EXPRESS 7746",
+      "amount": -18.91,
+      "balance": 450.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00172",
+      "date": "2026-04-19",
+      "description": "CO-OP GROUP 3030",
+      "amount": -27.38,
+      "balance": 422.85,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00173",
+      "date": "2026-04-20",
+      "description": "CASH ATM 6348 MANCHESTER",
+      "amount": -28.98,
+      "balance": 393.87,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00174",
+      "date": "2026-04-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 358.87,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00175",
+      "date": "2026-04-21",
+      "description": "CASH ATM 5747 MANCHESTER",
+      "amount": -29.36,
+      "balance": 329.51,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00176",
+      "date": "2026-04-22",
+      "description": "M&S 6746",
+      "amount": -29.39,
+      "balance": 300.12,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00177",
+      "date": "2026-04-23",
+      "description": "LLOYDS PHARMACY",
+      "amount": -10.68,
+      "balance": 289.44,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00178",
+      "date": "2026-04-24",
+      "description": "CAFE 3324 MANCHESTER",
+      "amount": -9.31,
+      "balance": 280.13,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00179",
+      "date": "2026-04-24",
+      "description": "CASH ATM 4574 MANCHESTER",
+      "amount": -38.87,
+      "balance": 241.26,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00180",
+      "date": "2026-04-27",
+      "description": "DWP SP UC663810",
+      "amount": 964.4,
+      "balance": 1205.66,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00181",
+      "date": "2026-04-27",
+      "description": "ALDI 2592 MANCHESTER",
+      "amount": -13.95,
+      "balance": 1191.71,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00182",
+      "date": "2026-05-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1501.71,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00183",
+      "date": "2026-05-01",
+      "description": "M&S 6810",
+      "amount": -17.61,
+      "balance": 1484.1,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00184",
+      "date": "2026-05-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1356.1,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00185",
+      "date": "2026-05-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 781.1,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00186",
+      "date": "2026-05-02",
+      "description": "CO-OP GROUP 6920",
+      "amount": -18.57,
+      "balance": 762.53,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00187",
+      "date": "2026-05-03",
+      "description": "CO-OP GROUP 4094",
+      "amount": -12.02,
+      "balance": 750.51,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00188",
+      "date": "2026-05-04",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 740.51,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00189",
+      "date": "2026-05-06",
+      "description": "TESCO EXPRESS 6493",
+      "amount": -12.44,
+      "balance": 728.07,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00190",
+      "date": "2026-05-08",
+      "description": "TESCO EXPRESS 5006",
+      "amount": -28.87,
+      "balance": 699.2,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00191",
+      "date": "2026-05-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 653.2,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00192",
+      "date": "2026-05-09",
+      "description": "BOOTS 5041",
+      "amount": -7.09,
+      "balance": 646.11,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00193",
+      "date": "2026-05-11",
+      "description": "GREGGS 9815",
+      "amount": -6.43,
+      "balance": 639.68,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00194",
+      "date": "2026-05-11",
+      "description": "ALDI 4178 MANCHESTER",
+      "amount": -28.58,
+      "balance": 611.1,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00195",
+      "date": "2026-05-12",
+      "description": "CO-OP GROUP 1207",
+      "amount": -9.64,
+      "balance": 601.46,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00196",
+      "date": "2026-05-14",
+      "description": "BOOTS 5328",
+      "amount": -9.48,
+      "balance": 591.98,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00197",
+      "date": "2026-05-14",
+      "description": "CO-OP GROUP 9230",
+      "amount": -14.98,
+      "balance": 577.0,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00198",
+      "date": "2026-05-14",
+      "description": "DD EDF ENERGY",
+      "amount": -78.0,
+      "balance": 499.0,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00199",
+      "date": "2026-05-17",
+      "description": "ALDI 4427 MANCHESTER",
+      "amount": -6.78,
+      "balance": 492.22,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00200",
+      "date": "2026-05-17",
+      "description": "BOOTS 5383",
+      "amount": -9.0,
+      "balance": 483.22,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00201",
+      "date": "2026-05-18",
+      "description": "GREGGS 6337",
+      "amount": -6.48,
+      "balance": 476.74,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00202",
+      "date": "2026-05-18",
+      "description": "TESCO EXPRESS 9970",
+      "amount": -17.47,
+      "balance": 459.27,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00203",
+      "date": "2026-05-20",
+      "description": "CAFE 7653 MANCHESTER",
+      "amount": -6.22,
+      "balance": 453.05,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00204",
+      "date": "2026-05-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 418.05,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00205",
+      "date": "2026-05-22",
+      "description": "TESCO EXPRESS 8803",
+      "amount": -16.67,
+      "balance": 401.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00206",
+      "date": "2026-05-23",
+      "description": "ALDI 9768 MANCHESTER",
+      "amount": -20.0,
+      "balance": 381.38,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00207",
+      "date": "2026-05-25",
+      "description": "DWP SP TK823018",
+      "amount": 964.4,
+      "balance": 1345.78,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00208",
+      "date": "2026-05-26",
+      "description": "CO-OP GROUP 8783",
+      "amount": -19.55,
+      "balance": 1326.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00209",
+      "date": "2026-05-28",
+      "description": "LLOYDS PHARMACY",
+      "amount": -14.85,
+      "balance": 1311.38,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00210",
+      "date": "2026-05-29",
+      "description": "ALDI 5806 MANCHESTER",
+      "amount": -16.56,
+      "balance": 1294.82,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00211",
+      "date": "2026-05-29",
+      "description": "CARD FACTORY 4961",
+      "amount": -17.28,
+      "balance": 1277.54,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00212",
+      "date": "2026-06-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1587.54,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00213",
+      "date": "2026-06-01",
+      "description": "CARD FACTORY 8773",
+      "amount": -6.48,
+      "balance": 1581.06,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00214",
+      "date": "2026-06-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1453.06,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00215",
+      "date": "2026-06-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 878.06,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00216",
+      "date": "2026-06-02",
+      "description": "TESCO EXPRESS 5284",
+      "amount": -9.34,
+      "balance": 868.72,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00217",
+      "date": "2026-06-02",
+      "description": "CASH ATM 7360 MANCHESTER",
+      "amount": -23.17,
+      "balance": 845.55,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00218",
+      "date": "2026-06-03",
+      "description": "CAFE 9222 MANCHESTER",
+      "amount": -6.65,
+      "balance": 838.9,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00219",
+      "date": "2026-06-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 828.9,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00220",
+      "date": "2026-06-07",
+      "description": "CAFE 9167 MANCHESTER",
+      "amount": -4.97,
+      "balance": 823.93,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00221",
+      "date": "2026-06-07",
+      "description": "LLOYDS PHARMACY",
+      "amount": -9.94,
+      "balance": 813.99,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00222",
+      "date": "2026-06-07",
+      "description": "ALDI 4321 MANCHESTER",
+      "amount": -17.4,
+      "balance": 796.59,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00223",
+      "date": "2026-06-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 750.59,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00224",
+      "date": "2026-06-09",
+      "description": "ALDI 3049 MANCHESTER",
+      "amount": -22.95,
+      "balance": 727.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00225",
+      "date": "2026-06-12",
+      "description": "CARD FACTORY 7864",
+      "amount": -4.22,
+      "balance": 723.42,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00226",
+      "date": "2026-06-12",
+      "description": "CASH ATM 6488 MANCHESTER",
+      "amount": -37.62,
+      "balance": 685.8,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00227",
+      "date": "2026-06-15",
+      "description": "DD EDF ENERGY",
+      "amount": -78.0,
+      "balance": 607.8,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00228",
+      "date": "2026-06-16",
+      "description": "CO-OP GROUP 8034",
+      "amount": -10.57,
+      "balance": 597.23,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00229",
+      "date": "2026-06-17",
+      "description": "BOOTS 2027",
+      "amount": -13.2,
+      "balance": 584.03,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00230",
+      "date": "2026-06-17",
+      "description": "CO-OP GROUP 6122",
+      "amount": -29.11,
+      "balance": 554.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00231",
+      "date": "2026-06-19",
+      "description": "TESCO EXPRESS 8436",
+      "amount": -15.73,
+      "balance": 539.19,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00232",
+      "date": "2026-06-20",
+      "description": "CO-OP GROUP 7928",
+      "amount": -14.26,
+      "balance": 524.93,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00233",
+      "date": "2026-06-21",
+      "description": "TESCO EXPRESS 9684",
+      "amount": -20.23,
+      "balance": 504.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00234",
+      "date": "2026-06-22",
+      "description": "DWP SP QQ935770",
+      "amount": 964.4,
+      "balance": 1469.1,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00235",
+      "date": "2026-06-22",
+      "description": "CO-OP GROUP 1559",
+      "amount": -22.79,
+      "balance": 1446.31,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00236",
+      "date": "2026-06-22",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 1411.31,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00237",
+      "date": "2026-06-23",
+      "description": "LLOYDS PHARMACY",
+      "amount": -4.76,
+      "balance": 1406.55,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00238",
+      "date": "2026-06-24",
+      "description": "TESCO EXPRESS 9806",
+      "amount": -20.94,
+      "balance": 1385.61,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00239",
+      "date": "2026-06-26",
+      "description": "ALDI 7847 MANCHESTER",
+      "amount": -46.92,
+      "balance": 1338.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00240",
+      "date": "2026-06-27",
+      "description": "CO-OP GROUP 3956",
+      "amount": -15.89,
+      "balance": 1322.8,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00241",
+      "date": "2026-06-27",
+      "description": "CASH ATM 5331 MANCHESTER",
+      "amount": -24.12,
+      "balance": 1298.68,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00242",
+      "date": "2026-07-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1608.68,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00243",
+      "date": "2026-07-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1480.68,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00244",
+      "date": "2026-07-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 905.68,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00245",
+      "date": "2026-07-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 895.68,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00246",
+      "date": "2026-07-04",
+      "description": "ALDI 1205 MANCHESTER",
+      "amount": -14.98,
+      "balance": 880.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00247",
+      "date": "2026-07-05",
+      "description": "CASH ATM 8544 MANCHESTER",
+      "amount": -31.57,
+      "balance": 849.13,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00248",
+      "date": "2026-07-06",
+      "description": "TESCO EXPRESS 2754",
+      "amount": -14.78,
+      "balance": 834.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00249",
+      "date": "2026-07-08",
+      "description": "TESCO EXPRESS 6284",
+      "amount": -11.1,
+      "balance": 823.25,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00250",
+      "date": "2026-07-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 777.25,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00251",
+      "date": "2026-07-10",
+      "description": "CO-OP GROUP 4063",
+      "amount": -20.47,
+      "balance": 756.78,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00252",
+      "date": "2026-07-10",
+      "description": "CASH ATM 9649 MANCHESTER",
+      "amount": -38.14,
+      "balance": 718.64,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00253",
+      "date": "2026-07-13",
+      "description": "TESCO EXPRESS 5389",
+      "amount": -10.34,
+      "balance": 708.3,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00254",
+      "date": "2026-07-14",
+      "description": "TESCO EXPRESS 9018",
+      "amount": -11.85,
+      "balance": 696.45,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00255",
+      "date": "2026-07-14",
+      "description": "DD EDF ENERGY",
+      "amount": -78.0,
+      "balance": 618.45,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00256",
+      "date": "2026-07-15",
+      "description": "ALDI 1323 MANCHESTER",
+      "amount": -11.62,
+      "balance": 606.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00257",
+      "date": "2026-07-15",
+      "description": "LLOYDS PHARMACY",
+      "amount": -21.82,
+      "balance": 585.01,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00258",
+      "date": "2026-07-17",
+      "description": "CAFE 2151 MANCHESTER",
+      "amount": -2.36,
+      "balance": 582.65,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00259",
+      "date": "2026-07-17",
+      "description": "TESCO EXPRESS 2396",
+      "amount": -24.71,
+      "balance": 557.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00260",
+      "date": "2026-07-18",
+      "description": "CAFE 8559 MANCHESTER",
+      "amount": -4.77,
+      "balance": 553.17,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00261",
+      "date": "2026-07-18",
+      "description": "TESCO EXPRESS 9621",
+      "amount": -14.18,
+      "balance": 538.99,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00262",
+      "date": "2026-07-18",
+      "description": "CASH ATM 1570 MANCHESTER",
+      "amount": -27.7,
+      "balance": 511.29,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00263",
+      "date": "2026-07-19",
+      "description": "ALDI 7365 MANCHESTER",
+      "amount": -18.63,
+      "balance": 492.66,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00264",
+      "date": "2026-07-20",
+      "description": "DWP SP ZC394619",
+      "amount": 964.4,
+      "balance": 1457.06,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00265",
+      "date": "2026-07-20",
+      "description": "CO-OP GROUP 4512",
+      "amount": -9.54,
+      "balance": 1447.52,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00266",
+      "date": "2026-07-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 1412.52,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00267",
+      "date": "2026-07-21",
+      "description": "CO-OP GROUP 3707",
+      "amount": -11.35,
+      "balance": 1401.17,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00268",
+      "date": "2026-07-23",
+      "description": "LLOYDS PHARMACY",
+      "amount": -4.5,
+      "balance": 1396.67,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00269",
+      "date": "2026-07-23",
+      "description": "ALDI 1826 MANCHESTER",
+      "amount": -20.99,
+      "balance": 1375.68,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00270",
+      "date": "2026-07-25",
+      "description": "TESCO EXPRESS 7768",
+      "amount": -8.52,
+      "balance": 1367.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00271",
+      "date": "2026-07-26",
+      "description": "BOOTS 2186",
+      "amount": -7.01,
+      "balance": 1360.15,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00272",
+      "date": "2026-07-26",
+      "description": "CO-OP GROUP 1180",
+      "amount": -27.49,
+      "balance": 1332.66,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00273",
+      "date": "2026-07-27",
+      "description": "CO-OP GROUP 8536",
+      "amount": -11.49,
+      "balance": 1321.17,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00274",
+      "date": "2026-07-29",
+      "description": "ALDI 5309 MANCHESTER",
+      "amount": -12.75,
+      "balance": 1308.42,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00275",
+      "date": "2026-07-30",
+      "description": "GREGGS 3996",
+      "amount": -2.76,
+      "balance": 1305.66,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00276",
+      "date": "2026-07-30",
+      "description": "ALDI 1416 MANCHESTER",
+      "amount": -36.62,
+      "balance": 1269.04,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00277",
+      "date": "2026-08-01",
+      "description": "GREGGS 8833",
+      "amount": -8.53,
+      "balance": 1260.51,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00278",
+      "date": "2026-08-01",
+      "description": "CARD FACTORY 1874",
+      "amount": -18.56,
+      "balance": 1241.95,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00279",
+      "date": "2026-08-02",
+      "description": "GREGGS 3171",
+      "amount": -6.24,
+      "balance": 1235.71,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00280",
+      "date": "2026-08-03",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1545.71,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00281",
+      "date": "2026-08-03",
+      "description": "CO-OP GROUP 6799",
+      "amount": -9.81,
+      "balance": 1535.9,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00282",
+      "date": "2026-08-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 1525.9,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00283",
+      "date": "2026-08-03",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1397.9,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00284",
+      "date": "2026-08-03",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 822.9,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00285",
+      "date": "2026-08-04",
+      "description": "CO-OP GROUP 3212",
+      "amount": -10.88,
+      "balance": 812.02,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00286",
+      "date": "2026-08-05",
+      "description": "TESCO EXPRESS 1946",
+      "amount": -12.68,
+      "balance": 799.34,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00287",
+      "date": "2026-08-06",
+      "description": "ALDI 8391 MANCHESTER",
+      "amount": -8.64,
+      "balance": 790.7,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00288",
+      "date": "2026-08-06",
+      "description": "BOOTS 8008",
+      "amount": -11.62,
+      "balance": 779.08,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00289",
+      "date": "2026-08-08",
+      "description": "TESCO EXPRESS 6765",
+      "amount": -6.6,
+      "balance": 772.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00290",
+      "date": "2026-08-09",
+      "description": "CO-OP GROUP 2363",
+      "amount": -22.0,
+      "balance": 750.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00291",
+      "date": "2026-08-10",
+      "description": "CASH ATM 9010 MANCHESTER",
+      "amount": -28.82,
+      "balance": 721.66,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00292",
+      "date": "2026-08-10",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 675.66,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00293",
+      "date": "2026-08-11",
+      "description": "CO-OP GROUP 9066",
+      "amount": -21.16,
+      "balance": 654.5,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00294",
+      "date": "2026-08-14",
+      "description": "DD EDF ENERGY",
+      "amount": -78.0,
+      "balance": 576.5,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00295",
+      "date": "2026-08-17",
+      "description": "DWP SP LY917749",
+      "amount": 964.4,
+      "balance": 1540.9,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00296",
+      "date": "2026-08-18",
+      "description": "CO-OP GROUP 9644",
+      "amount": -9.59,
+      "balance": 1531.31,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00297",
+      "date": "2026-08-19",
+      "description": "CAFE 8217 MANCHESTER",
+      "amount": -8.77,
+      "balance": 1522.54,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00298",
+      "date": "2026-08-20",
+      "description": "CO-OP GROUP 3744",
+      "amount": -17.64,
+      "balance": 1504.9,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00299",
+      "date": "2026-08-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 1469.9,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00300",
+      "date": "2026-08-21",
+      "description": "LLOYDS PHARMACY",
+      "amount": -7.68,
+      "balance": 1462.22,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00301",
+      "date": "2026-08-21",
+      "description": "ALDI 5307 MANCHESTER",
+      "amount": -59.82,
+      "balance": 1402.4,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00302",
+      "date": "2026-08-25",
+      "description": "TESCO EXPRESS 7564",
+      "amount": -33.57,
+      "balance": 1368.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00303",
+      "date": "2026-08-26",
+      "description": "CO-OP GROUP 2022",
+      "amount": -13.54,
+      "balance": 1355.29,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00304",
+      "date": "2026-08-27",
+      "description": "TESCO EXPRESS 7946",
+      "amount": -23.82,
+      "balance": 1331.47,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00305",
+      "date": "2026-08-28",
+      "description": "BOOTS 2260",
+      "amount": -8.42,
+      "balance": 1323.05,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00306",
+      "date": "2026-08-29",
+      "description": "BOOTS 8321",
+      "amount": -13.16,
+      "balance": 1309.89,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00307",
+      "date": "2026-08-30",
+      "description": "ALDI 1886 MANCHESTER",
+      "amount": -15.62,
+      "balance": 1294.27,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00308",
+      "date": "2026-09-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1604.27,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00309",
+      "date": "2026-09-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1476.27,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00310",
+      "date": "2026-09-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 901.27,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00311",
+      "date": "2026-09-02",
+      "description": "BOILER SERVICE MCR",
+      "amount": -95.0,
+      "balance": 806.27,
+      "_category": "home:maintenance",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00312",
+      "date": "2026-09-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 796.27,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00313",
+      "date": "2026-09-05",
+      "description": "CAFE 1011 MANCHESTER",
+      "amount": -5.03,
+      "balance": 791.24,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00314",
+      "date": "2026-09-06",
+      "description": "GREGGS 2079",
+      "amount": -4.31,
+      "balance": 786.93,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00315",
+      "date": "2026-09-06",
+      "description": "TESCO EXPRESS 8417",
+      "amount": -24.67,
+      "balance": 762.26,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00316",
+      "date": "2026-09-07",
+      "description": "BOOTS 1522",
+      "amount": -8.01,
+      "balance": 754.25,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00317",
+      "date": "2026-09-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 708.25,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00318",
+      "date": "2026-09-10",
+      "description": "GREGGS 8634",
+      "amount": -3.87,
+      "balance": 704.38,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00319",
+      "date": "2026-09-11",
+      "description": "ALDI 6481 MANCHESTER",
+      "amount": -15.55,
+      "balance": 688.83,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00320",
+      "date": "2026-09-12",
+      "description": "ALDI 1656 MANCHESTER",
+      "amount": -10.84,
+      "balance": 677.99,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00321",
+      "date": "2026-09-13",
+      "description": "GREGGS 5580",
+      "amount": -11.64,
+      "balance": 666.35,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00322",
+      "date": "2026-09-14",
+      "description": "DWP SP KZ436857",
+      "amount": 964.4,
+      "balance": 1630.75,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00323",
+      "date": "2026-09-14",
+      "description": "CASH ATM 3947 MANCHESTER",
+      "amount": -25.18,
+      "balance": 1605.57,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00324",
+      "date": "2026-09-14",
+      "description": "DD EDF ENERGY",
+      "amount": -78.0,
+      "balance": 1527.57,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00325",
+      "date": "2026-09-15",
+      "description": "BOOTS 7038",
+      "amount": -8.15,
+      "balance": 1519.42,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00326",
+      "date": "2026-09-15",
+      "description": "CASH ATM 2006 MANCHESTER",
+      "amount": -27.99,
+      "balance": 1491.43,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00327",
+      "date": "2026-09-21",
+      "description": "TESCO EXPRESS 1452",
+      "amount": -21.02,
+      "balance": 1470.41,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00328",
+      "date": "2026-09-21",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 1435.41,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00329",
+      "date": "2026-09-22",
+      "description": "BOOTS 8005",
+      "amount": -7.98,
+      "balance": 1427.43,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00330",
+      "date": "2026-09-22",
+      "description": "CO-OP GROUP 6155",
+      "amount": -10.32,
+      "balance": 1417.11,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00331",
+      "date": "2026-09-25",
+      "description": "LLOYDS PHARMACY",
+      "amount": -6.38,
+      "balance": 1410.73,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00332",
+      "date": "2026-09-26",
+      "description": "CO-OP GROUP 5258",
+      "amount": -24.09,
+      "balance": 1386.64,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00333",
+      "date": "2026-09-28",
+      "description": "GREGGS 2704",
+      "amount": -9.55,
+      "balance": 1377.09,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00334",
+      "date": "2026-09-28",
+      "description": "LLOYDS PHARMACY",
+      "amount": -10.59,
+      "balance": 1366.5,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00335",
+      "date": "2026-09-28",
+      "description": "CASH ATM 6520 MANCHESTER",
+      "amount": -26.52,
+      "balance": 1339.98,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00336",
+      "date": "2026-09-29",
+      "description": "LLOYDS PHARMACY",
+      "amount": -7.21,
+      "balance": 1332.77,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00337",
+      "date": "2026-09-29",
+      "description": "TESCO EXPRESS 2491",
+      "amount": -7.85,
+      "balance": 1324.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00338",
+      "date": "2026-09-30",
+      "description": "CASH ATM 1707 MANCHESTER",
+      "amount": -26.53,
+      "balance": 1298.39,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00339",
+      "date": "2026-10-01",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1608.39,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00340",
+      "date": "2026-10-01",
+      "description": "CO-OP GROUP 6939",
+      "amount": -15.46,
+      "balance": 1592.93,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00341",
+      "date": "2026-10-01",
+      "description": "CASH ATM 1027 MANCHESTER",
+      "amount": -27.55,
+      "balance": 1565.38,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00342",
+      "date": "2026-10-01",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1437.38,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00343",
+      "date": "2026-10-01",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 862.38,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00344",
+      "date": "2026-10-02",
+      "description": "CO-OP GROUP 7659",
+      "amount": -14.22,
+      "balance": 848.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00345",
+      "date": "2026-10-03",
+      "description": "ALDI 1044 MANCHESTER",
+      "amount": -17.0,
+      "balance": 831.16,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00346",
+      "date": "2026-10-04",
+      "description": "TESCO EXPRESS 3183",
+      "amount": -15.22,
+      "balance": 815.94,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00347",
+      "date": "2026-10-05",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 805.94,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00348",
+      "date": "2026-10-06",
+      "description": "CO-OP GROUP 6056",
+      "amount": -20.05,
+      "balance": 785.89,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00349",
+      "date": "2026-10-08",
+      "description": "TESCO EXPRESS 1426",
+      "amount": -18.71,
+      "balance": 767.18,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00350",
+      "date": "2026-10-08",
+      "description": "DD BT GROUP PLC",
+      "amount": -46.0,
+      "balance": 721.18,
+      "_category": "bills:phone",
+      "_recurring_id": "phone_broadband"
+    },
+    {
+      "id": "margaret-00351",
+      "date": "2026-10-10",
+      "description": "CO-OP GROUP 5628",
+      "amount": -10.69,
+      "balance": 710.49,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00352",
+      "date": "2026-10-10",
+      "description": "CASH ATM 3192 MANCHESTER",
+      "amount": -35.08,
+      "balance": 675.41,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00353",
+      "date": "2026-10-11",
+      "description": "ALDI 4248 MANCHESTER",
+      "amount": -17.8,
+      "balance": 657.61,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00354",
+      "date": "2026-10-12",
+      "description": "DWP SP ZU746766",
+      "amount": 964.4,
+      "balance": 1622.01,
+      "_category": "income:pension",
+      "_recurring_id": "state_pension"
+    },
+    {
+      "id": "margaret-00355",
+      "date": "2026-10-12",
+      "description": "TESCO EXPRESS 3518",
+      "amount": -32.66,
+      "balance": 1589.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00356",
+      "date": "2026-10-13",
+      "description": "TESCO EXPRESS 5900",
+      "amount": -13.43,
+      "balance": 1575.92,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00357",
+      "date": "2026-10-14",
+      "description": "TESCO EXPRESS 8922",
+      "amount": -9.44,
+      "balance": 1566.48,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00358",
+      "date": "2026-10-14",
+      "description": "DD EDF ENERGY",
+      "amount": -120.0,
+      "balance": 1446.48,
+      "_category": "bills:energy",
+      "_recurring_id": "energy"
+    },
+    {
+      "id": "margaret-00359",
+      "date": "2026-10-17",
+      "description": "CO-OP GROUP 9290",
+      "amount": -19.59,
+      "balance": 1426.89,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00360",
+      "date": "2026-10-20",
+      "description": "TESCO EXPRESS 3864",
+      "amount": -28.63,
+      "balance": 1398.26,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00361",
+      "date": "2026-10-20",
+      "description": "DD UNITED UTILITIES",
+      "amount": -35.0,
+      "balance": 1363.26,
+      "_category": "bills:water",
+      "_recurring_id": "water"
+    },
+    {
+      "id": "margaret-00362",
+      "date": "2026-10-21",
+      "description": "CAFE 6045 MANCHESTER",
+      "amount": -7.53,
+      "balance": 1355.73,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00363",
+      "date": "2026-10-23",
+      "description": "GREGGS 3013",
+      "amount": -4.67,
+      "balance": 1351.06,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00364",
+      "date": "2026-10-23",
+      "description": "WHSMITH 3106",
+      "amount": -12.62,
+      "balance": 1338.44,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00365",
+      "date": "2026-10-23",
+      "description": "TESCO EXPRESS 3237",
+      "amount": -14.48,
+      "balance": 1323.96,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00366",
+      "date": "2026-10-24",
+      "description": "CAFE 2064 MANCHESTER",
+      "amount": -7.62,
+      "balance": 1316.34,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00367",
+      "date": "2026-10-24",
+      "description": "ALDI 4929 MANCHESTER",
+      "amount": -12.84,
+      "balance": 1303.5,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00368",
+      "date": "2026-10-25",
+      "description": "CAFE 3341 MANCHESTER",
+      "amount": -6.59,
+      "balance": 1296.91,
+      "_category": "eating_out",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00369",
+      "date": "2026-10-25",
+      "description": "TESCO EXPRESS 6133",
+      "amount": -15.56,
+      "balance": 1281.35,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00370",
+      "date": "2026-10-26",
+      "description": "CO-OP GROUP 6810",
+      "amount": -11.83,
+      "balance": 1269.52,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00371",
+      "date": "2026-10-27",
+      "description": "ALDI 6223 MANCHESTER",
+      "amount": -16.83,
+      "balance": 1252.69,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00372",
+      "date": "2026-10-27",
+      "description": "CASH ATM 7559 MANCHESTER",
+      "amount": -27.94,
+      "balance": 1224.75,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00373",
+      "date": "2026-10-29",
+      "description": "CASH ATM 9150 MANCHESTER",
+      "amount": -28.3,
+      "balance": 1196.45,
+      "_category": "cash",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00374",
+      "date": "2026-10-30",
+      "description": "CO-OP GROUP 4070",
+      "amount": -11.54,
+      "balance": 1184.91,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00375",
+      "date": "2026-10-31",
+      "description": "BOOTS 7443",
+      "amount": -7.34,
+      "balance": 1177.57,
+      "_category": "health_shop",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00376",
+      "date": "2026-10-31",
+      "description": "TESCO EXPRESS 6103",
+      "amount": -7.89,
+      "balance": 1169.68,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00377",
+      "date": "2026-11-01",
+      "description": "CO-OP GROUP 5139",
+      "amount": -9.43,
+      "balance": 1160.25,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00378",
+      "date": "2026-11-02",
+      "description": "AVIVA PENSION",
+      "amount": 310.0,
+      "balance": 1470.25,
+      "_category": "income:pension",
+      "_recurring_id": "private_pension"
+    },
+    {
+      "id": "margaret-00379",
+      "date": "2026-11-02",
+      "description": "WHSMITH 4244",
+      "amount": -6.61,
+      "balance": 1463.64,
+      "_category": "gifts",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00380",
+      "date": "2026-11-02",
+      "description": "TESCO EXPRESS 1643",
+      "amount": -25.17,
+      "balance": 1438.47,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00381",
+      "date": "2026-11-02",
+      "description": "DD MANCHESTER CITY COUNCIL",
+      "amount": -128.0,
+      "balance": 1310.47,
+      "_category": "bills:council_tax",
+      "_recurring_id": "council_tax"
+    },
+    {
+      "id": "margaret-00382",
+      "date": "2026-11-02",
+      "description": "SO RIVERSIDE HOUSING",
+      "amount": -575.0,
+      "balance": 735.47,
+      "_category": "housing:rent",
+      "_recurring_id": "rent"
+    },
+    {
+      "id": "margaret-00383",
+      "date": "2026-11-03",
+      "description": "TESCO EXPRESS 3536",
+      "amount": -8.9,
+      "balance": 726.57,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00384",
+      "date": "2026-11-03",
+      "description": "DD AGE UK",
+      "amount": -10.0,
+      "balance": 716.57,
+      "_category": "charity",
+      "_recurring_id": "charity"
+    },
+    {
+      "id": "margaret-00385",
+      "date": "2026-11-06",
+      "description": "TESCO EXPRESS 5864",
+      "amount": -13.77,
+      "balance": 702.8,
+      "_category": "groceries",
+      "_recurring_id": null
+    },
+    {
+      "id": "margaret-00386",
+      "date": "2026-11-07",
+      "description": "GREGGS 2628",
+      "amount": -7.91,
+      "balance": 694.89,
+      "_category": "eating_out",
+      "_recurring_id": null
+    }
+  ]
+}

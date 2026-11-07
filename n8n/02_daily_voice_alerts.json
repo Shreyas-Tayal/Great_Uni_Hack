@@ -12,7 +12,7 @@
           ]
         }
       },
-      "id": "3981c08a-5579-4ac7-9846-a50ed7707c9d",
+      "id": "41fba8c5-d197-453a-bbfd-467c8d2bf83c",
       "name": "Every morning 8am",
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
@@ -23,7 +23,7 @@
     },
     {
       "parameters": {},
-      "id": "0e4c95d8-7340-400c-85c4-42ebc50e1c11",
+      "id": "3d53b1a6-a9e0-4293-a1b5-e80a472067a5",
       "name": "Run now (demo)",
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
@@ -36,7 +36,7 @@
       "parameters": {
         "jsCode": "// HACKATHON CONFIG - paste values here inside n8n. Never commit real keys to git.\nconst body = $input.first().json.body || {};\nreturn [{ json: {\n  ENGINE_URL: 'https://YOUR-ENGINE-TUNNEL.trycloudflare.com',   // cloudflared tunnel --url http://localhost:8000\n  ANTHROPIC_API_KEY: 'PASTE_KEY',\n  LLM_MODEL: 'claude-haiku-5-5',            // fast + cheap; swap to claude-sonnet-5-5 for nicer prose\n  ELEVEN_API_KEY: 'PASTE_KEY',\n  ELEVEN_VOICE_ID: 'PASTE_VOICE_ID',        // ElevenLabs -> Voices -> copy voice ID\n  ELEVEN_MODEL: 'eleven_multilingual_v2',   // multilingual: same voice speaks Urdu, Polish, etc.\n  TELEGRAM_CHAT_ID: 'PASTE_CHAT_ID',\n  req: body,\n}}];"
       },
-      "id": "93781036-a338-4f04-81d7-0fc93e54c6c0",
+      "id": "7dc02450-d12f-4ed7-a7b8-0259a983f4e1",
       "name": "Config",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -51,20 +51,23 @@
         "url": "={{ $json.ENGINE_URL }}/profiles",
         "options": {}
       },
-      "id": "f0fd3895-764d-403d-9d75-c7a3a6ceaf2e",
+      "id": "57800afd-45e4-49c8-a4ba-7bdc9e6ea298",
       "name": "Engine profiles",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         440,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
         "jsCode": "return $input.first().json.profiles.map(p => ({ json: { profile_id: p.profile_id, name: p.name, mode: p.mode } }));"
       },
-      "id": "9c579a32-d1e4-42f9-a9b1-d2f2cbedb832",
+      "id": "c603ee98-0a63-42cc-8082-fa9cea22f2c6",
       "name": "Split profiles",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -82,20 +85,23 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify({ profile_id: $json.profile_id, days: 60 }) }}"
       },
-      "id": "7596d1fd-ecd7-434d-bb5c-a42e890015d2",
+      "id": "52d5a4f4-395e-4f0d-9e21-5c4a2b805b95",
       "name": "Engine forecast",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         880,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
         "jsCode": "// Keep only profiles with an alert; write the voice-note script (deterministic, no LLM needed)\nconst out = [];\nfor (const [i, item] of $input.all().entries()) {\n  const f = item.json;\n  const who = $('Split profiles').all()[i].json;\n  const a = f.alerts?.[0];\n  if (!a) continue;\n  const chance = Math.round(a.p_negative * 10);\n  const fix = a.actions?.[0];\n  const when = new Date(a.peak_date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long' });\n  let text;\n  if (f.mode === 'business') {\n    text = `Good morning ${who.name}. Your cash runway is ${f.hero.value ?? 'healthy'} weeks. ` +\n           `Heads up for ${when}: ${a.title.toLowerCase()}. In ${chance} out of 10 futures we simulated, cash dips below zero. ` +\n           (fix ? `Best fix: ${fix.label.toLowerCase()}. That cuts the risk to ${Math.round(fix.new_p_negative * 10)} in 10.` : '');\n  } else {\n    text = `Hi ${who.name}, a quick heads up. Around ${when}, there's a ${chance} in 10 chance your balance goes below zero. ` +\n           (fix ? `If you ${fix.label.charAt(0).toLowerCase() + fix.label.slice(1)}, that drops to ${Math.round(fix.new_p_negative * 10)} in 10. ` : '') +\n           `Open Foresight to see the details.`;\n  }\n  out.push({ json: { profile_id: who.profile_id, text, caption: `${who.name}: ${a.title}`,\n                     tts_body: { text, model_id: $('Config').first().json.ELEVEN_MODEL } } });\n}\nreturn out;"
       },
-      "id": "731c0895-4a28-4f0a-ac62-179901e52ee2",
+      "id": "0106531a-c46a-49c7-a270-62512fedbe86",
       "name": "Alerts only",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -128,14 +134,17 @@
         "specifyBody": "json",
         "jsonBody": "={{ JSON.stringify($json.tts_body) }}"
       },
-      "id": "ebabdfaf-d867-4061-af85-8e24c005c0fd",
+      "id": "d80ac94c-b914-48a7-99f0-90189e04c0c4",
       "name": "ElevenLabs TTS",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
         1320,
         300
-      ]
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000
     },
     {
       "parameters": {
@@ -147,7 +156,7 @@
           "caption": "={{ $('Alerts only').item.json.caption }}"
         }
       },
-      "id": "387dc231-6eee-4883-a0cd-0dc85de4e9c8",
+      "id": "2c611d56-ea35-4529-8359-42907dd799af",
       "name": "Telegram voice note",
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,

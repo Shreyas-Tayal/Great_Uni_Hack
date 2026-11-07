@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Foresight: a personal AI accountant that looks 90 days ahead and handles the money admin for you." />
+    <title>Foresight · your AI accountant</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script>
+      try { var t = localStorage.getItem("fs-theme"); if (t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches)) { document.documentElement.dataset.theme = "dark"; document.documentElement.classList.add("dark"); } } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

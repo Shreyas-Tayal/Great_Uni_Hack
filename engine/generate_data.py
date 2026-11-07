@@ -366,7 +366,7 @@ def build_corner_cup(L: Ledger, invoices: list[dict]):
               "staff:payroll", "payroll", shift="prev")
     L.monthly(22, "HMRC PAYE CUMBERNAULD", -1720.00, "tax:paye", "paye")
     # Owner raised drawings in September (cost-of-living) -> squeezes cash going into winter
-    L.monthly(1, "TRANSFER TO OWNER", lambda d: -3500.00 if d >= date(2026, 9, 1) else -1500.00,
+    L.monthly(1, "TRANSFER TO OWNER", lambda d: -2900.00 if d >= date(2026, 9, 1) else -1500.00,
               "owner:drawings", "drawings")
     L.weekly_on({1}, "BEAN AND LEAF ROASTERS", lambda d: -round(gauss_pos(r, 380, 40) * season[d.month], 2),
                 "cogs:coffee", "coffee_supplier")
@@ -445,9 +445,69 @@ def build_lumen_labs(L: Ledger, invoices: list[dict]):
                         "income_type": "Stripe subscriptions + enterprise invoices"}}
 
 
+
+
+def build_margaret(L: Ledger):
+    """Pensioner living alone: 4-weekly state pension, small private pension, winter energy + January bills."""
+    r = L.rng
+    L.every(date(2025, 11, 10), 28, "DWP SP {ref}", 964.40, "income:pension", "state_pension")
+    L.monthly(1, "AVIVA PENSION", 310.00, "income:pension", "private_pension")
+    L.monthly(1, "SO RIVERSIDE HOUSING", -575.00, "housing:rent", "rent")
+    L.monthly(1, "DD MANCHESTER CITY COUNCIL", -128.00, "bills:council_tax", "council_tax",
+              months={4, 5, 6, 7, 8, 9, 10, 11, 12, 1})
+    # Smart-meter energy: big winter bills, small summer ones
+    L.monthly(14, "DD EDF ENERGY", lambda d: -{11: 175.0, 12: 215.0, 1: 238.0, 2: 205.0, 3: 150.0, 10: 120.0}.get(d.month, 78.0),
+              "bills:energy", "energy")
+    L.monthly(20, "DD UNITED UTILITIES", -35.00, "bills:water", "water")
+    L.monthly(8, "DD BT GROUP PLC", -46.00, "bills:phone", "phone_broadband")
+    L.monthly(3, "DD AGE UK", -10.00, "charity", "charity")
+    L.once(date(2026, 1, 12), "TV LICENCE MBP", -174.50, "bills:tv_licence")
+    L.once(date(2025, 12, 1), "TV LICENCE MBP", -169.50, "bills:tv_licence")
+    L.once(date(2026, 2, 18), "DIRECT LINE HOME INS", -238.00, "bills:insurance")
+    L.spend(["CO-OP GROUP {n}", "TESCO EXPRESS {n}", "ALDI {n} MANCHESTER"], "groceries", 0.45, 17, 0.4)
+    L.spend(["BOOTS {n}", "LLOYDS PHARMACY"], "health_shop", 0.08, 9, 0.4)
+    L.spend(["CAFE {n} MANCHESTER", "GREGGS {n}"], "eating_out", 0.12, 6, 0.4)
+    L.spend(["CARD FACTORY {n}", "WHSMITH {n}", "M&S {n}"], "gifts", 0.05, 15, 0.5, month_mult={12: 3.5})
+    L.spend(["CASH ATM {n} MANCHESTER"], "cash", 0.10, 30, 0.2)
+    L.once(date(2026, 9, 2), "BOILER SERVICE MCR", -95.00, "home:maintenance")
+    return {"name": "Margaret", "mode": "personal", "opening_balance": 520.00,
+            "tagline": "Retired, living alone on her pensions; winter bills bite",
+            "persona": {"household": "1 adult, 78", "income_type": "state + private pension",
+                        "pay_cycle": "state pension every 4 weeks, private pension monthly"}}
+
+
+def build_fixit(L: Ledger, invoices: list[dict]):
+    """Sole-trader plumber: winter boom, summer lull, van finance, January self-assessment."""
+    r = L.rng
+    season = {1: 1.25, 2: 1.2, 3: 1.0, 4: 0.9, 5: 0.85, 6: 0.75, 7: 0.7, 8: 0.7, 9: 0.9, 10: 1.15, 11: 1.35, 12: 1.15}
+    L.weekly_on({0, 1, 2, 3, 4}, "SUMUP PAYOUT {ref}",
+                lambda d: round(gauss_pos(r, 265, 110, 40) * season[d.month], 2) if r.random() < 0.72 else None,
+                "income:card_takings", "jobs")
+    for y, m in month_iter(L.start - timedelta(days=100), L.end):
+        invoice_flow(L, invoices, "Northside Lettings", next_wd(dom(y, m, 1)), gauss_pos(r, 1750, 250, 900), 30,
+                     r.choice([0, 6, 12, 19, 27, 40]), "NORTHSIDE LETTINGS LTD", "lettings_invoices")
+    L.monthly(5, "DD VW FINANCIAL SERVICES", -389.00, "vehicle:finance", "van_finance")
+    L.monthly(12, "DD HISCOX INSURANCE", -48.00, "overheads:insurance", "insurance")
+    L.monthly(18, "DD EE LIMITED", -32.00, "overheads:telecoms", "phone")
+    L.monthly(21, "TRADIFY", -39.00, "overheads:software", "tradify", shift="none")
+    L.monthly(25, "DD TAXASSIST ACCOUNTANTS", -95.00, "overheads:accountant", "accountant")
+    L.weekly_on({4}, "TRANSFER TO OWNER", -560.00, "owner:drawings", "drawings")
+    L.spend(["SHELL {n}", "BP {n}", "ESSO {n}"], "vehicle:fuel", 0.35, 48, 0.3)
+    L.spend(["PLUMB CENTER {n}", "SCREWFIX {n}", "CITY PLUMBING {n}"], "cogs:materials", 0.45, 95, 0.6,
+            month_mult={k: v for k, v in season.items()})
+    L.spend(["GREGGS {n}", "COSTA COFFEE {n}"], "subsistence", 0.4, 7, 0.4)
+    L.once(prev_wd(date(2026, 1, 31)), "HMRC SELF ASSESSMENT", -5600.00, "tax:self_assessment")
+    L.once(prev_wd(date(2026, 7, 31)), "HMRC SELF ASSESSMENT", -2450.00, "tax:self_assessment")
+    L.once(date(2026, 6, 9), "VAN SERVICE CENTRE MCR", -640.00, "shock:vehicle")
+    return {"name": "Fixit Plumbing", "mode": "business", "opening_balance": 3300.00,
+            "tagline": "Sole-trader plumber: busy winters, quiet summers, a big January tax bill",
+            "persona": {"sector": "trades", "staff": 1, "income_type": "card payments + letting-agency invoices",
+                        "vat": "not registered", "tax": "self-assessment Jan + Jul"}}
+
+
 PROFILES = {
-    "amara": build_amara, "jay": build_jay, "sam": build_sam,
-    "corner_cup": build_corner_cup, "lumen_labs": build_lumen_labs,
+    "amara": build_amara, "sam": build_sam, "margaret": build_margaret, "jay": build_jay,
+    "corner_cup": build_corner_cup, "fixit_plumbing": build_fixit, "lumen_labs": build_lumen_labs,
 }
 
 

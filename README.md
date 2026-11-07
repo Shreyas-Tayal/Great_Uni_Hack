@@ -1,64 +1,75 @@
-# Foresight: an AI accountant that sees your money 90 days early
+# Foresight: a personal AI accountant that sees your money 90 days early
 
-AI-first UI for personal and small-business finances. Ask in plain words (or by voice);
-the accountant answers with charts, risk and one-tap fixes, grounded in a Monte Carlo forecast.
+A chat-first AI accountant for personal and small-business finances. It opens with a briefing on what it has spotted,
+answers in plain words (or by voice) with charts and risk, and handles the follow-through: you approve a fix and it
+updates your plan, drafts the letter or reminder, and tracks what is left to do. Every number comes from a Monte Carlo forecast.
+Built for GreatUniHack 2026, NatWest challenge: AI-Powered Financial Inclusion & Resilience.
+
+## Folder structure
 
 ```
 foresight/
-├── contracts/            ← READ FIRST. The shared API + block contract. Change only by agreement.
-├── data/profiles/        ← 5 synthetic demo accounts (generated, deterministic)
-├── engine/               ← Person 1: Python forecast engine + FastAPI
-├── n8n/                  ← Person 3: importable workflows (chat, voice alerts, invoice chaser, email)
-└── frontend/             ← Person 2: React components for Lovable (+ LOVABLE_PROMPT.md)
+├── README.md                  ← you are here
+├── FINAL_SETUP.md             ← step-by-step: engine → AI chat → web app → ElevenLabs → n8n, with tests + demo script
+├── contracts/
+│   ├── CONTRACT.md            ← shared API, adjustments and chat-block contract (read first)
+│   └── rehearsal_agent_prompt.md   ← ElevenLabs "Practise the call" agent prompt
+├── data/profiles/             ← 7 synthetic demo accounts + index.json (generated, deterministic)
+├── engine/                    ← Python forecast engine + FastAPI
+│   ├── main.py                ← API: /profiles, /profiles/{id}/summary, /forecast, /simulate, /chat
+│   ├── generate_data.py       ← builds data/profiles
+│   ├── requirements.txt
+│   └── foresight/
+│       ├── recurring.py       ← detects bills/income from raw bank text
+│       ├── engine.py          ← Monte Carlo forecast, alerts, ranked fixes
+│       ├── accountant.py      ← the AI accountant behind /chat (Claude; prompt, facts, blocks)
+│       └── modes.py           ← personal vs business settings and categories
+├── n8n/                       ← importable workflows (chat, voice alerts, invoice chaser, send email)
+│   └── build_workflows.py     ← regenerates the workflow JSON
+└── frontend/                  ← the chat-first web app (Vite + React + TypeScript + Tailwind)
+    ├── package.json, vite.config.ts, index.html, .env.example
+    └── src/
+        ├── pages/Index.tsx     ← layout: accounts + "handled for you" | conversation | forecast panel
+        ├── components/         ← Conversation, Sidebar, GlancePanel, BlockRenderer, charts and cards
+        ├── lib/                ← api (engine, n8n, chat routing), plan (briefing + approvals), localCoach
+        └── mocks/              ← saved engine output, so the app runs with no engine
 ```
 
-## Who does what
+## Quick start
 
-| | Person 1: Engine | Person 2: UI (Lovable) | Person 3: AI + n8n + voice |
-|---|---|---|---|
-| Owns | `engine/`, `data/` | `frontend/` | `n8n/`, prompts, ElevenLabs, pitch |
-| Hour 0-1 | Run engine, start tunnel, share URL | Paste `LOVABLE_PROMPT.md`, connect GitHub, drop in `src/` | Import 4 workflows, fill Config nodes, get Anthropic + ElevenLabs keys |
-| Hours 1-8 | Tune personas so each has a clear cliff; improve recurring detection | Build against mocks (works with zero backend) | Get chat webhook returning blocks + audio end to end |
-| Hours 8-16 | New adjustments the AI asks for; speed | Polish chart, scenario animation, mobile | Telegram voice alerts, invoice chaser, ElevenLabs practice-call agent |
-| Hours 16-end | Freeze. Cache demo outputs | Freeze. Fix bugs only | Slides, demo script, rehearse x3 |
-
-**Rule:** UI works on mocks from minute one, so nobody waits on anybody.
-
-## Run it
-
-### Engine (Person 1)
 ```bash
 cd engine
 pip install -r requirements.txt
-python generate_data.py --out ../data/profiles     # already done; rerun after tuning personas
-uvicorn main:app --reload --port 8000              # http://localhost:8000/docs
-cloudflared tunnel --url http://localhost:8000     # public URL for n8n + Lovable (or: ngrok http 8000)
+uvicorn main:app --reload --port 8000        # http://localhost:8000/docs
 ```
-Test: `curl -X POST localhost:8000/forecast -H 'content-type: application/json' -d '{"profile_id":"corner_cup"}'`
+```bash
+cd frontend
+npm install
+cp .env.example .env.local      # VITE_ENGINE_URL=http://localhost:8000
+npm run dev                      # http://localhost:5173
+```
+Set `ANTHROPIC_API_KEY` on the engine to turn on the AI chat. Without it, the built-in coach answers.
+Then follow `FINAL_SETUP.md` for voice (ElevenLabs) and n8n, both optional.
 
-### n8n (Person 3)
-1. n8n → Workflows → Import from file → each JSON in `n8n/`.
-2. Open the **Config** node in each, paste: engine tunnel URL, Anthropic key, ElevenLabs key + voice ID, Telegram chat ID.
-3. Gmail and Telegram nodes: select or create credentials once.
-4. Activate `Accountant chat`, `Invoice chaser`, `Send email`. Use the manual trigger on `Daily voice alerts` for the demo.
-5. Edit prompts in n8n directly, or in `build_workflows.py` then `python build_workflows.py` and re-import.
+## Who does what
 
-> Keys live only inside n8n. Never commit them.
-
-### Frontend (Person 2)
-1. Create the Lovable project with `frontend/LOVABLE_PROMPT.md`.
-2. Connect Lovable to GitHub (two-way sync), then copy `frontend/src/*` into the repo's `src/`.
-3. Lovable → project settings → environment: `VITE_ENGINE_URL`, `VITE_N8N_URL`, optional `VITE_ELEVEN_AGENT_ID`.
-   With none set, the app runs on real engine output saved as mocks.
+| Person 1: Engine + AI chat | Person 2: Web app | Person 3: n8n + voice |
+|---|---|---|
+| `engine/`, `data/` | `frontend/` | `n8n/`, prompts, ElevenLabs, pitch |
 
 ## Demo accounts
-| id | Mode | Built-in story |
-|---|---|---|
-| `amara` | Personal | Single parent on UC: rent lands before wages; Christmas + BNPL squeeze |
-| `jay` | Personal | Gig rider: irregular weekly pay, January self-assessment bill |
-| `sam` | Personal | Student: runs dry before the January loan instalment |
-| `corner_cup` | Business | Café: VAT on 8 Dec + quarterly rent on 24 Dec, late-paying catering client |
-| `lumen_labs` | Business | SaaS startup: ~10-month runway, £18k enterprise invoice overdue |
+
+| id | Mode | Story | Peak risk |
+|---|---|---|---|
+| `amara` | Personal | Single parent on UC: rent before payday, Christmas squeeze | 8 in 10 |
+| `sam` | Personal | Student between loan instalments | 3 in 10 |
+| `margaret` | Personal | Pensioner: winter energy bills, thin buffer but managing | Safe |
+| `jay` | Personal | Gig rider: irregular weekly pay, comfortable | Safe |
+| `corner_cup` | Business | Café: rent, payroll and drawings collide at New Year | 8 in 10 → 0 with "Do both" fix |
+| `fixit_plumbing` | Business | Sole-trader plumber: busy winters, £5,600 January tax bill | 6 in 10 → 0 with fix |
+| `lumen_labs` | Business | Startup with 43 weeks of runway | Safe |
+
+Change which accounts appear with the `DEMO_PROFILES` environment variable on the engine.
 
 ## How the engine works (for the pitch)
 1. **Detect** recurring flows from raw bank text (rent, wages, VAT, payouts), no labels needed.

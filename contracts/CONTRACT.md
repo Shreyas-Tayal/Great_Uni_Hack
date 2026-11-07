@@ -3,8 +3,8 @@
 Three services, one vocabulary:
 
 ```
-Lovable UI ──► n8n webhooks (chat, voice, email, Telegram)  ──► Engine API
-     └──────────────────────────────► Engine API (charts, fast what-ifs)
+Web app ──► n8n webhooks (optional: chat with voice, email, Telegram)  ──► Engine API
+     └──────────────────────────────► Engine API (charts, fast what-ifs, /chat with Claude)
 ```
 
 The UI calls the **engine directly** for charts and button-driven what-ifs (fast, no LLM),
@@ -21,6 +21,7 @@ and calls **n8n** for anything AI, voice or external (chat, TTS, invoice emails,
 | GET | `/profiles/{id}/summary` | | `Summary` |
 | POST | `/forecast` | `{profile_id, days?=90, adjustments?=[]}` | `Forecast` |
 | POST | `/simulate` | `{profile_id, days?=90, adjustments}` | `{baseline, focus_alert, scenario: Forecast, delta}` |
+| POST | `/chat` | `{profile_id, message, history?}` | same shape as the n8n `accountant-chat` response (503 if `ANTHROPIC_API_KEY` is unset) |
 
 Real example payloads: `frontend/src/mocks/*.json` (generated from the engine, not hand-written).
 
@@ -84,6 +85,7 @@ Real example payloads: `frontend/src/mocks/*.json` (generated from the engine, n
 | `cashflow_chart` | `data: [{month, in, out}]` |
 | `upcoming` | `items: Upcoming[]` |
 | `invoices` | `items: Invoice[]` |
+| `draft` | `draft: {to, subject, body}` (made by the app after an approval, not by the model) |
 
 The LLM only picks **which** blocks to show; n8n fills them with engine numbers, so charts can't be hallucinated.
 
